@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<word_cnt_importer>
+    <BigPipe>
+      <p10>
+         <Authentication>test</Authentication>
+         <Token>token</Token>
+         <Pipelet>0-9</Pipelet>
+         <PipeletNum>10</PipeletNum>
+         <SubPoint>-1</SubPoint>
+      </p10>
+    </BigPipe>
+</word_cnt_importer>

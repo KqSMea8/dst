@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp
+END
+fb303_constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/fb303_constants.h
+END
+FacebookService.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/FacebookService.h
+END
+scribe_server.skeleton.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/scribe_server.skeleton.cpp
+END
+scribe_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/scribe_types.h
+END
+fb303_types.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/fb303_types.cpp
+END
+FacebookService_server.skeleton.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/FacebookService_server.skeleton.cpp
+END
+scribe_constants.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/scribe_constants.cpp
+END
+fb303_types.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/fb303_types.h
+END
+scribe.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/scribe.cpp
+END
+scribe_constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/scribe_constants.h
+END
+fb303_constants.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/fb303_constants.cpp
+END
+FacebookService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/FacebookService.cpp
+END
+scribe_types.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/scribe_types.cpp
+END
+scribe.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/gen-cpp/scribe.h
+END

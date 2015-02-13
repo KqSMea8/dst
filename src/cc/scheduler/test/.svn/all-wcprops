@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/scheduler/test
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/13911/trunk/dstream/src/cc/scheduler/test/COMAKE
+END
+test_resource_compare.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/scheduler/test/test_resource_compare.cc
+END
+test_scheduler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/scheduler/test/test_scheduler.cc
+END
+test_bfd_scheduler_algorithm.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/scheduler/test/test_bfd_scheduler_algorithm.cc
+END
+test_resource_manager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/scheduler/test/test_resource_manager.cc
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/10661/trunk/dstream/src/cc/scheduler/test/log.conf
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/10443/trunk/dstream/src/cc/scheduler/test/ChangeLog
+END
+test_resource_scheduler.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/scheduler/test/test_resource_scheduler.cc
+END
+test_resource_scheduler.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/scheduler/test/test_resource_scheduler.h
+END

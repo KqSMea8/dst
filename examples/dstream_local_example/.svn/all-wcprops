@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/45709/trunk/dstream/examples/dstream_local_example
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/45709/trunk/dstream/examples/dstream_local_example/COMAKE
+END
+echo.proto
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/8669/trunk/dstream/examples/dstream_local_example/echo.proto
+END
+worker.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/36778/trunk/dstream/examples/dstream_local_example/worker.py
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/10638/trunk/dstream/examples/dstream_local_example/log.conf
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/36778/trunk/dstream/examples/dstream_local_example/build.sh
+END
+worker.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/37492/trunk/dstream/examples/dstream_local_example/worker.cc
+END

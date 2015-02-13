@@ -1,0 +1,21 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+word_cnt_pe_src_path='src/test/integrate_test/word_cnt_test/'
+
+INCPATHS(word_cnt_pe_src_path)
+
+# word_cnt PEs
+# 1. impoter
+Application(word_cnt_pe_src_path+'word_cnt_importer',
+            Sources(word_cnt_pe_src_path+'wordcount_pe_importer.cc',
+                    word_cnt_pe_src_path+'wordcount.pb.cc'), OutputPath(''))
+# 2. count pe
+Application(word_cnt_pe_src_path+'word_cnt_pe_task',
+            Sources(word_cnt_pe_src_path+'wordcount_pe_task.cc',
+                    word_cnt_pe_src_path+'wordcount.pb.cc'), OutputPath(''))
+# 3. exporter
+Application(word_cnt_pe_src_path+'word_cnt_exporter',
+            Sources(word_cnt_pe_src_path+'wordcount_pe_exporter.cc',
+                    word_cnt_pe_src_path+'wordcount.pb.cc'), OutputPath(''))
+

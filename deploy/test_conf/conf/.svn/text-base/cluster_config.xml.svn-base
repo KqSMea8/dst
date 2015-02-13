@@ -1,0 +1,14 @@
+<ClusterConfig>
+  <ZooKeeperPath>
+    <Address>hy-mpi-a0214.hy01.baidu.com:2181,hy-mpi-a0215.hy01.baidu.com:2181,hy-mpi-a0216.hy01.baidu.com:2181,hy-mpi-a0217.hy01.baidu.com:2181</Address>
+    <Root>/mock_press</Root>
+  </ZooKeeperPath>
+  
+  <users>
+	  <username>mock_press</username>
+	  <password>mock_press</password>
+  </users>
+  <hdfs_path>hdfs://cq01-testing-dcqa-b4.cq01:38002/</hdfs_path>
+  <big_pipe_path>localhost</big_pipe_path>
+  <hdfs_pn_log_path>hdfs://cq01-testing-dcqa-b4.cq01:38002//PN</hdfs_pn_log_path>
+</ClusterConfig>

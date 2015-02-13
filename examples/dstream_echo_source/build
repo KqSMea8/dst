@@ -1,0 +1,53 @@
+#!/bin/bash
+# copy sdk to local
+EchoLine(){
+	echo ================================================================================
+}
+
+Error(){
+echo -e "\033[0;31;1m" Error : $1 "\033[0;31;0m"
+exit -1 
+}
+
+Info(){
+echo -e "\033[0;32;1m" $1 "\033[0;31;0m"
+EchoLine
+}
+
+Info "Build Start"
+
+cp ../../conf/dstream.cfg.xml configs 
+
+if [ ! -e ../../src/cc ];then
+	Info "Build Start in Product Library"
+	sh make_example.sh || exit -1 
+	exit 0
+fi
+
+Info "Build Start in Source"
+cd ../../src/cc/processelement/
+./release_sdk || Error "release sdk failed"
+cp -rd pesdk/ ../../../examples/dstream_echo_source/
+cd -
+# generate proto buffer files form *.proto
+export LD_LIBRARY_PATH=`pwd`/../../output/lib64:$LD_LIBRARY_PATH
+
+# comake & make, generate app
+comake2 
+make || Error "Build Failed"
+
+# copy & update app
+cp ./echo_importer ./configs/echo_to_be_submit/echo_importer/
+cp ./echo_pe_task ./configs/echo_to_be_submit/echo_pe_task/
+cp ./echo_exporter ./configs/echo_to_be_submit/echo_exporter/
+cp ./echo_exporter ./configs/exporter_to_be_add/echo_exporter_add/echo_exporter_add
+cp ./tag_importer_add ./configs/importer_to_be_add/tag_importer_add/
+
+# copy local_file
+cp ../../src/cc/utils/local_file ./configs/echo_to_be_submit/echo_importer/data/
+cp ../../src/cc/utils/local_file ./configs/importer_to_be_add/tag_importer_add/data/
+
+# copy pm pn from cc
+cp ../../src/cc/pm .
+cp ../../src/cc/pn .
+cp ../../src/cc/client/dstream_client .

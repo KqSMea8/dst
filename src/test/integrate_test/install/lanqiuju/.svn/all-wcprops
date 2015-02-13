@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/install/lanqiuju
+END
+test.conf
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/install/lanqiuju/test.conf
+END
+slaves
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/10706/trunk/dstream/src/test/integrate_test/install/lanqiuju/slaves
+END
+conf.sh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/11869/trunk/dstream/src/test/integrate_test/install/lanqiuju/conf.sh
+END

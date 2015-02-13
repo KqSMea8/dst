@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/metamanager/test
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/33337/trunk/dstream/src/cc/metamanager/test/COMAKE
+END
+test_meta_manager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/metamanager/test/test_meta_manager.cc
+END
+hudson.conf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/metamanager/test/hudson.conf
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/10661/trunk/dstream/src/cc/metamanager/test/log.conf
+END
+run_ut.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/13086/trunk/dstream/src/cc/metamanager/test/run_ut.sh
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/10217/trunk/dstream/src/cc/metamanager/test/ChangeLog
+END
+test_zk_meta_manager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/metamanager/test/test_zk_meta_manager.cc
+END
+test_zk_config.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/metamanager/test/test_zk_config.cc
+END
+test_zk_meta_config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/metamanager/test/test_zk_meta_config.xml
+END
+test_zk_meta_config_hudson.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/metamanager/test/test_zk_meta_config_hudson.xml
+END

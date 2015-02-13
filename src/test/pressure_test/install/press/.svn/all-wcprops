@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/pressure_test/install/press
+END
+test.conf
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/pressure_test/install/press/test.conf
+END
+slaves
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/8777/trunk/dstream/src/test/pressure_test/install/press/slaves
+END
+conf.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/8758/trunk/dstream/src/test/pressure_test/install/press/conf.sh
+END

@@ -1,0 +1,8 @@
+/Cluster/HDFS/HadoopClientDir=/home/liyuanjian/mapred/hadoop-client/hadoop/
+/Cluster/ZooKeeperPath/Address=nj01-inf-offline151.nj01.baidu.com:2182
+/Cluster/ZooKeeperPath/PM/Root=/dstream_lyj/PM
+/Cluster/ZooKeeperPath/Config/Root=/dstream_lyj/Config
+/Cluster/ZooKeeperPath/App/Root=/dstream_lyj/App
+/Cluster/ZooKeeperPath/PN/Root=/dstream_lyj/PN
+/Cluster/ZooKeeperPath/Client/Root=/dstream_lyj/Client
+

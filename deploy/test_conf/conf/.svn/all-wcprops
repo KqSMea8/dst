@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/test_conf/conf
+END
+installer.conf
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/test_conf/conf/installer.conf
+END
+dstream.conf
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/test_conf/conf/dstream.conf
+END
+cluster_config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/test_conf/conf/cluster_config.xml
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/test_conf/conf/log.conf
+END
+hadoop-site.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/test_conf/conf/hadoop-site.xml
+END
+monitor.conf
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/test_conf/conf/monitor.conf
+END
+dstream.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/test_conf/conf/dstream.cfg.xml
+END

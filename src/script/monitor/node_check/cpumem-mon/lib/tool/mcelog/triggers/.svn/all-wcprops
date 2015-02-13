@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool/mcelog/triggers
+END
+page-error-trigger
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool/mcelog/triggers/page-error-trigger
+END
+socket-memory-error-trigger
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool/mcelog/triggers/socket-memory-error-trigger
+END
+cache-error-trigger
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool/mcelog/triggers/cache-error-trigger
+END
+dimm-error-trigger
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool/mcelog/triggers/dimm-error-trigger
+END

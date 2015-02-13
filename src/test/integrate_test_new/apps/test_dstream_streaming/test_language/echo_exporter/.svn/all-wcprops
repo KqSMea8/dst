@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_language/echo_exporter
+END
+echo_c
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/inf/computing/!svn/ver/11749/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_language/echo_exporter/echo_c
+END
+echo_c.c
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/inf/computing/!svn/ver/15416/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_language/echo_exporter/echo_c.c
+END
+echo.out
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/inf/computing/!svn/ver/15417/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_language/echo_exporter/echo.out
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_language/echo_exporter/log.conf
+END
+streaming
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_language/echo_exporter/streaming
+END

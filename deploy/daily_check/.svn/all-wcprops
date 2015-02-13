@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/daily_check
+END
+qps_monitor.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/daily_check/qps_monitor.py
+END
+hdfs_clear.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/daily_check/hdfs_clear.sh
+END
+hdfs_monitor.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/daily_check/hdfs_monitor.sh
+END
+del_crontab.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/daily_check/del_crontab.sh
+END
+start_dailycheck.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/daily_check/start_dailycheck.sh
+END
+daily_check.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/daily_check/daily_check.sh
+END
+add_crontab.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/daily_check/add_crontab.sh
+END
+app_monitor.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/daily_check/app_monitor.py
+END
+stop_dailycheck.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/daily_check/stop_dailycheck.sh
+END

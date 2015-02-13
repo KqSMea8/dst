@@ -1,0 +1,30 @@
+Bigpipe_machine="cq01-testing-platqa2168.vm.baidu.com cq01-testing-platqa2169.vm.baidu.com cq01-testing-platqa2170.vm.baidu.com"
+Bigpipe_port=8061
+Bigpipezk_machine="hy-mpi-a0214.hy01 hy-mpi-a0215.hy01 hy-mpi-a0216.hy01 hy-mpi-a0217.hy01"
+Bigpipezk_port=2181
+Hdfs_machine="cq01-testing-dcqa-b4.cq01.baidu.com"
+Hdfs_port=38002
+DStreamzk_machine="10.237.2.202"
+DStreamzk_port=2182
+
+zk_root=/dstream_lanqiuju
+Pm=cq01-testing-dcqa-b4.cq01.baidu.com
+BackupPm=cq01-testing-dcqa-b6.cq01.baidu.com
+
+Pm_port=
+Pn_machine_list=./pn_list
+Pn_port=
+App_dir=./apps/output/configs/uhd_to_be_submit/ 
+deploy_dir=/home/lanqiuju/dstream_qiuju/
+deploy_user=lanqiuju
+PASSWD=l23456yk18f
+difi_master=hy-mpi-a0214.hy01.baidu.com
+difi_port=53000
+app_name=adapt_audio_stream
+dstream_client=/home/lanqiuju/dstream_qiuju/bin/dclient
+dstream_conf=~/dstream_qiuju/conf/dstream.cfg.xml
+shift_pe_name=uhd_importer
+check_data=0
+############record the cpu,mem of pe for $monitor_time(s)######
+monitor_time=60
+disk_FI="cq01-testing-dcqa-b5.cq01.baidu.com cq01-testing-dcqa-b7.cq01.baidu.com cq01-testing-dcqa-b9.cq01.baidu.com"

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/computing/!svn/ver/44016/trunk/dstream/src/cc/streaming/test
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/44012/trunk/dstream/src/cc/streaming/test/COMAKE
+END
+person.proto
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/44012/trunk/dstream/src/cc/streaming/test/person.proto
+END
+person.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/44016/trunk/dstream/src/cc/streaming/test/person.pb.cc
+END
+person.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/44016/trunk/dstream/src/cc/streaming/test/person.pb.h
+END
+test_streaming_logagent_importer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/44012/trunk/dstream/src/cc/streaming/test/test_streaming_logagent_importer.cc
+END

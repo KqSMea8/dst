@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_endOfTag_diff/echo_exporter_tgdefault
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_endOfTag_diff/echo_exporter_tgdefault/log.conf
+END
+streaming
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_endOfTag_diff/echo_exporter_tgdefault/streaming
+END

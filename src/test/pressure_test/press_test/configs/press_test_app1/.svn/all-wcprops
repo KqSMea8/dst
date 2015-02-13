@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/pressure_test/press_test/configs/press_test_app1
+END
+application.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/inf/computing/!svn/ver/8942/trunk/dstream/src/test/pressure_test/press_test/configs/press_test_app1/application.cfg.xml
+END
+echo_importer1_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/pressure_test/press_test/configs/press_test_app1/echo_importer1_sub.xml
+END
+echo_importer2_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/pressure_test/press_test/configs/press_test_app1/echo_importer2_sub.xml
+END

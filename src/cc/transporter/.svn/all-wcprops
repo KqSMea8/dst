@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/computing/!svn/ver/47940/trunk/dstream/src/cc/transporter
+END
+transporter_common.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/transporter/transporter_common.cc
+END
+transporter_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/transporter/transporter_common.h
+END
+transporter_inflow.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/transporter/transporter_inflow.cc
+END
+transporter_outflow.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/47940/trunk/dstream/src/cc/transporter/transporter_outflow.cc
+END
+transporter_inflow.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/transporter/transporter_inflow.h
+END
+transporter_outflow.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/transporter/transporter_outflow.h
+END
+transporter_counters.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/transporter/transporter_counters.cc
+END
+transporter_protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/transporter/transporter_protocol.h
+END
+transporter_counters.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/transporter/transporter_counters.h
+END
+transporter_cli.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/transporter/transporter_cli.cc
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/33337/trunk/dstream/src/cc/transporter/COMAKE
+END
+transporter_cli.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/transporter/transporter_cli.h
+END
+queue_buffer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/transporter/queue_buffer.cc
+END
+transporter_tag.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/transporter/transporter_tag.cc
+END
+queue_buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/transporter/queue_buffer.h
+END
+transporter_tag.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/transporter/transporter_tag.h
+END
+transporter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/transporter/transporter.cc
+END
+transporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/transporter/transporter.h
+END
+transporter_stubmgr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/transporter/transporter_stubmgr.cc
+END
+transporter_queue.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/transporter/transporter_queue.cc
+END
+ring_buffer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/transporter/ring_buffer.cc
+END
+transporter_stubmgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/transporter/transporter_stubmgr.h
+END
+transporter_queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/transporter/transporter_queue.h
+END
+ring_buffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/transporter/ring_buffer.h
+END

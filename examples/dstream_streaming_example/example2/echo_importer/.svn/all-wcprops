@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/49626/trunk/dstream/examples/dstream_streaming_example/example2/echo_importer
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/inf/computing/!svn/ver/13052/trunk/dstream/examples/dstream_streaming_example/example2/echo_importer/log.conf
+END
+echo_importer_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/inf/computing/!svn/ver/13052/trunk/dstream/examples/dstream_streaming_example/example2/echo_importer/echo_importer_sub.xml
+END

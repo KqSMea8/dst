@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/dynamic_echo_1_1_1/echo_importer
+END
+echo_pe
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/inf/computing/!svn/ver/14301/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/dynamic_echo_1_1_1/echo_importer/echo_pe
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/dynamic_echo_1_1_1/echo_importer/log.conf
+END
+echo_importer_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/dynamic_echo_1_1_1/echo_importer/echo_importer_sub.xml
+END
+echo_bp_importer_add
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/inf/computing/!svn/ver/14301/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/dynamic_echo_1_1_1/echo_importer/echo_bp_importer_add
+END

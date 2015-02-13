@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/test
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/23699/trunk/dstream/src/cc/storage/test/COMAKE
+END
+test_dredis_hash.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/test/test_dredis_hash.cc
+END
+test_redis_sa_storage.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/test/test_redis_sa_storage.cc
+END
+redis_env.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/test/redis_env.cc
+END
+redis_env.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/test/redis_env.h
+END
+test_dredis_list.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/test/test_dredis_list.cc
+END

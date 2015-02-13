@@ -1,0 +1,3 @@
+source paths.sh
+export LD_LIBRARY_PATH=$DSTREAM_LIB_DIR:$LD_LIBRARY_PATH
+$DSTREAM_UTILS_DIR/pn_debugger $*

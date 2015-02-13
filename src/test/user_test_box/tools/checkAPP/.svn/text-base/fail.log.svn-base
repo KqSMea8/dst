@@ -1,0 +1,13 @@
+2012-10-30 17:03:01,684:12545(0x7f481a3766e0):ZOO_INFO@log_env@675: Client environment:zookeeper.version=zookeeper C client 3.3.3
+2012-10-30 17:03:01,685:12545(0x7f481a3766e0):ZOO_INFO@log_env@679: Client environment:host.name=cq01-testing-platqa2166.vm.baidu.com
+2012-10-30 17:03:01,685:12545(0x7f481a3766e0):ZOO_INFO@log_env@686: Client environment:os.name=Linux
+2012-10-30 17:03:01,685:12545(0x7f481a3766e0):ZOO_INFO@log_env@687: Client environment:os.arch=2.6.32_1-7-0-0
+2012-10-30 17:03:01,685:12545(0x7f481a3766e0):ZOO_INFO@log_env@688: Client environment:os.version=#2 SMP Fri Aug 3 15:09:36 CST 2012
+2012-10-30 17:03:01,685:12545(0x7f481a3766e0):ZOO_INFO@log_env@696: Client environment:user.name=(null)
+2012-10-30 17:03:01,685:12545(0x7f481a3766e0):ZOO_INFO@log_env@704: Client environment:user.home=/home/liyuanjian
+2012-10-30 17:03:01,685:12545(0x7f481a3766e0):ZOO_INFO@log_env@716: Client environment:user.dir=/home/liyuanjian/project/inf/computing/dstream/src/test/integrate_test_new/tools/checkAPP
+2012-10-30 17:03:01,685:12545(0x7f481a3766e0):ZOO_INFO@zookeeper_init@744: Initiating client connection, host=yx-testing-platqa1009.yx01.baidu.com:2182 sessionTimeout=30000 watcher=0x44e5fc sessionId=0 sessionPasswd=<null> context=0x7fff251ffd40 flags=0
+2012-10-30 17:03:01,689:12545(0x40b70960):ZOO_INFO@check_events@1708: initiated connection to server [10.237.2.202:2182]
+2012-10-30 17:03:01,693:12545(0x40b70960):ZOO_INFO@check_events@1755: session establishment complete on server [10.237.2.202:2182], sessionId=0x1384bf3de0ce595, negotiated timeout=30000
+2012-10-30 17:03:01,703:12545(0x7f481a3766e0):ZOO_INFO@zookeeper_close@2435: Closing zookeeper sessionId=0x1384bf3de0ce595 to [10.237.2.202:2182]
+

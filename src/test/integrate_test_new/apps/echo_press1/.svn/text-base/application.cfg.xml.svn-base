@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<APP>
+	<AppName>echo_press1</AppName>
+	<Description>echo_press1</Description>
+
+	<Topology>
+		<ProcessorNum>2</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>echo_importer</ProcessorName>
+				<Description/>
+        			<RunCmd>./echo_pe -t 4 -s logagent</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>100MB</Memory>
+				</Resource>
+				<Parallelism>3</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                		<StatusMark>0</StatusMark>	
+                		<TuplesBatchCount>100</TuplesBatchCount>			
+			</Importer1>
+                </Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter</ProcessorName>
+				<Description/>
+        			<RunCmd>./echo_pe</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>100MB</Memory>
+				</Resource>
+				<Parallelism>3</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                		<StatusMark>0</StatusMark>
+				<TuplesBatchCount>100</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>tag1</tag>
+                    			</source>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>tag2</tag>
+                    			</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+	</Topology>
+</APP>

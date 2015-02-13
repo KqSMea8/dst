@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/computing/!svn/ver/23699/trunk/dstream/src/cc/storage/test/conf
+END
+redis_slave_with_auth.conf
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/23699/trunk/dstream/src/cc/storage/test/conf/redis_slave_with_auth.conf
+END
+redis_master_with_auth.conf
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/23699/trunk/dstream/src/cc/storage/test/conf/redis_master_with_auth.conf
+END
+redis_sentinel_with_auth.conf
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/computing/!svn/ver/23699/trunk/dstream/src/cc/storage/test/conf/redis_sentinel_with_auth.conf
+END

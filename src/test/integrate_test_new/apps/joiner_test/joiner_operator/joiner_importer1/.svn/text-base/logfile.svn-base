@@ -1,0 +1,6 @@
+[2012-12-28 18:11:41][INFO][demo.pe]:[src/cc/processelement/task.cc:861]:readEnvironment...
+[2012-12-28 18:11:41][WARN][demo.pe]:[src/cc/processelement/context.cc:187]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-12-28 18:11:41][WARN][demo.pe]:[src/cc/processelement/task.cc:863]:readEnvironment failed
+[2012-12-28 18:12:08][INFO][demo.pe]:[src/cc/processelement/task.cc:861]:readEnvironment...
+[2012-12-28 18:12:08][WARN][demo.pe]:[src/cc/processelement/context.cc:187]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-12-28 18:12:08][WARN][demo.pe]:[src/cc/processelement/task.cc:863]:readEnvironment failed

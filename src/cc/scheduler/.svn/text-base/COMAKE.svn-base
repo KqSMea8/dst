@@ -1,0 +1,16 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+StaticLibrary('src/cc/scheduler/scheduler',
+              Sources('src/cc/scheduler/resource_compare.cc',
+                      'src/cc/scheduler/resource_manager.cc',
+					  'src/cc/scheduler/resource_scheduler.cc',
+                      'src/cc/scheduler/scheduler.cc',
+					  'src/cc/scheduler/scheduler_algorithm.cc',
+					  'src/cc/scheduler/bfd_scheduler_algorithm.cc',
+                      'src/cc/scheduler/black_list.cc',
+                      'src/cc/scheduler/pn_group.cc',
+               IncludePaths('./common/proto') + ENV.IncludePaths()),
+               OutputPath(''))
+
+

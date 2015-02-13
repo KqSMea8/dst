@@ -1,0 +1,140 @@
+package dstream;
+import "application.proto";
+import "dstream_proto_common.proto";
+import "pm.proto";
+import "pn.proto";
+import "pm_pn_rpc.proto";
+// client send command to pm
+
+// empty proto obj
+message Ack {
+};
+
+message LoginAck {
+    enum ErrorCode {
+        OTHER             = 1;
+        VERSION_MISSMATCH = 2;
+        WRONG_USER        = 3;
+    }
+    optional User user     = 1;
+    optional ErrorCode code = 2;
+};
+
+message UpdateTopology {
+  enum Operation {
+	ADD 		     = 1;
+	DEL 	         = 2;
+    ADD_SUB_OK       = 3;
+    ADD_SUB_FAIL     = 4;
+    DEL_SUB_OK       = 5;
+    DEL_SUB_FAIL     = 6;
+    UPDATE_PARA      = 7;
+    UPDATE_PARA_OK   = 8;
+    UPDATE_PARA_FAIL = 9;
+  }
+  optional fixed64 session_id = 1;
+  optional Operation type     = 2;
+  optional Application app    = 3;
+  optional int32 error_num    = 4;
+};
+
+message NotifyPM {
+  optional fixed64 session_id = 1;
+  optional string  status = 2;
+};
+
+message KillPE {
+  optional AppID app_id             = 1;
+  optional PEID pe_id               = 2;
+  optional BackupPEID backup_pe_id  = 3;
+  optional PNID pn_id               = 4;
+};
+
+message UserOperation {
+  enum Operation {
+    GET    = 1;
+    UPDATE = 2;
+    ADD    = 3;
+    DELETE = 4;
+  }
+
+  optional Operation type = 1;
+  optional User      user = 2;
+}
+
+message UserOperationReply {
+  enum Operation {
+    GET    = 1;
+    UPDATE = 2;
+    ADD    = 3;
+    DELETE = 4;
+  }
+
+  optional Operation replytype = 1;
+  repeated User        user    = 2;
+}
+
+//the message below is the request by the dumper for the web displayer.
+message StatusRequest{
+  repeated PEID pe_id = 1;
+  repeated PNID pn_id = 2;
+}
+message StatusResponse{
+  repeated BackupPEStatus pe_status_list = 1;
+  repeated PNReport pn_report_list = 2;
+}
+
+message FlowControlRequest {
+  enum Operation {
+    GET = 1;
+    SET = 2;
+  }
+  optional fixed64     session_id   = 1;
+  optional AppID       app_id       = 2;
+  optional string      name         = 3;
+  optional string      processor    = 4;
+  optional int32       limit        = 5;
+  optional Operation   cmd          = 6 [default = GET];
+}
+
+message FlowControlResponse {
+  optional AppID       app_id       = 1;
+  optional string      name         = 2;
+  optional string      processor    = 3;
+  optional int32       limit        = 4;
+  optional int32       result       = 5;
+}
+
+message UpdateProRequest {
+  optional fixed64     session_id     = 1;
+  optional Application app            = 2;
+  optional string      processor_name = 3;
+  optional uint32      revision       = 4;
+}
+
+message UpdateProResponse {
+  optional int32   error_num = 1;
+  optional uint32  revision  = 2;
+}
+
+message UpdateProDone {
+  optional fixed64     session_id     = 1;
+  optional string      status         = 2;
+  optional Application app            = 3;
+  optional string      processor_name = 4;
+  optional uint32      revision       = 5;
+}
+
+message BlackListOperationRequest {
+  enum Operation {
+    GET     = 1;
+    GET_ALL = 2;
+    ERASE   = 3;
+    CLEAR   = 4;
+  }
+  repeated PEID   pe_id         = 1;
+  optional Operation operation  = 2;
+}
+message BlackListOperationResponse {
+  repeated PEPNBlackList pe_pn_blacklist = 1;
+}

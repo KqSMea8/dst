@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/14631/trunk/dstream/src/test/cluster_qps_test/conf/test_cases
+END
+case_pe_5.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/computing/!svn/ver/14631/trunk/dstream/src/test/cluster_qps_test/conf/test_cases/case_pe_5.xml
+END
+case_pe_25.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/computing/!svn/ver/14631/trunk/dstream/src/test/cluster_qps_test/conf/test_cases/case_pe_25.xml
+END
+case_pe_250.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/14631/trunk/dstream/src/test/cluster_qps_test/conf/test_cases/case_pe_250.xml
+END
+case_pe_100.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/14631/trunk/dstream/src/test/cluster_qps_test/conf/test_cases/case_pe_100.xml
+END

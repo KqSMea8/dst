@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/inf/computing/!svn/ver/47940/trunk/dstream/src/cc/streaming
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/43985/trunk/dstream/src/cc/streaming/COMAKE
+END
+build
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/43985/trunk/dstream/src/cc/streaming/build
+END
+streaming.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/streaming/streaming.h
+END
+streaming.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/13895/trunk/dstream/src/cc/streaming/streaming.pb.h
+END
+streaming_logagent_importer.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/streaming/streaming_logagent_importer.h
+END
+streaming.proto
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/13895/trunk/dstream/src/cc/streaming/streaming.proto
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/43985/trunk/dstream/src/cc/streaming/Makefile
+END
+streaming.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/47940/trunk/dstream/src/cc/streaming/streaming.cc
+END
+streaming.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/13895/trunk/dstream/src/cc/streaming/streaming.pb.cc
+END
+streaming_app.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/43985/trunk/dstream/src/cc/streaming/streaming_app.cc
+END
+streaming_logagent.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/44016/trunk/dstream/src/cc/streaming/streaming_logagent.cc
+END
+streaming_logagent_importer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/streaming/streaming_logagent_importer.cc
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/computing/!svn/ver/23699/trunk/dstream/src/cc/storage/COMAKE
+END
+error.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/error.h
+END
+dredis.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/dredis.h
+END
+dredis_hash.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/dredis_hash.cc
+END
+dredis_sa.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/dredis_sa.cc
+END
+storage_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/storage_table.h
+END
+dredis_hash.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/dredis_hash.h
+END
+dredis_sa.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/dredis_sa.h
+END
+dredis_list.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/dredis_list.cc
+END
+dredis_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/dredis_list.h
+END
+storage_accessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/storage_accessor.h
+END
+error.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/error.cc
+END
+dredis.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/storage/dredis.cc
+END

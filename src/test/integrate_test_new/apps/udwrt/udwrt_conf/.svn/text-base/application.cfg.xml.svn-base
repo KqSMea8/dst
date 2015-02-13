@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<APP>
+	<AppName>udwrt_sandbox</AppName>
+	<Description>udwrt app for sandbox</Description>
+
+	<Topology>
+		<ProcessorNum>3</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>runse_importer</ProcessorName>
+				<Description/>
+                                <RunCmd>./runse_importer</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>16</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+                <TuplesBatchCount>500</TuplesBatchCount>			
+			</Importer1>
+		</Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>dmf_mob</ProcessorName>
+				<Description/>
+                <RunCmd>./dmf_mob</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>4G</Memory>
+				</Resource>
+				<Parallelism>6</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>repe</processor>
+						<tag>UFS4Mobile</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+		<Processor>
+			<Processor1>
+				<ProcessorName>rtpe</ProcessorName>
+				<Description/>
+       	                        <RunCmd>./rtpe</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>6</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>runse_importer</processor>
+						<tag>WiseLogSe</tag>
+					</source>
+				</Subscribe>
+			</Processor1>
+		</Processor>
+	</Topology>
+</APP>

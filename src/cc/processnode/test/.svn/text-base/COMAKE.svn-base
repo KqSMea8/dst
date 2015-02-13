@@ -1,0 +1,180 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+CXXFLAGS_TEST = '-O0 -g -DUNIT_TEST -Dprivate=public -Dprotected=public -UMOCKVIRTUAL -DMOCKVIRTUAL=virtual'
+
+#Application('src/cc/processnode/test/test_hdfs_client',
+#            Sources('src/cc/processnode/test/test_hdfs_client.cc',
+#                    'src/cc/processnode/config_map.cc', 
+#                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+#                    IncludePaths('./processnode',
+#                                 './common') + ENV.IncludePaths()),
+#            Libraries('src/cc/processnode/libprocessnode.a') 
+#                       + ENV.Libraries(),
+#            OutputPath(''))
+
+#Application('src/cc/processnode/test/test_pe_wrapper',
+#           Sources('src/cc/processnode/test/test_pe_wrapper.cc',
+#                   CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+#                   IncludePaths('./processnode',
+#                                './common',
+#                                './common/proto') + ENV.IncludePaths()),
+#           Libraries('src/cc/metamanager/libmetamanager.a',
+#             'src/cc/processelement/libprocesselement.a',
+#             'src/cc/processmaster/libprocessmaster.a',
+#             'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+#           OutputPath(''))
+
+Application('src/cc/processnode/test/pn_debugger',
+            Sources('src/cc/processnode/test/pn_debugger.cc',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                    IncludePaths('./processnode',
+                                 './common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/common/proto/libproto.a',
+                      'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath('output/utils/'))
+
+#Application('src/cc/processnode/test/test_process_builder',
+#           Sources('src/cc/processnode/test/test_process_builder.cc',
+#                   CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+#                   IncludePaths('./processnode',
+#                                './common',
+#                                './common/proto') + ENV.IncludePaths()),
+#           Libraries('src/cc/common/libcommon.a',
+#                     'src/cc/common/proto/libproto.a',
+#                     'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+#           OutputPath(''))
+
+#Application('src/cc/processnode/test/for_test_process_builder_test_memory',
+#             Sources('src/cc/processnode/test/for_test_process_builder_test_memory.cc',
+#             CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()),
+#             OutputPath(''))
+#
+#Application('src/cc/processnode/test/for_test_process_builder_test_cpuusage',
+#             Sources('src/cc/processnode/test/for_test_process_builder_test_cpuusage.cc',
+#                     CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()),
+#             OutputPath(''))
+
+Application('src/cc/processnode/test/test_pn_reporter',
+            Sources('src/cc/processnode/test/test_pn_reporter.cc',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                    IncludePaths('./processnode',
+                                 './common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/common/proto/libproto.a',
+                      'src/cc/transporter/libtransporter.a',
+                      'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath(''))
+                      
+Application('src/cc/processnode/test/test_zk_wrapper',
+            Sources('src/cc/processnode/test/test_zk_wrapper.cc',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                    IncludePaths('./processnode',
+                                 './common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/common/proto/libproto.a',
+                      'src/cc/transporter/libtransporter.a',
+                      'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath(''))
+
+Application('src/cc/processnode/test/test_fd_capture',
+            Sources('src/cc/processnode/test/test_fd_capture.cc',
+                    'src/cc/processnode/fd_capture.cc',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                    IncludePaths('./processnode',
+                                 './common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/common/proto/libproto.a',
+                      'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath(''))
+
+Application('src/cc/processnode/test/test_pe_wrapper_manager',
+            Sources('src/cc/processnode/test/test_pe_wrapper_manager.cc',
+                    'src/cc/processnode/test/test_process_node_env.cc',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                    IncludePaths('./processnode',
+                                 './common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/common/proto/libproto.a',
+                      'src/cc/transporter/libtransporter.a',
+                      'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath(''))
+
+Application('src/cc/processnode/test/test_pn_rpc_server',
+            Sources('src/cc/processnode/test/test_pn_rpc_server.cc',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                    IncludePaths('./processnode',
+                                 './common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/common/proto/libproto.a',
+                      'src/cc/transporter/libtransporter.a',
+                      'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath(''))
+
+Application('src/cc/processnode/test/test_app_router',
+            Sources('src/cc/processnode/test/test_app_router.cc',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                    IncludePaths('./processnode',
+                                 './common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/metamanager/libmetamanager.a',
+              'src/cc/processelement/libprocesselement.a',
+              'src/cc/processmaster/libprocessmaster.a',
+              'src/cc/transporter/libtransporter.a',
+              'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath(''))
+
+Application('src/cc/processnode/test/test_zk_operator',
+            Sources('src/cc/processnode/test/test_zk_operator.cc',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                    IncludePaths('./processnode',
+                                 './common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/metamanager/libmetamanager.a',
+              'src/cc/processelement/libprocesselement.a',
+              'src/cc/processmaster/libprocessmaster.a',
+              'src/cc/transporter/libtransporter.a',
+              'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath(''))
+
+Application('src/cc/processnode/test/test_router_mgr',
+            Sources('src/cc/processnode/test/test_router_mgr.cc',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                    IncludePaths('./processnode',
+                                 './common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/metamanager/libmetamanager.a',
+              'src/cc/processelement/libprocesselement.a',
+              'src/cc/processmaster/libprocessmaster.a',
+              'src/cc/transporter/libtransporter.a',
+              'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath(''))
+
+
+Application('src/cc/processnode/test/test_prolog', 
+        Sources('src/cc/processnode/test/test_prolog.cc',
+                'src/cc/processnode/prolog.cc')) 
+
+Application('src/cc/processnode/test/test_pn_httpd',
+            Sources('src/cc/processnode/test/test_pn_httpd.cc',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                    IncludePaths('./processnode',
+                                 './common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/common/proto/libproto.a',
+                      'src/cc/transporter/libtransporter.a',
+                      'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath(''))
+
+#Application('src/cc/processnode/test/test_fd_capture',
+#		Sources('src/cc/processnode/test/test_fd_capture.cpp',
+#			    'src/cc/processnode/fd_capture.cc',
+#				CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()))

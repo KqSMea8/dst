@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+    <AppName>stream_test_tag</AppName>
+    <Description>echo word</Description>
+
+    <Topology>
+        <ProcessorNum>3</ProcessorNum>
+        <Importer>
+            <Importer1>
+                <ProcessorName>echo_importer</ProcessorName>
+                <Description></Description>
+                <RunCmd>./streaming "awk '{print \"TagA\",\$0}'" --with-tag --end-of-tag=" "</RunCmd>
+                <Resource>
+                    <CPU>0.5</CPU>
+                    <Memory>160M</Memory>
+                </Resource>
+                <Parallelism>1</Parallelism>    
+            </Importer1>
+        </Importer>
+        <Exporter>
+            <Exporter1>
+                <ProcessorName>echo_exporter</ProcessorName>
+                <Description></Description>
+                <RunCmd>./streaming "cat>result.txt" --with-tag</RunCmd>
+                <Resource>
+                    <CPU>0.5</CPU>
+                    <Memory>160M</Memory>
+                </Resource>
+                <Parallelism>1</Parallelism>
+                <Subscribe>
+                    <source>
+                        <processor>echo_pe_task</processor>
+                        <tag>TagA</tag>
+                    </source>
+                </Subscribe>
+            </Exporter1>
+        </Exporter>
+        <Processor>
+            <Processor1>
+                <ProcessorName>echo_pe_task</ProcessorName>
+                <Description></Description>
+                <RunCmd>./streaming "sh echo.sh" --with-tag</RunCmd>
+                <Resource>
+                    <CPU>0.5</CPU>
+                    <Memory>160M</Memory>
+                </Resource>
+                <Parallelism>1</Parallelism>
+                <Subscribe>
+                    <source>
+                        <processor>echo_importer</processor>
+                        <tag>TagA</tag>
+                    </source>
+                </Subscribe>
+            </Processor1>
+        </Processor>
+    </Topology>
+</APP>

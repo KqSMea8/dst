@@ -1,0 +1,34 @@
+package dstream;
+import "dstream_proto_common.proto";
+
+enum PNStatus {
+  NORMAL = 0;
+  DECOSSIMION = 2;
+}
+
+message PN {
+  optional PNID       pn_id = 1;
+  optional string     host = 2;
+  optional fixed32    rpc_server_port = 3;
+  optional fixed32    pub_port = 4;
+  optional fixed32    sub_port = 5;
+  optional fixed32    importer_port = 6;
+  optional PNStatus   status = 7;
+  optional fixed32    debug_port = 8;
+  optional string     version = 9;
+  optional fixed32    httpd_port = 10;
+}
+
+// for pe wrapper manager http dumper
+message PEWrapperKV {
+    optional fixed64 pe_id       = 1;
+    optional fixed32 type        = 2;
+    optional uint64 assign_time  = 3;
+    optional string app_name     = 4;
+    optional fixed32 revision    = 5;
+}
+
+message PEWrapperMapPB {
+    repeated PEWrapperKV normal_pe_kv = 1;
+    repeated PEWrapperKV fail_pe_kv   = 2;
+}

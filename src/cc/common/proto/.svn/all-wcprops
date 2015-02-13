@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto
+END
+streaming.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/37498/trunk/dstream/src/cc/common/proto/streaming.pb.h
+END
+pn.proto
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/pn.proto
+END
+pm_pn_rpc.proto
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/36778/trunk/dstream/src/cc/common/proto/pm_pn_rpc.proto
+END
+pm_client_rpc.proto
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/pm_client_rpc.proto
+END
+dstream_proto_common.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/dstream_proto_common.pb.h
+END
+pub_sub.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/pub_sub.pb.cc
+END
+pub_sub.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/pub_sub.pb.h
+END
+rebuild
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/27417/trunk/dstream/src/cc/common/proto/rebuild
+END
+application.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/application.pb.cc
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/10694/trunk/dstream/src/cc/common/proto/ChangeLog
+END
+application.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/application.pb.h
+END
+cluster_config.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/23630/trunk/dstream/src/cc/common/proto/cluster_config.pb.cc
+END
+streaming.proto
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/37498/trunk/dstream/src/cc/common/proto/streaming.proto
+END
+dstream_proto_common.proto
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/dstream_proto_common.proto
+END
+cluster_config.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/23630/trunk/dstream/src/cc/common/proto/cluster_config.pb.h
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/COMAKE
+END
+pm.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/pm.pb.cc
+END
+pub_sub.proto
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/pub_sub.proto
+END
+pn.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/pn.pb.cc
+END
+pm_pn_rpc.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/36778/trunk/dstream/src/cc/common/proto/pm_pn_rpc.pb.cc
+END
+pm.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/pm.pb.h
+END
+pm_client_rpc.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/pm_client_rpc.pb.cc
+END
+pm_pn_rpc.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/36778/trunk/dstream/src/cc/common/proto/pm_pn_rpc.pb.h
+END
+pn.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/pn.pb.h
+END
+pm_client_rpc.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/pm_client_rpc.pb.h
+END
+application.proto
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/application.proto
+END
+cluster_config.proto
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/23630/trunk/dstream/src/cc/common/proto/cluster_config.proto
+END
+streaming.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/37498/trunk/dstream/src/cc/common/proto/streaming.pb.cc
+END
+pm.proto
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/proto/pm.proto
+END
+dstream_proto_common.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/40202/trunk/dstream/src/cc/common/proto/dstream_proto_common.pb.cc
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/inf/computing/!svn/ver/47940/trunk/dstream/deploy/conf
+END
+conf_md5sum
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/conf/conf_md5sum
+END
+dstream.conf
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/computing/!svn/ver/47940/trunk/dstream/deploy/conf/dstream.conf
+END
+settings.conf
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/43985/trunk/dstream/deploy/conf/settings.conf
+END
+hadoop-site.xml.default
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/conf/hadoop-site.xml.default
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_emptyInput/echo_pe_task
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_emptyInput/echo_pe_task/log.conf
+END
+streaming
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_emptyInput/echo_pe_task/streaming
+END

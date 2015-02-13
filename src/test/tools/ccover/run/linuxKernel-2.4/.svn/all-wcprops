@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/run/linuxKernel-2.4
+END
+libcov-lkm.c
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/run/linuxKernel-2.4/libcov-lkm.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/run/linuxKernel-2.4/Makefile
+END
+libcov-linuxKernel.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/run/linuxKernel-2.4/libcov-linuxKernel.c
+END

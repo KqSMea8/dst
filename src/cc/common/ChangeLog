@@ -1,0 +1,8 @@
+2012-04-25 zhanggengxin <zhanggengxin@baidu.com>
+	Remove check bigpipe path config when InitAppPath in application_tools.cc
+
+2012-04-25 zhanggengxin <zhanggengxin@baidu.com>
+	Fix bug of log4plus when conf file is conf/log.conf
+
+2012-05-17 zhanggengxin <zhanggengxin@baidu.com>
+	Add console appener for appenders that not exist in log.conf

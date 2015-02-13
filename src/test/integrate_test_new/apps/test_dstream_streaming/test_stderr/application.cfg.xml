@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>streaming_test_stderr</AppName>
+	<Description>echo word</Description>
+
+	<Topology>
+		<ProcessorNum>3</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>echo_importer</ProcessorName>
+				<Description></Description>
+				<RunCmd>./streaming -k "###" cat</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+                                <TuplesBatchCount>500</TuplesBatchCount>			
+			</Importer1>
+		</Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter</ProcessorName>
+				<Description></Description>
+					<RunCmd>./streaming -k "###" "cat > ./result.txt"</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task</processor>
+						<tag>StreamingKVType</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+		<Processor>
+			<Processor1>
+				<ProcessorName>echo_pe_task</ProcessorName>
+				<Description></Description>
+				<RunCmd>./streaming -k "###" ./echo_write.sh</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>StreamingKVType</tag>
+					</source>
+				</Subscribe>
+			</Processor1>
+		</Processor>
+	</Topology>
+</APP>

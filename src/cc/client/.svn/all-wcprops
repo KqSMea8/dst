@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/client
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/computing/!svn/ver/33337/trunk/dstream/src/cc/client/COMAKE
+END
+pm_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/client/pm_client.h
+END
+action.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/42211/trunk/dstream/src/cc/client/action.cc
+END
+dstream_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/client/dstream_client.cc
+END
+action.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/action.h
+END
+dstream_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/client/dstream_client.h
+END
+application.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/client/application.cc
+END
+client_config.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/client_config.cc
+END
+zk.cc
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/zk.cc
+END
+application.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/application.h
+END
+client_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/client_config.h
+END
+zk.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/zk.h
+END
+pm_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/client/pm_client.cc
+END

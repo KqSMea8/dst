@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_new/test_cases
+END
+test_pm_pn_pe_kill.sh
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_new/test_cases/test_pm_pn_pe_kill.sh
+END
+test_press_app_sub_del.sh
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/inf/computing/!svn/ver/13587/trunk/dstream/src/test/integrate_test_new/test_cases/test_press_app_sub_del.sh
+END
+subtree_add_loop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/inf/computing/!svn/ver/15855/trunk/dstream/src/test/integrate_test_new/test_cases/subtree_add_loop.sh
+END
+update_processor_loop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test_new/test_cases/update_processor_loop.sh
+END
+speed_limit_test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/inf/computing/!svn/ver/19976/trunk/dstream/src/test/integrate_test_new/test_cases/speed_limit_test.sh
+END
+global.sh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/11311/trunk/dstream/src/test/integrate_test_new/test_cases/global.sh
+END
+test_press_subtree_add_del.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/inf/computing/!svn/ver/15949/trunk/dstream/src/test/integrate_test_new/test_cases/test_press_subtree_add_del.sh
+END
+importer_add_loop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/inf/computing/!svn/ver/14848/trunk/dstream/src/test/integrate_test_new/test_cases/importer_add_loop.sh
+END
+change_paral_test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/test_cases/change_paral_test.sh
+END
+dynamic_importer_test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/test_cases/dynamic_importer_test.sh
+END

@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/client/test
+END
+test_dstream_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/test/test_dstream_client.cc
+END
+mock_hdfs_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/test/mock_hdfs_client.h
+END
+mock_zk_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/test/mock_zk_client.h
+END
+dstream_fake.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/client/test/dstream_fake.cfg.xml
+END
+mock_zk.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/test/mock_zk.h
+END
+run_ut.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/16875/trunk/dstream/src/cc/client/test/run_ut.sh
+END
+test_application.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/client/test/test_application.cc
+END
+test_client_config.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/test/test_client_config.cc
+END
+dstream_without_zk_root.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/client/test/dstream_without_zk_root.cfg.xml
+END
+dstream.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/client/test/dstream.cfg.xml
+END
+test_pm_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/client/test/test_pm_client.cc
+END
+dstream_with_localhost.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/client/test/dstream_with_localhost.cfg.xml
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/33337/trunk/dstream/src/cc/client/test/COMAKE
+END
+dstream_fail_localhost.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/client/test/dstream_fail_localhost.cfg.xml
+END
+dstream_without_zk_path.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/25915/trunk/dstream/src/cc/client/test/dstream_without_zk_path.cfg.xml
+END
+test_action.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/42211/trunk/dstream/src/cc/client/test/test_action.cc
+END
+cluster_config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/client/test/cluster_config.xml
+END
+test_integration.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/test/test_integration.cc
+END
+test_zk.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/client/test/test_zk.cc
+END
+mock_pm.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/client/test/mock_pm.cc
+END
+mock_pm_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/client/test/mock_pm_client.h
+END
+mock_pm.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/client/test/mock_pm.h
+END
+dstream_without_client.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/client/test/dstream_without_client.cfg.xml
+END

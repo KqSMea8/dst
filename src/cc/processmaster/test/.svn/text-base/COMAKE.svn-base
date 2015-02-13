@@ -1,0 +1,30 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+#
+CXXFLAGS_TEST = '-O0 -g -DUNIT_TEST -Dprivate=public -Dprotected=public -UMOCKVIRTUAL -DMOCKVIRTUAL=virtual'
+
+StaticLibrary('src/cc/processmaster/test/test_common',
+              Sources('src/cc/processmaster/test/client_op.cc',
+		              'src/cc/processmaster/test/pm_test_common.cc',
+                      CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()),
+              OutputPath(''))
+
+Application('src/cc/processmaster/test/test_pm',
+            Sources('src/cc/processmaster/test/test_handle_app.cc',
+		            'src/cc/processmaster/test/test_client_op.cc',
+		            'src/cc/processmaster/test/test_pm.cc',
+		            'src/cc/processmaster/test/test_pm_switch.cc',
+                    'src/cc/processmaster/test/test_pm_stop.cc',
+                    'src/cc/processmaster/test/test_event_manager.cc',
+                    'src/cc/processmaster/test/test_app_scheduler.cc',
+                    'src/cc/processmaster/test/test_app_status.cc',
+                    'src/cc/processmaster/test/test_pn_group.cc',
+                    'src/cc/processmaster/test/test_blacklist.cc',
+                    'src/cc/processmaster/test/test_pm_httpd.cc',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()),
+            Libraries('src/cc/scheduler/libscheduler.a',
+                      'src/cc/processmaster/libprocessmaster.a',
+                      'src/cc/processmaster/test/libtest_common.a',
+                      "src/cc/metamanager/libmetamanager.a") + ENV.Libraries(),
+            OutputPath(''))
+

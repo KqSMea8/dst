@@ -1,0 +1,20 @@
+<JoinConfig>
+  <JoinTags>
+    <test_joiner_name>
+      <WindowSize>10</WindowSize>
+      <WindowStep>10</WindowStep>
+      <JoinWithStore>false</JoinWithStore>
+      <Storage>
+        <StoreBatchInsert>false</StoreBatchInsert>
+        <StoreBatchCount>200</StoreBatchCount>
+        <StoreBatchIntervalMs>200</StoreBatchIntervalMs>
+      </Storage>
+    </test_joiner_name>
+    <test_joiner_name_1>
+      <WindowTimeOut>5</WindowTimeOut>
+      <WindowMaxTime>100</WindowMaxTime>
+      <JoinWithStore>false</JoinWithStore>
+    </test_joiner_name_1>
+  </JoinTags>
+</JoinConfig>
+

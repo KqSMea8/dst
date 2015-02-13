@@ -1,0 +1,18 @@
+<ClusterConfig>
+  <ZooKeeperPath>
+	  <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+    <Root>/DStream_client_unit_test</Root>
+  </ZooKeeperPath>
+  <!-- cluster users and can add multi users-->
+  <users>
+	  <username>client_unit_test</username>
+	  <password>client_unit_test</password>
+  </users>
+  <!-- blacklist and can have multi blacklist-->
+  <!-- /tmp/DStream_client_unit_test/pn_log -->
+  <hdfs_path>hdfs://cq01-testing-dcqa-b4.cq01:38002/DStream_client_unit_test</hdfs_path>
+  <big_pipe_path>localhost</big_pipe_path>
+  <min_host_percentage>0.6</min_host_percentage>
+  <!-- /tmp/DStream_client_unit_test/pn_log -->
+  <hdfs_pn_log_path>hdfs://cq01-testing-dcqa-b4.cq01:38002/DStream_client_unit_test</hdfs_pn_log_path>
+</ClusterConfig>

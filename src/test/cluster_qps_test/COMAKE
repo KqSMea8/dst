@@ -1,0 +1,58 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+WORKROOT('../../../../../../')
+CopyUsingHardLink(True)
+
+CPPFLAGS('-D_GNU_SOURCE -D__STDC_LIMIT_MACROS -DVERSION=\\\"1.0.1.0\\\"')
+CPPFLAGS('-D_FILE_OFFSET_BITS=64') # support large files.
+CFLAGS('-g -pipe -W -Wall -fPIC')
+CXXFLAGS('-g -pipe -W -Wall -fPIC')
+PROTOC('../../../../../../third-64/protobuf/bin/protoc')
+dstream_sdk_root = './pesdk/'
+PROTOC(ENV.WorkRoot() + '/third-64/protobuf/bin/protoc')
+
+# dependencies.
+INCPATHS('. '+
+         dstream_sdk_root + 'include/ ' +
+         dstream_sdk_root + 'include/log4cplus ' +
+         dstream_sdk_root + 'include/zeromq '
+         ) 
+
+LDFLAGS('-L' + dstream_sdk_root + 'lib/ '
+        '-lzmq '+
+        '-ltinyxml '+
+        '-llog4cplus '+
+        '-lpthread -lcrypto -lrt -luuid '
+        )
+
+# zookeeper client
+CONFIGS('thirdsrc/zookeeper@3.3.3.900')
+CONFIGS('third-64/protobuf@2.4.1.300')
+CONFIGS('inf/bigpipe/api/c-api@2.0.6.3')
+# boost
+CONFIGS('third-64/boost@boost_1-46-1-101_PD_BL')
+#Kylin/ESP/Share
+CONFIGS('inf/common/kylin@1.0.8.0')
+CONFIGS('inf/common/esp@1.0.10.0')
+CONFIGS('inf/common/share@1.0.8.0')
+
+LIBS(dstream_sdk_root + '/lib/libcommon.a')
+LIBS(dstream_sdk_root + '/lib/libproto.a')
+LIBS(dstream_sdk_root + '/lib/libpe.a')
+LIBS(dstream_sdk_root + '/lib/libtransporter.a')
+LIBS(dstream_sdk_root + '/lib/libmetamanager.a')
+
+# word_cnt PEs
+# 1. impoter
+Application('importer',
+            Sources('importer.cc',
+                    'echo.proto')
+            )
+# 2. count pe
+Application('task',
+            Sources('task.cc',
+                    'echo.proto'))
+# 3. exporter
+Application('exporter',
+            Sources('exporter.cc',
+                    'echo.proto'))

@@ -1,0 +1,10 @@
+package dstream;
+message EchoRequest{
+  optional string field=1;
+  optional uint64 time=2;
+};
+  
+message EchoResponse{
+  optional string field=1;
+};
+

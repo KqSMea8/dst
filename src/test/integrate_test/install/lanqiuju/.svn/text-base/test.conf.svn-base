@@ -1,0 +1,10 @@
+/Cluster/HDFS/HadoopClientDir=/home/lanqiuju/dstream_qiuju/hadoop-client/hadoop
+/Cluster/ZooKeeperPath/Address=nj01-inf-offline151.nj01.baidu.com:2182
+/Cluster/ZooKeeperPath/PM/Root=/dstream_lanqiuju/PM
+/Cluster/ZooKeeperPath/Config/Root=/dstream_lanqiuju/Config
+/Cluster/ZooKeeperPath/App/Root=/dstream_lanqiuju/App
+/Cluster/ZooKeeperPath/PN/Root=/dstream_lanqiuju/PN
+/Cluster/ZooKeeperPath/Client/Root=/dstream_lanqiuju/Client
+/Cluster/PN/ListenPort=6000
+/Cluster/PN/WorkDir=/home/lanqiuju/dstream_qiuju
+

@@ -1,0 +1,10 @@
+/Cluster/HDFS/HadoopClientDir=/home/work/mapred/hadoop-client/hadoop/
+/Cluster/ZooKeeperPath/Address=nj01-inf-offline151.nj01.baidu.com:2182
+/Cluster/ZooKeeperPath/PM/Root=/dstream_hudson/PM
+/Cluster/ZooKeeperPath/Config/Root=/dstream_hudson/Config
+/Cluster/ZooKeeperPath/App/Root=/dstream_hudson/App
+/Cluster/ZooKeeperPath/PN/Root=/dstream_hudson/PN
+/Cluster/ZooKeeperPath/Client/Root=/dstream_hudson/Client
+/Cluster/Client/User/UserName=hudson
+/Cluster/Client/User/Password=hudson
+/Cluster/PN/ListenPort=8888

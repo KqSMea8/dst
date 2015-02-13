@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>streaming_test_bigpipe_exporter</AppName>
+	<Description>test exporter</Description>
+
+	<Topology>
+		<ProcessorNum>2</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>echo_importer</ProcessorName>
+				<Description></Description>
+				<RunCmd>./streaming -k "###" -s cat "sh tag.sh"</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>500M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+                                <TuplesBatchCount>500</TuplesBatchCount>			
+			</Importer1>
+		</Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter</ProcessorName>
+				<Description></Description>
+					<RunCmd>./bigpipe_exporter -p pipe-lyl-test02 -n 10 -t ptoken</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>500M</Memory>
+				</Resource>
+				<Parallelism>10</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>StreamingKVType</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+	</Topology>
+</APP>

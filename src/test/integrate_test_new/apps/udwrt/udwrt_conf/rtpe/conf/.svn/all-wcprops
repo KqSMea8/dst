@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_new/apps/udwrt/udwrt_conf/rtpe/conf
+END
+hadoop-site.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/inf/computing/!svn/ver/11208/trunk/dstream/src/test/integrate_test_new/apps/udwrt/udwrt_conf/rtpe/conf/hadoop-site.xml
+END
+rtpe.conf
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_new/apps/udwrt/udwrt_conf/rtpe/conf/rtpe.conf
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/47940/trunk/dstream/src/script/file_server2
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/47940/trunk/dstream/src/script/file_server2/start.sh
+END
+server.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/47940/trunk/dstream/src/script/file_server2/server.py
+END
+stop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/47940/trunk/dstream/src/script/file_server2/stop.sh
+END

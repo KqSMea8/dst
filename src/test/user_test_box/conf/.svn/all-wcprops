@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/user_test_box/conf
+END
+difi_conf
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/conf/difi_conf
+END
+dstream.conf
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/conf/dstream.conf
+END
+pn_list
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/conf/pn_list
+END
+conf.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/user_test_box/conf/conf.sh
+END

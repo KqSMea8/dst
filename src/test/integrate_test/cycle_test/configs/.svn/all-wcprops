@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/cycle_test/configs
+END
+echo_count.sh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/computing/!svn/ver/9079/trunk/dstream/src/test/integrate_test/cycle_test/configs/echo_count.sh
+END
+test.conf.lyj
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/cycle_test/configs/test.conf.lyj
+END
+format.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/8944/trunk/dstream/src/test/integrate_test/cycle_test/configs/format.sh
+END
+check_echo_result.sh
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/inf/computing/!svn/ver/8944/trunk/dstream/src/test/integrate_test/cycle_test/configs/check_echo_result.sh
+END
+test.conf
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/cycle_test/configs/test.conf
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/8944/trunk/dstream/src/test/integrate_test/cycle_test/configs/log.conf
+END
+update.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/8944/trunk/dstream/src/test/integrate_test/cycle_test/configs/update.sh
+END
+dstream.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/cycle_test/configs/dstream.cfg.xml
+END
+test.conf.fern
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/cycle_test/configs/test.conf.fern
+END

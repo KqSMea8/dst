@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_bigpipe/echo_importer
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_bigpipe/echo_importer/log.conf
+END
+echo_importer_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_bigpipe/echo_importer/echo_importer_sub.xml
+END
+streaming
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_bigpipe/echo_importer/streaming
+END
+streaming_logagent_importer
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_bigpipe/echo_importer/streaming_logagent_importer
+END

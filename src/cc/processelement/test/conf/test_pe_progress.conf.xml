@@ -1,0 +1,29 @@
+<Cluster>
+  <!--Config for importer subscribe-->
+  <BigPipe>
+    <bigpipe_name>
+    <Authentication></Authentication>
+    <Token>bigpipe_token</Token>
+    <Pipelet>0-2</Pipelet>
+    <PipeletNum>3</PipeletNum>
+    <SubPoint>1</SubPoint>
+    </bigpipe_name>
+  </BigPipe>
+  <!--
+  <LocalFile>
+    <FileName>./data/local_file</FileName>
+    <SubPoint>0</SubPoint>
+  </LocalFile>
+  -->
+
+  <!--How long to save progress(micro second)-->
+  <ProgressInterval>12345</ProgressInterval>
+  <!--where are progress save to-->
+  <ZooKeeperPath>
+    <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+    <Retry>3</Retry>
+    <TimeoutMs>30000</TimeoutMs>
+    <Root>/dstream_pe_progress</Root>
+  </ZooKeeperPath>
+</Cluster>
+

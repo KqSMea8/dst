@@ -1,0 +1,46 @@
+#!/bin/sh
+
+echo "prologue begin" 1>&2
+
+source ./conf/monitor.conf
+source ./conf/dstream.conf
+
+hostname=`hostname`
+mail_list=$emails
+
+script_name=$0  
+pe_id=$1 
+work_dir=$2
+last_assign_time=$3
+redup_warn_time=${MIN_REDUP_TIME}
+
+is_warn=0
+last_warn_time=0
+if [ -f ./MetaPE ]; then
+     last_warn_time=`grep "START_PE_TIME_${pe_id}" ./MetaPE | awk -F= '{print $2}'`
+     if [ "${last_warn_time}" == "" ]; then
+           last_warn_time=0
+     fi
+fi
+if [[ $((`date +%s`-${last_warn_time})) -gt ${redup_warn_time} ]]; then
+     # if first time, do not send mail
+     if [[ "${last_assign_time}"x != "0"x ]]; then
+          echo "[DSTREAM] PN(${hostname}) Start PE(${pe_id}) work_dir(${work_dir}) last_assign_time(${last_assign_time})" | \
+              mail -s "DSTREAM PE-TRACE" ${mail_list}
+     fi
+     if [ $last_warn_time -eq 0 ];then
+          echo "START_PE_TIME_${pe_id}=`date +%s`" >>./MetaPE
+     else
+          last_warn_time=`date +%s`
+          sed -i "s/\(START_PE_TIME_${pe_id}=\).*/\1${last_warn_time}/" ./MetaPE
+     fi
+fi
+
+## register bns
+sh bin/bns_utils ${pe_id} ${work_dir} reg
+
+if [ -f ${work_dir}/pe_prologue ]; then
+     sh ${work_dir}/pe_prologue ${pe_id} ${work_dir} ${last_assign_time}
+fi
+
+echo "prologue end" 1>&2

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ ${#} -ne 1 ]; then
+	echo "Usage: $0 <report_dir>"
+	exit
+fi
+
+cp $1/report.xml tmp.xml
+iconv -fgbk -tutf8 tmp.xml > tmp.xml.u
+./atp2junit tmp.xml.u > $1/junit.xml
+
+

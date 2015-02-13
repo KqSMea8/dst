@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/test_tag_complex/cat_pe_task
+END
+tag.sh
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/inf/computing/!svn/ver/13057/trunk/dstream/src/test/integrate_test_new/apps/test_tag_complex/cat_pe_task/tag.sh
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/test_tag_complex/cat_pe_task/log.conf
+END
+streaming
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/inf/computing/!svn/ver/13057/trunk/dstream/src/test/integrate_test_new/apps/test_tag_complex/cat_pe_task/streaming
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/common/test/test_config_xmls
+END
+test_config_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/common/test/test_config_xmls/test_config_1.xml
+END
+test_config_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/common/test/test_config_xmls/test_config_2.xml
+END
+bad_config_1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/9257/trunk/dstream/src/cc/common/test/test_config_xmls/bad_config_1.xml
+END
+bad_config_2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/9257/trunk/dstream/src/cc/common/test/test_config_xmls/bad_config_2.xml
+END

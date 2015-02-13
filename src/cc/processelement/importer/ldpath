@@ -1,0 +1,2 @@
+#!/bin/bash
+export LD_LIBRARY_PATH=../pesdk/lib:$LD_LIBRARYP_PATH

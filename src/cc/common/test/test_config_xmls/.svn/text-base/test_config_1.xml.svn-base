@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Cluster>
+  <Client>
+	  <!-- User配置信息 -->
+    <User>
+	    <UserName>demo</UserName>
+	    <Password>demo</Password>
+    </User>
+	  <!-- PM配置信息 -->
+    <PM>
+      <!-- 连接PM重试次数，0代表无限次重试 -->
+      <Retry>3</Retry>
+      <!-- 连接PM RPC超时时间，-1代表无限时间 -->
+      <TimeoutSec>-1</TimeoutSec>
+    </PM>
+  </Client>
+
+  <!-- hdfs客户端配置项 -->
+  <HDFS>
+    <!-- hdfs客户端目录，其下面至少包括：./bin/hadoop ./conf/ -->
+    <HadoopClientDir>/home/zhangyuncong/hadoop-client/</HadoopClientDir>
+    <!-- 0代表无限次重试 -->
+    <Retry>3</Retry>
+  </HDFS>
+
+  <!-- 系统环境变量，在ZK上的路径位置 -->
+  <ZooKeeperPath>
+	  <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+    <!-- 连接ZooKeeper重试次数，0代表无限次重试 -->
+    <Retry>3</Retry>
+    <TimeoutMs>30000</TimeoutMs>
+    <PM>
+        <Root>/DStream_demo/PM</Root>
+    </PM>
+    <Config>
+        <Root>/DStream_demo/Config</Root>
+    </Config>
+    <App>
+        <Root>/DStream_demo/App</Root>
+    </App>
+    <PN>
+        <Root>/DStream_demo/PN</Root>
+    </PN>
+	  <Client>
+	      <Root>/DStream_demo/Client</Root>  
+	  </Client>
+  </ZooKeeperPath>
+
+</Cluster>

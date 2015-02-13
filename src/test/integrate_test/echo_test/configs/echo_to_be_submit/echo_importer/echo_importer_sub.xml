@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<word_cnt_importer>
+	<BigPipe>
+    <dstreamtestown>
+		  <Authentication>test</Authentication>
+		  <PipeletNum>1</PipeletNum>
+		  <SubPoint>1</SubPoint>
+    </dstreamtestown>
+	</BigPipe>
+</word_cnt_importer>

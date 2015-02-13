@@ -1,0 +1,1266 @@
+auth
+bmock
+bmock_old
+btest
+codes
+com
+comake
+deploy
+download
+dstream
+dstream.cfg.xml
+dstream_example
+fault
+fault_old
+ForSubmit
+hadoop-client
+htdocs
+ibase
+include.tar.gz
+inf
+initial.sql
+lib2-64
+libcgroup
+log_monitor
+mycore
+old_bak
+project
+public
+Python-2.7.3
+Python-2.7.3.tar.bz2
+quality
+r12156-22
+receive
+third-64
+thirdparty
+thirdsrc
+tproj
+USER       PID %CPU %MEM   VSZ  RSS TTY      STAT START   TIME COMMAND
+507      16312  0.0  0.0 37312 1848 ?        S    12:12   0:00 sshd: zhangyuncong@pts/25
+507      16313  0.0  0.0 55196 1636 pts/25   Ss+  12:12   0:00 -bash
+507      16590  0.0  0.0 37312 1848 ?        S    10:36   0:00 sshd: zhangyuncong@pts/28
+507      16591  0.0  0.0 55196 1644 pts/28   Ss+  10:36   0:00 -bash
+507      21875  0.0  0.0 37312 1844 ?        S    12:22   0:00 sshd: zhangyuncong@pts/36
+507      21876  0.0  0.0 55196 1652 pts/36   Ss   12:22   0:00 -bash
+507      27074  0.0  0.0  5516  796 pts/36   R+   13:24   0:00 ps ux
+USER       PID %CPU %MEM   VSZ  RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  4828  560 ?        Ss   Jul04   0:00 init [3]                    
+root         2  0.0  0.0     0    0 ?        S    Jul04   0:00 [kthreadd]
+root         3  0.0  0.0     0    0 ?        S    Jul04   0:00 [migration/0]
+root         4  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/0]
+root         5  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/0]
+root         6  0.0  0.0     0    0 ?        S    Jul04   0:00 [migration/1]
+root         7  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/1]
+root         8  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/1]
+root         9  0.0  0.0     0    0 ?        S    Jul04   0:01 [migration/2]
+root        10  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/2]
+root        11  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/2]
+root        12  0.0  0.0     0    0 ?        S    Jul04   0:01 [migration/3]
+root        13  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/3]
+root        14  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/3]
+root        15  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/0]
+root        16  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/1]
+root        17  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/2]
+root        18  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/3]
+root        19  0.0  0.0     0    0 ?        S    Jul04   0:00 [cpuset]
+root        20  0.0  0.0     0    0 ?        S    Jul04   0:02 [khelper]
+root        25  0.0  0.0     0    0 ?        S    Jul04   0:00 [async/mgr]
+root       123  0.0  0.0     0    0 ?        S    Jul04   0:00 [sync_supers]
+root       125  0.0  0.0     0    0 ?        S    Jul04   0:00 [bdi-default]
+root       126  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/0]
+root       127  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/1]
+root       128  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/2]
+root       129  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/3]
+root       131  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpid]
+root       132  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpi_notify]
+root       133  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpi_hotplug]
+root       250  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/0]
+root       251  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/1]
+root       252  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/2]
+root       253  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/3]
+root       254  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata_aux]
+root       259  0.0  0.0     0    0 ?        S    Jul04   0:00 [kseriod]
+root       340  0.0  0.0     0    0 ?        S    Jul04   0:00 [khungtaskd]
+root       341  0.0  0.0     0    0 ?        S    Jul04   0:15 [kswapd0]
+root       391  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/0]
+root       392  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/1]
+root       393  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/2]
+root       394  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/3]
+root       548  0.0  0.0     0    0 ?        S    Jul04   0:00 [cciss_scan]
+root       592  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_0]
+root       630  0.0  0.0     0    0 ?        S    Jul04   0:00 [kpsmoused]
+root      1455  0.0  0.0  3688  472 ?        Ss   Jul04   0:00 udevd
+root      1609  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksuspend_usbd]
+root      1619  0.0  0.0     0    0 ?        S    Jul04   0:00 [khubd]
+root      1990  0.0  0.0     0    0 ?        S    Jul04   0:00 [kauditd]
+root      2282  0.0  0.0     0    0 ?        S    Jul04   0:00 [usbhid_resumer]
+root      2452  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_1]
+root      2453  0.0  0.0     0    0 ?        S    Jul04   0:00 [usb-storage]
+root      2457  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_2]
+root      2458  0.0  0.0     0    0 ?        S    Jul04   0:00 [usb-storage]
+root      2530  0.0  0.0     0    0 ?        S    Jul04   0:00 [kstriped]
+root      3029  0.0  0.0     0    0 ?        S    Jul04   0:18 [flush-8:0]
+root      3169  0.0  0.0 37164 2648 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    3177  0.0  0.0 37304 1840 ?        S    Jul09   0:00 sshd: yeqing@pts/17
+yeqing    3178  0.0  0.0 55072 1648 pts/17   Ss+  Jul09   0:00 -bash
+rpc       3209  0.0  0.0  4816  500 ?        Ss   Jul04   0:00 portmap
+root      3218  0.0  0.0  8348  644 ?        Ss   Jul04   5:16 /usr/local/sbin/cgrulesengd
+root      3229  0.0  0.0 22028 1296 ?        Ss   Jul04   0:02 /usr/sbin/sshd
+root      3231  0.0  0.0     0    0 ?        S    Jul04   0:00 [cqueue]
+root      3247  0.0  0.0 37164 2636 ?        Ss   Jul09   0:00 sshd: lanbijia [priv]
+lanbijia  3261  0.0  0.0 37164 1820 ?        S    Jul09   0:00 sshd: lanbijia@pts/34
+lanbijia  3262  0.0  0.0 55072 1624 pts/34   Ss+  Jul09   0:00 -bash
+root      3288  0.0  0.0  8792  672 ?        Ss   Jul04   0:00 xinetd -stayalive -pidfile /var/run/xinetd.pid
+root      3297  0.0  0.0 57112  980 ?        Ss   Jul04   0:00 crond
+dbus      3306  0.0  0.0  9768  396 ?        Ss   Jul04   0:00 dbus-daemon-1 --system
+root      3313  0.0  0.0  1400  196 ?        S    Jul04   0:00 ./supervise -u ./status ./proftpd -n
+root      3347  0.0  0.0  5856  724 ?        Ss   Jul04   0:01 syslogd -m 0
+root      3351  0.0  0.0  2620  368 ?        Ss   Jul04   0:00 klogd -x
+root      3367  0.0  0.0  3148  420 ?        Ss   Jul04   0:00 ./supervise.agent -p /home/noah/client/core_client/../data_client/status/client -f /home/noah/client/core_client/bin//noah-agent
+root      3452  0.0  0.0  3148  424 ?        Ss   Jul04   0:00 ./supervise.drct -p /home/noah/dr-ct/ct-slave/bin/status/drct -f /home/noah/dr-ct/ct-slave/bin/drct -r /home/noah/dr-ct/ct-slave/../../warning.sh -t 60
+root      4196  0.0  0.0  2608  408 tty1     Ss+  Jul04   0:00 /sbin/mingetty tty1
+root      4197  0.0  0.0  2608  408 tty2     Ss+  Jul04   0:00 /sbin/mingetty tty2
+root      4198  0.0  0.0  2608  408 tty3     Ss+  Jul04   0:00 /sbin/mingetty tty3
+root      4199  0.0  0.0  2608  404 tty4     Ss+  Jul04   0:00 /sbin/mingetty tty4
+root      4200  0.0  0.0  2608  408 tty5     Ss+  Jul04   0:00 /sbin/mingetty tty5
+root      4201  0.0  0.0  2608  404 tty6     Ss+  Jul04   0:00 /sbin/mingetty tty6
+root      4349  0.1  0.0 281952 5524 ?       Sl   Jul04  10:23 /home/noah/dr-ct/ct-slave/bin/drct
+daemon    4444  0.0  0.0 87652 5752 ?        S    11:52   0:00 /usr/local/apache2/bin/httpd -k start
+root      5027  0.0  0.0 37164 2824 ?        Ss   11:15   0:00 sshd: fangjun [priv]
+fangjun   5181  0.0  0.0 37312 1848 ?        S    11:15   0:00 sshd: fangjun@pts/33
+fangjun   5182  0.0  0.0 55072 1608 pts/33   Ss+  11:15   0:00 -bash
+root      5543  0.0  0.0 37164 2824 ?        Ss   07:59   0:00 sshd: yanchong [priv]
+yanchong  5547  0.0  0.0 37312 1904 ?        S    07:59   0:00 sshd: yanchong@pts/3
+yanchong  5548  0.0  0.0 55068 1620 pts/3    Ss+  07:59   0:00 -bash
+root      5589  0.0  0.0 37164 2820 ?        Ss   07:59   0:00 sshd: yanchong [priv]
+yanchong  5593  0.0  0.0 37164 1828 ?        S    07:59   0:00 sshd: yanchong@pts/5
+yanchong  5594  0.0  0.0 55068 1608 pts/5    Ss   07:59   0:00 -bash
+root      5788  0.0  0.0 37164 2820 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng    5809  0.0  0.0 37312 1840 ?        S    Jul09   0:00 sshd: xjmeng@pts/18
+xjmeng    5810  0.0  0.0 55192 1696 pts/18   Ss   Jul09   0:00 -bash
+daemon    5988  0.0  0.0 87552 5708 ?        S    12:47   0:00 /usr/local/apache2/bin/httpd -k start
+root      6017  0.0  0.0 87420 4664 ?        Ss   Jul04   0:00 /usr/local/apache2/bin/httpd -k start
+yanchong  6111  0.0  0.0 75608 4256 pts/5    S+   08:02   0:00 vim file_request.cpp
+root      6312  0.0  0.0 53864 1232 ?        S    Jul04   0:00 /bin/sh ./mysqld_safe
+mysql     6408  0.0  0.0 49220 6024 ?        Sl   Jul04   0:00 /home/mysql/mysql_5.1.58/libexec/mysqld --basedir=/home/mysql/mysql_5.1.58 --datadir=/home/mysql/mysql_5.1.58/var --user=mysql --log-error=/home/mysql/mysql_5.1.58/var/tc-hadoop-data04.tc.baidu.com.err --pid-file=/home/mysql/mysql_5.1.58/var/tc-hadoop-data04.tc.baidu.com.pid --socket=/home/mysql/mysql_5.1.58/tmp/mysql.sock --port=8123
+daemon    6703  0.0  0.0 87656 5728 ?        S    11:55   0:00 /usr/local/apache2/bin/httpd -k start
+root      6974  0.0  0.0 37164 2648 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    7035  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/1
+yeqing    7036  0.0  0.0 55072 1652 pts/1    Ss+  Jul09   0:00 -bash
+root      7818  0.0  0.0 37164 2648 ?        Ss   11:20   0:00 sshd: yeqing [priv]
+yeqing    7834  0.0  0.0 37164 1820 ?        S    11:20   0:00 sshd: yeqing@pts/35
+yeqing    7835  0.0  0.0 55072 1652 pts/35   Ss+  11:20   0:00 -bash
+root      8133  0.0  0.0 37164 2644 ?        Ss   10:20   0:00 sshd: lanbijia [priv]
+lanbijia  8137  0.0  0.0 37304 1836 ?        S    10:20   0:00 sshd: lanbijia@pts/31
+lanbijia  8138  0.0  0.0 55068 1596 pts/31   Ss   10:20   0:00 -bash
+lanbijia  8170  0.0  0.0 19860 2388 pts/31   S+   10:20   0:00 ssh udw_rt@jx-mpi-fcr047.jx.baidu.com
+522       8192  0.0  0.0 55212 1656 pts/13   Ss   Jul05   0:00 /bin/bash
+522       8270  0.0  0.0 55208 1728 pts/14   Ss+  Jul05   0:00 /bin/bash
+root      8439  0.0  0.0 37164 2816 ?        Ss   08:11   0:00 sshd: yanchong [priv]
+yanchong  8443  0.0  0.0 37164 1832 ?        S    08:11   0:00 sshd: yanchong@pts/6
+yanchong  8444  0.0  0.0 55068 1620 pts/6    Ss   08:11   0:00 -bash
+root      8487  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    8492  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/22
+yeqing    8493  0.0  0.0 55196 1728 pts/22   Ss   Jul09   0:00 -bash
+522       8932  0.0  0.0 55208 1656 pts/16   Ss+  Jul05   0:00 /bin/bash
+daemon    9091  0.0  0.0 87552 5580 ?        S    11:57   0:00 /usr/local/apache2/bin/httpd -k start
+522       9808  0.0  0.0 55080 1612 pts/21   Ss   Jul05   0:00 /bin/bash
+522       9859  0.0  0.0 19864 2296 pts/21   S+   Jul05   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+nobody   11349  0.0  0.0 10924 1176 ?        S    Jul04   0:01 proftpd: (accepting connections)
+522      11632  0.0  0.0 62616 4156 ?        Ss   Jul04   0:09 SCREEN -R zhenpeng01
+522      11634  0.0  0.0 55208 1712 pts/7    Ss+  Jul04   0:00 /bin/bash
+daemon   12029  0.0  0.0 87552 5416 ?        S    12:56   0:00 /usr/local/apache2/bin/httpd -k start
+root     12068  0.0  0.0 54936 1228 ?        S    Jul07   0:00 /bin/sh /home/noah/client/core_client/bin//noah-agent
+root     12072  0.4  0.0 313248 6800 ?       Sl   Jul07  21:19 ./noah-agent64
+522      13345  0.0  0.0 19864 2452 pts/24   S+   Jul09   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+522      13645  0.0  0.0 19864 2444 pts/15   S+   Jul09   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+root     14213  0.0  0.0 18036 1680 ?        S    Jul07   0:00 executor: Sailor Jupiter [1.0.9.0]
+root     14214  0.0  0.0 18036 1820 ?        S    Jul07   0:00 executor: Sailor Moon [1.0.9.0]
+root     14462  0.0  0.0  3148  424 ?        Ss   Jul07   0:00 ./supervise.bscpserver -p /home/noah/tools/bscp/status//bscpserver -f /home/noah/tools/bscp/sbin//bscpserver -D
+root     14463  0.0  0.0 29616 2636 ?        S    Jul07   0:00 /home/noah/tools/bscp/sbin//bscpserver -D
+root     16296  0.0  0.0 37164 2816 ?        Ss   12:12   0:00 sshd: zhangyuncong [priv]
+507      16312  0.0  0.0 37312 1848 ?        S    12:12   0:00 sshd: zhangyuncong@pts/25
+507      16313  0.0  0.0 55196 1636 pts/25   Ss+  12:12   0:00 -bash
+root     16574  0.0  0.0 37164 2824 ?        Ss   10:36   0:00 sshd: zhangyuncong [priv]
+507      16590  0.0  0.0 37312 1848 ?        S    10:36   0:00 sshd: zhangyuncong@pts/28
+507      16591  0.0  0.0 55196 1644 pts/28   Ss+  10:36   0:00 -bash
+daemon   17737  0.0  0.0 87552 5384 ?        S    13:08   0:00 /usr/local/apache2/bin/httpd -k start
+522      17919  0.0  0.0 55204 1652 pts/20   Ss+  Jul05   0:00 /bin/bash
+root     17988  0.0  0.0 37164 2820 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng   17992  0.0  0.0 37312 1840 ?        S    Jul09   0:00 sshd: xjmeng@pts/29
+xjmeng   17993  0.0  0.0 55076 1620 pts/29   Ss+  Jul09   0:00 -bash
+root     18233  0.0  0.0 37164 2816 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng   18237  0.0  0.0 37312 1880 ?        S    Jul09   0:01 sshd: xjmeng@pts/30
+xjmeng   18238  0.0  0.0 55200 1644 pts/30   Ss+  Jul09   0:00 -bash
+yanchong 18294  0.0  0.0 75616 4144 pts/6    S+   13:09   0:00 vim DiskMan.h
+yanchong 18355  0.0  0.0 75656 4188 pts/0    S+   13:09   0:00 vim note_DiskMan.cpp
+root     18470  0.0  0.0 37164 2648 ?        Ss   Jul06   0:00 sshd: lizx [priv]
+lizx     18477  0.0  0.0 37304 1840 ?        S    Jul06   0:01 sshd: lizx@pts/2 
+lizx     18478  0.0  0.0 55200 1740 pts/2    Ss+  Jul06   0:00 -bash
+505      18603  0.0  0.0 18032 1444 ?        Ss   Jul04   0:00 ./httpd
+505      18604  0.0  0.0 18356 1968 ?        S    Jul04   0:00 ./httpd
+505      18605  0.0  0.0 18352 2108 ?        S    Jul04   0:00 ./httpd
+505      18606  0.0  0.0 18356 2252 ?        S    Jul04   0:00 ./httpd
+505      18607  0.0  0.0 18228 2128 ?        S    Jul04   0:00 ./httpd
+505      18608  0.0  0.0 18220 2040 ?        S    Jul04   0:00 ./httpd
+505      18647  0.0  0.0 53864 1100 ?        S    Jul04   0:00 sh git_daemon.sh
+505      18648  0.0  0.0 15500  900 ?        S    Jul04   0:00 git daemon --verbose --export-all --base-path=/home/zhanggengxin/tools/httpd/gitrepo/ --port=12000 --enable=receive-pack
+505      18649  0.0  0.0 14628  960 ?        S    Jul04   0:00 git-daemon --verbose --export-all --base-path=/home/zhanggengxin/tools/httpd/gitrepo/ --port=12000 --enable=receive-pack
+505      18662  0.0  0.0 18356 2220 ?        S    Jul04   0:00 ./httpd
+505      18663  0.0  0.0 18228 2068 ?        S    Jul04   0:00 ./httpd
+505      18664  0.0  0.0 18228 2108 ?        S    Jul04   0:00 ./httpd
+daemon   19075  0.0  0.0 87552 4024 ?        S    13:10   0:00 /usr/local/apache2/bin/httpd -k start
+522      20670  0.0  0.0 75608 4312 pts/13   S+   13:13   0:00 vim echo_pe/echo_pe.cc
+xjmeng   20693 99.5  0.0 47324 2740 pts/18   Rl+  13:13  11:22 ./dict_manager
+yeqing   21151  0.0  0.0 53864 1132 pts/22   S+   13:14   0:00 /bin/sh ./submit.sh 32
+yeqing   21248  0.0  0.0 54000 1400 pts/22   S+   13:14   0:00 /bin/sh /home/yeqing/soft/hpc/hpc_client/bin/qsub_f --hdfs hdfs://hy-ecomoff-hdfs.dmop.baidu.com:54310 --ugi mpi,hpcinit --hout /app/mpi/yeqing/tmp/pp.matrix --files bin,conf -N pp.matrix -l nodes=32,walltime=02:00:00 job.sh
+522      21810  0.0  0.0 55204 1652 pts/23   Ss+  Jul05   0:00 /bin/bash
+root     21854  0.0  0.0 37164 2812 ?        Ss   12:22   0:00 sshd: zhangyuncong [priv]
+507      21875  0.0  0.0 37312 1844 ?        S    12:22   0:00 sshd: zhangyuncong@pts/36
+507      21876  0.0  0.0 55196 1652 pts/36   Ss   12:22   0:00 -bash
+root     22872  0.0  0.0 37164 2812 ?        Ss   09:19   0:00 sshd: zhenpeng01 [priv]
+522      22876  0.0  0.0 37312 1844 ?        S    09:19   0:00 sshd: zhenpeng01@pts/8
+522      22877  0.0  0.0 55076 1600 pts/8    Ss   09:19   0:00 -bash
+522      22902  0.0  0.0 53864 1096 pts/8    S+   09:19   0:00 /bin/bash /home/zhenpeng01/bin/zhenpeng
+522      22903  0.0  0.0 59344  936 pts/8    S+   09:19   0:00 screen -R zhenpeng01
+522      23480  0.0  0.0 55208 1648 pts/24   Ss   Jul05   0:00 /bin/bash
+root     23671  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing   23677  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/19
+yeqing   23678  0.0  0.0 55204 1656 pts/19   Ss+  Jul09   0:00 -bash
+505      24012  0.0  0.0 18228 2128 ?        S    Jul05   0:00 ./httpd
+522      24574  0.0  0.0 55208 1632 pts/15   Ss   Jul05   0:00 /bin/bash
+root     24965  0.0  0.0 37164 2816 ?        Ss   13:21   0:00 sshd: xjmeng [priv]
+xjmeng   24981  0.0  0.0 37312 1844 ?        S    13:21   0:00 sshd: xjmeng@pts/32
+xjmeng   24982  0.0  0.0 55076 1616 pts/32   Ss   13:21   0:00 -bash
+daemon   25229  0.0  0.0 87552 4028 ?        S    13:21   0:00 /usr/local/apache2/bin/httpd -k start
+xjmeng   25259  0.0  0.0 76032 4712 pts/32   S+   13:21   0:00 vim dict_manager.cc
+daemon   25465  0.0  0.0 87552 3620 ?        S    13:21   0:00 /usr/local/apache2/bin/httpd -k start
+root     26692  0.0  0.0 37164 2820 ?        Ss   09:38   0:00 sshd: yanchong [priv]
+yanchong 26696  0.0  0.0 37164 1828 ?        S    09:38   0:00 sshd: yanchong@pts/0
+yanchong 26697  0.0  0.0 55068 1612 pts/0    Ss   09:38   0:00 -bash
+yeqing   27086  0.0  0.0 53772  536 pts/22   S+   13:24   0:00 sleep 3
+507      27087  0.0  0.0  5516  800 pts/36   R+   13:24   0:00 ps aux
+root     29579  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing   29595  0.0  0.0 37304 1832 ?        S    Jul09   0:00 sshd: yeqing@pts/27
+yeqing   29596  0.0  0.0 55200 1740 pts/27   Ss+  Jul09   0:00 -bash
+root     29800  0.0  0.0 37164 2820 ?        Ss   09:49   0:00 sshd: fangjun [priv]
+fangjun  29804  0.0  0.0 37312 1852 ?        S    09:49   0:00 sshd: fangjun@pts/9
+fangjun  29805  0.0  0.0 55072 1616 pts/9    Ss+  09:49   0:00 -bash
+root     30773  0.0  0.0 37164 2824 ?        Ss   09:51   0:00 sshd: luxing [priv]
+luxing   30777  0.0  0.0 37164 1828 ?        S    09:51   0:00 sshd: luxing@pts/11
+luxing   30778  0.0  0.0 55072 1620 pts/11   Ss+  09:51   0:00 -bash
+daemon   32232  0.0  0.0 87552 5360 ?        S    12:34   0:00 /usr/local/apache2/bin/httpd -k start
+522      32456  0.0  0.0 55080 1604 pts/12   Ss   09:59   0:00 /bin/bash
+root     32497  0.0  0.0 37164 2648 ?        Ss   09:59   0:00 sshd: lanbijia [priv]
+lanbijia 32501  0.0  0.0 37300 1840 ?        S    09:59   0:00 sshd: lanbijia@pts/26
+lanbijia 32502  0.0  0.0 55204 1616 pts/26   Ss+  09:59   0:00 -bash
+522      32545  0.0  0.0 20016 2532 pts/12   S+   10:00   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+USER       PID %CPU %MEM   VSZ  RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  4828  560 ?        Ss   Jul04   0:00 init [3]                    
+root         2  0.0  0.0     0    0 ?        S    Jul04   0:00 [kthreadd]
+root         3  0.0  0.0     0    0 ?        S    Jul04   0:00 [migration/0]
+root         4  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/0]
+root         5  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/0]
+root         6  0.0  0.0     0    0 ?        S    Jul04   0:00 [migration/1]
+root         7  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/1]
+root         8  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/1]
+root         9  0.0  0.0     0    0 ?        S    Jul04   0:01 [migration/2]
+root        10  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/2]
+root        11  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/2]
+root        12  0.0  0.0     0    0 ?        S    Jul04   0:01 [migration/3]
+root        13  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/3]
+root        14  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/3]
+root        15  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/0]
+root        16  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/1]
+root        17  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/2]
+root        18  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/3]
+root        19  0.0  0.0     0    0 ?        S    Jul04   0:00 [cpuset]
+root        20  0.0  0.0     0    0 ?        S    Jul04   0:02 [khelper]
+root        25  0.0  0.0     0    0 ?        S    Jul04   0:00 [async/mgr]
+root       123  0.0  0.0     0    0 ?        S    Jul04   0:00 [sync_supers]
+root       125  0.0  0.0     0    0 ?        S    Jul04   0:00 [bdi-default]
+root       126  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/0]
+root       127  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/1]
+root       128  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/2]
+root       129  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/3]
+root       131  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpid]
+root       132  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpi_notify]
+root       133  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpi_hotplug]
+root       250  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/0]
+root       251  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/1]
+root       252  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/2]
+root       253  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/3]
+root       254  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata_aux]
+root       259  0.0  0.0     0    0 ?        S    Jul04   0:00 [kseriod]
+root       340  0.0  0.0     0    0 ?        S    Jul04   0:00 [khungtaskd]
+root       341  0.0  0.0     0    0 ?        S    Jul04   0:15 [kswapd0]
+root       391  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/0]
+root       392  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/1]
+root       393  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/2]
+root       394  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/3]
+root       548  0.0  0.0     0    0 ?        S    Jul04   0:00 [cciss_scan]
+root       592  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_0]
+root       630  0.0  0.0     0    0 ?        S    Jul04   0:00 [kpsmoused]
+root      1455  0.0  0.0  3688  472 ?        Ss   Jul04   0:00 udevd
+root      1609  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksuspend_usbd]
+root      1619  0.0  0.0     0    0 ?        S    Jul04   0:00 [khubd]
+root      1990  0.0  0.0     0    0 ?        S    Jul04   0:00 [kauditd]
+root      2282  0.0  0.0     0    0 ?        S    Jul04   0:00 [usbhid_resumer]
+root      2452  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_1]
+root      2453  0.0  0.0     0    0 ?        S    Jul04   0:00 [usb-storage]
+root      2457  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_2]
+root      2458  0.0  0.0     0    0 ?        S    Jul04   0:00 [usb-storage]
+root      2530  0.0  0.0     0    0 ?        S    Jul04   0:00 [kstriped]
+root      3029  0.0  0.0     0    0 ?        S    Jul04   0:18 [flush-8:0]
+root      3169  0.0  0.0 37164 2648 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    3177  0.0  0.0 37304 1840 ?        S    Jul09   0:00 sshd: yeqing@pts/17
+yeqing    3178  0.0  0.0 55072 1648 pts/17   Ss+  Jul09   0:00 -bash
+rpc       3209  0.0  0.0  4816  500 ?        Ss   Jul04   0:00 portmap
+root      3218  0.0  0.0  8348  644 ?        Ss   Jul04   5:16 /usr/local/sbin/cgrulesengd
+root      3229  0.0  0.0 22028 1296 ?        Ss   Jul04   0:02 /usr/sbin/sshd
+root      3231  0.0  0.0     0    0 ?        S    Jul04   0:00 [cqueue]
+root      3247  0.0  0.0 37164 2636 ?        Ss   Jul09   0:00 sshd: lanbijia [priv]
+lanbijia  3261  0.0  0.0 37164 1820 ?        S    Jul09   0:00 sshd: lanbijia@pts/34
+lanbijia  3262  0.0  0.0 55072 1624 pts/34   Ss+  Jul09   0:00 -bash
+root      3288  0.0  0.0  8792  672 ?        Ss   Jul04   0:00 xinetd -stayalive -pidfile /var/run/xinetd.pid
+root      3297  0.0  0.0 57112  980 ?        Ss   Jul04   0:00 crond
+dbus      3306  0.0  0.0  9768  396 ?        Ss   Jul04   0:00 dbus-daemon-1 --system
+root      3313  0.0  0.0  1400  196 ?        S    Jul04   0:00 ./supervise -u ./status ./proftpd -n
+root      3347  0.0  0.0  5856  724 ?        Ss   Jul04   0:01 syslogd -m 0
+root      3351  0.0  0.0  2620  368 ?        Ss   Jul04   0:00 klogd -x
+root      3367  0.0  0.0  3148  420 ?        Ss   Jul04   0:00 ./supervise.agent -p /home/noah/client/core_client/../data_client/status/client -f /home/noah/client/core_client/bin//noah-agent
+root      3452  0.0  0.0  3148  424 ?        Ss   Jul04   0:00 ./supervise.drct -p /home/noah/dr-ct/ct-slave/bin/status/drct -f /home/noah/dr-ct/ct-slave/bin/drct -r /home/noah/dr-ct/ct-slave/../../warning.sh -t 60
+root      4196  0.0  0.0  2608  408 tty1     Ss+  Jul04   0:00 /sbin/mingetty tty1
+root      4197  0.0  0.0  2608  408 tty2     Ss+  Jul04   0:00 /sbin/mingetty tty2
+root      4198  0.0  0.0  2608  408 tty3     Ss+  Jul04   0:00 /sbin/mingetty tty3
+root      4199  0.0  0.0  2608  404 tty4     Ss+  Jul04   0:00 /sbin/mingetty tty4
+root      4200  0.0  0.0  2608  408 tty5     Ss+  Jul04   0:00 /sbin/mingetty tty5
+root      4201  0.0  0.0  2608  404 tty6     Ss+  Jul04   0:00 /sbin/mingetty tty6
+root      4349  0.1  0.0 281952 5524 ?       Sl   Jul04  10:23 /home/noah/dr-ct/ct-slave/bin/drct
+daemon    4444  0.0  0.0 87652 5752 ?        S    11:52   0:00 /usr/local/apache2/bin/httpd -k start
+root      5027  0.0  0.0 37164 2824 ?        Ss   11:15   0:00 sshd: fangjun [priv]
+fangjun   5181  0.0  0.0 37312 1848 ?        S    11:15   0:00 sshd: fangjun@pts/33
+fangjun   5182  0.0  0.0 55072 1608 pts/33   Ss+  11:15   0:00 -bash
+root      5543  0.0  0.0 37164 2824 ?        Ss   07:59   0:00 sshd: yanchong [priv]
+yanchong  5547  0.0  0.0 37312 1904 ?        S    07:59   0:00 sshd: yanchong@pts/3
+yanchong  5548  0.0  0.0 55068 1620 pts/3    Ss+  07:59   0:00 -bash
+root      5589  0.0  0.0 37164 2820 ?        Ss   07:59   0:00 sshd: yanchong [priv]
+yanchong  5593  0.0  0.0 37164 1828 ?        S    07:59   0:00 sshd: yanchong@pts/5
+yanchong  5594  0.0  0.0 55068 1608 pts/5    Ss   07:59   0:00 -bash
+root      5788  0.0  0.0 37164 2820 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng    5809  0.0  0.0 37312 1840 ?        S    Jul09   0:00 sshd: xjmeng@pts/18
+xjmeng    5810  0.0  0.0 55192 1696 pts/18   Ss   Jul09   0:00 -bash
+daemon    5988  0.0  0.0 87552 5708 ?        S    12:47   0:00 /usr/local/apache2/bin/httpd -k start
+root      6017  0.0  0.0 87420 4664 ?        Ss   Jul04   0:00 /usr/local/apache2/bin/httpd -k start
+yanchong  6111  0.0  0.0 75608 4256 pts/5    S+   08:02   0:00 vim file_request.cpp
+root      6312  0.0  0.0 53864 1232 ?        S    Jul04   0:00 /bin/sh ./mysqld_safe
+mysql     6408  0.0  0.0 49220 6024 ?        Sl   Jul04   0:00 /home/mysql/mysql_5.1.58/libexec/mysqld --basedir=/home/mysql/mysql_5.1.58 --datadir=/home/mysql/mysql_5.1.58/var --user=mysql --log-error=/home/mysql/mysql_5.1.58/var/tc-hadoop-data04.tc.baidu.com.err --pid-file=/home/mysql/mysql_5.1.58/var/tc-hadoop-data04.tc.baidu.com.pid --socket=/home/mysql/mysql_5.1.58/tmp/mysql.sock --port=8123
+daemon    6703  0.0  0.0 87656 5728 ?        S    11:55   0:00 /usr/local/apache2/bin/httpd -k start
+root      6974  0.0  0.0 37164 2648 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    7035  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/1
+yeqing    7036  0.0  0.0 55072 1652 pts/1    Ss+  Jul09   0:00 -bash
+root      7818  0.0  0.0 37164 2648 ?        Ss   11:20   0:00 sshd: yeqing [priv]
+yeqing    7834  0.0  0.0 37164 1820 ?        S    11:20   0:00 sshd: yeqing@pts/35
+yeqing    7835  0.0  0.0 55072 1652 pts/35   Ss+  11:20   0:00 -bash
+root      8133  0.0  0.0 37164 2644 ?        Ss   10:20   0:00 sshd: lanbijia [priv]
+lanbijia  8137  0.0  0.0 37304 1836 ?        S    10:20   0:00 sshd: lanbijia@pts/31
+lanbijia  8138  0.0  0.0 55068 1596 pts/31   Ss   10:20   0:00 -bash
+lanbijia  8170  0.0  0.0 19860 2388 pts/31   S+   10:20   0:00 ssh udw_rt@jx-mpi-fcr047.jx.baidu.com
+522       8192  0.0  0.0 55212 1656 pts/13   Ss   Jul05   0:00 /bin/bash
+522       8270  0.0  0.0 55208 1728 pts/14   Ss+  Jul05   0:00 /bin/bash
+root      8439  0.0  0.0 37164 2816 ?        Ss   08:11   0:00 sshd: yanchong [priv]
+yanchong  8443  0.0  0.0 37164 1832 ?        S    08:11   0:00 sshd: yanchong@pts/6
+yanchong  8444  0.0  0.0 55068 1620 pts/6    Ss   08:11   0:00 -bash
+root      8487  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    8492  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/22
+yeqing    8493  0.0  0.0 55196 1728 pts/22   Ss   Jul09   0:00 -bash
+522       8932  0.0  0.0 55208 1656 pts/16   Ss+  Jul05   0:00 /bin/bash
+daemon    9091  0.0  0.0 87552 5580 ?        S    11:57   0:00 /usr/local/apache2/bin/httpd -k start
+522       9808  0.0  0.0 55080 1612 pts/21   Ss   Jul05   0:00 /bin/bash
+522       9859  0.0  0.0 19864 2296 pts/21   S+   Jul05   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+nobody   11349  0.0  0.0 10924 1176 ?        S    Jul04   0:01 proftpd: (accepting connections)
+522      11632  0.0  0.0 62616 4156 ?        Ss   Jul04   0:09 SCREEN -R zhenpeng01
+522      11634  0.0  0.0 55208 1712 pts/7    Ss+  Jul04   0:00 /bin/bash
+daemon   12029  0.0  0.0 87552 5416 ?        S    12:56   0:00 /usr/local/apache2/bin/httpd -k start
+root     12068  0.0  0.0 54936 1228 ?        S    Jul07   0:00 /bin/sh /home/noah/client/core_client/bin//noah-agent
+root     12072  0.4  0.0 313248 6800 ?       Sl   Jul07  21:19 ./noah-agent64
+522      13345  0.0  0.0 19864 2452 pts/24   S+   Jul09   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+522      13645  0.0  0.0 19864 2444 pts/15   S+   Jul09   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+root     14213  0.0  0.0 18036 1680 ?        S    Jul07   0:00 executor: Sailor Jupiter [1.0.9.0]
+root     14214  0.0  0.0 18036 1820 ?        S    Jul07   0:00 executor: Sailor Moon [1.0.9.0]
+root     14462  0.0  0.0  3148  424 ?        Ss   Jul07   0:00 ./supervise.bscpserver -p /home/noah/tools/bscp/status//bscpserver -f /home/noah/tools/bscp/sbin//bscpserver -D
+root     14463  0.0  0.0 29616 2636 ?        S    Jul07   0:00 /home/noah/tools/bscp/sbin//bscpserver -D
+root     16296  0.0  0.0 37164 2816 ?        Ss   12:12   0:00 sshd: zhangyuncong [priv]
+507      16312  0.0  0.0 37312 1848 ?        S    12:12   0:00 sshd: zhangyuncong@pts/25
+507      16313  0.0  0.0 55196 1636 pts/25   Ss+  12:12   0:00 -bash
+root     16574  0.0  0.0 37164 2824 ?        Ss   10:36   0:00 sshd: zhangyuncong [priv]
+507      16590  0.0  0.0 37312 1848 ?        S    10:36   0:00 sshd: zhangyuncong@pts/28
+507      16591  0.0  0.0 55196 1644 pts/28   Ss+  10:36   0:00 -bash
+daemon   17737  0.0  0.0 87552 5384 ?        S    13:08   0:00 /usr/local/apache2/bin/httpd -k start
+522      17919  0.0  0.0 55204 1652 pts/20   Ss+  Jul05   0:00 /bin/bash
+root     17988  0.0  0.0 37164 2820 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng   17992  0.0  0.0 37312 1840 ?        S    Jul09   0:00 sshd: xjmeng@pts/29
+xjmeng   17993  0.0  0.0 55076 1620 pts/29   Ss+  Jul09   0:00 -bash
+root     18233  0.0  0.0 37164 2816 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng   18237  0.0  0.0 37312 1880 ?        S    Jul09   0:01 sshd: xjmeng@pts/30
+xjmeng   18238  0.0  0.0 55200 1644 pts/30   Ss+  Jul09   0:00 -bash
+yanchong 18294  0.0  0.0 75616 4144 pts/6    S+   13:09   0:00 vim DiskMan.h
+yanchong 18355  0.0  0.0 75656 4188 pts/0    S+   13:09   0:00 vim note_DiskMan.cpp
+root     18470  0.0  0.0 37164 2648 ?        Ss   Jul06   0:00 sshd: lizx [priv]
+lizx     18477  0.0  0.0 37304 1840 ?        S    Jul06   0:01 sshd: lizx@pts/2 
+lizx     18478  0.0  0.0 55200 1740 pts/2    Ss+  Jul06   0:00 -bash
+505      18603  0.0  0.0 18032 1444 ?        Ss   Jul04   0:00 ./httpd
+505      18604  0.0  0.0 18356 1968 ?        S    Jul04   0:00 ./httpd
+505      18605  0.0  0.0 18352 2108 ?        S    Jul04   0:00 ./httpd
+505      18606  0.0  0.0 18356 2252 ?        S    Jul04   0:00 ./httpd
+505      18607  0.0  0.0 18228 2128 ?        S    Jul04   0:00 ./httpd
+505      18608  0.0  0.0 18220 2040 ?        S    Jul04   0:00 ./httpd
+505      18647  0.0  0.0 53864 1100 ?        S    Jul04   0:00 sh git_daemon.sh
+505      18648  0.0  0.0 15500  900 ?        S    Jul04   0:00 git daemon --verbose --export-all --base-path=/home/zhanggengxin/tools/httpd/gitrepo/ --port=12000 --enable=receive-pack
+505      18649  0.0  0.0 14628  960 ?        S    Jul04   0:00 git-daemon --verbose --export-all --base-path=/home/zhanggengxin/tools/httpd/gitrepo/ --port=12000 --enable=receive-pack
+505      18662  0.0  0.0 18356 2220 ?        S    Jul04   0:00 ./httpd
+505      18663  0.0  0.0 18228 2068 ?        S    Jul04   0:00 ./httpd
+505      18664  0.0  0.0 18228 2108 ?        S    Jul04   0:00 ./httpd
+daemon   19075  0.0  0.0 87552 5324 ?        S    13:10   0:00 /usr/local/apache2/bin/httpd -k start
+522      20670  0.0  0.0 75608 4312 pts/13   S+   13:13   0:00 vim echo_pe/echo_pe.cc
+xjmeng   20693 99.5  0.0 47324 2740 pts/18   Rl+  13:13  11:28 ./dict_manager
+yeqing   21151  0.0  0.0 53864 1132 pts/22   S+   13:14   0:00 /bin/sh ./submit.sh 32
+yeqing   21248  0.0  0.0 54000 1400 pts/22   S+   13:14   0:00 /bin/sh /home/yeqing/soft/hpc/hpc_client/bin/qsub_f --hdfs hdfs://hy-ecomoff-hdfs.dmop.baidu.com:54310 --ugi mpi,hpcinit --hout /app/mpi/yeqing/tmp/pp.matrix --files bin,conf -N pp.matrix -l nodes=32,walltime=02:00:00 job.sh
+522      21810  0.0  0.0 55204 1652 pts/23   Ss+  Jul05   0:00 /bin/bash
+root     21854  0.0  0.0 37164 2812 ?        Ss   12:22   0:00 sshd: zhangyuncong [priv]
+507      21875  0.0  0.0 37312 1844 ?        S    12:22   0:00 sshd: zhangyuncong@pts/36
+507      21876  0.0  0.0 55196 1652 pts/36   Ss   12:22   0:00 -bash
+root     22872  0.0  0.0 37164 2812 ?        Ss   09:19   0:00 sshd: zhenpeng01 [priv]
+522      22876  0.0  0.0 37312 1844 ?        S    09:19   0:00 sshd: zhenpeng01@pts/8
+522      22877  0.0  0.0 55076 1600 pts/8    Ss   09:19   0:00 -bash
+522      22902  0.0  0.0 53864 1096 pts/8    S+   09:19   0:00 /bin/bash /home/zhenpeng01/bin/zhenpeng
+522      22903  0.0  0.0 59344  936 pts/8    S+   09:19   0:00 screen -R zhenpeng01
+522      23480  0.0  0.0 55208 1648 pts/24   Ss   Jul05   0:00 /bin/bash
+root     23671  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing   23677  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/19
+yeqing   23678  0.0  0.0 55204 1656 pts/19   Ss+  Jul09   0:00 -bash
+505      24012  0.0  0.0 18228 2128 ?        S    Jul05   0:00 ./httpd
+522      24574  0.0  0.0 55208 1632 pts/15   Ss   Jul05   0:00 /bin/bash
+root     24965  0.0  0.0 37164 2816 ?        Ss   13:21   0:00 sshd: xjmeng [priv]
+xjmeng   24981  0.0  0.0 37312 1844 ?        S    13:21   0:00 sshd: xjmeng@pts/32
+xjmeng   24982  0.0  0.0 55076 1616 pts/32   Ss   13:21   0:00 -bash
+daemon   25229  0.0  0.0 87552 4028 ?        S    13:21   0:00 /usr/local/apache2/bin/httpd -k start
+xjmeng   25259  0.0  0.0 76032 4712 pts/32   S+   13:21   0:00 vim dict_manager.cc
+daemon   25465  0.0  0.0 87552 3620 ?        S    13:21   0:00 /usr/local/apache2/bin/httpd -k start
+root     26692  0.0  0.0 37164 2820 ?        Ss   09:38   0:00 sshd: yanchong [priv]
+yanchong 26696  0.0  0.0 37164 1828 ?        S    09:38   0:00 sshd: yanchong@pts/0
+yanchong 26697  0.0  0.0 55068 1612 pts/0    Ss   09:38   0:00 -bash
+yeqing   27226  0.0  0.0 53772  532 pts/22   S+   13:24   0:00 sleep 3
+507      27227  0.0  0.0  5516  800 pts/36   R+   13:24   0:00 ps aux
+root     29579  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing   29595  0.0  0.0 37304 1832 ?        S    Jul09   0:00 sshd: yeqing@pts/27
+yeqing   29596  0.0  0.0 55200 1740 pts/27   Ss+  Jul09   0:00 -bash
+root     29800  0.0  0.0 37164 2820 ?        Ss   09:49   0:00 sshd: fangjun [priv]
+fangjun  29804  0.0  0.0 37312 1852 ?        S    09:49   0:00 sshd: fangjun@pts/9
+fangjun  29805  0.0  0.0 55072 1616 pts/9    Ss+  09:49   0:00 -bash
+root     30773  0.0  0.0 37164 2824 ?        Ss   09:51   0:00 sshd: luxing [priv]
+luxing   30777  0.0  0.0 37164 1828 ?        S    09:51   0:00 sshd: luxing@pts/11
+luxing   30778  0.0  0.0 55072 1620 pts/11   Ss+  09:51   0:00 -bash
+daemon   32232  0.0  0.0 87552 5360 ?        S    12:34   0:00 /usr/local/apache2/bin/httpd -k start
+522      32456  0.0  0.0 55080 1604 pts/12   Ss   09:59   0:00 /bin/bash
+root     32497  0.0  0.0 37164 2648 ?        Ss   09:59   0:00 sshd: lanbijia [priv]
+lanbijia 32501  0.0  0.0 37300 1840 ?        S    09:59   0:00 sshd: lanbijia@pts/26
+lanbijia 32502  0.0  0.0 55204 1616 pts/26   Ss+  09:59   0:00 -bash
+522      32545  0.0  0.0 20016 2532 pts/12   S+   10:00   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+USER       PID %CPU %MEM   VSZ  RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  4828  560 ?        Ss   Jul04   0:00 init [3]                    
+root         2  0.0  0.0     0    0 ?        S    Jul04   0:00 [kthreadd]
+root         3  0.0  0.0     0    0 ?        S    Jul04   0:00 [migration/0]
+root         4  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/0]
+root         5  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/0]
+root         6  0.0  0.0     0    0 ?        S    Jul04   0:00 [migration/1]
+root         7  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/1]
+root         8  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/1]
+root         9  0.0  0.0     0    0 ?        S    Jul04   0:01 [migration/2]
+root        10  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/2]
+root        11  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/2]
+root        12  0.0  0.0     0    0 ?        S    Jul04   0:01 [migration/3]
+root        13  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/3]
+root        14  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/3]
+root        15  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/0]
+root        16  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/1]
+root        17  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/2]
+root        18  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/3]
+root        19  0.0  0.0     0    0 ?        S    Jul04   0:00 [cpuset]
+root        20  0.0  0.0     0    0 ?        S    Jul04   0:02 [khelper]
+root        25  0.0  0.0     0    0 ?        S    Jul04   0:00 [async/mgr]
+root       123  0.0  0.0     0    0 ?        S    Jul04   0:00 [sync_supers]
+root       125  0.0  0.0     0    0 ?        S    Jul04   0:00 [bdi-default]
+root       126  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/0]
+root       127  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/1]
+root       128  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/2]
+root       129  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/3]
+root       131  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpid]
+root       132  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpi_notify]
+root       133  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpi_hotplug]
+root       250  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/0]
+root       251  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/1]
+root       252  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/2]
+root       253  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/3]
+root       254  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata_aux]
+root       259  0.0  0.0     0    0 ?        S    Jul04   0:00 [kseriod]
+root       340  0.0  0.0     0    0 ?        S    Jul04   0:00 [khungtaskd]
+root       341  0.0  0.0     0    0 ?        S    Jul04   0:15 [kswapd0]
+root       391  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/0]
+root       392  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/1]
+root       393  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/2]
+root       394  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/3]
+root       548  0.0  0.0     0    0 ?        S    Jul04   0:00 [cciss_scan]
+root       592  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_0]
+root       630  0.0  0.0     0    0 ?        S    Jul04   0:00 [kpsmoused]
+root      1455  0.0  0.0  3688  472 ?        Ss   Jul04   0:00 udevd
+root      1609  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksuspend_usbd]
+root      1619  0.0  0.0     0    0 ?        S    Jul04   0:00 [khubd]
+root      1990  0.0  0.0     0    0 ?        S    Jul04   0:00 [kauditd]
+root      2282  0.0  0.0     0    0 ?        S    Jul04   0:00 [usbhid_resumer]
+root      2452  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_1]
+root      2453  0.0  0.0     0    0 ?        S    Jul04   0:00 [usb-storage]
+root      2457  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_2]
+root      2458  0.0  0.0     0    0 ?        S    Jul04   0:00 [usb-storage]
+root      2530  0.0  0.0     0    0 ?        S    Jul04   0:00 [kstriped]
+root      3029  0.0  0.0     0    0 ?        S    Jul04   0:18 [flush-8:0]
+root      3169  0.0  0.0 37164 2648 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    3177  0.0  0.0 37304 1840 ?        S    Jul09   0:00 sshd: yeqing@pts/17
+yeqing    3178  0.0  0.0 55072 1648 pts/17   Ss+  Jul09   0:00 -bash
+rpc       3209  0.0  0.0  4816  500 ?        Ss   Jul04   0:00 portmap
+root      3218  0.0  0.0  8348  644 ?        Ss   Jul04   5:16 /usr/local/sbin/cgrulesengd
+root      3229  0.0  0.0 22028 1296 ?        Ss   Jul04   0:02 /usr/sbin/sshd
+root      3231  0.0  0.0     0    0 ?        S    Jul04   0:00 [cqueue]
+root      3247  0.0  0.0 37164 2636 ?        Ss   Jul09   0:00 sshd: lanbijia [priv]
+lanbijia  3261  0.0  0.0 37164 1820 ?        S    Jul09   0:00 sshd: lanbijia@pts/34
+lanbijia  3262  0.0  0.0 55072 1624 pts/34   Ss+  Jul09   0:00 -bash
+root      3288  0.0  0.0  8792  672 ?        Ss   Jul04   0:00 xinetd -stayalive -pidfile /var/run/xinetd.pid
+root      3297  0.0  0.0 57112  980 ?        Ss   Jul04   0:00 crond
+dbus      3306  0.0  0.0  9768  396 ?        Ss   Jul04   0:00 dbus-daemon-1 --system
+root      3313  0.0  0.0  1400  196 ?        S    Jul04   0:00 ./supervise -u ./status ./proftpd -n
+root      3347  0.0  0.0  5856  724 ?        Ss   Jul04   0:01 syslogd -m 0
+root      3351  0.0  0.0  2620  368 ?        Ss   Jul04   0:00 klogd -x
+root      3367  0.0  0.0  3148  420 ?        Ss   Jul04   0:00 ./supervise.agent -p /home/noah/client/core_client/../data_client/status/client -f /home/noah/client/core_client/bin//noah-agent
+root      3452  0.0  0.0  3148  424 ?        Ss   Jul04   0:00 ./supervise.drct -p /home/noah/dr-ct/ct-slave/bin/status/drct -f /home/noah/dr-ct/ct-slave/bin/drct -r /home/noah/dr-ct/ct-slave/../../warning.sh -t 60
+root      4196  0.0  0.0  2608  408 tty1     Ss+  Jul04   0:00 /sbin/mingetty tty1
+root      4197  0.0  0.0  2608  408 tty2     Ss+  Jul04   0:00 /sbin/mingetty tty2
+root      4198  0.0  0.0  2608  408 tty3     Ss+  Jul04   0:00 /sbin/mingetty tty3
+root      4199  0.0  0.0  2608  404 tty4     Ss+  Jul04   0:00 /sbin/mingetty tty4
+root      4200  0.0  0.0  2608  408 tty5     Ss+  Jul04   0:00 /sbin/mingetty tty5
+root      4201  0.0  0.0  2608  404 tty6     Ss+  Jul04   0:00 /sbin/mingetty tty6
+root      4349  0.1  0.0 281952 5524 ?       Sl   Jul04  10:23 /home/noah/dr-ct/ct-slave/bin/drct
+daemon    4444  0.0  0.0 87652 5752 ?        S    11:52   0:00 /usr/local/apache2/bin/httpd -k start
+root      5027  0.0  0.0 37164 2824 ?        Ss   11:15   0:00 sshd: fangjun [priv]
+fangjun   5181  0.0  0.0 37312 1848 ?        S    11:15   0:00 sshd: fangjun@pts/33
+fangjun   5182  0.0  0.0 55072 1608 pts/33   Ss+  11:15   0:00 -bash
+root      5543  0.0  0.0 37164 2824 ?        Ss   07:59   0:00 sshd: yanchong [priv]
+yanchong  5547  0.0  0.0 37312 1904 ?        S    07:59   0:00 sshd: yanchong@pts/3
+yanchong  5548  0.0  0.0 55068 1620 pts/3    Ss+  07:59   0:00 -bash
+root      5589  0.0  0.0 37164 2820 ?        Ss   07:59   0:00 sshd: yanchong [priv]
+yanchong  5593  0.0  0.0 37164 1828 ?        S    07:59   0:00 sshd: yanchong@pts/5
+yanchong  5594  0.0  0.0 55068 1608 pts/5    Ss   07:59   0:00 -bash
+root      5788  0.0  0.0 37164 2820 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng    5809  0.0  0.0 37312 1840 ?        S    Jul09   0:00 sshd: xjmeng@pts/18
+xjmeng    5810  0.0  0.0 55192 1696 pts/18   Ss   Jul09   0:00 -bash
+daemon    5988  0.0  0.0 87552 5708 ?        S    12:47   0:00 /usr/local/apache2/bin/httpd -k start
+root      6017  0.0  0.0 87420 4664 ?        Ss   Jul04   0:00 /usr/local/apache2/bin/httpd -k start
+yanchong  6111  0.0  0.0 75608 4256 pts/5    S+   08:02   0:00 vim file_request.cpp
+root      6312  0.0  0.0 53864 1232 ?        S    Jul04   0:00 /bin/sh ./mysqld_safe
+mysql     6408  0.0  0.0 49220 6024 ?        Sl   Jul04   0:00 /home/mysql/mysql_5.1.58/libexec/mysqld --basedir=/home/mysql/mysql_5.1.58 --datadir=/home/mysql/mysql_5.1.58/var --user=mysql --log-error=/home/mysql/mysql_5.1.58/var/tc-hadoop-data04.tc.baidu.com.err --pid-file=/home/mysql/mysql_5.1.58/var/tc-hadoop-data04.tc.baidu.com.pid --socket=/home/mysql/mysql_5.1.58/tmp/mysql.sock --port=8123
+daemon    6703  0.0  0.0 87656 5728 ?        S    11:55   0:00 /usr/local/apache2/bin/httpd -k start
+root      6974  0.0  0.0 37164 2648 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    7035  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/1
+yeqing    7036  0.0  0.0 55072 1652 pts/1    Ss+  Jul09   0:00 -bash
+root      7818  0.0  0.0 37164 2648 ?        Ss   11:20   0:00 sshd: yeqing [priv]
+yeqing    7834  0.0  0.0 37164 1820 ?        S    11:20   0:00 sshd: yeqing@pts/35
+yeqing    7835  0.0  0.0 55072 1652 pts/35   Ss+  11:20   0:00 -bash
+root      8133  0.0  0.0 37164 2644 ?        Ss   10:20   0:00 sshd: lanbijia [priv]
+lanbijia  8137  0.0  0.0 37304 1836 ?        S    10:20   0:00 sshd: lanbijia@pts/31
+lanbijia  8138  0.0  0.0 55068 1596 pts/31   Ss   10:20   0:00 -bash
+lanbijia  8170  0.0  0.0 19860 2388 pts/31   S+   10:20   0:00 ssh udw_rt@jx-mpi-fcr047.jx.baidu.com
+522       8192  0.0  0.0 55212 1656 pts/13   Ss   Jul05   0:00 /bin/bash
+522       8270  0.0  0.0 55208 1728 pts/14   Ss+  Jul05   0:00 /bin/bash
+root      8439  0.0  0.0 37164 2816 ?        Ss   08:11   0:00 sshd: yanchong [priv]
+yanchong  8443  0.0  0.0 37164 1832 ?        S    08:11   0:00 sshd: yanchong@pts/6
+yanchong  8444  0.0  0.0 55068 1620 pts/6    Ss   08:11   0:00 -bash
+root      8487  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    8492  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/22
+yeqing    8493  0.0  0.0 55196 1728 pts/22   Ss   Jul09   0:00 -bash
+522       8932  0.0  0.0 55208 1656 pts/16   Ss+  Jul05   0:00 /bin/bash
+daemon    9091  0.0  0.0 87552 5580 ?        S    11:57   0:00 /usr/local/apache2/bin/httpd -k start
+522       9808  0.0  0.0 55080 1612 pts/21   Ss   Jul05   0:00 /bin/bash
+522       9859  0.0  0.0 19864 2296 pts/21   S+   Jul05   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+nobody   11349  0.0  0.0 10924 1176 ?        S    Jul04   0:01 proftpd: (accepting connections)
+522      11632  0.0  0.0 62616 4156 ?        Ss   Jul04   0:09 SCREEN -R zhenpeng01
+522      11634  0.0  0.0 55208 1712 pts/7    Ss+  Jul04   0:00 /bin/bash
+daemon   12029  0.0  0.0 87552 5416 ?        S    12:56   0:00 /usr/local/apache2/bin/httpd -k start
+root     12068  0.0  0.0 54936 1228 ?        S    Jul07   0:00 /bin/sh /home/noah/client/core_client/bin//noah-agent
+root     12072  0.4  0.0 313248 6800 ?       Sl   Jul07  21:19 ./noah-agent64
+522      13345  0.0  0.0 19864 2452 pts/24   S+   Jul09   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+522      13645  0.0  0.0 19864 2444 pts/15   S+   Jul09   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+root     14213  0.0  0.0 18036 1680 ?        S    Jul07   0:00 executor: Sailor Jupiter [1.0.9.0]
+root     14214  0.0  0.0 18036 1820 ?        S    Jul07   0:00 executor: Sailor Moon [1.0.9.0]
+root     14462  0.0  0.0  3148  424 ?        Ss   Jul07   0:00 ./supervise.bscpserver -p /home/noah/tools/bscp/status//bscpserver -f /home/noah/tools/bscp/sbin//bscpserver -D
+root     14463  0.0  0.0 29616 2636 ?        S    Jul07   0:00 /home/noah/tools/bscp/sbin//bscpserver -D
+root     16296  0.0  0.0 37164 2816 ?        Ss   12:12   0:00 sshd: zhangyuncong [priv]
+507      16312  0.0  0.0 37312 1848 ?        S    12:12   0:00 sshd: zhangyuncong@pts/25
+507      16313  0.0  0.0 55196 1636 pts/25   Ss+  12:12   0:00 -bash
+root     16574  0.0  0.0 37164 2824 ?        Ss   10:36   0:00 sshd: zhangyuncong [priv]
+507      16590  0.0  0.0 37312 1848 ?        S    10:36   0:00 sshd: zhangyuncong@pts/28
+507      16591  0.0  0.0 55196 1644 pts/28   Ss+  10:36   0:00 -bash
+daemon   17737  0.0  0.0 87552 5384 ?        S    13:08   0:00 /usr/local/apache2/bin/httpd -k start
+522      17919  0.0  0.0 55204 1652 pts/20   Ss+  Jul05   0:00 /bin/bash
+root     17988  0.0  0.0 37164 2820 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng   17992  0.0  0.0 37312 1840 ?        S    Jul09   0:00 sshd: xjmeng@pts/29
+xjmeng   17993  0.0  0.0 55076 1620 pts/29   Ss+  Jul09   0:00 -bash
+root     18233  0.0  0.0 37164 2816 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng   18237  0.0  0.0 37312 1880 ?        S    Jul09   0:01 sshd: xjmeng@pts/30
+xjmeng   18238  0.0  0.0 55200 1644 pts/30   Ss+  Jul09   0:00 -bash
+yanchong 18294  0.0  0.0 75616 4144 pts/6    S+   13:09   0:00 vim DiskMan.h
+yanchong 18355  0.0  0.0 75656 4188 pts/0    S+   13:09   0:00 vim note_DiskMan.cpp
+root     18470  0.0  0.0 37164 2648 ?        Ss   Jul06   0:00 sshd: lizx [priv]
+lizx     18477  0.0  0.0 37304 1840 ?        S    Jul06   0:01 sshd: lizx@pts/2 
+lizx     18478  0.0  0.0 55200 1740 pts/2    Ss+  Jul06   0:00 -bash
+505      18603  0.0  0.0 18032 1444 ?        Ss   Jul04   0:00 ./httpd
+505      18604  0.0  0.0 18356 1968 ?        S    Jul04   0:00 ./httpd
+505      18605  0.0  0.0 18352 2108 ?        S    Jul04   0:00 ./httpd
+505      18606  0.0  0.0 18356 2252 ?        S    Jul04   0:00 ./httpd
+505      18607  0.0  0.0 18228 2128 ?        S    Jul04   0:00 ./httpd
+505      18608  0.0  0.0 18220 2040 ?        S    Jul04   0:00 ./httpd
+505      18647  0.0  0.0 53864 1100 ?        S    Jul04   0:00 sh git_daemon.sh
+505      18648  0.0  0.0 15500  900 ?        S    Jul04   0:00 git daemon --verbose --export-all --base-path=/home/zhanggengxin/tools/httpd/gitrepo/ --port=12000 --enable=receive-pack
+505      18649  0.0  0.0 14628  960 ?        S    Jul04   0:00 git-daemon --verbose --export-all --base-path=/home/zhanggengxin/tools/httpd/gitrepo/ --port=12000 --enable=receive-pack
+505      18662  0.0  0.0 18356 2220 ?        S    Jul04   0:00 ./httpd
+505      18663  0.0  0.0 18228 2068 ?        S    Jul04   0:00 ./httpd
+505      18664  0.0  0.0 18228 2108 ?        S    Jul04   0:00 ./httpd
+daemon   19075  0.0  0.0 87552 5324 ?        S    13:10   0:00 /usr/local/apache2/bin/httpd -k start
+522      20670  0.0  0.0 75608 4312 pts/13   S+   13:13   0:00 vim echo_pe/echo_pe.cc
+xjmeng   20693 99.6  0.0 47324 2740 pts/18   Rl+  13:13  11:28 ./dict_manager
+yeqing   21151  0.0  0.0 53864 1132 pts/22   S+   13:14   0:00 /bin/sh ./submit.sh 32
+yeqing   21248  0.0  0.0 54000 1400 pts/22   S+   13:14   0:00 /bin/sh /home/yeqing/soft/hpc/hpc_client/bin/qsub_f --hdfs hdfs://hy-ecomoff-hdfs.dmop.baidu.com:54310 --ugi mpi,hpcinit --hout /app/mpi/yeqing/tmp/pp.matrix --files bin,conf -N pp.matrix -l nodes=32,walltime=02:00:00 job.sh
+522      21810  0.0  0.0 55204 1652 pts/23   Ss+  Jul05   0:00 /bin/bash
+root     21854  0.0  0.0 37164 2812 ?        Ss   12:22   0:00 sshd: zhangyuncong [priv]
+507      21875  0.0  0.0 37312 1844 ?        S    12:22   0:00 sshd: zhangyuncong@pts/36
+507      21876  0.0  0.0 55196 1652 pts/36   Ss   12:22   0:00 -bash
+root     22872  0.0  0.0 37164 2812 ?        Ss   09:19   0:00 sshd: zhenpeng01 [priv]
+522      22876  0.0  0.0 37312 1844 ?        S    09:19   0:00 sshd: zhenpeng01@pts/8
+522      22877  0.0  0.0 55076 1600 pts/8    Ss   09:19   0:00 -bash
+522      22902  0.0  0.0 53864 1096 pts/8    S+   09:19   0:00 /bin/bash /home/zhenpeng01/bin/zhenpeng
+522      22903  0.0  0.0 59344  936 pts/8    S+   09:19   0:00 screen -R zhenpeng01
+522      23480  0.0  0.0 55208 1648 pts/24   Ss   Jul05   0:00 /bin/bash
+root     23671  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing   23677  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/19
+yeqing   23678  0.0  0.0 55204 1656 pts/19   Ss+  Jul09   0:00 -bash
+505      24012  0.0  0.0 18228 2128 ?        S    Jul05   0:00 ./httpd
+522      24574  0.0  0.0 55208 1632 pts/15   Ss   Jul05   0:00 /bin/bash
+root     24965  0.0  0.0 37164 2816 ?        Ss   13:21   0:00 sshd: xjmeng [priv]
+xjmeng   24981  0.0  0.0 37312 1844 ?        S    13:21   0:00 sshd: xjmeng@pts/32
+xjmeng   24982  0.0  0.0 55076 1616 pts/32   Ss   13:21   0:00 -bash
+daemon   25229  0.0  0.0 87552 4028 ?        S    13:21   0:00 /usr/local/apache2/bin/httpd -k start
+xjmeng   25259  0.0  0.0 76032 4712 pts/32   S+   13:21   0:00 vim dict_manager.cc
+daemon   25465  0.0  0.0 87552 3620 ?        S    13:21   0:00 /usr/local/apache2/bin/httpd -k start
+root     26692  0.0  0.0 37164 2820 ?        Ss   09:38   0:00 sshd: yanchong [priv]
+yanchong 26696  0.0  0.0 37164 1828 ?        S    09:38   0:00 sshd: yanchong@pts/0
+yanchong 26697  0.0  0.0 55068 1612 pts/0    Ss   09:38   0:00 -bash
+yeqing   27226  0.0  0.0 53772  532 pts/22   S+   13:24   0:00 sleep 3
+507      27228  0.0  0.0  5516  800 pts/36   R+   13:24   0:00 ps aux
+root     29579  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing   29595  0.0  0.0 37304 1832 ?        S    Jul09   0:00 sshd: yeqing@pts/27
+yeqing   29596  0.0  0.0 55200 1740 pts/27   Ss+  Jul09   0:00 -bash
+root     29800  0.0  0.0 37164 2820 ?        Ss   09:49   0:00 sshd: fangjun [priv]
+fangjun  29804  0.0  0.0 37312 1852 ?        S    09:49   0:00 sshd: fangjun@pts/9
+fangjun  29805  0.0  0.0 55072 1616 pts/9    Ss+  09:49   0:00 -bash
+root     30773  0.0  0.0 37164 2824 ?        Ss   09:51   0:00 sshd: luxing [priv]
+luxing   30777  0.0  0.0 37164 1828 ?        S    09:51   0:00 sshd: luxing@pts/11
+luxing   30778  0.0  0.0 55072 1620 pts/11   Ss+  09:51   0:00 -bash
+daemon   32232  0.0  0.0 87552 5360 ?        S    12:34   0:00 /usr/local/apache2/bin/httpd -k start
+522      32456  0.0  0.0 55080 1604 pts/12   Ss   09:59   0:00 /bin/bash
+root     32497  0.0  0.0 37164 2648 ?        Ss   09:59   0:00 sshd: lanbijia [priv]
+lanbijia 32501  0.0  0.0 37300 1840 ?        S    09:59   0:00 sshd: lanbijia@pts/26
+lanbijia 32502  0.0  0.0 55204 1616 pts/26   Ss+  09:59   0:00 -bash
+522      32545  0.0  0.0 20016 2532 pts/12   S+   10:00   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+USER       PID %CPU %MEM   VSZ  RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  4828  560 ?        Ss   Jul04   0:00 init [3]                    
+root         2  0.0  0.0     0    0 ?        S    Jul04   0:00 [kthreadd]
+root         3  0.0  0.0     0    0 ?        S    Jul04   0:00 [migration/0]
+root         4  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/0]
+root         5  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/0]
+root         6  0.0  0.0     0    0 ?        S    Jul04   0:00 [migration/1]
+root         7  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/1]
+root         8  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/1]
+root         9  0.0  0.0     0    0 ?        S    Jul04   0:01 [migration/2]
+root        10  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/2]
+root        11  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/2]
+root        12  0.0  0.0     0    0 ?        S    Jul04   0:01 [migration/3]
+root        13  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/3]
+root        14  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/3]
+root        15  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/0]
+root        16  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/1]
+root        17  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/2]
+root        18  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/3]
+root        19  0.0  0.0     0    0 ?        S    Jul04   0:00 [cpuset]
+root        20  0.0  0.0     0    0 ?        S    Jul04   0:02 [khelper]
+root        25  0.0  0.0     0    0 ?        S    Jul04   0:00 [async/mgr]
+root       123  0.0  0.0     0    0 ?        S    Jul04   0:00 [sync_supers]
+root       125  0.0  0.0     0    0 ?        S    Jul04   0:00 [bdi-default]
+root       126  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/0]
+root       127  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/1]
+root       128  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/2]
+root       129  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/3]
+root       131  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpid]
+root       132  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpi_notify]
+root       133  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpi_hotplug]
+root       250  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/0]
+root       251  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/1]
+root       252  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/2]
+root       253  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/3]
+root       254  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata_aux]
+root       259  0.0  0.0     0    0 ?        S    Jul04   0:00 [kseriod]
+root       340  0.0  0.0     0    0 ?        S    Jul04   0:00 [khungtaskd]
+root       341  0.0  0.0     0    0 ?        S    Jul04   0:15 [kswapd0]
+root       391  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/0]
+root       392  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/1]
+root       393  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/2]
+root       394  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/3]
+root       548  0.0  0.0     0    0 ?        S    Jul04   0:00 [cciss_scan]
+root       592  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_0]
+root       630  0.0  0.0     0    0 ?        S    Jul04   0:00 [kpsmoused]
+root      1455  0.0  0.0  3688  472 ?        Ss   Jul04   0:00 udevd
+root      1609  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksuspend_usbd]
+root      1619  0.0  0.0     0    0 ?        S    Jul04   0:00 [khubd]
+root      1990  0.0  0.0     0    0 ?        S    Jul04   0:00 [kauditd]
+root      2282  0.0  0.0     0    0 ?        S    Jul04   0:00 [usbhid_resumer]
+root      2452  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_1]
+root      2453  0.0  0.0     0    0 ?        S    Jul04   0:00 [usb-storage]
+root      2457  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_2]
+root      2458  0.0  0.0     0    0 ?        S    Jul04   0:00 [usb-storage]
+root      2530  0.0  0.0     0    0 ?        S    Jul04   0:00 [kstriped]
+root      3029  0.0  0.0     0    0 ?        S    Jul04   0:18 [flush-8:0]
+root      3169  0.0  0.0 37164 2648 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    3177  0.0  0.0 37304 1840 ?        S    Jul09   0:00 sshd: yeqing@pts/17
+yeqing    3178  0.0  0.0 55072 1648 pts/17   Ss+  Jul09   0:00 -bash
+rpc       3209  0.0  0.0  4816  500 ?        Ss   Jul04   0:00 portmap
+root      3218  0.0  0.0  8348  644 ?        Ss   Jul04   5:16 /usr/local/sbin/cgrulesengd
+root      3229  0.0  0.0 22028 1296 ?        Ss   Jul04   0:02 /usr/sbin/sshd
+root      3231  0.0  0.0     0    0 ?        S    Jul04   0:00 [cqueue]
+root      3247  0.0  0.0 37164 2636 ?        Ss   Jul09   0:00 sshd: lanbijia [priv]
+lanbijia  3261  0.0  0.0 37164 1820 ?        S    Jul09   0:00 sshd: lanbijia@pts/34
+lanbijia  3262  0.0  0.0 55072 1624 pts/34   Ss+  Jul09   0:00 -bash
+root      3288  0.0  0.0  8792  672 ?        Ss   Jul04   0:00 xinetd -stayalive -pidfile /var/run/xinetd.pid
+root      3297  0.0  0.0 57112  980 ?        Ss   Jul04   0:00 crond
+dbus      3306  0.0  0.0  9768  396 ?        Ss   Jul04   0:00 dbus-daemon-1 --system
+root      3313  0.0  0.0  1400  196 ?        S    Jul04   0:00 ./supervise -u ./status ./proftpd -n
+root      3347  0.0  0.0  5856  724 ?        Ss   Jul04   0:01 syslogd -m 0
+root      3351  0.0  0.0  2620  368 ?        Ss   Jul04   0:00 klogd -x
+root      3367  0.0  0.0  3148  420 ?        Ss   Jul04   0:00 ./supervise.agent -p /home/noah/client/core_client/../data_client/status/client -f /home/noah/client/core_client/bin//noah-agent
+root      3452  0.0  0.0  3148  424 ?        Ss   Jul04   0:00 ./supervise.drct -p /home/noah/dr-ct/ct-slave/bin/status/drct -f /home/noah/dr-ct/ct-slave/bin/drct -r /home/noah/dr-ct/ct-slave/../../warning.sh -t 60
+root      4196  0.0  0.0  2608  408 tty1     Ss+  Jul04   0:00 /sbin/mingetty tty1
+root      4197  0.0  0.0  2608  408 tty2     Ss+  Jul04   0:00 /sbin/mingetty tty2
+root      4198  0.0  0.0  2608  408 tty3     Ss+  Jul04   0:00 /sbin/mingetty tty3
+root      4199  0.0  0.0  2608  404 tty4     Ss+  Jul04   0:00 /sbin/mingetty tty4
+root      4200  0.0  0.0  2608  408 tty5     Ss+  Jul04   0:00 /sbin/mingetty tty5
+root      4201  0.0  0.0  2608  404 tty6     Ss+  Jul04   0:00 /sbin/mingetty tty6
+root      4349  0.1  0.0 281952 5524 ?       Sl   Jul04  10:23 /home/noah/dr-ct/ct-slave/bin/drct
+daemon    4444  0.0  0.0 87652 5752 ?        S    11:52   0:00 /usr/local/apache2/bin/httpd -k start
+root      5027  0.0  0.0 37164 2824 ?        Ss   11:15   0:00 sshd: fangjun [priv]
+fangjun   5181  0.0  0.0 37312 1848 ?        S    11:15   0:00 sshd: fangjun@pts/33
+fangjun   5182  0.0  0.0 55072 1608 pts/33   Ss+  11:15   0:00 -bash
+root      5543  0.0  0.0 37164 2824 ?        Ss   07:59   0:00 sshd: yanchong [priv]
+yanchong  5547  0.0  0.0 37312 1904 ?        S    07:59   0:00 sshd: yanchong@pts/3
+yanchong  5548  0.0  0.0 55068 1620 pts/3    Ss+  07:59   0:00 -bash
+root      5589  0.0  0.0 37164 2820 ?        Ss   07:59   0:00 sshd: yanchong [priv]
+yanchong  5593  0.0  0.0 37164 1828 ?        S    07:59   0:00 sshd: yanchong@pts/5
+yanchong  5594  0.0  0.0 55068 1608 pts/5    Ss   07:59   0:00 -bash
+root      5788  0.0  0.0 37164 2820 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng    5809  0.0  0.0 37312 1840 ?        S    Jul09   0:00 sshd: xjmeng@pts/18
+xjmeng    5810  0.0  0.0 55192 1696 pts/18   Ss   Jul09   0:00 -bash
+daemon    5988  0.0  0.0 87552 5708 ?        S    12:47   0:00 /usr/local/apache2/bin/httpd -k start
+root      6017  0.0  0.0 87420 4664 ?        Ss   Jul04   0:00 /usr/local/apache2/bin/httpd -k start
+yanchong  6111  0.0  0.0 75608 4256 pts/5    S+   08:02   0:00 vim file_request.cpp
+root      6312  0.0  0.0 53864 1232 ?        S    Jul04   0:00 /bin/sh ./mysqld_safe
+mysql     6408  0.0  0.0 49220 6024 ?        Sl   Jul04   0:00 /home/mysql/mysql_5.1.58/libexec/mysqld --basedir=/home/mysql/mysql_5.1.58 --datadir=/home/mysql/mysql_5.1.58/var --user=mysql --log-error=/home/mysql/mysql_5.1.58/var/tc-hadoop-data04.tc.baidu.com.err --pid-file=/home/mysql/mysql_5.1.58/var/tc-hadoop-data04.tc.baidu.com.pid --socket=/home/mysql/mysql_5.1.58/tmp/mysql.sock --port=8123
+daemon    6703  0.0  0.0 87656 5728 ?        S    11:55   0:00 /usr/local/apache2/bin/httpd -k start
+root      6974  0.0  0.0 37164 2648 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    7035  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/1
+yeqing    7036  0.0  0.0 55072 1652 pts/1    Ss+  Jul09   0:00 -bash
+root      7818  0.0  0.0 37164 2648 ?        Ss   11:20   0:00 sshd: yeqing [priv]
+yeqing    7834  0.0  0.0 37164 1820 ?        S    11:20   0:00 sshd: yeqing@pts/35
+yeqing    7835  0.0  0.0 55072 1652 pts/35   Ss+  11:20   0:00 -bash
+root      8133  0.0  0.0 37164 2644 ?        Ss   10:20   0:00 sshd: lanbijia [priv]
+lanbijia  8137  0.0  0.0 37304 1836 ?        S    10:20   0:00 sshd: lanbijia@pts/31
+lanbijia  8138  0.0  0.0 55068 1596 pts/31   Ss   10:20   0:00 -bash
+lanbijia  8170  0.0  0.0 19860 2388 pts/31   S+   10:20   0:00 ssh udw_rt@jx-mpi-fcr047.jx.baidu.com
+522       8192  0.0  0.0 55212 1656 pts/13   Ss   Jul05   0:00 /bin/bash
+522       8270  0.0  0.0 55208 1728 pts/14   Ss+  Jul05   0:00 /bin/bash
+root      8439  0.0  0.0 37164 2816 ?        Ss   08:11   0:00 sshd: yanchong [priv]
+yanchong  8443  0.0  0.0 37164 1832 ?        S    08:11   0:00 sshd: yanchong@pts/6
+yanchong  8444  0.0  0.0 55068 1620 pts/6    Ss   08:11   0:00 -bash
+root      8487  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    8492  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/22
+yeqing    8493  0.0  0.0 55196 1728 pts/22   Ss   Jul09   0:00 -bash
+522       8932  0.0  0.0 55208 1656 pts/16   Ss+  Jul05   0:00 /bin/bash
+daemon    9091  0.0  0.0 87552 5580 ?        S    11:57   0:00 /usr/local/apache2/bin/httpd -k start
+522       9808  0.0  0.0 55080 1612 pts/21   Ss   Jul05   0:00 /bin/bash
+522       9859  0.0  0.0 19864 2296 pts/21   S+   Jul05   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+nobody   11349  0.0  0.0 10924 1176 ?        S    Jul04   0:01 proftpd: (accepting connections)
+522      11632  0.0  0.0 62616 4156 ?        Ss   Jul04   0:09 SCREEN -R zhenpeng01
+522      11634  0.0  0.0 55208 1712 pts/7    Ss+  Jul04   0:00 /bin/bash
+daemon   12029  0.0  0.0 87552 5416 ?        S    12:56   0:00 /usr/local/apache2/bin/httpd -k start
+root     12068  0.0  0.0 54936 1228 ?        S    Jul07   0:00 /bin/sh /home/noah/client/core_client/bin//noah-agent
+root     12072  0.4  0.0 313248 6800 ?       Sl   Jul07  21:19 ./noah-agent64
+522      13345  0.0  0.0 19864 2452 pts/24   S+   Jul09   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+522      13645  0.0  0.0 19864 2444 pts/15   S+   Jul09   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+root     14213  0.0  0.0 18036 1680 ?        S    Jul07   0:00 executor: Sailor Jupiter [1.0.9.0]
+root     14214  0.0  0.0 18036 1820 ?        S    Jul07   0:00 executor: Sailor Moon [1.0.9.0]
+root     14462  0.0  0.0  3148  424 ?        Ss   Jul07   0:00 ./supervise.bscpserver -p /home/noah/tools/bscp/status//bscpserver -f /home/noah/tools/bscp/sbin//bscpserver -D
+root     14463  0.0  0.0 29616 2636 ?        S    Jul07   0:00 /home/noah/tools/bscp/sbin//bscpserver -D
+root     16296  0.0  0.0 37164 2816 ?        Ss   12:12   0:00 sshd: zhangyuncong [priv]
+507      16312  0.0  0.0 37312 1848 ?        S    12:12   0:00 sshd: zhangyuncong@pts/25
+507      16313  0.0  0.0 55196 1636 pts/25   Ss+  12:12   0:00 -bash
+root     16574  0.0  0.0 37164 2824 ?        Ss   10:36   0:00 sshd: zhangyuncong [priv]
+507      16590  0.0  0.0 37312 1848 ?        S    10:36   0:00 sshd: zhangyuncong@pts/28
+507      16591  0.0  0.0 55196 1644 pts/28   Ss+  10:36   0:00 -bash
+daemon   17737  0.0  0.0 87552 5384 ?        S    13:08   0:00 /usr/local/apache2/bin/httpd -k start
+522      17919  0.0  0.0 55204 1652 pts/20   Ss+  Jul05   0:00 /bin/bash
+root     17988  0.0  0.0 37164 2820 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng   17992  0.0  0.0 37312 1840 ?        S    Jul09   0:00 sshd: xjmeng@pts/29
+xjmeng   17993  0.0  0.0 55076 1620 pts/29   Ss+  Jul09   0:00 -bash
+root     18233  0.0  0.0 37164 2816 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng   18237  0.0  0.0 37312 1880 ?        S    Jul09   0:01 sshd: xjmeng@pts/30
+xjmeng   18238  0.0  0.0 55200 1644 pts/30   Ss+  Jul09   0:00 -bash
+yanchong 18294  0.0  0.0 75616 4144 pts/6    S+   13:09   0:00 vim DiskMan.h
+yanchong 18355  0.0  0.0 75656 4188 pts/0    S+   13:09   0:00 vim note_DiskMan.cpp
+root     18470  0.0  0.0 37164 2648 ?        Ss   Jul06   0:00 sshd: lizx [priv]
+lizx     18477  0.0  0.0 37304 1840 ?        S    Jul06   0:01 sshd: lizx@pts/2 
+lizx     18478  0.0  0.0 55200 1740 pts/2    Ss+  Jul06   0:00 -bash
+505      18603  0.0  0.0 18032 1444 ?        Ss   Jul04   0:00 ./httpd
+505      18604  0.0  0.0 18356 1968 ?        S    Jul04   0:00 ./httpd
+505      18605  0.0  0.0 18352 2108 ?        S    Jul04   0:00 ./httpd
+505      18606  0.0  0.0 18356 2252 ?        S    Jul04   0:00 ./httpd
+505      18607  0.0  0.0 18228 2128 ?        S    Jul04   0:00 ./httpd
+505      18608  0.0  0.0 18220 2040 ?        S    Jul04   0:00 ./httpd
+505      18647  0.0  0.0 53864 1100 ?        S    Jul04   0:00 sh git_daemon.sh
+505      18648  0.0  0.0 15500  900 ?        S    Jul04   0:00 git daemon --verbose --export-all --base-path=/home/zhanggengxin/tools/httpd/gitrepo/ --port=12000 --enable=receive-pack
+505      18649  0.0  0.0 14628  960 ?        S    Jul04   0:00 git-daemon --verbose --export-all --base-path=/home/zhanggengxin/tools/httpd/gitrepo/ --port=12000 --enable=receive-pack
+505      18662  0.0  0.0 18356 2220 ?        S    Jul04   0:00 ./httpd
+505      18663  0.0  0.0 18228 2068 ?        S    Jul04   0:00 ./httpd
+505      18664  0.0  0.0 18228 2108 ?        S    Jul04   0:00 ./httpd
+daemon   19075  0.0  0.0 87552 5324 ?        S    13:10   0:00 /usr/local/apache2/bin/httpd -k start
+522      20670  0.0  0.0 75608 4312 pts/13   S+   13:13   0:00 vim echo_pe/echo_pe.cc
+xjmeng   20693 99.5  0.0 47324 2740 pts/18   Rl+  13:13  11:28 ./dict_manager
+yeqing   21151  0.0  0.0 53864 1132 pts/22   S+   13:14   0:00 /bin/sh ./submit.sh 32
+yeqing   21248  0.0  0.0 54000 1400 pts/22   S+   13:14   0:00 /bin/sh /home/yeqing/soft/hpc/hpc_client/bin/qsub_f --hdfs hdfs://hy-ecomoff-hdfs.dmop.baidu.com:54310 --ugi mpi,hpcinit --hout /app/mpi/yeqing/tmp/pp.matrix --files bin,conf -N pp.matrix -l nodes=32,walltime=02:00:00 job.sh
+522      21810  0.0  0.0 55204 1652 pts/23   Ss+  Jul05   0:00 /bin/bash
+root     21854  0.0  0.0 37164 2812 ?        Ss   12:22   0:00 sshd: zhangyuncong [priv]
+507      21875  0.0  0.0 37312 1844 ?        S    12:22   0:00 sshd: zhangyuncong@pts/36
+507      21876  0.0  0.0 55196 1652 pts/36   Ss   12:22   0:00 -bash
+root     22872  0.0  0.0 37164 2812 ?        Ss   09:19   0:00 sshd: zhenpeng01 [priv]
+522      22876  0.0  0.0 37312 1844 ?        S    09:19   0:00 sshd: zhenpeng01@pts/8
+522      22877  0.0  0.0 55076 1600 pts/8    Ss   09:19   0:00 -bash
+522      22902  0.0  0.0 53864 1096 pts/8    S+   09:19   0:00 /bin/bash /home/zhenpeng01/bin/zhenpeng
+522      22903  0.0  0.0 59344  936 pts/8    S+   09:19   0:00 screen -R zhenpeng01
+522      23480  0.0  0.0 55208 1648 pts/24   Ss   Jul05   0:00 /bin/bash
+root     23671  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing   23677  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/19
+yeqing   23678  0.0  0.0 55204 1656 pts/19   Ss+  Jul09   0:00 -bash
+505      24012  0.0  0.0 18228 2128 ?        S    Jul05   0:00 ./httpd
+522      24574  0.0  0.0 55208 1632 pts/15   Ss   Jul05   0:00 /bin/bash
+root     24965  0.0  0.0 37164 2816 ?        Ss   13:21   0:00 sshd: xjmeng [priv]
+xjmeng   24981  0.0  0.0 37312 1844 ?        S    13:21   0:00 sshd: xjmeng@pts/32
+xjmeng   24982  0.0  0.0 55076 1616 pts/32   Ss   13:21   0:00 -bash
+daemon   25229  0.0  0.0 87552 4028 ?        S    13:21   0:00 /usr/local/apache2/bin/httpd -k start
+xjmeng   25259  0.0  0.0 76032 4712 pts/32   S+   13:21   0:00 vim dict_manager.cc
+daemon   25465  0.0  0.0 87552 3620 ?        S    13:21   0:00 /usr/local/apache2/bin/httpd -k start
+root     26692  0.0  0.0 37164 2820 ?        Ss   09:38   0:00 sshd: yanchong [priv]
+yanchong 26696  0.0  0.0 37164 1828 ?        S    09:38   0:00 sshd: yanchong@pts/0
+yanchong 26697  0.0  0.0 55068 1612 pts/0    Ss   09:38   0:00 -bash
+yeqing   27226  0.0  0.0 53772  532 pts/22   S+   13:24   0:00 sleep 3
+507      27229  0.0  0.0  5516  800 pts/36   R+   13:24   0:00 ps aux
+root     29579  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing   29595  0.0  0.0 37304 1832 ?        S    Jul09   0:00 sshd: yeqing@pts/27
+yeqing   29596  0.0  0.0 55200 1740 pts/27   Ss+  Jul09   0:00 -bash
+root     29800  0.0  0.0 37164 2820 ?        Ss   09:49   0:00 sshd: fangjun [priv]
+fangjun  29804  0.0  0.0 37312 1852 ?        S    09:49   0:00 sshd: fangjun@pts/9
+fangjun  29805  0.0  0.0 55072 1616 pts/9    Ss+  09:49   0:00 -bash
+root     30773  0.0  0.0 37164 2824 ?        Ss   09:51   0:00 sshd: luxing [priv]
+luxing   30777  0.0  0.0 37164 1828 ?        S    09:51   0:00 sshd: luxing@pts/11
+luxing   30778  0.0  0.0 55072 1620 pts/11   Ss+  09:51   0:00 -bash
+daemon   32232  0.0  0.0 87552 5360 ?        S    12:34   0:00 /usr/local/apache2/bin/httpd -k start
+522      32456  0.0  0.0 55080 1604 pts/12   Ss   09:59   0:00 /bin/bash
+root     32497  0.0  0.0 37164 2648 ?        Ss   09:59   0:00 sshd: lanbijia [priv]
+lanbijia 32501  0.0  0.0 37300 1840 ?        S    09:59   0:00 sshd: lanbijia@pts/26
+lanbijia 32502  0.0  0.0 55204 1616 pts/26   Ss+  09:59   0:00 -bash
+522      32545  0.0  0.0 20016 2532 pts/12   S+   10:00   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+USER       PID %CPU %MEM   VSZ  RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0  4828  560 ?        Ss   Jul04   0:00 init [3]                    
+root         2  0.0  0.0     0    0 ?        S    Jul04   0:00 [kthreadd]
+root         3  0.0  0.0     0    0 ?        S    Jul04   0:00 [migration/0]
+root         4  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/0]
+root         5  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/0]
+root         6  0.0  0.0     0    0 ?        S    Jul04   0:00 [migration/1]
+root         7  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/1]
+root         8  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/1]
+root         9  0.0  0.0     0    0 ?        S    Jul04   0:01 [migration/2]
+root        10  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/2]
+root        11  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/2]
+root        12  0.0  0.0     0    0 ?        S    Jul04   0:01 [migration/3]
+root        13  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksoftirqd/3]
+root        14  0.0  0.0     0    0 ?        S    Jul04   0:00 [watchdog/3]
+root        15  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/0]
+root        16  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/1]
+root        17  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/2]
+root        18  0.0  0.0     0    0 ?        S    Jul04   0:00 [events/3]
+root        19  0.0  0.0     0    0 ?        S    Jul04   0:00 [cpuset]
+root        20  0.0  0.0     0    0 ?        S    Jul04   0:02 [khelper]
+root        25  0.0  0.0     0    0 ?        S    Jul04   0:00 [async/mgr]
+root       123  0.0  0.0     0    0 ?        S    Jul04   0:00 [sync_supers]
+root       125  0.0  0.0     0    0 ?        S    Jul04   0:00 [bdi-default]
+root       126  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/0]
+root       127  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/1]
+root       128  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/2]
+root       129  0.0  0.0     0    0 ?        S    Jul04   0:00 [kblockd/3]
+root       131  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpid]
+root       132  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpi_notify]
+root       133  0.0  0.0     0    0 ?        S    Jul04   0:00 [kacpi_hotplug]
+root       250  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/0]
+root       251  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/1]
+root       252  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/2]
+root       253  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata/3]
+root       254  0.0  0.0     0    0 ?        S    Jul04   0:00 [ata_aux]
+root       259  0.0  0.0     0    0 ?        S    Jul04   0:00 [kseriod]
+root       340  0.0  0.0     0    0 ?        S    Jul04   0:00 [khungtaskd]
+root       341  0.0  0.0     0    0 ?        S    Jul04   0:15 [kswapd0]
+root       391  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/0]
+root       392  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/1]
+root       393  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/2]
+root       394  0.0  0.0     0    0 ?        S    Jul04   0:00 [aio/3]
+root       548  0.0  0.0     0    0 ?        S    Jul04   0:00 [cciss_scan]
+root       592  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_0]
+root       630  0.0  0.0     0    0 ?        S    Jul04   0:00 [kpsmoused]
+root      1455  0.0  0.0  3688  472 ?        Ss   Jul04   0:00 udevd
+root      1609  0.0  0.0     0    0 ?        S    Jul04   0:00 [ksuspend_usbd]
+root      1619  0.0  0.0     0    0 ?        S    Jul04   0:00 [khubd]
+root      1990  0.0  0.0     0    0 ?        S    Jul04   0:00 [kauditd]
+root      2282  0.0  0.0     0    0 ?        S    Jul04   0:00 [usbhid_resumer]
+root      2452  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_1]
+root      2453  0.0  0.0     0    0 ?        S    Jul04   0:00 [usb-storage]
+root      2457  0.0  0.0     0    0 ?        S    Jul04   0:00 [scsi_eh_2]
+root      2458  0.0  0.0     0    0 ?        S    Jul04   0:00 [usb-storage]
+root      2530  0.0  0.0     0    0 ?        S    Jul04   0:00 [kstriped]
+root      3029  0.0  0.0     0    0 ?        S    Jul04   0:18 [flush-8:0]
+root      3169  0.0  0.0 37164 2648 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    3177  0.0  0.0 37304 1840 ?        S    Jul09   0:00 sshd: yeqing@pts/17
+yeqing    3178  0.0  0.0 55072 1648 pts/17   Ss+  Jul09   0:00 -bash
+rpc       3209  0.0  0.0  4816  500 ?        Ss   Jul04   0:00 portmap
+root      3218  0.0  0.0  8348  644 ?        Ss   Jul04   5:16 /usr/local/sbin/cgrulesengd
+root      3229  0.0  0.0 22028 1296 ?        Ss   Jul04   0:02 /usr/sbin/sshd
+root      3231  0.0  0.0     0    0 ?        S    Jul04   0:00 [cqueue]
+root      3247  0.0  0.0 37164 2636 ?        Ss   Jul09   0:00 sshd: lanbijia [priv]
+lanbijia  3261  0.0  0.0 37164 1820 ?        S    Jul09   0:00 sshd: lanbijia@pts/34
+lanbijia  3262  0.0  0.0 55072 1624 pts/34   Ss+  Jul09   0:00 -bash
+root      3288  0.0  0.0  8792  672 ?        Ss   Jul04   0:00 xinetd -stayalive -pidfile /var/run/xinetd.pid
+root      3297  0.0  0.0 57112  980 ?        Ss   Jul04   0:00 crond
+dbus      3306  0.0  0.0  9768  396 ?        Ss   Jul04   0:00 dbus-daemon-1 --system
+root      3313  0.0  0.0  1400  196 ?        S    Jul04   0:00 ./supervise -u ./status ./proftpd -n
+root      3347  0.0  0.0  5856  724 ?        Ss   Jul04   0:01 syslogd -m 0
+root      3351  0.0  0.0  2620  368 ?        Ss   Jul04   0:00 klogd -x
+root      3367  0.0  0.0  3148  420 ?        Ss   Jul04   0:00 ./supervise.agent -p /home/noah/client/core_client/../data_client/status/client -f /home/noah/client/core_client/bin//noah-agent
+root      3452  0.0  0.0  3148  424 ?        Ss   Jul04   0:00 ./supervise.drct -p /home/noah/dr-ct/ct-slave/bin/status/drct -f /home/noah/dr-ct/ct-slave/bin/drct -r /home/noah/dr-ct/ct-slave/../../warning.sh -t 60
+root      4196  0.0  0.0  2608  408 tty1     Ss+  Jul04   0:00 /sbin/mingetty tty1
+root      4197  0.0  0.0  2608  408 tty2     Ss+  Jul04   0:00 /sbin/mingetty tty2
+root      4198  0.0  0.0  2608  408 tty3     Ss+  Jul04   0:00 /sbin/mingetty tty3
+root      4199  0.0  0.0  2608  404 tty4     Ss+  Jul04   0:00 /sbin/mingetty tty4
+root      4200  0.0  0.0  2608  408 tty5     Ss+  Jul04   0:00 /sbin/mingetty tty5
+root      4201  0.0  0.0  2608  404 tty6     Ss+  Jul04   0:00 /sbin/mingetty tty6
+root      4349  0.1  0.0 281952 5524 ?       Sl   Jul04  10:23 /home/noah/dr-ct/ct-slave/bin/drct
+daemon    4444  0.0  0.0 87652 5752 ?        S    11:52   0:00 /usr/local/apache2/bin/httpd -k start
+root      5027  0.0  0.0 37164 2824 ?        Ss   11:15   0:00 sshd: fangjun [priv]
+fangjun   5181  0.0  0.0 37312 1848 ?        S    11:15   0:00 sshd: fangjun@pts/33
+fangjun   5182  0.0  0.0 55072 1608 pts/33   Ss+  11:15   0:00 -bash
+root      5543  0.0  0.0 37164 2824 ?        Ss   07:59   0:00 sshd: yanchong [priv]
+yanchong  5547  0.0  0.0 37312 1904 ?        S    07:59   0:00 sshd: yanchong@pts/3
+yanchong  5548  0.0  0.0 55068 1620 pts/3    Ss+  07:59   0:00 -bash
+root      5589  0.0  0.0 37164 2820 ?        Ss   07:59   0:00 sshd: yanchong [priv]
+yanchong  5593  0.0  0.0 37164 1828 ?        S    07:59   0:00 sshd: yanchong@pts/5
+yanchong  5594  0.0  0.0 55068 1608 pts/5    Ss   07:59   0:00 -bash
+root      5788  0.0  0.0 37164 2820 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng    5809  0.0  0.0 37312 1840 ?        S    Jul09   0:00 sshd: xjmeng@pts/18
+xjmeng    5810  0.0  0.0 55192 1696 pts/18   Ss   Jul09   0:00 -bash
+daemon    5988  0.0  0.0 87552 5708 ?        S    12:47   0:00 /usr/local/apache2/bin/httpd -k start
+root      6017  0.0  0.0 87420 4664 ?        Ss   Jul04   0:00 /usr/local/apache2/bin/httpd -k start
+yanchong  6111  0.0  0.0 75608 4256 pts/5    S+   08:02   0:00 vim file_request.cpp
+root      6312  0.0  0.0 53864 1232 ?        S    Jul04   0:00 /bin/sh ./mysqld_safe
+mysql     6408  0.0  0.0 49220 6024 ?        Sl   Jul04   0:00 /home/mysql/mysql_5.1.58/libexec/mysqld --basedir=/home/mysql/mysql_5.1.58 --datadir=/home/mysql/mysql_5.1.58/var --user=mysql --log-error=/home/mysql/mysql_5.1.58/var/tc-hadoop-data04.tc.baidu.com.err --pid-file=/home/mysql/mysql_5.1.58/var/tc-hadoop-data04.tc.baidu.com.pid --socket=/home/mysql/mysql_5.1.58/tmp/mysql.sock --port=8123
+daemon    6703  0.0  0.0 87656 5728 ?        S    11:55   0:00 /usr/local/apache2/bin/httpd -k start
+root      6974  0.0  0.0 37164 2648 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    7035  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/1
+yeqing    7036  0.0  0.0 55072 1652 pts/1    Ss+  Jul09   0:00 -bash
+root      7818  0.0  0.0 37164 2648 ?        Ss   11:20   0:00 sshd: yeqing [priv]
+yeqing    7834  0.0  0.0 37164 1820 ?        S    11:20   0:00 sshd: yeqing@pts/35
+yeqing    7835  0.0  0.0 55072 1652 pts/35   Ss+  11:20   0:00 -bash
+root      8133  0.0  0.0 37164 2644 ?        Ss   10:20   0:00 sshd: lanbijia [priv]
+lanbijia  8137  0.0  0.0 37304 1836 ?        S    10:20   0:00 sshd: lanbijia@pts/31
+lanbijia  8138  0.0  0.0 55068 1596 pts/31   Ss   10:20   0:00 -bash
+lanbijia  8170  0.0  0.0 19860 2388 pts/31   S+   10:20   0:00 ssh udw_rt@jx-mpi-fcr047.jx.baidu.com
+522       8192  0.0  0.0 55212 1656 pts/13   Ss   Jul05   0:00 /bin/bash
+522       8270  0.0  0.0 55208 1728 pts/14   Ss+  Jul05   0:00 /bin/bash
+root      8439  0.0  0.0 37164 2816 ?        Ss   08:11   0:00 sshd: yanchong [priv]
+yanchong  8443  0.0  0.0 37164 1832 ?        S    08:11   0:00 sshd: yanchong@pts/6
+yanchong  8444  0.0  0.0 55068 1620 pts/6    Ss   08:11   0:00 -bash
+root      8487  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing    8492  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/22
+yeqing    8493  0.0  0.0 55196 1728 pts/22   Ss   Jul09   0:00 -bash
+522       8932  0.0  0.0 55208 1656 pts/16   Ss+  Jul05   0:00 /bin/bash
+daemon    9091  0.0  0.0 87552 5580 ?        S    11:57   0:00 /usr/local/apache2/bin/httpd -k start
+522       9808  0.0  0.0 55080 1612 pts/21   Ss   Jul05   0:00 /bin/bash
+522       9859  0.0  0.0 19864 2296 pts/21   S+   Jul05   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+nobody   11349  0.0  0.0 10924 1176 ?        S    Jul04   0:01 proftpd: (accepting connections)
+522      11632  0.0  0.0 62616 4156 ?        Ss   Jul04   0:09 SCREEN -R zhenpeng01
+522      11634  0.0  0.0 55208 1712 pts/7    Ss+  Jul04   0:00 /bin/bash
+daemon   12029  0.0  0.0 87552 5416 ?        S    12:56   0:00 /usr/local/apache2/bin/httpd -k start
+root     12068  0.0  0.0 54936 1228 ?        S    Jul07   0:00 /bin/sh /home/noah/client/core_client/bin//noah-agent
+root     12072  0.4  0.0 313248 6800 ?       Sl   Jul07  21:19 ./noah-agent64
+522      13345  0.0  0.0 19864 2452 pts/24   S+   Jul09   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+522      13645  0.0  0.0 19864 2444 pts/15   S+   Jul09   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+root     14213  0.0  0.0 18036 1680 ?        S    Jul07   0:00 executor: Sailor Jupiter [1.0.9.0]
+root     14214  0.0  0.0 18036 1820 ?        S    Jul07   0:00 executor: Sailor Moon [1.0.9.0]
+root     14462  0.0  0.0  3148  424 ?        Ss   Jul07   0:00 ./supervise.bscpserver -p /home/noah/tools/bscp/status//bscpserver -f /home/noah/tools/bscp/sbin//bscpserver -D
+root     14463  0.0  0.0 29616 2636 ?        S    Jul07   0:00 /home/noah/tools/bscp/sbin//bscpserver -D
+root     16296  0.0  0.0 37164 2816 ?        Ss   12:12   0:00 sshd: zhangyuncong [priv]
+507      16312  0.0  0.0 37312 1848 ?        S    12:12   0:00 sshd: zhangyuncong@pts/25
+507      16313  0.0  0.0 55196 1636 pts/25   Ss+  12:12   0:00 -bash
+root     16574  0.0  0.0 37164 2824 ?        Ss   10:36   0:00 sshd: zhangyuncong [priv]
+507      16590  0.0  0.0 37312 1848 ?        S    10:36   0:00 sshd: zhangyuncong@pts/28
+507      16591  0.0  0.0 55196 1644 pts/28   Ss+  10:36   0:00 -bash
+daemon   17737  0.0  0.0 87552 5384 ?        S    13:08   0:00 /usr/local/apache2/bin/httpd -k start
+522      17919  0.0  0.0 55204 1652 pts/20   Ss+  Jul05   0:00 /bin/bash
+root     17988  0.0  0.0 37164 2820 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng   17992  0.0  0.0 37312 1840 ?        S    Jul09   0:00 sshd: xjmeng@pts/29
+xjmeng   17993  0.0  0.0 55076 1620 pts/29   Ss+  Jul09   0:00 -bash
+root     18233  0.0  0.0 37164 2816 ?        Ss   Jul09   0:00 sshd: xjmeng [priv]
+xjmeng   18237  0.0  0.0 37312 1880 ?        S    Jul09   0:01 sshd: xjmeng@pts/30
+xjmeng   18238  0.0  0.0 55200 1644 pts/30   Ss+  Jul09   0:00 -bash
+yanchong 18294  0.0  0.0 75616 4144 pts/6    S+   13:09   0:00 vim DiskMan.h
+yanchong 18355  0.0  0.0 75656 4188 pts/0    S+   13:09   0:00 vim note_DiskMan.cpp
+root     18470  0.0  0.0 37164 2648 ?        Ss   Jul06   0:00 sshd: lizx [priv]
+lizx     18477  0.0  0.0 37304 1840 ?        S    Jul06   0:01 sshd: lizx@pts/2 
+lizx     18478  0.0  0.0 55200 1740 pts/2    Ss+  Jul06   0:00 -bash
+505      18603  0.0  0.0 18032 1444 ?        Ss   Jul04   0:00 ./httpd
+505      18604  0.0  0.0 18356 1968 ?        S    Jul04   0:00 ./httpd
+505      18605  0.0  0.0 18352 2108 ?        S    Jul04   0:00 ./httpd
+505      18606  0.0  0.0 18356 2252 ?        S    Jul04   0:00 ./httpd
+505      18607  0.0  0.0 18228 2128 ?        S    Jul04   0:00 ./httpd
+505      18608  0.0  0.0 18220 2040 ?        S    Jul04   0:00 ./httpd
+505      18647  0.0  0.0 53864 1100 ?        S    Jul04   0:00 sh git_daemon.sh
+505      18648  0.0  0.0 15500  900 ?        S    Jul04   0:00 git daemon --verbose --export-all --base-path=/home/zhanggengxin/tools/httpd/gitrepo/ --port=12000 --enable=receive-pack
+505      18649  0.0  0.0 14628  960 ?        S    Jul04   0:00 git-daemon --verbose --export-all --base-path=/home/zhanggengxin/tools/httpd/gitrepo/ --port=12000 --enable=receive-pack
+505      18662  0.0  0.0 18356 2220 ?        S    Jul04   0:00 ./httpd
+505      18663  0.0  0.0 18228 2068 ?        S    Jul04   0:00 ./httpd
+505      18664  0.0  0.0 18228 2108 ?        S    Jul04   0:00 ./httpd
+daemon   19075  0.0  0.0 87552 5324 ?        S    13:10   0:00 /usr/local/apache2/bin/httpd -k start
+522      20670  0.0  0.0 75608 4312 pts/13   S+   13:13   0:00 vim echo_pe/echo_pe.cc
+xjmeng   20693 99.5  0.0 47324 2740 pts/18   Rl+  13:13  11:29 ./dict_manager
+yeqing   21151  0.0  0.0 53864 1132 pts/22   S+   13:14   0:00 /bin/sh ./submit.sh 32
+yeqing   21248  0.0  0.0 54000 1400 pts/22   S+   13:14   0:00 /bin/sh /home/yeqing/soft/hpc/hpc_client/bin/qsub_f --hdfs hdfs://hy-ecomoff-hdfs.dmop.baidu.com:54310 --ugi mpi,hpcinit --hout /app/mpi/yeqing/tmp/pp.matrix --files bin,conf -N pp.matrix -l nodes=32,walltime=02:00:00 job.sh
+522      21810  0.0  0.0 55204 1652 pts/23   Ss+  Jul05   0:00 /bin/bash
+root     21854  0.0  0.0 37164 2812 ?        Ss   12:22   0:00 sshd: zhangyuncong [priv]
+507      21875  0.0  0.0 37312 1844 ?        S    12:22   0:00 sshd: zhangyuncong@pts/36
+507      21876  0.0  0.0 55196 1652 pts/36   Ss   12:22   0:00 -bash
+root     22872  0.0  0.0 37164 2812 ?        Ss   09:19   0:00 sshd: zhenpeng01 [priv]
+522      22876  0.0  0.0 37312 1844 ?        S    09:19   0:00 sshd: zhenpeng01@pts/8
+522      22877  0.0  0.0 55076 1600 pts/8    Ss   09:19   0:00 -bash
+522      22902  0.0  0.0 53864 1096 pts/8    S+   09:19   0:00 /bin/bash /home/zhenpeng01/bin/zhenpeng
+522      22903  0.0  0.0 59344  936 pts/8    S+   09:19   0:00 screen -R zhenpeng01
+522      23480  0.0  0.0 55208 1648 pts/24   Ss   Jul05   0:00 /bin/bash
+root     23671  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing   23677  0.0  0.0 37304 1836 ?        S    Jul09   0:00 sshd: yeqing@pts/19
+yeqing   23678  0.0  0.0 55204 1656 pts/19   Ss+  Jul09   0:00 -bash
+505      24012  0.0  0.0 18228 2128 ?        S    Jul05   0:00 ./httpd
+522      24574  0.0  0.0 55208 1632 pts/15   Ss   Jul05   0:00 /bin/bash
+root     24965  0.0  0.0 37164 2816 ?        Ss   13:21   0:00 sshd: xjmeng [priv]
+xjmeng   24981  0.0  0.0 37312 1844 ?        S    13:21   0:00 sshd: xjmeng@pts/32
+xjmeng   24982  0.0  0.0 55076 1616 pts/32   Ss   13:21   0:00 -bash
+daemon   25229  0.0  0.0 87552 4028 ?        S    13:21   0:00 /usr/local/apache2/bin/httpd -k start
+xjmeng   25259  0.0  0.0 76032 4712 pts/32   S+   13:21   0:00 vim dict_manager.cc
+daemon   25465  0.0  0.0 87552 3620 ?        S    13:21   0:00 /usr/local/apache2/bin/httpd -k start
+root     26692  0.0  0.0 37164 2820 ?        Ss   09:38   0:00 sshd: yanchong [priv]
+yanchong 26696  0.0  0.0 37164 1828 ?        S    09:38   0:00 sshd: yanchong@pts/0
+yanchong 26697  0.0  0.0 55068 1612 pts/0    Ss   09:38   0:00 -bash
+yeqing   27226  0.0  0.0 53772  532 pts/22   S+   13:24   0:00 sleep 3
+507      27269  0.0  0.0  5516  800 pts/36   R+   13:25   0:00 ps aux
+root     29579  0.0  0.0 37164 2644 ?        Ss   Jul09   0:00 sshd: yeqing [priv]
+yeqing   29595  0.0  0.0 37304 1832 ?        S    Jul09   0:00 sshd: yeqing@pts/27
+yeqing   29596  0.0  0.0 55200 1740 pts/27   Ss+  Jul09   0:00 -bash
+root     29800  0.0  0.0 37164 2820 ?        Ss   09:49   0:00 sshd: fangjun [priv]
+fangjun  29804  0.0  0.0 37312 1852 ?        S    09:49   0:00 sshd: fangjun@pts/9
+fangjun  29805  0.0  0.0 55072 1616 pts/9    Ss+  09:49   0:00 -bash
+root     30773  0.0  0.0 37164 2824 ?        Ss   09:51   0:00 sshd: luxing [priv]
+luxing   30777  0.0  0.0 37164 1828 ?        S    09:51   0:00 sshd: luxing@pts/11
+luxing   30778  0.0  0.0 55072 1620 pts/11   Ss+  09:51   0:00 -bash
+daemon   32232  0.0  0.0 87552 5360 ?        S    12:34   0:00 /usr/local/apache2/bin/httpd -k start
+522      32456  0.0  0.0 55080 1604 pts/12   Ss   09:59   0:00 /bin/bash
+root     32497  0.0  0.0 37164 2648 ?        Ss   09:59   0:00 sshd: lanbijia [priv]
+lanbijia 32501  0.0  0.0 37300 1840 ?        S    09:59   0:00 sshd: lanbijia@pts/26
+lanbijia 32502  0.0  0.0 55204 1616 pts/26   Ss+  09:59   0:00 -bash
+522      32545  0.0  0.0 20016 2532 pts/12   S+   10:00   0:00 ssh zhenpeng01@hy-mpi-a0208.hy01
+#include "gtest/gtest.h"
+#include "common/logger.h"
+#include "common/config.h"
+#include "common/config_const.h"
+#include "common/zk_client.h"
+#include "common/proto_serializer.h"
+#include "common/proto/pub_sub.pb.h"
+#include "common/proto/application.pb.h"
+
+#include "metamanager/zk_config.h"
+
+#include "processnode/config_map.h"
+#include "processnode/zk_wrapper.h"
+#include "processnode/process_node.h"
+#include "processnode/pe_wrapper.h"
+#include "processnode/queue_manager.h"
+
+using namespace std;
+using namespace dstream;
+using namespace dstream::processnode;
+using namespace dstream::proto_serializer;
+
+namespace dstream {
+
+class TestPNReplay : public ::testing::Test
+{
+private:
+  std::string pipe_name_;
+  PEWrapper* pe;
+  QueueManager* queue_manager_;
+
+public:
+  PEWrapper* GetPEWrapper() { return pe; }
+  
+  TestPNReplay();
+  virtual ~TestPNReplay();
+
+protected:
+  void InitTest(const std::string& pipe_name);
+  void PublishTest(const uint64_t& peid, const uint32_t& pub_count);
+  void SubscribeTest(const uint64_t& peid, const uint64_t& begin_pipeid, uint32_t& log_count);
+  void DeinitTest();
+};
+
+TestPNReplay::TestPNReplay()
+ : pe(NULL), queue_manager_(NULL) 
+{
+  queue_manager_ = new QueueManager(100);
+  pe = new PEWrapper(queue_manager_);
+  
+}
+
+TestPNReplay::~TestPNReplay() {
+  if (pe)
+    delete pe;
+  if (queue_manager_)
+    delete queue_manager_;
+  
+}
+
+void TestPNReplay::InitTest(const std::string& pipe_name) {
+  pipe_name_ = pipe_name;
+}
+
+void TestPNReplay::DeinitTest() {
+  std::string cmd;
+  cmd = "rm -f ";
+  cmd.append(pipe_name_);
+  system(cmd.c_str());
+}
+
+
+void TestPNReplay::SubscribeTest(const uint64_t& peid, const uint64_t& begin_pipeid, uint32_t& log_count) {
+  vector<Log*> replay_logs;
+  if (error::OK != pe->GetReplayLogs(peid, pipe_name_, begin_pipeid, replay_logs)) {
+    DSTREAM_ERROR("replay log(%s) open failed, begin_pipeid(%llu)", pipe_name_.c_str(), begin_pipeid);
+  }
+  uint32_t count = 0;
+  DSTREAM_DEBUG("from log begin_pipeid(%llu) to latest log", begin_pipeid);
+  for (vector<Log*>::iterator it = replay_logs.begin(); it != replay_logs.end(); ++it) {
+    DSTREAM_DEBUG("log debug_info : %s", (*it)->debug_info().c_str());
+    if (count == replay_logs.size() - 1) {
+      ASSERT_STREQ("END_REPLAY", (*it)->debug_info().c_str());
+    } else {
+      ASSERT_STREQ("REPLAYING", (*it)->debug_info().c_str());
+    }
+    delete *it;
+    count++;
+  }
+  log_count = count;
+}
+
+void TestPNReplay::PublishTest(const uint64_t& peid, const uint32_t& pub_count) {
+  for (uint32_t count = 0; count < pub_count; ++count) {
+       uint64_t forward_pipe_id_ = 0;
+       Log* logptr = new Log();
+       logptr->set_debug_info( NumberToString(static_cast<ssize_t>(count)) );
+
+       // write replay log
+       if (error::OK != pe->PutReplayLogs(peid, pipe_name_, logptr, forward_pipe_id_)) {
+         DSTREAM_ERROR("put replay log(%s) failed, forward_pipe_id(%llu)", pipe_name_.c_str(), forward_pipe_id_);
+       }
+       
+       delete logptr;
+    }
+
+}
+
+TEST_F(TestPNReplay, test_get_replay_logs)
+{
+  uint64_t peid = 850829;
+  vector<dstream::Log*> replay_logs;
+  vector<dstream::Log*>::iterator replay_log_iter;
+
+  std::string test_pipe_name("test_pipe");
+  InitTest(test_pipe_name);
+
+  // pipe is not exist
+  ASSERT_EQ(error::OK, GetPEWrapper()->GetReplayLogs(peid, test_pipe_name, 0, replay_logs));
+  ASSERT_EQ(1, replay_logs.size());
+  replay_log_iter = replay_logs.begin();
+  ASSERT_STREQ("END_REPLAY", (*replay_log_iter)->debug_info().c_str());
+  delete (*replay_log_iter);
+  replay_logs.clear();
+
+  // pipe exist, but is empty
+  int fd = ::open(test_pipe_name.c_str(), O_WRONLY | O_CREAT | O_APPEND, 0666);
+  ASSERT_NE(-1, fd);
+  ::close(fd);
+  ASSERT_EQ(error::OK, GetPEWrapper()->GetReplayLogs(peid, test_pipe_name, 0, replay_logs));
+  ASSERT_EQ(1, replay_logs.size());
+  replay_log_iter = replay_logs.begin();
+  ASSERT_STREQ("END_REPLAY", (*replay_log_iter)->debug_info().c_str());
+  delete (*replay_log_iter);
+  replay_logs.clear();
+
+  DeinitTest();
+}
+
+TEST_F(TestPNReplay, test_pub_sub)
+{
+  uint64_t peid = 850829;
+  
+  InitTest("test_pub_sub_pipe");
+  
+  PublishTest(peid, 100);
+  uint32_t count = 0;
+  SubscribeTest(peid, 0, count);
+  ASSERT_EQ(100, count);
+
+  DeinitTest();
+}
+
+} // end dstream
+
+int main(int argc, char **argv) {
+  ::dstream::Logger::initialize("test_replay");
+  ::testing::InitGoogleTest(&argc, argv);
+
+  return RUN_ALL_TESTS();
+}

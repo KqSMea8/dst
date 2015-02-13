@@ -1,0 +1,17 @@
+#!/bin/bash
+#classic usages.
+#1. -copyFromLocal local remote
+#2. -mv old new
+#3. -copyOverwrite old new
+#4. -copyToLocal remote local
+#5. -test -e file
+#6. -ls file
+#7. -rmr file
+#8. -mkdir file
+
+HD=../../../../tools/hadoop-client/
+#HD=/home/hpc/soft/hadoop-client/
+
+JAVA_HOME=$HD/java6/ $HD/hadoop/bin/hadoop --config `pwd`/conf fs $@
+
+

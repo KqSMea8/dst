@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/37557/trunk/dstream/src/cc/generic_operator
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/23739/trunk/dstream/src/cc/generic_operator/COMAKE
+END
+error.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/37557/trunk/dstream/src/cc/generic_operator/error.h
+END
+joiner_context.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/37557/trunk/dstream/src/cc/generic_operator/joiner_context.h
+END
+default_serializer.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/37557/trunk/dstream/src/cc/generic_operator/default_serializer.h
+END
+single_key_joiner.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/single_key_joiner.cc
+END
+single_key_joiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/37557/trunk/dstream/src/cc/generic_operator/single_key_joiner.h
+END
+multi_join_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/37557/trunk/dstream/src/cc/generic_operator/multi_join_table.h
+END
+timed_sliding_windows.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/37557/trunk/dstream/src/cc/generic_operator/timed_sliding_windows.h
+END
+join_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/37557/trunk/dstream/src/cc/generic_operator/join_table.h
+END
+multi_key_joiner.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/multi_key_joiner.cc
+END
+joiner_context.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/joiner_context.cc
+END
+multi_key_joiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/37557/trunk/dstream/src/cc/generic_operator/multi_key_joiner.h
+END

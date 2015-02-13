@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/tools
+END
+atp2junit
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/atp2junit
+END
+analysis.conf
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/17249/trunk/dstream/src/test/tools/analysis.conf
+END
+btest2junit
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/btest2junit
+END

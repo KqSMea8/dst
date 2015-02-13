@@ -1,0 +1,57 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+#user_sources='src/cc/client/test/test_application.cc'.split()
+
+#import glob
+#import os
+#for x in user_sources:
+#  root=os.path.splitext(x)[0]
+#  Application(root, Sources(x),
+#                    Libraries('src/cc/client/libdstream_client.a') + ENV.Libraries())
+CXXFLAGS_TEST = '-DUNIT_TEST -Dprivate=public -Dprotected=public -DMOCKVIRTUAL=virtual'
+
+#Application('src/cc/client/test/test_integration',
+#            Sources('src/cc/client/test/test_integration.cc'),
+#            Libraries('src/cc/client/libdstream_client.a') + ENV.Libraries())
+
+Application('src/cc/client/test/test_application',
+            Sources('src/cc/client/test/test_application.cc'),
+            Libraries('src/cc/client/libdstream_client.a') + ENV.Libraries(),
+            OutputPath(''))
+
+Application('src/cc/client/test/test_action',
+            Sources('src/cc/client/test/test_action.cc'),
+            Libraries('src/cc/client/libdstream_client.a') + ENV.Libraries())
+
+Application('src/cc/client/test/test_action',
+            Sources('src/cc/client/test/test_action.cc'),
+            Libraries('src/cc/client/libdstream_client.a') + ENV.Libraries())
+
+Application('src/cc/client/test/test_client_config',
+            Sources('src/cc/client/test/test_client_config.cc'),
+            Libraries('src/cc/client/libdstream_client.a') + ENV.Libraries())
+
+Application('src/cc/client/test/test_dstream_client',
+            Sources('src/cc/client/test/test_dstream_client.cc'),
+            Libraries('src/cc/client/libdstream_client.a') + ENV.Libraries(),
+            OutputPath(''))
+
+Application('src/cc/client/test/test_pm_client',
+            Sources('src/cc/client/test/test_pm_client.cc',
+                    'src/cc/client/test/mock_pm.cc',
+            CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()),
+            Libraries('src/cc/client/libdstream_client.a') + ENV.Libraries())
+
+Application('src/cc/client/test/test_zk',
+            Sources('src/cc/client/test/test_zk.cc',
+            CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()),
+            Libraries('src/cc/client/libdstream_client.a') + ENV.Libraries())
+
+
+#TARGET('.copy_client_target', ShellCommands('cp src/cc/pm src/cc/client/test/dstream_client_unit_test_pm',
+#                                     'cp src/cc/pn src/cc/client/test/dstream_client_unit_test_pn',
+#                                     'cp src/cc/utils/update_cluster src/cc/client/test/'),
+#                              CleanCommands('rm -rf src/cc/client/test/dstream_client_unit_test_pm',
+#                                     'rm -rf src/cc/client/test/dstream_client_unit_test_pn',
+#                                     'rm -rf src/cc/client/test/update_cluster'))

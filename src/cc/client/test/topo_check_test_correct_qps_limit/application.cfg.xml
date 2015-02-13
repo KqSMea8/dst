@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>word_count_test</AppName>
+	<Description>word count</Description>
+
+	<Topology>
+		<ProcessorNum>3</ProcessorNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>importer</ProcessorName>
+				<Description></Description>
+                <RunCmd>./echo_importer</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>	
+                <QPSLimit>1000</QPSLimit>
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>	
+                <TuplesBatchCount>10</TuplesBatchCount>			
+                <PersistProgress>true</PersistProgress>
+			</Importer1>
+		</Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter</ProcessorName>
+				<Description></Description>
+                <RunCmd>./echo_exporter</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>10</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>task</processor>
+						<tag>in</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+		<Processor>
+			<Processor1>
+				<ProcessorName>task</ProcessorName>
+				<Description></Description>
+                <RunCmd>./echo_pe_task_level1</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>3</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>10</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>importer</processor>
+						<tag>in</tag>
+					</source>
+				</Subscribe>
+			</Processor1>
+		</Processor>
+	</Topology>
+</APP>

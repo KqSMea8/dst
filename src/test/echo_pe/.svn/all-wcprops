@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/echo_pe
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/echo_pe/COMAKE
+END
+build
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/11079/trunk/dstream/src/test/echo_pe/build
+END
+echo.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/echo_pe/echo.pb.cc
+END
+echo.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/echo_pe/echo.pb.h
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/11079/trunk/dstream/src/test/echo_pe/log.conf
+END
+echo_pe.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/echo_pe/echo_pe.cc
+END
+build_release.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/15380/trunk/dstream/src/test/echo_pe/build_release.sh
+END
+datalog
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/computing/!svn/ver/15380/trunk/dstream/src/test/echo_pe/datalog
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/echo_pe/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/11079/trunk/dstream/src/test/echo_pe/README
+END
+echo_pe_echo.pb.o
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/echo_pe/echo_pe_echo.pb.o
+END

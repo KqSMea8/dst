@@ -1,0 +1,6 @@
+2012-05-03 zhanggengxin <zhanggengxin@baidu.com>
+	Add Resource Config to PN, if resource config is not exist pn will use 70% of avaible memory 
+
+2012-05-07 zhanggengxin <zhanggengxin@baidu.com>
+	Modify processbuilder for support limit3
+	Modify memory limit size to KB

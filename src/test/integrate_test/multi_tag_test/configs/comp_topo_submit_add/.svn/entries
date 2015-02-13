@@ -1,0 +1,83 @@
+10
+
+dir
+58417
+https://svn.baidu.com/inf/computing/trunk/dstream/src/test/integrate_test/multi_tag_test/configs/comp_topo_submit_add
+https://svn.baidu.com/inf/computing
+
+
+
+2013-07-19T07:30:47.443387Z
+36778
+fangjun02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5ee14639-69ca-404e-8003-0feac8d9a543
+
+echo_importer
+dir
+
+application.cfg.xml
+file
+
+
+
+
+2014-01-09T11:06:55.000000Z
+75f51060a7711fa99930c384d8f6fa7e
+2012-04-09T07:43:55.932590Z
+9805
+liyuanjian
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4837
+
+echo_pe_task1
+dir
+
+echo_exporter
+dir
+
+echo_pe_task2
+dir
+
+echo_exporter1
+dir
+
+echo_pe_task3
+dir
+
+echo_pe_task4
+dir
+

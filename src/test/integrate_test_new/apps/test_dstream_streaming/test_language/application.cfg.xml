@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>streaming_test_language</AppName>
+	<Description>echo word</Description>
+
+	<Topology>
+		<ProcessorNum>3</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>echo_importer</ProcessorName>
+				<Description></Description>
+				<RunCmd>./streaming -k "###" ./echo.sh</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+                                <TuplesBatchCount>500</TuplesBatchCount>			
+			</Importer1>
+		</Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter</ProcessorName>
+				<Description></Description>
+					<RunCmd>./streaming -k "###" "./echo.out"</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task1</processor>
+						<tag>StreamingKVType</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+		<Processor>
+			<Processor1>
+				<ProcessorName>echo_pe_task1</ProcessorName>
+				<Description></Description>
+				<RunCmd>./streaming -k "###" "python echo.py"</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>StreamingKVType</tag>
+					</source>
+				</Subscribe>
+			</Processor1>
+			<!--Processor2>
+				<ProcessorName>echo_pe_task2</ProcessorName>
+				<Description></Description>
+				<RunCmd>./streaming -k "###" "/home/work/php/bin/php ./echo.php"</RunCmd>
+				<RunCmd>./streaming -k "###" cat</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task1</processor>
+						<tag>StreamingKVType</tag>
+					</source>
+				</Subscribe>
+			</Processor2-->
+		</Processor>
+	</Topology>
+</APP>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/multi_tag_test/configs/echo_to_be_submit
+END
+application.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/inf/computing/!svn/ver/9094/trunk/dstream/src/test/integrate_test/multi_tag_test/configs/echo_to_be_submit/application.cfg.xml
+END
+echo_importer_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test/multi_tag_test/configs/echo_to_be_submit/echo_importer_sub.xml
+END
+cluster.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/multi_tag_test/configs/echo_to_be_submit/cluster.cfg.xml
+END

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>wordcount</AppName>
+	<Description>wordcount</Description>
+
+	<Topology>
+		<ProcessorNum>3</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>word_cnt_importer</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./word_cnt_importer</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+				<StatusMark>0</StatusMark>
+			</Importer1>
+		</Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>word_cnt_exporter</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./word_cnt_exporter</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+				<StatusMark>0</StatusMark>
+				<Subscribe>
+					<source>
+						<processor>word_cnt_pe_task</processor>
+						<tag></tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+		<Processor>
+			<Processor1>
+				<ProcessorName>word_cnt_pe_task</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./word_cnt_pe_task</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>2</Parallelism>
+				<BackupPENum>1</BackupPENum>
+				<StatusMark>0</StatusMark>
+				<Subscribe>
+					<source>
+						<processor>word_cnt_importer</processor>
+						<tag></tag>
+					</source>
+				</Subscribe>
+			</Processor1>
+		</Processor>
+	</Topology>
+</APP>

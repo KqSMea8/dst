@@ -1,0 +1,14 @@
+#CXXFLAGS_TEST = '-DUNIT_TEST -Dprivate=public -Dprotected=public -DMOCKVIRTUAL=virtual'
+
+import glob
+import os
+test_source_files=glob.glob("src/cc/storage/test/test_*.cc") 
+for x in test_source_files: 
+	root=os.path.splitext(x)[0] 
+	Application(root, 
+                Sources(x, 'src/cc/storage/test/redis_env.cc'), 
+                CXXFLAGS("-D_REDIS_DEBUG"),
+                ENV.IncludePaths(), 
+                Libraries('src/cc/common/libcommon.a',
+                          'src/cc/storage/libstorage.a')
+                + ENV.Libraries(), OutputPath(''))

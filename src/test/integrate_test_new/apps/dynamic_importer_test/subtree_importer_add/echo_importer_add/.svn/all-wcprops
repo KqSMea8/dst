@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/subtree_importer_add/echo_importer_add
+END
+echo_importer_add_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/subtree_importer_add/echo_importer_add/echo_importer_add_sub.xml
+END
+echo_tag_importer_add
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/inf/computing/!svn/ver/14603/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/subtree_importer_add/echo_importer_add/echo_tag_importer_add
+END
+echo_importer_add
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/inf/computing/!svn/ver/14603/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/subtree_importer_add/echo_importer_add/echo_importer_add
+END

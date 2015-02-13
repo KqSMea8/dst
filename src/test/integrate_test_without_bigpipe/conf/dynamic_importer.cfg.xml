@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>echo_task</AppName>
+	<Description>echo word</Description>
+
+	<Topology>
+		<ProcessorNum>2</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>echo_importer_add</ProcessorName>
+				<Description></Description>
+        		<RunCmd>./echo_importer_add</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>256M</Memory>
+				</Resource>
+				<Parallelism>5</Parallelism>	
+			</Importer1>
+		</Importer>
+		<Processor>
+			<Processor1>
+				<ProcessorName>echo_task</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./echo_task</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>256M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<Subscribe>
+					<source>
+						<processor>echo_importer_add</processor>
+					</source>
+				</Subscribe>
+			</Processor1>
+                </Processor>
+	</Topology>
+</APP>

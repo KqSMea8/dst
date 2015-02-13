@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Cluster>
+	<!-- WARN : This Config File Is Not In Use!!!!!!!!!!!!!!!! -->
+  <Client>
+	  <!-- User配置信息 -->
+    <User>
+	    <UserName>test</UserName>:
+	    <Password>test</Password>
+    </User>
+
+	<!-- ZooKeeper配置信息 -->
+  <ZooKeeperPath>
+  </ZooKeeperPath>
+</Cluster>

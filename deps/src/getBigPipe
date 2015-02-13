@@ -1,0 +1,27 @@
+#!/bin/bash
+BIGPIPE=../../../../bigpipe/c-api/
+if [ ! -d $BIGPIPE ]; then
+    svn co https://svn.baidu.com/inf/bigpipe/tags/c-api/c-api_1-0-13-0_PD_BL $BIGPIPE
+fi
+
+# build bigpipe.
+cd $BIGPIPE
+comake2 -UB
+comake2
+make -j 16 
+sh build_so.sh
+cd -
+
+# clean up bigpipe
+rm -rf bigpipe_capi
+rm -f bigpipe_capi.tar.gz
+
+# release bigpipe.
+mkdir -p bigpipe_capi/include
+for include in bigpipe_common_return_type.h bigpipe_partitioner.h bigpipe_progress.h bigpipe_wrapper.h
+do
+    cp $BIGPIPE/output/include/$include bigpipe_capi/include/
+done
+mkdir -p bigpipe_capi/lib
+cp $BIGPIPE/output/lib/libbigpipe_api.so bigpipe_capi/lib/
+tar czvf bigpipe_capi.tar.gz bigpipe_capi/

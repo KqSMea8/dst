@@ -1,0 +1,88 @@
+package dstream;
+import "application.proto";
+import "dstream_proto_common.proto";
+import "pn.proto";
+
+//PM send command to pn
+//Create PE Message, return succ/fail
+message CreatePEMessage {
+  optional AppID app_id = 1;
+  optional PEID pe_id = 2;
+  optional Processor processor = 3;
+  optional BackupPEID backup_id = 4;
+  optional fixed64 last_assign_time = 5;
+}
+
+message CreatePEResult {
+  optional PNID id = 1;
+  optional AppID app_id = 2;
+  optional PEID pe_id = 3;
+  optional BackupPEID backup_id = 4;
+  optional int32 res = 5;
+}
+
+//PM tell PN to kill/setprimary/query pe
+message PEOperationMessage {
+  enum OperationType {
+    KILL = 0;
+    SETPRIMARY = 1;
+    QUERY = 2;
+    RESTART = 3;
+  }
+  optional OperationType type = 1;
+  optional AppID app_id = 2;
+  optional PEID pe_id = 3;
+  optional BackupPEID backup_pe_id = 4;
+  optional uint32 revision = 5;
+}
+
+message PEOperationResult {
+  optional PNID id = 1;
+  optional AppID app_id = 2;
+  optional PEID pe_id = 3;
+  optional BackupPEID backup_id = 4;
+  optional int32 res = 5;
+}
+
+message BackupPEStatus {
+  optional AppID app_id = 1;
+  optional PEID pe_id = 2;
+  optional BackupPEID backup_pd_id = 3;
+  optional float cpu_used = 4;
+  optional uint32 memory_used = 5;
+  optional uint32 network_used = 6;
+  optional uint32 disk_used = 7;
+  optional uint64 tuples_processed = 8;
+  repeated string metric_name = 9;
+  repeated string metric_value = 10;
+  optional uint32 revision = 11;
+}
+
+message FailPE {
+  optional AppID app_id = 1;
+  optional PEID pe_id = 2;
+  optional BackupPEID backup_pe_id = 3;
+  optional uint32 revision = 4;
+}
+
+message TupleQueue {
+  optional uint32 queue_id = 1;
+  optional PEID pe_id = 2;
+  optional uint32 drop_tuples = 3;
+  optional uint32 buffer_tuples = 4;
+  optional uint32 memory_used = 5;
+}
+
+message PNReport {
+  optional PNID id = 1;
+  optional PNResourceStatus resource = 2;
+  repeated BackupPEStatus status = 3;
+  repeated FailPE fails = 4;
+  repeated TupleQueue queues = 5;
+}
+
+//report response
+message ReportResponse {
+  optional fixed32 next_report_interval = 1;
+}
+

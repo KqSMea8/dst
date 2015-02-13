@@ -1,0 +1,8 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+#
+StaticLibrary('src/cc/metamanager/metamanager',
+              Sources('src/cc/metamanager/meta_manager.cc',
+                      'src/cc/metamanager/zk_config.cc',
+                      'src/cc/metamanager/zk_meta_manager.cc'),
+              OutputPath(''))

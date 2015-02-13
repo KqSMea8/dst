@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>dynamic_echo_1_1_1</AppName>
+	<Description>dynamic test</Description>
+
+	<Topology>
+		<ProcessorNum>3</ProcessorNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>echo_importer_add</ProcessorName>
+				<Description></Description>
+                                <RunCmd>./echo_tag_importer_add local_file</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+                                <TuplesBatchCount>500</TuplesBatchCount>			
+			</Importer1>
+		</Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter_add</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./echo_exporter</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>100M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<ForceForwardBatchsPeriodMillSeconds>1000</ForceForwardBatchsPeriodMillSeconds>
+				<Subscribe>
+					<source>
+						<processor>echo_importer_add</processor>
+						<tag>dynamic_tag.DynamicTag1</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+		<Processor>
+			<Processor1>
+				<ProcessorName>echo_pe_task</ProcessorName>
+				<Description></Description>
+       	                        <RunCmd>./echo_pe_task</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<DynamicProtoDir>/home/liyuanjian/r14191-15</DynamicProtoDir>
+				<Subscribe>
+					<source>
+						<processor>echo_importer_add</processor>
+						<tag>dynamic_tag.DynamicTag2</tag>
+					</source>
+				</Subscribe>
+			</Processor1>
+		</Processor>
+	</Topology>
+</APP>

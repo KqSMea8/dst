@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/11208/trunk/dstream/src/test/integrate_test_new/apps/udwrt/sshexec
+END
+sshpass
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/computing/!svn/ver/11208/trunk/dstream/src/test/integrate_test_new/apps/udwrt/sshexec/sshpass
+END
+sshexec.sh
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/11208/trunk/dstream/src/test/integrate_test_new/apps/udwrt/sshexec/sshexec.sh
+END

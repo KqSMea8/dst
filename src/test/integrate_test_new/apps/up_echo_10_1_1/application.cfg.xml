@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>up_echo_10_1_1</AppName>
+	<Description>30 pes echo test</Description>
+	<DataStrategy>HoldData</DataStrategy>
+
+	<Topology>
+		<ProcessorNum>3</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+        <Importer>
+			<Importer1>
+				<ProcessorName>echo_importer</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./echo_pe -t 4 -s logagent</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>100M</Memory>
+				</Resource>
+				<Parallelism>10</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>	
+                <TuplesBatchCount>500</TuplesBatchCount>			
+				<ForceForwardBatchsPeriodMillSeconds>1000</ForceForwardBatchsPeriodMillSeconds>
+			</Importer1>
+		</Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./echo_pe</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>100M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<ForceForwardBatchsPeriodMillSeconds>1000</ForceForwardBatchsPeriodMillSeconds>
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task</processor>
+						<tag>tag1</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task</processor>
+						<tag>tag2</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task</processor>
+						<tag>tag3</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task</processor>
+						<tag>tag4</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+		<Processor>
+			<Processor1>
+				<ProcessorName>echo_pe_task</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./echo_pe -t 4</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>100M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<ForceForwardBatchsPeriodMillSeconds>1000</ForceForwardBatchsPeriodMillSeconds>
+				<Subscribe>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>tag1</tag>
+					</source>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>tag2</tag>
+					</source>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>tag3</tag>
+					</source>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>tag4</tag>
+					</source>
+				</Subscribe>
+			</Processor1>
+		</Processor>
+	</Topology>
+</APP>

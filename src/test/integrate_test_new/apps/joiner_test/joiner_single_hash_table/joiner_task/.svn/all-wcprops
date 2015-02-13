@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/joiner_test/joiner_single_hash_table/joiner_task
+END
+joiner_task.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/joiner_test/joiner_single_hash_table/joiner_task/joiner_task.cfg.xml
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/joiner_test/joiner_single_hash_table/joiner_task/log.conf
+END
+joiner_task
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/joiner_test/joiner_single_hash_table/joiner_task/joiner_task
+END
+joiner_task_single
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/joiner_test/joiner_single_hash_table/joiner_task/joiner_task_single
+END
+joiner_task_storage.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/joiner_test/joiner_single_hash_table/joiner_task/joiner_task_storage.cfg.xml
+END

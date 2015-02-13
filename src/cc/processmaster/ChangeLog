@@ -1,0 +1,24 @@
+2012-04-20 zhanggengxin <zhanggengxin@baidu.com>
+	Fix bug of clean app dir when client submit app fail
+
+2012-04-24 zhanggengxin <zhanggengxin@baidu.com>
+	Add Add App Event when submit App, the event will first allocate resource
+	and then add create pe event
+	But There is more things to do when restart pm
+
+2012-05-03 zhanggengxin <zhanggengxin@baidu.com>
+	Add PM version
+
+2012-05-09 zhanggengxin <zhanggengxin@baidu.com>
+	Fix bug in dstream_event_manager.cc : not check map's find item
+
+2012-06-04 zhanggengxin <zhanggengxin@baidu.com>
+	Fix bug for handle pe fail event : when app is in RUN/DEL_SUB/ADD_SUB the app
+	can be scheduled
+
+2012-06-07 zhanggengxin <zhanggengxin@baidu.com>
+	Remove kill pe when kill app to avoid repeat release resource
+
+2012-06-11 zhanggengxin <zhanggengxin@baidu.com>
+	Add Kill self operation when get signal
+	

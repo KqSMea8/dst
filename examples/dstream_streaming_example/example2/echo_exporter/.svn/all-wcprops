@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/14453/trunk/dstream/examples/dstream_streaming_example/example2/echo_exporter
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/inf/computing/!svn/ver/13052/trunk/dstream/examples/dstream_streaming_example/example2/echo_exporter/log.conf
+END

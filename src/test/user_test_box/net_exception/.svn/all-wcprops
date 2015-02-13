@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/net_exception
+END
+bp_con_down.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/16930/trunk/dstream/src/test/user_test_box/net_exception/bp_con_down.sh
+END
+hdfs_con_down.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/16930/trunk/dstream/src/test/user_test_box/net_exception/hdfs_con_down.sh
+END
+bp_zk_down.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/16930/trunk/dstream/src/test/user_test_box/net_exception/bp_zk_down.sh
+END
+ds_zk_down.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/net_exception/ds_zk_down.sh
+END

@@ -1,0 +1,4 @@
+package dstream;
+message Message {
+ optional string data=1;      
+};

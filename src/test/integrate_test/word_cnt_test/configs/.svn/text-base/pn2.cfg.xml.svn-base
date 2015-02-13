@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cluster>
+  <PN>
+    <ListenThreadNum>18</ListenThreadNum>
+    <ListenPort>6001</ListenPort>
+    <ImporterPort>19870</ImporterPort>
+    <WorkDir>.</WorkDir>
+    <NewSubChkIntervalSec>10000</NewSubChkIntervalSec>
+    <MaxSubQueueSize>10000</MaxSubQueueSize>
+    <MaxSendQueueSize>10000</MaxSendQueueSize>
+    <MaxRecvQueueSize>10000</MaxRecvQueueSize>
+    <PM>
+      <Retry>3</Retry>
+      <TimeoutMs>-1</TimeoutMs>
+    </PM>
+  </PN>
+
+  <HDFS>
+    <HadoopClientDir>/home/liyuanjian/mapred/hadoop-client/hadoop/</HadoopClientDir>
+    <Retry>3</Retry>
+  </HDFS>
+
+    <ZooKeeperPath>
+        <PM><Root>/dstream_lyj/PM</Root></PM>
+        <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+        <Config><Root>/dstream_lyj/Config</Root></Config>
+        <App><Root>/dstream_lyj/App</Root></App>
+        <PN><Root>/dstream_lyj/PN</Root></PN>
+        <Client><Root>/dstream_lyj/Client</Root></Client>
+        <Recv>
+            <TimeoutMs>30000</TimeoutMs>
+        </Recv>
+    </ZooKeeperPath>
+
+</Cluster>

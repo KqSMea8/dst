@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cluster>
+  <Client>
+    <User>
+            <UserName>press</UserName>:
+            <Password>press</Password>
+    </User>
+  </Client>
+
+  <PN>
+    <ListenThreadNum>100</ListenThreadNum>
+    <ListenPort>8888</ListenPort>
+    <ImporterPort>19870</ImporterPort>
+    <WorkDir>.</WorkDir>
+    <NewSubChkIntervalSec>10000</NewSubChkIntervalSec>
+    <MaxSubQueueSize>10000</MaxSubQueueSize>
+    <MaxSendQueueSize>10000</MaxSendQueueSize>
+    <MaxRecvQueueSize>10000</MaxRecvQueueSize>
+    <TuplesBatchCount>1</TuplesBatchCount>
+    <ForceForwardTuplesPeriodMillSeconds>100</ForceForwardTuplesPeriodMillSeconds>
+    <PM>
+      <Retry>3</Retry>
+      <TimeoutMs>30000</TimeoutMs>
+    </PM>
+  </PN>
+
+  <HDFS>
+    <HadoopClientDir>/home/work/mapred/hadoop-client/hadoop/</HadoopClientDir>
+    <Retry>3</Retry>
+  </HDFS>
+
+    <ZooKeeperPath>
+        <PM><Root>/dstream_press/PM</Root></PM>
+        <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+        <Config><Root>/dstream_press/Config</Root></Config>
+        <App><Root>/dstream_press/App</Root></App>
+        <PN><Root>/dstream_press/PN</Root></PN>
+        <Client><Root>/dstream_press/Client</Root></Client>
+        <Recv>
+            <TimeoutMs>30000</TimeoutMs>
+        </Recv>
+    </ZooKeeperPath>
+
+</Cluster>

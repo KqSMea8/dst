@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cluster>
+  <Client>
+    <User>
+	    <UserName>hudson</UserName>
+	    <Password>hudson</Password>
+    </User>
+    <PM>
+      <Retry>3</Retry>
+      <TimeoutMs>-1</TimeoutMs>
+    </PM>
+  </Client>
+
+  <PN>
+    <ListenThreadNum>18</ListenThreadNum>
+    <ListenPort>8888</ListenPort>
+    <ImporterPort>19870</ImporterPort>
+    <WorkDir>.</WorkDir>
+    <NewSubChkIntervalSec>10000</NewSubChkIntervalSec>
+    <MaxSubQueueSize>10000</MaxSubQueueSize>
+    <MaxSendQueueSize>10000</MaxSendQueueSize>
+		<MaxRecvQueueSize>10000</MaxRecvQueueSize>
+		<TuplesBatchCount>100</TuplesBatchCount>
+		<ForceForwardTuplesPeriodMillSeconds>1000</ForceForwardTuplesPeriodMillSeconds>
+		<TuplesBatchCount>100</TuplesBatchCount>
+		<ForceForwardTuplesPeriodMillSeconds>1000</ForceForwardTuplesPeriodMillSeconds>
+    <PM>
+      <Retry>3</Retry>
+      <TimeoutMs>-1</TimeoutMs>
+    </PM>
+  </PN>
+
+  <HDFS>
+    <HadoopClientDir>../../../test/tools/hadoop-client/hadoop/</HadoopClientDir>
+    <Retry>3</Retry>
+  </HDFS>
+
+  <ZooKeeperPath>
+	  <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+    <Retry>3</Retry>
+    <TimeoutMs>30000</TimeoutMs>
+    <PM>
+        <Root>/dstream_hudson/PM</Root>
+    </PM>
+    <Config>
+        <Root>/dstream_hudson/Config</Root>
+    </Config>
+    <App>
+        <Root>/dstream_hudson/App</Root>
+    </App>
+    <PN>
+        <Root>/dstream_hudson/PN</Root>
+    </PN>
+    <Client>
+	<Root>/dstream_hudson/Client</Root>  
+    </Client>
+  </ZooKeeperPath>
+
+  <Log>
+    <PE>
+      <TimeFormat>%Y_%m_%d_%H_%M</TimeFormat>
+      <!-- true or false expected  below-->
+      <LocalStore>true</LocalStore>
+      <HdfsStore>false</HdfsStore>
+      <ConsoleShow>true</ConsoleShow>
+    </PE>
+  </Log>
+
+</Cluster>

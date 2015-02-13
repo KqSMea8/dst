@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/lib
+END
+libcov-noThread.a
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/lib/libcov-noThread.a
+END
+libcov32.a
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/lib/libcov32.a
+END
+libcov32-noThread.a
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/lib/libcov32-noThread.a
+END
+libcov-sh4-noThread.a
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/lib/libcov-sh4-noThread.a
+END
+libcov.a
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/lib/libcov.a
+END

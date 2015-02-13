@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/utils/conf
+END
+pub.conf
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/15060/trunk/dstream/src/test/utils/conf/pub.conf
+END
+sub.conf
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/utils/conf/sub.conf
+END

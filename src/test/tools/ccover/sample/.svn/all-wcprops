@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/sample
+END
+calc1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/sample/calc1.cpp
+END
+calc2.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/sample/calc2.c
+END
+test.cov
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/sample/test.cov
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/sample/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/sample/README
+END

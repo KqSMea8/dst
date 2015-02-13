@@ -1,0 +1,4 @@
+2012-04-23 zhanggengxin <zhanggengxin@baidu.com>
+	Clear zk context before/after test_meta_manager
+	remove test_zk_meta_manager.cc 
+	

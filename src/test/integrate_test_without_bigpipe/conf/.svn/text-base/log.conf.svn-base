@@ -1,0 +1,69 @@
+# log4cplus
+
+### console log output ###
+log4cplus.rootLogger=INFO, rootAppender
+log4cplus.logger.rootAppener=INFO,rootAppender
+log4cplus.appender.rootAppender=log4cplus::RollingFileAppender
+log4cplus.appender.rootAppender.File=logfile
+log4cplus.appender.rootAppender.MaxFileSize=1024MB
+log4cplus.appender.rootAppender.MaxBackupIndex=5
+log4cplus.appender.rootAppender.layout=log4cplus::PatternLayout
+log4cplus.appender.rootAppender.layout.ConversionPattern=[%D{%m-%d %H:%M:%S:%q}][%p][%c]%x:%m%n
+#log4cplus.appender.rootAppender=log4cplus::ConsoleAppender
+#log4cplus.appender.rootAppender.layout=log4cplus::PatternLayout
+#log4cplus.appender.rootAppender.layout.ConversionPattern=[%D{%m-%d %H:%M:%S:%q}][%p][%c]%x:%m%n
+
+### PM file log output ###
+log4cplus.logger.processmaster=INFO, processmaster
+log4cplus.appender.processmaster=log4cplus::RollingFileAppender
+log4cplus.appender.processmaster.File=log/pm.log
+log4cplus.appender.processmaster.MaxFileSize=1024MB
+log4cplus.appender.processmaster.MaxBackupIndex=5
+log4cplus.appender.processmaster.layout=log4cplus::PatternLayout
+log4cplus.appender.processmaster.layout.ConversionPattern=[%D{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n
+log4cplus.additivity.processmaster = false
+
+### PN file log output ###
+log4cplus.logger.processnode=INFO, processnode
+log4cplus.appender.processnode=log4cplus::RollingFileAppender
+log4cplus.appender.processnode.File=log/pn.log
+log4cplus.appender.processnode.MaxFileSize=1024MB
+log4cplus.appender.processnode.MaxBackupIndex=5
+log4cplus.appender.processnode.layout=log4cplus::PatternLayout
+log4cplus.appender.processnode.layout.ConversionPattern=[%D{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n
+log4cplus.additivity.processnode = false
+
+##PE file log output ###
+log4cplus.logger.processelement=INFO, processelement
+log4cplus.appender.processelement=log4cplus::RollingFileAppender
+log4cplus.appender.processelement.File=log/pe.log
+log4cplus.appender.processelement.MaxFileSize=1024MB
+log4cplus.appender.processelement.MaxBackupIndex=5
+log4cplus.appender.processelement.layout=log4cplus::PatternLayout
+log4cplus.appender.processelement.layout.ConversionPattern=[%D{%Y-%m-%d %H:%M:%S:%q}][%p][%c]%x:%m%n
+log4cplus.additivity.processelement = false
+
+# log4cpp
+
+# define a default category
+#log4cpp.rootCategory=DEBUG,rootAppender
+#define a appender whose name is rootAppender
+#appender.rootAppender=log4cpp.ConsoleAppender
+#appender.rootAppender.layout=log4cpp.PatternLayout
+#appender.rootAppender.layout.ConversionPattern=[%d{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n 
+
+#category.process master=DEBUG,masterapp
+#appender.masterapp=log4cpp.RollingFileAppender
+#appender.masterapp.fileName=pm.log
+#appender.masterapp.maxBackupIndex=50
+#appender.masterapp.maxFileSize=1048576000
+#appender.masterapp.layout=log4cpp.PatternLayout
+#appender.masterapp.layout.ConversionPattern=[%d{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n 
+
+#category.PN=DEBUG,nodeapp
+#appender.nodeapp=log4cpp.RollingFileAppender
+#appender.nodeapp.fileName=pn.log
+#appender.nodeapp.maxBackupIndex=50
+#appender.nodeapp.maxFileSize=1048576000
+#appender.nodeapp.layout=log4cpp.PatternLayout
+#appender.nodeapp.layout.ConversionPattern=[%d{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n 

@@ -1,0 +1,46 @@
+#CXXFLAGS_TEST = '-O0 -g3 -DUNIT_TEST -Dprivate=public -Dprotected=public -UDSTREAM_FORCE_INLINE -DDSTREAM_FORCE_INLINE= -UMOCKVIRTUAL -DMOCKVIRTUAL=virtual'
+CXXFLAGS_TEST = '-O0 -g -DUNIT_TEST -Dprivate=public -Dprotected=public -UMOCKVIRTUAL -DMOCKVIRTUAL=virtual'
+
+Application('src/cc/transporter/test/test_ring_buffer',
+           Sources('src/cc/transporter/test/test_ring_buffer.cc',
+                   CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                   IncludePaths('./common',
+                                './common/proto') + ENV.IncludePaths()),
+           Libraries('src/cc/common/libcommon.a',
+                     'src/cc/transporter/libtransporter.a')
+                     + ENV.Libraries(),
+           OutputPath(''))
+
+Application('src/cc/transporter/test/test_queue_buffer',
+           Sources('src/cc/transporter/test/test_queue_buffer.cc',
+                   CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                   IncludePaths('./common',
+                                './common/proto') + ENV.IncludePaths()),
+           Libraries('src/cc/common/libcommon.a',
+                     'src/cc/transporter/libtransporter.a')
+                     + ENV.Libraries(),
+           OutputPath(''))
+
+
+import glob
+import os
+transporter_test_source_files=glob.glob("src/cc/transporter/test/test_transporter*.cc") 
+for x in transporter_test_source_files: 
+	root=os.path.splitext(x)[0] 
+	Application(root, 
+                Sources(x, "src/cc/transporter/test/transporter_env.cc",
+                           "src/cc/transporter/test/transporter_test_common.cc", 
+                           'src/cc/transporter/transporter.cc' , #source from transporter
+                           'src/cc/transporter/transporter_inflow.cc' , 
+                           'src/cc/transporter/transporter_outflow.cc',
+                           'src/cc/transporter/transporter_stubmgr.cc',
+                           'src/cc/transporter/transporter_cli.cc',
+                           'src/cc/transporter/transporter_tag.cc',
+                           'src/cc/transporter/transporter_queue.cc',
+                           'src/cc/transporter/transporter_common.cc',
+                           'src/cc/transporter/ring_buffer.cc',
+                           CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()),
+                ENV.IncludePaths(), 
+                Libraries('src/cc/common/libcommon.a')
+                          + ENV.Libraries(),
+                OutputPath(''))

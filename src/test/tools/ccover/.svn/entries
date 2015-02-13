@@ -1,0 +1,52 @@
+10
+
+dir
+58417
+https://svn.baidu.com/inf/computing/trunk/dstream/src/test/tools/ccover
+https://svn.baidu.com/inf/computing
+
+
+
+2013-07-30T09:09:22.207815Z
+37492
+konghui
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5ee14639-69ca-404e-8003-0feac8d9a543
+
+bin-embeddedLinuxKernel
+dir
+
+sample
+dir
+
+include
+dir
+
+run
+dir
+
+lib
+dir
+
+bin
+dir
+
+help
+dir
+
+etc
+dir
+

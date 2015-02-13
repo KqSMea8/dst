@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/utils/sos/bin
+END
+generate-server-list.sh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/generate-server-list.sh
+END
+dist-exec-f.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/dist-exec-f.sh
+END
+dist-monitor.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/dist-monitor.sh
+END
+ssh-prepare.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/ssh-prepare.sh
+END
+wget_readme
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/wget_readme
+END
+dist-check_limit.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/dist-check_limit.sh
+END
+gen_local_authorized_keys.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/gen_local_authorized_keys.sh
+END
+wget
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/utils/sos/bin/wget
+END
+create-hadoop-client-package.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/create-hadoop-client-package.sh
+END
+dist-change-user-passwd.sh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/dist-change-user-passwd.sh
+END
+dist-cp.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/dist-cp.sh
+END
+add-user.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/add-user.sh
+END
+dist-exec-b.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/dist-exec-b.sh
+END
+lzcat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/7047/trunk/dstream/src/test/utils/sos/bin/lzcat
+END

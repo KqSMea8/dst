@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/16071/trunk/dstream/src/script/file_server
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/13305/trunk/dstream/src/script/file_server/start.sh
+END
+web.py-0.21.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/13305/trunk/dstream/src/script/file_server/web.py-0.21.tar.gz
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/13305/trunk/dstream/src/script/file_server/setup.py
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/13305/trunk/dstream/src/script/file_server/README.txt
+END
+conf.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/16071/trunk/dstream/src/script/file_server/conf.py
+END
+file_server.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/13656/trunk/dstream/src/script/file_server/file_server.py
+END
+stop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/13305/trunk/dstream/src/script/file_server/stop.sh
+END

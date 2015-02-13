@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/inf/computing/!svn/ver/45709/trunk/dstream/conf
+END
+dstream.conf
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/inf/computing/!svn/ver/45709/trunk/dstream/conf/dstream.conf
+END
+cluster_config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/45709/trunk/dstream/conf/cluster_config.xml
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/computing/!svn/ver/33337/trunk/dstream/conf/log.conf
+END
+monitor.conf
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/inf/computing/!svn/ver/13912/trunk/dstream/conf/monitor.conf
+END
+dstream.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/computing/!svn/ver/45709/trunk/dstream/conf/dstream.cfg.xml
+END

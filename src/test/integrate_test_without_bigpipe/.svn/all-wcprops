@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_without_bigpipe
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/40109/trunk/dstream/src/test/integrate_test_without_bigpipe/COMAKE
+END
+build
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/40109/trunk/dstream/src/test/integrate_test_without_bigpipe/build
+END
+echo.proto
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_without_bigpipe/echo.proto
+END
+echo.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/40109/trunk/dstream/src/test/integrate_test_without_bigpipe/echo.pb.cc
+END
+echo_importer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test_without_bigpipe/echo_importer.cc
+END
+echo.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/inf/computing/!svn/ver/40109/trunk/dstream/src/test/integrate_test_without_bigpipe/echo.pb.h
+END
+echo_task.cc
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test_without_bigpipe/echo_task.cc
+END
+latency_distribution.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_without_bigpipe/latency_distribution.py
+END
+echo_exporter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test_without_bigpipe/echo_exporter.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/40109/trunk/dstream/src/test/integrate_test_without_bigpipe/Makefile
+END

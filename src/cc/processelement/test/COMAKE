@@ -1,0 +1,46 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+#
+CXXFLAGS_TEST += '-g -pipe -W -Wall -Wno-unused-parameter -Wreturn-type -Wtrigraphs -Wformat'
+CXXFLAGS_TEST += '-Wparentheses -Wpointer-arith -Winline -Wwrite-strings -Wconversion -rdynamic -fPIC'
+CXXFLAGS_TEST += '-O0 -DUNIT_TEST -Dprivate=public -Dprotected=public -UMOCKVIRTUAL -DMOCKVIRTUAL=virtual'
+
+Application('src/cc/processelement/test/test_counter',
+            Sources('src/cc/processelement/test/test_task_incounter.cc'),
+            OutputPath(''))
+
+Application('src/cc/processelement/test/test_emit',
+            Sources('src/cc/processelement/test/test_emit_tuple.cc'),
+            OutputPath(''))
+
+Application('src/cc/processelement/test/test_importer_loopback',
+            Sources('src/cc/processelement/test/test_importer_loopback.cc',
+                    'src/cc/processelement/test/echo.proto'),
+            OutputPath(''))
+
+Application('src/cc/processelement/test/test_pe_loopback',
+            Sources('src/cc/processelement/test/test_pe_loopback.cc',
+                    'src/cc/processelement/test/echo.proto'),
+            OutputPath(''))
+
+Application('src/cc/processelement/test/test_pe_context',
+            Sources('src/cc/processelement/test/test_pe_context.cc'),
+            OutputPath(''))
+
+Application('src/cc/processelement/test/test_task_fetch_pull_data',
+            Sources('src/cc/processelement/test/test_task_fetch_pull_data.cc',
+                    'src/cc/processelement/test/echo.proto',
+                    CppFlags(CXXFLAGS_TEST) + ENV.CppFlags(),
+                    Libraries('src/cc/transporter/libtransporter.a')),
+            OutputPath(''))
+
+Application('src/cc/processelement/test/test_zk_client',
+            Sources('src/cc/processelement/test/test_zk_client.cc'),
+            OutputPath(''))
+
+Application('src/cc/processelement/test/test_bp_progress',
+            Sources('src/cc/processelement/test/test_bp_progress.cc',
+                    'src/cc/processelement/bp_progress.cc',
+                    'src/cc/processelement/zk_client.cc',
+                CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()),
+            OutputPath(''))

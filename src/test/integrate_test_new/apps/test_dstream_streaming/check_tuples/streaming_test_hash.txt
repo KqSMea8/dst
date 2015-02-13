@@ -1,0 +1,10 @@
+echo_exporter	6000	0
+echo_exporter	6000	0
+echo_pe_task	6000	6000
+echo_pe_task	6000	6000
+echo_pe_task	6000	6000
+echo_pe_task	6000	6000
+echo_pe_task	6000	6000
+echo_exporter	9000	0
+echo_exporter	9000	0
+echo_importer	30000	30000

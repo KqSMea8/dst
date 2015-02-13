@@ -1,0 +1,22 @@
+#coding:gbk
+  
+StaticLibrary('src/cc/common/proto/proto',
+              Sources('src/cc/common/proto/application.proto',
+                      'src/cc/common/proto/cluster_config.proto',
+                      'src/cc/common/proto/dstream_proto_common.proto',
+                      'src/cc/common/proto/pm.proto',
+                      'src/cc/common/proto/pn.proto',
+                      'src/cc/common/proto/pub_sub.proto',
+                      'src/cc/common/proto/pm_client_rpc.proto',
+                      'src/cc/common/proto/pm_pn_rpc.proto',
+                      'src/cc/common/proto/streaming.proto',
+                      'src/cc/common/proto/gen-cpp/FacebookService.cpp',
+#                      'src/cc/common/proto/gen-cpp/FacebookService_server.skeleton.cpp',
+                      'src/cc/common/proto/gen-cpp/fb303_constants.cpp',
+                      'src/cc/common/proto/gen-cpp/fb303_types.cpp',
+#                      'src/cc/common/proto/gen-cpp/scribe_constants.cpp',
+                      'src/cc/common/proto/gen-cpp/scribe.cpp',
+#                      'src/cc/common/proto/gen-cpp/scribe_server.skeleton.cpp',
+                      'src/cc/common/proto/gen-cpp/scribe_types.cpp',
+                      '',))
+

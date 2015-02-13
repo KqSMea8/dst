@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/conf
+END
+test.conf.lyj
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/conf/test.conf.lyj
+END
+test.conf.hudson
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/conf/test.conf.hudson
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/10981/trunk/dstream/src/test/conf/log.conf
+END
+dstream.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/conf/dstream.cfg.xml
+END
+log.conf_pm_pn
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/10981/trunk/dstream/src/test/conf/log.conf_pm_pn
+END

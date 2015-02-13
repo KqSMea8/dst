@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/inf/computing/!svn/ver/50115/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/updateStreaming
+END
+replace.sh
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/inf/computing/!svn/ver/14851/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/updateStreaming/replace.sh
+END
+clear_streaming.sh
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/inf/computing/!svn/ver/11749/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/updateStreaming/clear_streaming.sh
+END
+streaming
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/updateStreaming/streaming
+END
+streaming_logagent_importer
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/inf/computing/!svn/ver/50115/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/updateStreaming/streaming_logagent_importer
+END

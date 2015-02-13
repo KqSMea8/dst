@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>test_echo_press4</AppName>
+	<Description>echo_press4</Description>
+	<DataStrategy>HoldData</DataStrategy>
+	<Topology>
+		<ProcessorNum>2</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>echo_importer</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./echo_pe -t 2</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>500M</Memory>
+				</Resource>
+				<Parallelism>10</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                		<StatusMark>0</StatusMark>	
+                		<TuplesBatchCount>100</TuplesBatchCount>			
+			</Importer1>
+                </Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./echo_pe</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>500M</Memory>
+				</Resource>
+				<Parallelism>10</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                		<StatusMark>0</StatusMark>
+				<TuplesBatchCount>100</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>tag1</tag>
+                    			</source>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>tag2</tag>
+                    			</source>
+                                        <source>
+                                                <processor>echo_importer</processor>
+                                                <tag>tag3</tag>
+                                        </source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+	</Topology>
+</APP>

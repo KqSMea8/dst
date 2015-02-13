@@ -1,0 +1,52 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+WORKROOT('../../../../../../')
+CopyUsingHardLink(True)
+
+CPPFLAGS('-D_GNU_SOURCE -D__STDC_LIMIT_MACROS -DVERSION=\\\"1.5.0.0\\\"')
+CPPFLAGS('-D_FILE_OFFSET_BITS=64') # support large files.
+CFLAGS('-g -pipe -W -Wall -fPIC')
+CXXFLAGS('-g -pipe -W -Wall -fPIC')
+dstream_sdk_root = './pesdk/'
+
+# dependencies.
+INCPATHS('. '+
+         dstream_sdk_root + 'include/ ' +
+         dstream_sdk_root + 'include/log4cplus ' +
+         dstream_sdk_root + 'include/zeromq ') 
+
+LDFLAGS('-L' + dstream_sdk_root + 'lib/ '
+        '-lzmq '+
+        '-ltinyxml '+
+        '-llog4cplus '+
+        '-lpthread -lcrypto -lrt -luuid -lcrypt ')
+
+#CONFIGS('public/idlcompiler@base')
+CONFIGS('public/idlcompiler')
+CONFIGS('third-64/protobuf@2.4.1.300')
+CONFIGS('inf/bigpipe/api/c-api@2.0.6.3')
+CONFIGS('inf/bigpipe/common@1.0.17.2', IncludePaths('./include ./include/protocol'))
+# tcmalloc.
+CONFIGS('third-64/tcmalloc@1.7.0.200')
+# boost
+CONFIGS('third-64/boost@boost_1-46-1-101_PD_BL', IncludePaths('./include ./include/boost ./include/boost/tr1'))
+#Kylin/ESP/Share
+CONFIGS('inf/common/kylin@1.0.8.0')
+CONFIGS('inf/common/esp@1.0.10.0')
+CONFIGS('inf/common/share@1.0.8.0')
+#thrift
+CONFIGS('third-64/thrift@0.9.1.100')
+CONFIGS('third-64/libevent@2.0.12.100')
+
+LIBS('./pesdk/lib/libcommon.a')
+LIBS('./pesdk/lib/libproto.a')
+LIBS('./pesdk/lib/libpe.a')
+LIBS('./pesdk/lib/libtransporter.a')
+LIBS('./pesdk/lib/libmetamanager.a')
+
+# word_cnt PEs
+# 1. impoter
+Application('echo_pe',
+            Sources('echo_pe.cc',
+                    'echo.pb.cc'))
+

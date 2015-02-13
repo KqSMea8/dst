@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/49626/trunk/dstream/examples/dstream_echo_source
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/42211/trunk/dstream/examples/dstream_echo_source/COMAKE
+END
+build
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/49626/trunk/dstream/examples/dstream_echo_source/build
+END
+echo.proto
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/37492/trunk/dstream/examples/dstream_echo_source/echo.proto
+END
+make_example.sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/49626/trunk/dstream/examples/dstream_echo_source/make_example.sh
+END
+dynamic.proto
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/23393/trunk/dstream/examples/dstream_echo_source/dynamic.proto
+END
+echo_tag_importer_add.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/37492/trunk/dstream/examples/dstream_echo_source/echo_tag_importer_add.cc
+END
+echo_pe_importer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/37492/trunk/dstream/examples/dstream_echo_source/echo_pe_importer.cc
+END
+echo_pe_task.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/40109/trunk/dstream/examples/dstream_echo_source/echo_pe_task.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/44012/trunk/dstream/examples/dstream_echo_source/Makefile
+END
+echo_pe_exporter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/40109/trunk/dstream/examples/dstream_echo_source/echo_pe_exporter.cc
+END

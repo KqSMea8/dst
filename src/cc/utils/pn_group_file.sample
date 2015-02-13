@@ -1,0 +1,10 @@
+group_list {
+  group_name: "default"
+  pn_list: "st01-dstream-0001.st01"
+  pn_list: "st01-dstream-0002.st01"
+}
+group_list {
+  group_name: "dstream"
+  pn_list: "st01-dstream-0003.st01"
+}
+

@@ -1,0 +1,826 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADD	test/test_client_op.cc	/^        ADD = 0,$/;"	e	enum:dstream::test_client_op::TestClientOp::ParaChange	file:
+ADDNEWTOPO	pm_rpc_server.cc	/^std::string PMRPCServer::ADDNEWTOPO(const Application* \/*add_new_pe*\/,$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+ADD_APP	event.h	/^    ADD_APP,$/;"	e	enum:dstream::event::EventType
+ADD_SUB_TREE	event.h	/^    ADD_SUB_TREE,$/;"	e	enum:dstream::event::EventType
+ASKFORAPPID	pm_rpc_server.cc	/^std::string PMRPCServer::ASKFORAPPID(const AppID* app_id,$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+AddApp	test/client_op.cc	/^void AddApp(Application& app)$/;"	f	namespace:dstream::client_op
+AddAppEvent	dstream_event.cc	/^AddAppEvent::AddAppEvent(const AppID& app_id, bool add_sub \/*= false*\/) :$/;"	f	class:dstream::dstream_event::AddAppEvent
+AddAppEvent	dstream_event.h	/^class AddAppEvent : public DStreamEvent {$/;"	c	namespace:dstream::dstream_event
+AddApplicationEvent	check_app_task.cc	/^bool AppCheckTask::AddApplicationEvent(const Application& app) {$/;"	f	class:dstream::check_app_task::AppCheckTask
+AddBackupPE	mock_pn.cc	/^void MockPN::AddBackupPE(const AppID& app_id,$/;"	f	class:dstream::mock_pn::MockPN
+AddClient	pn_client_status.cc	/^int32_t PNClientStatus::AddClient(const User* user, uint64_t session_id) {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+AddCreatePEEvent	pm_common.cc	/^bool AddCreatePEEvent(const Application& app,$/;"	f	namespace:dstream::pm_common
+AddDelayExecEvent	event_manager.cc	/^bool EventManager::AddDelayExecEvent(uint64_t delay_time_ms,$/;"	f	class:dstream::event_manager::EventManager
+AddEvent	event_manager.cc	/^bool EventManager::AddEvent(const EventPtr& event_ptr) {$/;"	f	class:dstream::event_manager::EventManager
+AddEventToMap	event_manager.cc	/^static bool AddEventToMap(EventMap& event_map, const EventPtr& event_ptr) {$/;"	f	namespace:dstream::event_manager
+AddGCTask	gc.cc	/^void GC::AddGCTask(const GcTaskAutoPtr& task) {$/;"	f	class:dstream::pm_gc::GC
+AddKillPEEvent	pm_common.cc	/^void AddKillPEEvent(EventManager* event_manager, const AppID& app_id,$/;"	f	namespace:dstream::pm_common
+AddNewEvent	dstream_event.cc	/^void CreatePEEvent::AddNewEvent() {$/;"	f	class:dstream::dstream_event::CreatePEEvent
+AddNewEvent	dstream_event.cc	/^void MigratePEEvent::AddNewEvent() {$/;"	f	class:dstream::dstream_event::MigratePEEvent
+AddNewEvent	dstream_event_manager.cc	/^void DStreamEventManager::AddNewEvent(EventSet::iterator iter,$/;"	f	class:dstream::dstream_event_manager::DStreamEventManager
+AddNewEvent	update_app_event.cc	/^void AddSubtreeEvent::AddNewEvent() {$/;"	f	class:dstream::update_app_event::AddSubtreeEvent
+AddNewEvent	update_app_event.cc	/^void DelSubtreeEvent::AddNewEvent() {$/;"	f	class:dstream::update_app_event::DelSubtreeEvent
+AddNewEvent	update_app_event.cc	/^void UpdateAppStatusEvent::AddNewEvent() {$/;"	f	class:dstream::update_app_event::UpdateAppStatusEvent
+AddNewEvent	update_app_event.cc	/^void UpdateParaEvent::AddNewEvent() {$/;"	f	class:dstream::update_app_event::UpdateParaEvent
+AddPEFailEvent	pm_common.cc	/^bool AddPEFailEvent(EventManager* event_manager,$/;"	f	namespace:dstream::pm_common
+AddPN	test/test_dstream_event.cc	/^void TestDStreamEvent::AddPN()$/;"	f	class:dstream::test_dstream_event::TestDStreamEvent
+AddPNGroup	test/test_pn_group.cc	/^static void AddPNGroup(PNGroups& pn_group, const std::vector<PN_INFO_NODE>& pn) {$/;"	f	namespace:dstream::test_pngroup
+AddPNMachine	mock_pn.cc	/^void MockPN::AddPNMachine() {$/;"	f	class:dstream::mock_pn::MockPN
+AddPNReport	pn_client_status.cc	/^bool PNClientStatus::AddPNReport(const PNReport* report) {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+AddProcessor	app_status.cc	/^int32_t AppStatus::AddProcessor(const uint64_t& pid, const unsigned int& revision) {$/;"	f	class:dstream::app_status::AppStatus
+AddProcessor	test/client_op.cc	/^void AddProcessor(Application& app, int& pp, int& backup_num) {$/;"	f	namespace:dstream::client_op
+AddRemainEvent	dstream_event_manager.cc	/^void DStreamEventManager::AddRemainEvent(EventMapIter event_begin,$/;"	f	class:dstream::dstream_event_manager::DStreamEventManager
+AddSubTree	pm_common.cc	/^int32_t AddSubTree(const Application& app, EventManager* event_manager,$/;"	f	namespace:dstream::pm_common
+AddSubTreeRequestTest	test/client_op.cc	/^UpdateTopology AddSubTreeRequestTest(const Application& add_app)$/;"	f	namespace:dstream::client_op
+AddSubTreeTest	test/client_op.cc	/^void AddSubTreeTest(const Application& add_app)$/;"	f	namespace:dstream::client_op
+AddSubtreeEvent	update_app_event.cc	/^AddSubtreeEvent::AddSubtreeEvent(const Application& app,$/;"	f	class:dstream::update_app_event::AddSubtreeEvent
+AddSubtreeEvent	update_app_event.h	/^class AddSubtreeEvent : public UpdateAppStatusEvent {$/;"	c	namespace:dstream::update_app_event
+AllEventSize	event_manager.cc	/^int EventManager::AllEventSize() {$/;"	f	class:dstream::event_manager::EventManager
+AppCheckTask	check_app_task.h	/^    AppCheckTask(event_manager::EventManager* event_manager,$/;"	f	class:dstream::check_app_task::AppCheckTask
+AppCheckTask	check_app_task.h	/^class AppCheckTask : public pm_start_check::PMStartCheckTask {$/;"	c	namespace:dstream::check_app_task
+AppList	gc.cc	/^typedef std::list<Application> AppList;$/;"	t	namespace:dstream::pm_gc	file:
+AppListIter	gc.cc	/^typedef AppList::iterator AppListIter;$/;"	t	namespace:dstream::pm_gc	file:
+AppStatus	app_status.h	/^    AppStatus() {}$/;"	f	class:dstream::app_status::AppStatus
+AppStatus	app_status.h	/^class AppStatus {$/;"	c	namespace:dstream::app_status
+AskForAppID	test/client_op.cc	/^void AskForAppID(AppID& app_id, ZKMetaManager* zk_meta) {$/;"	f	namespace:dstream::client_op
+AsyncRPCCall	dstream_event_manager.cc	/^bool DStreamEventManager::AsyncRPCCall(const std::string& uri,$/;"	f	class:dstream::dstream_event_manager::DStreamEventManager
+BLACKLISTOPERATION	pm_rpc_server.cc	/^std::string PMRPCServer::BLACKLISTOPERATION(const BlackListOperationRequest* request,$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+BackupPeList	dstream_event.cc	/^typedef std::list<BackupPE*> BackupPeList;$/;"	t	namespace:dstream::dstream_event	file:
+BackupPeListIter	dstream_event.cc	/^typedef BackupPeList::iterator BackupPeListIter;$/;"	t	namespace:dstream::dstream_event	file:
+BlackListOperation	test/client_op.cc	/^void BlackListOperation(const BlackListOperationRequest* request,$/;"	f	namespace:dstream::client_op
+CHECK_CLIENT_USER	pm_rpc_server.cc	59;"	d	file:
+CHECK_INIT	zk_watcher.cc	29;"	d	file:
+CHECK_META_STATUS	pm_rpc_server.cc	51;"	d	file:
+CREATEPE	mock_pn.cc	/^std::string MockPN::CREATEPE(const CreatePEMessage* request,$/;"	f	class:dstream::mock_pn::MockPN
+CREATE_BACKUP	dstream_event.h	/^    CREATE_BACKUP,$/;"	e	enum:dstream::dstream_event::PEState
+CREATE_PE	event.h	/^    CREATE_PE,$/;"	e	enum:dstream::event::EventType
+CheckApp	test/client_op.cc	/^void CheckApp(const AppID& app_id)$/;"	f	namespace:dstream::client_op
+CheckBackupPE	gc.cc	/^void GC::CheckBackupPE(const ProcessorElement& pe,$/;"	f	class:dstream::pm_gc::GC
+CheckPENumOnPN	test/test_app_scheduler.cc	/^static void CheckPENumOnPN(const char* function, int line,$/;"	f	namespace:dstream::test_app_scheduler
+CheckPENumOnPN	test/test_blacklist.cc	/^static void CheckPENumOnPN(const char* function, int line,$/;"	f	namespace:dstream::test_blacklist
+CheckPEOnPN	gc.cc	/^void GC::CheckPEOnPN(const PNReport& pn_report,$/;"	f	class:dstream::pm_gc::GC
+ClearAll	pn_client_status.cc	/^void PNClientStatus::ClearAll() {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+ClearApp	test/client_op.cc	/^void ClearApp()$/;"	f	namespace:dstream::client_op
+ClearContext	test/pm_test_common.cc	/^void PMTestBase::ClearContext() {$/;"	f	class:dstream::pm_test_common::PMTestBase
+ClearContext	test/test_pn_group.cc	/^void TestPNGroup::ClearContext() {$/;"	f	class:dstream::test_pngroup::TestPNGroup
+ClearEvents	event_manager.cc	/^void EventManager::ClearEvents() {$/;"	f	class:dstream::event_manager::EventManager
+ClearMeta	dstream_event.cc	/^bool MigratePEEvent::ClearMeta(const BackupPEID& \/*backup_pe_id*\/) {$/;"	f	class:dstream::dstream_event::MigratePEEvent
+ClearPE	pm_common.cc	/^int32_t ClearPE(MetaManager* meta, const AppID appid,$/;"	f	namespace:dstream::pm_common
+ClearStatus	mock_pn.cc	/^void MockPN::ClearStatus() {$/;"	f	class:dstream::mock_pn::MockPN
+ClientIdMap	pn_client_status.h	/^typedef std::map<uint64_t, client_info> ClientIdMap;$/;"	t	namespace:dstream::pn_client_status
+ClientIdMapIter	pn_client_status.h	/^typedef ClientIdMap::iterator ClientIdMapIter;$/;"	t	namespace:dstream::pn_client_status
+ClientIdPair	pn_client_status.h	/^typedef std::pair<uint64_t, client_info> ClientIdPair;$/;"	t	namespace:dstream::pn_client_status
+CmdSystem	test/test_pm_httpd.cc	/^void CmdSystem(const char* command, char *buf, int buf_len) {$/;"	f	namespace:dstream::test_pm_httpd
+CompareEventPtr	event_manager.h	/^class CompareEventPtr {$/;"	c	namespace:dstream::event_manager
+CompareFailPEEvent	dstream_event_manager.cc	/^class CompareFailPEEvent {$/;"	c	namespace:dstream::dstream_event_manager	file:
+ComparePNPEStatus	mock_pn.h	/^class ComparePNPEStatus {$/;"	c	namespace:dstream::mock_pn
+ConstEventMapIter	event_manager.h	/^typedef EventMap::const_iterator ConstEventMapIter;$/;"	t	namespace:dstream::event_manager
+CreateNewPE	dstream_event.cc	/^void MigratePEEvent::CreateNewPE() {$/;"	f	class:dstream::dstream_event::MigratePEEvent
+CreatePEEvent	dstream_event.cc	/^CreatePEEvent::CreatePEEvent(const AppID& create_app_id,$/;"	f	class:dstream::dstream_event::CreatePEEvent
+CreatePEEvent	dstream_event.h	/^class CreatePEEvent : public DStreamEvent {$/;"	c	namespace:dstream::dstream_event
+CreateZK	pm_common.cc	/^int32_t CreateZK(const Config* config, AutoPtr<ZkClient>& zk_client) {$/;"	f	namespace:dstream::pm_common
+CreateZK	zk_watcher.cc	/^int32_t DStreamWatcher::CreateZK() {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+DEFAULT_WAIT_TIME	event_manager.cc	22;"	d	file:
+DEL_SUB_TREE	event.h	/^    DEL_SUB_TREE,$/;"	e	enum:dstream::event::EventType
+DEventMPtr	test/test_dstream_event.cc	/^typedef AutoPtr<DStreamEventManager> DEventMPtr;$/;"	t	namespace:dstream::test_dstream_event	file:
+DStreamEvent	dstream_event.h	/^    explicit DStreamEvent(const event::EventType& dstream_event_type)$/;"	f	class:dstream::dstream_event::DStreamEvent
+DStreamEvent	dstream_event.h	/^class DStreamEvent : public event::Event {$/;"	c	namespace:dstream::dstream_event
+DStreamEventManager	dstream_event_manager.cc	/^DStreamEventManager::DStreamEventManager(config::Config* config,$/;"	f	class:dstream::dstream_event_manager::DStreamEventManager
+DStreamEventManager	dstream_event_manager.h	/^class DStreamEventManager : public event_manager::EventManager {$/;"	c	namespace:dstream::dstream_event_manager
+DStreamEventResHandler	dstream_event.h	/^    explicit DStreamEventResHandler(event::Event* event) : m_event_ptr(event) {}$/;"	f	class:dstream::dstream_event::DStreamEventResHandler
+DStreamEventResHandler	dstream_event.h	/^class DStreamEventResHandler : public rpc_client::ProtoAsyncRPCHandler<T> {$/;"	c	namespace:dstream::dstream_event
+DStreamWatcher	zk_watcher.h	/^    explicit DStreamWatcher(config::Config* config) : m_config(config), m_init(false) {}$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+DStreamWatcher	zk_watcher.h	/^class DStreamWatcher : public zk_client::Watcher {$/;"	c	namespace:dstream::zk_watcher
+DelPNGroup	test/test_pn_group.cc	/^static void DelPNGroup(PNGroups& pn_group) {$/;"	f	namespace:dstream::test_pngroup
+DelProcessor	app_status.cc	/^int32_t AppStatus::DelProcessor(const uint64_t& pid) {$/;"	f	class:dstream::app_status::AppStatus
+DelSubTree	pm_common.cc	/^int32_t DelSubTree(const Application& app, EventManager* event_manager,$/;"	f	namespace:dstream::pm_common
+DelSubTreeRequestTest	test/client_op.cc	/^UpdateTopology DelSubTreeRequestTest(const Application& del_app)$/;"	f	namespace:dstream::client_op
+DelSubTreeTest	test/client_op.cc	/^void DelSubTreeTest(const Application& del_app)$/;"	f	namespace:dstream::client_op
+DelSubtreeEvent	update_app_event.cc	/^DelSubtreeEvent::DelSubtreeEvent(const Application& app,$/;"	f	class:dstream::update_app_event::DelSubtreeEvent
+DelSubtreeEvent	update_app_event.h	/^class DelSubtreeEvent : public UpdateAppStatusEvent {$/;"	c	namespace:dstream::update_app_event
+DestroyAppStatus	app_status.cc	/^void AppStatus::DestroyAppStatus() {$/;"	f	class:dstream::app_status::AppStatus
+DestroyPNStatus	pn_client_status.cc	/^void PNClientStatus::DestroyPNStatus() {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+Dump	event_manager.cc	/^dstream::error::Code EventManager::Dump(std::string *output) {$/;"	f	class:dstream::event_manager::EventManager
+Dump	pn_client_status.cc	/^dstream::error::Code PNClientStatus::Dump(std::string* output) {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+ERROR	dstream_event.h	/^    ERROR,$/;"	e	enum:dstream::dstream_event::MigrateState
+ERROR_CODE	pm_rpc_server.h	26;"	d
+Equal	dstream_event.cc	/^bool AddAppEvent::Equal(const Event& other) {$/;"	f	class:dstream::dstream_event::AddAppEvent
+Equal	dstream_event.cc	/^bool CreatePEEvent::Equal(const Event& other) {$/;"	f	class:dstream::dstream_event::CreatePEEvent
+Equal	dstream_event.cc	/^bool KillPEEvent::Equal(const Event& other) {$/;"	f	class:dstream::dstream_event::KillPEEvent
+Equal	dstream_event.cc	/^bool MigratePEEvent::Equal(const Event& other) {$/;"	f	class:dstream::dstream_event::MigratePEEvent
+Equal	dstream_event.cc	/^bool PEFailEvent::Equal(const Event& other) {$/;"	f	class:dstream::dstream_event::PEFailEvent
+Equal	dstream_event.cc	/^bool PNDecommissionEvent::Equal(const Event& other) {$/;"	f	class:dstream::dstream_event::PNDecommissionEvent
+Equal	dstream_event.cc	/^bool RestartPEEvent::Equal(const Event& other) {$/;"	f	class:dstream::dstream_event::RestartPEEvent
+Equal	dstream_event.cc	/^bool UpdateProcessorEvent::Equal(const Event& other) {$/;"	f	class:dstream::dstream_event::UpdateProcessorEvent
+Equal	update_app_event.cc	/^bool UpdateAppStatusEvent::Equal(const event::Event& other) {$/;"	f	class:dstream::update_app_event::UpdateAppStatusEvent
+EraseEventFromMap	event_manager.cc	/^static bool EraseEventFromMap(EventMap& event_map, const EventPtr& event_ptr) {$/;"	f	namespace:dstream::event_manager
+EraseMap	pn_client_status.cc	/^void PNClientStatus::EraseMap(const PEID& pe_id, const PNID& pn_id) {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+Event	event.h	/^    explicit Event(EventType type) : m_event_type(type) {}$/;"	f	class:dstream::event::Event
+Event	event.h	/^class Event {$/;"	c	namespace:dstream::event
+EventManager	event_manager.cc	/^EventManager::EventManager()$/;"	f	class:dstream::event_manager::EventManager
+EventManager	event_manager.h	/^class EventManager {$/;"	c	namespace:dstream::event_manager
+EventManagerAutoPtr	gc.h	/^    typedef auto_ptr::AutoPtr<event_manager::EventManager> EventManagerAutoPtr;$/;"	t	class:dstream::pm_gc::GC
+EventManagerWorkThread	event_manager.cc	/^void* EventManagerWorkThread(void* ptr) {$/;"	f	namespace:dstream::event_manager
+EventMap	event_manager.h	/^typedef std::map<EventType, EventSet> EventMap;$/;"	t	namespace:dstream::event_manager
+EventMapIter	event_manager.h	/^typedef EventMap::iterator EventMapIter;$/;"	t	namespace:dstream::event_manager
+EventPair	event_manager.h	/^typedef std::pair<EventType, EventSet> EventPair;$/;"	t	namespace:dstream::event_manager
+EventPtr	event_manager.h	/^typedef auto_ptr::AutoPtr<Event> EventPtr;$/;"	t	namespace:dstream::event_manager
+EventSet	event_manager.h	/^typedef std::set<EventPtr, CompareEventPtr> EventSet;$/;"	t	namespace:dstream::event_manager
+EventSetIter	event_manager.h	/^typedef EventSet::iterator EventSetIter;$/;"	t	namespace:dstream::event_manager
+EventSize	event_manager.cc	/^int EventManager::EventSize() {$/;"	f	class:dstream::event_manager::EventManager
+EventType	event.h	/^enum EventType {$/;"	g	namespace:dstream::event
+EventTypeSize	event_manager.cc	/^int EventManager::EventTypeSize() {$/;"	f	class:dstream::event_manager::EventManager
+EventTypeStr	event.h	/^const std::string EventTypeStr[] = {$/;"	m	namespace:dstream::event
+ExecuEventSize	event_manager.cc	/^int EventManager::ExecuEventSize() {$/;"	f	class:dstream::event_manager::EventManager
+FILEUPLOADDONE	pm_rpc_server.cc	/^std::string PMRPCServer::FILEUPLOADDONE(const NotifyPM* notify,$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+FLOWCONTROL	pm_rpc_server.cc	/^std::string PMRPCServer::FLOWCONTROL(const FlowControlRequest* request,$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+FailPeList	mock_pn.h	/^typedef std::list<FailPE> FailPeList;$/;"	t	namespace:dstream::mock_pn
+FailPeListIter	mock_pn.h	/^typedef FailPeList::iterator FailPeListIter;$/;"	t	namespace:dstream::mock_pn
+FindClient	pn_client_status.cc	/^int32_t PNClientStatus::FindClient(uint64_t session_id, client_info* ci) {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+FlowControlApp	test/client_op.cc	/^void FlowControlApp(const AppID& app_id,$/;"	f	namespace:dstream::client_op
+GC	gc.cc	/^GC::GC(Config* config, EventManagerAutoPtr event_manager, SchedulerAutoPtr scheduler) :$/;"	f	class:dstream::pm_gc::GC
+GC	gc.h	/^class GC : public thread::Thread {$/;"	c	namespace:dstream::pm_gc
+GCTask	gc_task.h	/^class GCTask {$/;"	c	namespace:dstream::gc_task
+GETMETRIC	pm_rpc_server.cc	/^std::string PMRPCServer::GETMETRIC(const StatusRequest* request,$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+GcTaskAutoPtr	gc_task.h	/^typedef auto_ptr::AutoPtr<GCTask> GcTaskAutoPtr;$/;"	t	namespace:dstream::gc_task
+GcTaskList	gc.h	/^typedef std::list<gc_task::GcTaskAutoPtr> GcTaskList;$/;"	t	namespace:dstream::pm_gc
+GcTaskListIter	gc.h	/^typedef GcTaskList::iterator GcTaskListIter;$/;"	t	namespace:dstream::pm_gc
+GenerateMockPN	test/test_pn_group.cc	/^static bool GenerateMockPN(std::vector<PN_INFO_NODE>& pn, const unsigned int pn_num) {$/;"	f	namespace:dstream::test_pngroup
+GeneratePNGroup	test/test_pn_group.cc	/^static void GeneratePNGroup(PNGroups& pn_group, const std::vector<PN_INFO_NODE>& pn) {$/;"	f	namespace:dstream::test_pngroup
+GetAppByName	pm_common.cc	/^int32_t GetAppByName(MetaManager* meta,$/;"	f	namespace:dstream::pm_common
+GetAppPENum	test/pm_test_common.cc	/^int GetAppPENum(const Application& app) {$/;"	f	namespace:dstream::pm_test_common
+GetAppStatus	app_status.cc	/^AppStatus* AppStatus::GetAppStatus() {$/;"	f	class:dstream::app_status::AppStatus
+GetDifference	app_status.cc	/^void AppStatus::GetDifference(const PidRevMap& large_map,$/;"	f	class:dstream::app_status::AppStatus
+GetEventManagerData	pm_httpd.cc	/^dstream::error::Code PmHttpdResponder::GetEventManagerData(std::string* output) {$/;"	f	class:dstream::pm_httpd::PmHttpdResponder
+GetPEDifference	pm_common.cc	/^void GetPEDifference(const PeList& large_list, const PeList& less_list, PeList* diff_list) {$/;"	f	namespace:dstream::pm_common
+GetPESummary	dstream_event.cc	/^void PEFailEvent::GetPESummary(const ProcessorElement& pe,$/;"	f	class:dstream::dstream_event::PEFailEvent
+GetPMUri	test/client_op.cc	/^std::string GetPMUri() {$/;"	f	namespace:dstream::client_op
+GetPNClientStatus	pn_client_status.cc	/^PNClientStatus* PNClientStatus::GetPNClientStatus() {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+GetPNClientStatusData	pm_httpd.cc	/^dstream::error::Code PmHttpdResponder::GetPNClientStatusData(std::string* output) {$/;"	f	class:dstream::pm_httpd::PmHttpdResponder
+GetPNStatusSize	test/test_client_op.cc	/^int TestClientOp::GetPNStatusSize() {$/;"	f	class:dstream::test_client_op::TestClientOp
+GetPrimaryPMIndex	test/pm_test_common.cc	/^int GetPrimaryPMIndex(ProcessMaster* pm, int pm_count) {$/;"	f	namespace:dstream::pm_test_common
+GetProcessorRevision	app_status.cc	/^int32_t AppStatus::GetProcessorRevision(const uint64_t& pid, unsigned int* revision) {$/;"	f	class:dstream::app_status::AppStatus
+GetRootData	pm_httpd.cc	/^dstream::error::Code PmHttpdResponder::GetRootData(std::string* output) {$/;"	f	class:dstream::pm_httpd::PmHttpdResponder
+GetSchedulerData	pm_httpd.cc	/^dstream::error::Code PmHttpdResponder::GetSchedulerData(std::string* output) {$/;"	f	class:dstream::pm_httpd::PmHttpdResponder
+HANDLE_ERROR	dstream_event.h	/^    HANDLE_ERROR$/;"	e	enum:dstream::dstream_event::PEState
+HTTPD_RUNNING	test/test_pm_httpd.cc	/^        HTTPD_RUNNING,$/;"	e	enum:dstream::test_pm_httpd::TestPMHttpd::__anon1	file:
+HTTPD_START	test/test_pm_httpd.cc	/^        HTTPD_START,$/;"	e	enum:dstream::test_pm_httpd::TestPMHttpd::__anon1	file:
+HTTPD_STOP	test/test_pm_httpd.cc	/^        HTTPD_STOP$/;"	e	enum:dstream::test_pm_httpd::TestPMHttpd::__anon1	file:
+HandleEvent	dstream_event.cc	/^int32_t AddAppEvent::HandleEvent() {$/;"	f	class:dstream::dstream_event::AddAppEvent
+HandleEvent	dstream_event.cc	/^int32_t CreatePEEvent::HandleEvent() {$/;"	f	class:dstream::dstream_event::CreatePEEvent
+HandleEvent	dstream_event.cc	/^int32_t KillPEEvent::HandleEvent() {$/;"	f	class:dstream::dstream_event::KillPEEvent
+HandleEvent	dstream_event.cc	/^int32_t MigratePEEvent::HandleEvent() {$/;"	f	class:dstream::dstream_event::MigratePEEvent
+HandleEvent	dstream_event.cc	/^int32_t PNDecommissionEvent::HandleEvent() {$/;"	f	class:dstream::dstream_event::PNDecommissionEvent
+HandleEvent	dstream_event.cc	/^int32_t RestartPEEvent::HandleEvent() {$/;"	f	class:dstream::dstream_event::RestartPEEvent
+HandleEvent	dstream_event.cc	/^int32_t UpdateProcessorEvent::HandleEvent() {$/;"	f	class:dstream::dstream_event::UpdateProcessorEvent
+HandleEvent	update_app_event.cc	/^int32_t AddSubtreeEvent::HandleEvent() {$/;"	f	class:dstream::update_app_event::AddSubtreeEvent
+HandleEvent	update_app_event.cc	/^int32_t DelSubtreeEvent::HandleEvent() {$/;"	f	class:dstream::update_app_event::DelSubtreeEvent
+HandleEvent	update_app_event.cc	/^int32_t UpdateAppStatusEvent::HandleEvent() {$/;"	f	class:dstream::update_app_event::UpdateAppStatusEvent
+HandleEvent	update_app_event.cc	/^int32_t UpdateParaEvent::HandleEvent() {$/;"	f	class:dstream::update_app_event::UpdateParaEvent
+HandleEventResult	dstream_event.cc	/^int32_t CreatePEEvent::HandleEventResult(int res, const void* data) {$/;"	f	class:dstream::dstream_event::CreatePEEvent
+HandleEventResult	dstream_event.cc	/^int32_t KillPEEvent::HandleEventResult(int res, const void* \/*data*\/) {$/;"	f	class:dstream::dstream_event::KillPEEvent
+HandleEventResult	dstream_event.cc	/^int32_t MigratePEEvent::HandleEventResult(int \/*res*\/, const void* \/*data*\/) {$/;"	f	class:dstream::dstream_event::MigratePEEvent
+HandleEventResult	dstream_event.cc	/^int32_t RestartPEEvent::HandleEventResult(int res, const void* data) {$/;"	f	class:dstream::dstream_event::RestartPEEvent
+HandleEventResult	dstream_event.h	/^    virtual int32_t HandleEventResult(int \/*res*\/, const void* \/*data*\/) {$/;"	f	class:dstream::dstream_event::AddAppEvent
+HandleEventResult	dstream_event.h	/^    virtual int32_t HandleEventResult(int \/*res*\/, const void* \/*data*\/) {$/;"	f	class:dstream::dstream_event::PNDecommissionEvent
+HandleEventResult	dstream_event.h	/^    virtual int32_t HandleEventResult(int \/*res*\/, const void* \/*data*\/) {$/;"	f	class:dstream::dstream_event::UpdateProcessorEvent
+HandleEventResult	dstream_event.h	/^    virtual int32_t HandleEventResult(int res, const void* data)  {$/;"	f	class:dstream::dstream_event::DStreamEvent
+HandleEventResult	update_app_event.h	/^    int32_t HandleEventResult(int \/*res*\/, const void* \/*data*\/) {$/;"	f	class:dstream::update_app_event::UpdateAppStatusEvent
+HandleEvents	dstream_event_manager.cc	/^void DStreamEventManager::HandleEvents(EventMap* events) {$/;"	f	class:dstream::dstream_event_manager::DStreamEventManager
+HandleEvents	event_manager.cc	/^void EventManager::HandleEvents() {$/;"	f	class:dstream::event_manager::EventManager
+HandleEvents	event_manager.cc	/^void EventManager::HandleEvents(EventMap* events) {$/;"	f	class:dstream::event_manager::EventManager
+HandleEvents	test/test_event_manager.cc	/^void MockEventManager::HandleEvents(EventMap* events)$/;"	f	class:dstream::test_event_manager::MockEventManager
+HandlePEEvent	dstream_event.cc	/^PEState DStreamEvent::HandlePEEvent(DStreamEvent& dstream_event,$/;"	f	class:dstream::dstream_event::DStreamEvent
+HandleResponse	dstream_event.h	/^void DStreamEventResHandler<T>::HandleResponse(int call_res,$/;"	f	class:dstream::dstream_event::DStreamEventResHandler
+HttpRoutine	test/test_pm_httpd.cc	/^void* TestPMHttpd::HttpRoutine(void* args) {$/;"	f	class:dstream::test_pm_httpd::TestPMHttpd
+INIT	dstream_event.h	/^    INIT,$/;"	e	enum:dstream::dstream_event::MigrateState
+Init	pm_rpc_server.cc	/^bool PMRPCServer::Init(AutoPtr<EventManager> event_manager,$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+Init	process_master.cc	/^bool ProcessMaster::Init() {$/;"	f	class:dstream::process_master::ProcessMaster
+InitAppStatus	app_status.cc	/^int32_t AppStatus::InitAppStatus() {$/;"	f	class:dstream::app_status::AppStatus
+InitMap	pn_client_status.cc	/^int32_t PNClientStatus::InitMap() {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+InitMeta	test/client_op.cc	/^void InitMeta(const char* \/*meta_manager_name*\/,$/;"	f	namespace:dstream::client_op
+InitPNStatus	pn_client_status.cc	/^int32_t PNClientStatus::InitPNStatus(EventManager* event_manager, GC* gc,$/;"	f	class:dstream::pn_client_status::PNClientStatus
+KILLAPP	pm_rpc_server.cc	/^std::string PMRPCServer::KILLAPP(const Application* app, AppID* response) {$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+KILLPE	pm_rpc_server.cc	/^std::string PMRPCServer::KILLPE(const KillPE* \/*kill_pe*\/, KillPEAck* \/*response*\/) {$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+KILLPN	pm_rpc_server.cc	/^std::string PMRPCServer::KILLPN(const PNID* \/*pn_id*\/, KillPNAck* \/*response*\/) {$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+KILL_APP	event.h	/^    KILL_APP,$/;"	e	enum:dstream::event::EventType
+KILL_PE	event.h	/^    KILL_PE,$/;"	e	enum:dstream::event::EventType
+KillApp	pm_common.cc	/^int32_t KillApp(EventManager* event_manager, const Application& app) {$/;"	f	namespace:dstream::pm_common
+KillApp	test/client_op.cc	/^void KillApp(const AppID& app_id, ZKMetaManager* zm_meta) {$/;"	f	namespace:dstream::client_op
+KillAppGCTask	kill_app_gc_task.cc	/^KillAppGCTask::KillAppGCTask(const AppID& app_id,$/;"	f	class:dstream::kill_app_gc_task::KillAppGCTask
+KillAppGCTask	kill_app_gc_task.h	/^class KillAppGCTask : public gc_task::GCTask {$/;"	c	namespace:dstream::kill_app_gc_task
+KillApplication	kill_app_gc_task.cc	/^int32_t KillAppGCTask::KillApplication(const Application& app, Scheduler* scheduler) {$/;"	f	class:dstream::kill_app_gc_task::KillAppGCTask
+KillPE	mock_pn.cc	/^void MockPN::KillPE(const AppID& app_id, const PEID& pe_id,$/;"	f	class:dstream::mock_pn::MockPN
+KillPEEvent	dstream_event.cc	/^KillPEEvent::KillPEEvent(const AppID& app_id,$/;"	f	class:dstream::dstream_event::KillPEEvent
+KillPEEvent	dstream_event.h	/^class KillPEEvent : public DStreamEvent {$/;"	c	namespace:dstream::dstream_event
+KillPN	mock_pn.cc	/^void MockPN::KillPN() {$/;"	f	class:dstream::mock_pn::MockPN
+LOGIN	pm_rpc_server.cc	/^std::string PMRPCServer::LOGIN(const User* request_user, LoginAck* response) {$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+LogIn	test/client_op.cc	/^void LogIn(const char* version , const char* user,$/;"	f	namespace:dstream::client_op
+LogIn	test/client_op.cc	/^void LogIn(std::string* res, uint64_t* session_id, ZKMetaManager* zk_meta) {$/;"	f	namespace:dstream::client_op
+MIGRATE_PE	event.h	/^    MIGRATE_PE,$/;"	e	enum:dstream::event::EventType
+MergePEFailEvents	dstream_event_manager.cc	/^void DStreamEventManager::MergePEFailEvents(EventMap* events) {$/;"	f	class:dstream::dstream_event_manager::DStreamEventManager
+MigratePEEvent	dstream_event.cc	/^MigratePEEvent::MigratePEEvent(const AppID& app_id,$/;"	f	class:dstream::dstream_event::MigratePEEvent
+MigratePEEvent	dstream_event.h	/^class MigratePEEvent : public DStreamEvent {$/;"	c	namespace:dstream::dstream_event
+MigrateState	dstream_event.h	/^enum MigrateState {$/;"	g	namespace:dstream::dstream_event
+MockEventManager	test/test_event_manager.cc	/^    MockEventManager() : add_event_(false), handle_event_size_(0) {}$/;"	f	class:dstream::test_event_manager::MockEventManager
+MockEventManager	test/test_event_manager.cc	/^class MockEventManager : public EventManager$/;"	c	namespace:dstream::test_event_manager	file:
+MockPN	mock_pn.cc	/^MockPN::MockPN(uint64_t mem_basic, float cpu_basic) :$/;"	f	class:dstream::mock_pn::MockPN
+MockPN	mock_pn.h	/^class MockPN : public rpc_const::CreatePEProtocol,$/;"	c	namespace:dstream::mock_pn
+MockPtr	test/test_dstream_event.cc	/^typedef AutoPtr<MockPN> MockPtr;$/;"	t	namespace:dstream::test_dstream_event	file:
+ModifyPNGroup	test/test_pn_group.cc	/^static void ModifyPNGroup(PNGroups& pn_group, const std::vector<PN_INFO_NODE>& pn) {$/;"	f	namespace:dstream::test_pngroup
+ModifyPNGroup2	test/test_pn_group.cc	/^static void ModifyPNGroup2(PNGroups& pn_group, const std::vector<PN_INFO_NODE>& pn) {$/;"	f	namespace:dstream::test_pngroup
+NodeChanged	process_master.cc	/^void ProcessMaster::NodeChanged(const char* path) {$/;"	f	class:dstream::process_master::ProcessMaster
+NodeDelete	process_master.cc	/^void ProcessMaster::NodeDelete(const char* path) {$/;"	f	class:dstream::process_master::ProcessMaster
+OP_MIGRATE_PE	event.h	/^    OP_MIGRATE_PE,$/;"	e	enum:dstream::event::EventType
+OnDataChange	zk_watcher.h	/^    virtual void OnDataChange(const char* \/*path*\/) {}$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+OnEvent	zk_watcher.cc	/^void DStreamWatcher::OnEvent(int type, int state, const char* path) {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+OnNodeDelete	pm_watcher.cc	/^void PMWatcher::OnNodeDelete(const char* path) {$/;"	f	class:dstream::pm_watcher::PMWatcher
+OnNodeDelete	zk_watcher.h	/^    virtual void OnNodeDelete(const char* \/*path*\/) {}$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+OnSessionExpire	pm_watcher.cc	/^void PMWatcher::OnSessionExpire(const char* \/*path*\/) {$/;"	f	class:dstream::pm_watcher::PMWatcher
+OnSessionExpire	zk_watcher.h	/^    virtual void OnSessionExpire(const char* \/*path*\/) {}$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+PEFailEvent	dstream_event.cc	/^PEFailEvent::PEFailEvent(const AppID& pefail_app_id,$/;"	f	class:dstream::dstream_event::PEFailEvent
+PEFailEvent	dstream_event.h	/^class PEFailEvent : public CreatePEEvent {$/;"	c	namespace:dstream::dstream_event
+PEOPERATION	mock_pn.cc	/^std::string MockPN::PEOPERATION(const PEOperationMessage* request,$/;"	f	class:dstream::mock_pn::MockPN
+PEOperation	dstream_event.cc	/^bool DStreamEvent::PEOperation(const std::string& host,$/;"	f	class:dstream::dstream_event::DStreamEvent
+PEState	dstream_event.h	/^enum PEState {$/;"	g	namespace:dstream::dstream_event
+PE_FAIL	event.h	/^    PE_FAIL,$/;"	e	enum:dstream::event::EventType
+PMEqual	process_master.cc	/^bool ProcessMaster::PMEqual(const PM& pm1, const PM& pm2, bool rec) {$/;"	f	class:dstream::process_master::ProcessMaster
+PMRPCServer	pm_rpc_server.h	/^    PMRPCServer() : m_max_session_id(0) {}$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+PMRPCServer	pm_rpc_server.h	/^class PMRPCServer : public rpc_const::PNReportProtocol,$/;"	c	namespace:dstream::pm_rpc_server
+PMStartCheckTask	pm_start_check.h	/^class PMStartCheckTask {$/;"	c	namespace:dstream::pm_start_check
+PMTestBase	test/pm_test_common.h	/^class PMTestBase : public ::testing::Test {$/;"	c	namespace:dstream::pm_test_common
+PMWatcher	pm_watcher.h	/^    PMWatcher(config::Config* config, process_master::ProcessMaster* pm)$/;"	f	class:dstream::pm_watcher::PMWatcher
+PMWatcher	pm_watcher.h	/^class PMWatcher : public zk_watcher::DStreamWatcher {$/;"	c	namespace:dstream::pm_watcher
+PM_PTR	test/client_op.h	/^typedef auto_ptr::AutoPtr<ProcessMaster> PM_PTR;$/;"	t	namespace:dstream::client_op
+PNClientStatus	pn_client_status.h	/^    PNClientStatus(event_manager::EventManager* event_manager,$/;"	f	class:dstream::pn_client_status::PNClientStatus
+PNClientStatus	pn_client_status.h	/^class PNClientStatus {$/;"	c	namespace:dstream::pn_client_status
+PNDecommissionEvent	dstream_event.cc	/^PNDecommissionEvent::PNDecommissionEvent(const PNID& pn_id) :$/;"	f	class:dstream::dstream_event::PNDecommissionEvent
+PNDecommissionEvent	dstream_event.h	/^class PNDecommissionEvent : public DStreamEvent {$/;"	c	namespace:dstream::dstream_event
+PNPEStatus	mock_pn.h	/^struct PNPEStatus {$/;"	s	namespace:dstream::mock_pn
+PNREPORT	pm_rpc_server.cc	/^std::string PMRPCServer::PNREPORT(const PNReport* report,$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+PNStatusSize	test/test_handle_app.cc	/^int TestHandleApp::PNStatusSize() {$/;"	f	class:dstream::test_handle_app::TestHandleApp
+PN_DECOMMISSION	event.h	/^    PN_DECOMMISSION,$/;"	e	enum:dstream::event::EventType
+PN_INFO	test/test_pn_group.cc	/^typedef struct PN_INFO {$/;"	s	namespace:dstream::test_pngroup	file:
+PN_INFO_NODE	test/test_pn_group.cc	/^} PN_INFO_NODE;$/;"	t	namespace:dstream::test_pngroup	typeref:struct:dstream::test_pngroup::PN_INFO	file:
+ParaChange	test/test_client_op.cc	/^    enum ParaChange {$/;"	g	class:dstream::test_client_op::TestClientOp	file:
+PeList	check_app_task.cc	/^typedef std::list<ProcessorElement> PeList;$/;"	t	namespace:dstream::check_app_task	file:
+PeList	pm_common.cc	/^typedef list<ProcessorElement> PeList;$/;"	t	namespace:dstream::pm_common	file:
+PeList	pm_common.h	/^typedef list<ProcessorElement> PeList;$/;"	t	namespace:dstream::pm_common
+PeListIter	check_app_task.cc	/^typedef PeList::iterator PeListIter;$/;"	t	namespace:dstream::check_app_task	file:
+PeListIter	pm_common.h	/^typedef PeList::iterator PeListIter;$/;"	t	namespace:dstream::pm_common
+PidRevMap	app_status.h	/^typedef boost::unordered_map<uint64_t, unsigned int> PidRevMap;$/;"	t	namespace:dstream::app_status
+PidRevMapConstIter	app_status.h	/^typedef boost::unordered_map<uint64_t, unsigned int>::const_iterator PidRevMapConstIter;$/;"	t	namespace:dstream::app_status
+PidRevMapIter	app_status.h	/^typedef boost::unordered_map<uint64_t, unsigned int>::iterator PidRevMapIter;$/;"	t	namespace:dstream::app_status
+PidRevPair	app_status.h	/^typedef std::pair<uint64_t, unsigned int> PidRevPair;$/;"	t	namespace:dstream::app_status
+PmHttpdResponder	pm_httpd.cc	/^PmHttpdResponder::PmHttpdResponder() {$/;"	f	class:dstream::pm_httpd::PmHttpdResponder
+PmHttpdResponder	pm_httpd.h	/^class PmHttpdResponder : public httpd::HttpdResponder {$/;"	c	namespace:dstream::pm_httpd
+PnidReportMap	pn_client_status.h	/^typedef std::map<PNID, PNReport, PNIDCompare> PnidReportMap;$/;"	t	namespace:dstream::pn_client_status
+PnidReportMapIter	pn_client_status.h	/^typedef PnidReportMap::iterator PnidReportMapIter;$/;"	t	namespace:dstream::pn_client_status
+PnidReportPair	pn_client_status.h	/^typedef std::pair<PNID, PNReport> PnidReportPair;$/;"	t	namespace:dstream::pn_client_status
+ProcessMaster	process_master.h	/^    ProcessMaster() : m_watch_master_event(false), m_working_master(false), m_httpd_port(0) {}$/;"	f	class:dstream::process_master::ProcessMaster
+ProcessMaster	process_master.h	/^class ProcessMaster : public thread::Thread {$/;"	c	namespace:dstream::process_master
+QUERY_PE_EXIST	event.h	/^    QUERY_PE_EXIST,$/;"	e	enum:dstream::event::EventType
+REDUCE	test/test_client_op.cc	/^        REDUCE$/;"	e	enum:dstream::test_client_op::TestClientOp::ParaChange	file:
+RESTART_PE	event.h	/^    RESTART_PE,$/;"	e	enum:dstream::event::EventType
+RegisterAndWatch	process_master.cc	/^bool ProcessMaster::RegisterAndWatch() {$/;"	f	class:dstream::process_master::ProcessMaster
+RemoveAppDir	pm_common.cc	/^static int32_t RemoveAppDir(const std::string& path) {$/;"	f	namespace:dstream::pm_common
+RemoveClient	pn_client_status.cc	/^int32_t PNClientStatus::RemoveClient(const std::string& node) {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+RemoveClient	pn_client_status.cc	/^int32_t PNClientStatus::RemoveClient(uint64_t session_id) {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+RemovePNStatus	pn_client_status.cc	/^int32_t PNClientStatus::RemovePNStatus(const PNID& pn_id) {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+RemoveProcessor	test/client_op.cc	/^void RemoveProcessor(Application& app, int& pp, int& backup_num) {$/;"	f	namespace:dstream::client_op
+ReportStatus	mock_pn.cc	/^void MockPN::ReportStatus() {$/;"	f	class:dstream::mock_pn::MockPN
+RestartPEEvent	dstream_event.cc	/^RestartPEEvent::RestartPEEvent(const AppID& app_id,$/;"	f	class:dstream::dstream_event::RestartPEEvent
+RestartPEEvent	dstream_event.h	/^class RestartPEEvent : public DStreamEvent {$/;"	c	namespace:dstream::dstream_event
+Resume	event_manager.cc	/^void EventManager::Resume() {$/;"	f	class:dstream::event_manager::EventManager
+Run	gc.cc	/^void GC::Run() {$/;"	f	class:dstream::pm_gc::GC
+Run	process_master.cc	/^void ProcessMaster::Run() {$/;"	f	class:dstream::process_master::ProcessMaster
+RunCheckTask	check_app_task.cc	/^bool AppCheckTask::RunCheckTask() {$/;"	f	class:dstream::check_app_task::AppCheckTask
+RunTask	kill_app_gc_task.cc	/^int32_t KillAppGCTask::RunTask(Scheduler* schduler \/*= NULL*\/) {$/;"	f	class:dstream::kill_app_gc_task::KillAppGCTask
+SELECT_PRIMARY	dstream_event.h	/^    SELECT_PRIMARY,$/;"	e	enum:dstream::dstream_event::PEState
+SUBMITAPP	pm_rpc_server.cc	/^std::string PMRPCServer::SUBMITAPP(const Application* app, FileConfig* file_response) {$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+SchedulerAutoPtr	gc.h	/^    typedef auto_ptr::AutoPtr<scheduler::Scheduler> SchedulerAutoPtr;$/;"	t	class:dstream::pm_gc::GC
+SetEventManager	dstream_event.h	/^    static void SetEventManager(dstream_event_manager::DStreamEventManager* event_manager) {$/;"	f	class:dstream::dstream_event::DStreamEvent
+SetFailAppID	mock_pn.h	/^    void SetFailAppID(const AppID& app_id) {$/;"	f	class:dstream::mock_pn::MockPN
+SetHttpdPort	process_master.h	/^    void SetHttpdPort(uint32_t port) {$/;"	f	class:dstream::process_master::ProcessMaster
+SetScheduler	dstream_event.h	/^    static void SetScheduler(scheduler::Scheduler* scheduler) {$/;"	f	class:dstream::dstream_event::DStreamEvent
+SetUp	test/pm_test_common.cc	/^void PMTestBase::SetUp() {$/;"	f	class:dstream::pm_test_common::PMTestBase
+SetUp	test/test_app_scheduler.cc	/^void TestAppScheduler::SetUp() {$/;"	f	class:dstream::test_app_scheduler::TestAppScheduler
+SetUp	test/test_app_status.cc	/^void TestAppStatus::SetUp() {$/;"	f	class:dstream::test_app_status::TestAppStatus
+SetUp	test/test_blacklist.cc	/^void TestBlackList::SetUp() {$/;"	f	class:dstream::test_blacklist::TestBlackList
+SetUp	test/test_client_op.cc	/^void TestClientOp::SetUp() {$/;"	f	class:dstream::test_client_op::TestClientOp
+SetUp	test/test_dstream_event.cc	/^void TestDStreamEvent::SetUp()$/;"	f	class:dstream::test_dstream_event::TestDStreamEvent
+SetUp	test/test_handle_app.cc	/^void TestHandleApp::SetUp() {$/;"	f	class:dstream::test_handle_app::TestHandleApp
+SetUp	test/test_pm_httpd.cc	/^void TestPMHttpd::SetUp() {$/;"	f	class:dstream::test_pm_httpd::TestPMHttpd
+SetUp	test/test_pm_stop.cc	/^    void SetUp() {$/;"	f	class:dstream::test_pm_stop::TestPMStop
+SetUp	test/test_pn_group.cc	/^void TestPNGroup::SetUp() {$/;"	f	class:dstream::test_pngroup::TestPNGroup
+SignalGCSleep	gc.h	/^    void SignalGCSleep() {$/;"	f	class:dstream::pm_gc::GC
+SignalSleep	event_manager.cc	/^void EventManager::SignalSleep() {$/;"	f	class:dstream::event_manager::EventManager
+Start	event_manager.cc	/^bool EventManager::Start() {$/;"	f	class:dstream::event_manager::EventManager
+Start	process_master.cc	/^bool ProcessMaster::Start(AutoPtr<Config>& pm_config) {$/;"	f	class:dstream::process_master::ProcessMaster
+Start	process_master.cc	/^bool ProcessMaster::Start(const char* config_file) {$/;"	f	class:dstream::process_master::ProcessMaster
+StartPN	mock_pn.cc	/^bool MockPN::StartPN(const std::string pn_id_prefix) {$/;"	f	class:dstream::mock_pn::MockPN
+StartWatch	zk_watcher.cc	/^int32_t DStreamWatcher::StartWatch(const std::string& path) {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+StartWatchAll	zk_watcher.cc	/^int32_t DStreamWatcher::StartWatchAll() {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+StartWatchChildDelete	zk_watcher.cc	/^int32_t DStreamWatcher::StartWatchChildDelete(const std::string& path) {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+StartWatchPM	zk_watcher.cc	/^int32_t DStreamWatcher::StartWatchPM() {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+StartWatchPN	zk_watcher.cc	/^int32_t DStreamWatcher::StartWatchPN(const std::string& pn_name) {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+StartWatchPNGroup	zk_watcher.cc	/^int32_t DStreamWatcher::StartWatchPNGroup() {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+StatusSet	mock_pn.h	/^typedef std::set<PNPEStatus, ComparePNPEStatus> StatusSet;$/;"	t	namespace:dstream::mock_pn
+StatusSetIter	mock_pn.h	/^typedef StatusSet::iterator StatusSetIter;$/;"	t	namespace:dstream::mock_pn
+Stop	event_manager.cc	/^void EventManager::Stop() {$/;"	f	class:dstream::event_manager::EventManager
+Stop	process_master.cc	/^void ProcessMaster::Stop() {$/;"	f	class:dstream::process_master::ProcessMaster
+Stop	process_master.h	/^    virtual void Stop(bool join_thread) {}$/;"	f	class:dstream::process_master::ProcessMaster
+StopForTest	process_master.cc	/^void ProcessMaster::StopForTest() {$/;"	f	class:dstream::process_master::ProcessMaster
+StopWatch	zk_watcher.cc	/^int32_t DStreamWatcher::StopWatch() {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+SubmitApp	test/client_op.cc	/^Application SubmitApp(bool success \/* = true*\/, int process_num \/*= 2*\/,$/;"	f	namespace:dstream::client_op
+SubmitApp	test/client_op.cc	/^static void SubmitApp(Application& submit_app, bool success, int process_num,$/;"	f	namespace:dstream::client_op
+Suspend	event_manager.cc	/^void EventManager::Suspend() {$/;"	f	class:dstream::event_manager::EventManager
+TEST_F	test/test_app_scheduler.cc	/^TEST_F(TestAppScheduler, TestAddDelSubTree)$/;"	f	namespace:dstream::test_app_scheduler
+TEST_F	test/test_app_scheduler.cc	/^TEST_F(TestAppScheduler, TestCanScheduler)$/;"	f	namespace:dstream::test_app_scheduler
+TEST_F	test/test_app_scheduler.cc	/^TEST_F(TestAppScheduler, TestMaxPEOnPN)$/;"	f	namespace:dstream::test_app_scheduler
+TEST_F	test/test_app_scheduler.cc	/^TEST_F(TestAppScheduler, TestMultiApp)$/;"	f	namespace:dstream::test_app_scheduler
+TEST_F	test/test_app_scheduler.cc	/^TEST_F(TestAppScheduler, TestPress)$/;"	f	namespace:dstream::test_app_scheduler
+TEST_F	test/test_app_status.cc	/^TEST_F(TestAppStatus, TestGetDifference) {$/;"	f	namespace:dstream::test_app_status
+TEST_F	test/test_app_status.cc	/^TEST_F(TestAppStatus, TestUpdateApplication) {$/;"	f	namespace:dstream::test_app_status
+TEST_F	test/test_app_status.cc	/^TEST_F(TestAppStatus, TestUpdateProcessor) {$/;"	f	namespace:dstream::test_app_status
+TEST_F	test/test_blacklist.cc	/^TEST_F(TestBlackList, TestAppBlackList)$/;"	f	namespace:dstream::test_blacklist
+TEST_F	test/test_blacklist.cc	/^TEST_F(TestBlackList, TestPEBlackList)$/;"	f	namespace:dstream::test_blacklist
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestAddParaOK)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestAddSubFail)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestAddSubOK)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestBlackListOperation) {$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestDelSubFail)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestDelSubOK)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestFlowControl)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestKillApp)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestLogin) {$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestMultiUpdateTopology)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestPMRestartSubmit)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestPMRestart_ADDSUB)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestReduceParaOK)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestSubmitApp)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestUpdateParaFail)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestUpdateTopoClientFail_ADD_PM_RESTART)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_client_op.cc	/^TEST_F(TestClientOp, TestUpdateTopoClientFail_DEL_PM_RESTART)$/;"	f	namespace:dstream::test_client_op
+TEST_F	test/test_dstream_event.cc	/^TEST_F(TestDStreamEvent, test_event)$/;"	f	namespace:dstream::test_dstream_event
+TEST_F	test/test_dstream_event.cc	/^TEST_F(TestDStreamEvent, test_zk_event)$/;"	f	namespace:dstream::test_dstream_event
+TEST_F	test/test_event_manager.cc	/^TEST_F(TestEventManager, test_add_event)$/;"	f	namespace:dstream::test_event_manager
+TEST_F	test/test_event_manager.cc	/^TEST_F(TestEventManager, test_event_comp)$/;"	f	namespace:dstream::test_event_manager
+TEST_F	test/test_event_manager.cc	/^TEST_F(TestEventManager, test_event_priority)$/;"	f	namespace:dstream::test_event_manager
+TEST_F	test/test_handle_app.cc	/^TEST_F(TestHandleApp, TestClientFail)$/;"	f	namespace:dstream::test_handle_app
+TEST_F	test/test_handle_app.cc	/^TEST_F(TestHandleApp, TestGC)$/;"	f	namespace:dstream::test_handle_app
+TEST_F	test/test_handle_app.cc	/^TEST_F(TestHandleApp, TestHandleNewApp)$/;"	f	namespace:dstream::test_handle_app
+TEST_F	test/test_handle_app.cc	/^TEST_F(TestHandleApp, TestPMPNDown)$/;"	f	namespace:dstream::test_handle_app
+TEST_F	test/test_handle_app.cc	/^TEST_F(TestHandleApp, TestPNReport)$/;"	f	namespace:dstream::test_handle_app
+TEST_F	test/test_handle_app.cc	/^TEST_F(TestHandleApp, TestRestart)$/;"	f	namespace:dstream::test_handle_app
+TEST_F	test/test_pm_httpd.cc	/^TEST_F(TestPMHttpd, TestPMHttpdService) { $/;"	f	namespace:dstream::test_pm_httpd
+TEST_F	test/test_pm_stop.cc	/^TEST_F(TestPMStop, TestBackupPMStop)$/;"	f	namespace:dstream::test_pm_stop
+TEST_F	test/test_pm_stop.cc	/^TEST_F(TestPMStop, TestGCStop)$/;"	f	namespace:dstream::test_pm_stop
+TEST_F	test/test_pm_stop.cc	/^TEST_F(TestPMStop, TestMasterPMStop)$/;"	f	namespace:dstream::test_pm_stop
+TEST_F	test/test_pm_switch.cc	/^TEST_F(TestPMSwitch, test_backup_pm_mon)$/;"	f	namespace:dstream::test_pm_switch
+TEST_F	test/test_pm_switch.cc	/^TEST_F(TestPMSwitch, test_pm_down) {$/;"	f	namespace:dstream::test_pm_switch
+TEST_F	test/test_pn_group.cc	/^TEST_F(TestPNGroup, TestGetGroupInfo)$/;"	f	namespace:dstream::test_pngroup
+TearDown	test/pm_test_common.cc	/^void PMTestBase::TearDown() {$/;"	f	class:dstream::pm_test_common::PMTestBase
+TearDown	test/test_app_status.cc	/^void TestAppStatus::TearDown() {$/;"	f	class:dstream::test_app_status::TestAppStatus
+TearDown	test/test_client_op.cc	/^void TestClientOp::TearDown() {$/;"	f	class:dstream::test_client_op::TestClientOp
+TearDown	test/test_dstream_event.cc	/^    void TearDown() {$/;"	f	class:dstream::test_dstream_event::TestDStreamEvent
+TearDown	test/test_handle_app.cc	/^    void TearDown() {$/;"	f	class:dstream::test_handle_app::TestHandleApp
+TearDown	test/test_pm_httpd.cc	/^void TestPMHttpd::TearDown() {$/;"	f	class:dstream::test_pm_httpd::TestPMHttpd
+TearDown	test/test_pn_group.cc	/^void TestPNGroup::TearDown() {$/;"	f	class:dstream::test_pngroup::TestPNGroup
+TestAddDelSub	test/test_app_scheduler.cc	/^void TestAppScheduler::TestAddDelSub(bool resource_scheduler) {$/;"	f	class:dstream::test_app_scheduler::TestAppScheduler
+TestAddDelSubTree	test/test_app_scheduler.cc	/^void TestAppScheduler::TestAddDelSubTree() {$/;"	f	class:dstream::test_app_scheduler::TestAppScheduler
+TestAddEvent	test/test_dstream_event.cc	/^void TestDStreamEvent::TestAddEvent()$/;"	f	class:dstream::test_dstream_event::TestDStreamEvent
+TestAddEvent	test/test_event_manager.cc	/^void TestEventManager::TestAddEvent()$/;"	f	class:dstream::test_event_manager::TestEventManager
+TestAppBlackList	test/test_blacklist.cc	/^void TestBlackList::TestAppBlackList() {$/;"	f	class:dstream::test_blacklist::TestBlackList
+TestAppBlackListInstance	test/test_blacklist.cc	/^void TestBlackList::TestAppBlackListInstance() {$/;"	f	class:dstream::test_blacklist::TestBlackList
+TestAppScheduler	test/test_app_scheduler.cc	/^class TestAppScheduler : public PMTestBase$/;"	c	namespace:dstream::test_app_scheduler	file:
+TestAppStatus	test/test_app_status.cc	/^class TestAppStatus : public PMTestBase {$/;"	c	namespace:dstream::test_app_status	file:
+TestBackupPMMonitor	test/test_pm_switch.cc	/^void TestPMSwitch::TestBackupPMMonitor() {$/;"	f	class:dstream::test_pm_switch::TestPMSwitch
+TestBackupPMStop	test/test_pm_stop.cc	/^void TestPMStop::TestBackupPMStop() {$/;"	f	class:dstream::test_pm_stop::TestPMStop
+TestBlackList	test/test_blacklist.cc	/^class TestBlackList : public PMTestBase {$/;"	c	namespace:dstream::test_blacklist	file:
+TestBlackListOperation	test/test_client_op.cc	/^void TestClientOp::TestBlackListOperation() {$/;"	f	class:dstream::test_client_op::TestClientOp
+TestClientFail	test/test_handle_app.cc	/^void TestHandleApp::TestClientFail() {$/;"	f	class:dstream::test_handle_app::TestHandleApp
+TestClientOp	test/test_client_op.cc	/^class TestClientOp : public ::testing::Test {$/;"	c	namespace:dstream::test_client_op	file:
+TestDStreamEvent	test/test_dstream_event.cc	/^class TestDStreamEvent : public ::testing::Test$/;"	c	namespace:dstream::test_dstream_event	file:
+TestEventComp	test/test_event_manager.cc	/^void TestEventManager::TestEventComp()$/;"	f	class:dstream::test_event_manager::TestEventManager
+TestEventManager	test/test_event_manager.cc	/^class TestEventManager : public ::testing::Test$/;"	c	namespace:dstream::test_event_manager	file:
+TestEventPriority	test/test_event_manager.cc	/^void TestEventManager::TestEventPriority()$/;"	f	class:dstream::test_event_manager::TestEventManager
+TestFlowControl	test/test_client_op.cc	/^void TestClientOp::TestFlowControl()$/;"	f	class:dstream::test_client_op::TestClientOp
+TestGC	test/test_handle_app.cc	/^void TestHandleApp::TestGC() {$/;"	f	class:dstream::test_handle_app::TestHandleApp
+TestGCStop	test/test_pm_stop.cc	/^void TestPMStop::TestGCStop() {$/;"	f	class:dstream::test_pm_stop::TestPMStop
+TestGetDifference	test/test_app_status.cc	/^void TestAppStatus::TestGetDifference() {$/;"	f	class:dstream::test_app_status::TestAppStatus
+TestGetGroupInfo	test/test_pn_group.cc	/^void TestPNGroup::TestGetGroupInfo() {$/;"	f	class:dstream::test_pngroup::TestPNGroup
+TestGetHttpdData	test/test_pm_httpd.cc	/^void TestPMHttpd::TestGetHttpdData() {$/;"	f	class:dstream::test_pm_httpd::TestPMHttpd
+TestHandleApp	test/test_handle_app.cc	/^class TestHandleApp : public PMTestBase$/;"	c	namespace:dstream::test_handle_app	file:
+TestHandleNewApp	test/test_handle_app.cc	/^void TestHandleApp::TestHandleNewApp() {$/;"	f	class:dstream::test_handle_app::TestHandleApp
+TestKillApp	test/test_client_op.cc	/^void TestClientOp::TestKillApp()$/;"	f	class:dstream::test_client_op::TestClientOp
+TestLogin	test/test_client_op.cc	/^void TestClientOp::TestLogin() {$/;"	f	class:dstream::test_client_op::TestClientOp
+TestMasterPMStop	test/test_pm_stop.cc	/^void TestPMStop::TestMasterPMStop() {$/;"	f	class:dstream::test_pm_stop::TestPMStop
+TestMaxPEOnPN	test/test_app_scheduler.cc	/^void TestAppScheduler::TestMaxPEOnPN() {$/;"	f	class:dstream::test_app_scheduler::TestAppScheduler
+TestMaxPEOnPN	test/test_app_scheduler.cc	/^void TestAppScheduler::TestMaxPEOnPN(bool \/*b_memory_cmp*\/) {$/;"	f	class:dstream::test_app_scheduler::TestAppScheduler
+TestMultiApp	test/test_app_scheduler.cc	/^void TestAppScheduler::TestMultiApp() {$/;"	f	class:dstream::test_app_scheduler::TestAppScheduler
+TestMultiApp	test/test_app_scheduler.cc	/^void TestAppScheduler::TestMultiApp(bool b_memory_cmp) {$/;"	f	class:dstream::test_app_scheduler::TestAppScheduler
+TestMultiUpdateTopology	test/test_client_op.cc	/^void TestClientOp::TestMultiUpdateTopology() {$/;"	f	class:dstream::test_client_op::TestClientOp
+TestPEBlackList	test/test_blacklist.cc	/^void TestBlackList::TestPEBlackList() {$/;"	f	class:dstream::test_blacklist::TestBlackList
+TestPMDown	test/test_pm_switch.cc	/^void TestPMSwitch::TestPMDown() {$/;"	f	class:dstream::test_pm_switch::TestPMSwitch
+TestPMHttpd	test/test_pm_httpd.cc	/^class TestPMHttpd : public ::testing::Test {$/;"	c	namespace:dstream::test_pm_httpd	file:
+TestPMPNDown	test/test_handle_app.cc	/^void TestHandleApp::TestPMPNDown()$/;"	f	class:dstream::test_handle_app::TestHandleApp
+TestPMRestart	test/test_client_op.cc	/^void TestClientOp::TestPMRestart(UpdateTopology_Operation op,$/;"	f	class:dstream::test_client_op::TestClientOp
+TestPMRestartSubmit	test/test_client_op.cc	/^void TestClientOp::TestPMRestartSubmit()$/;"	f	class:dstream::test_client_op::TestClientOp
+TestPMStop	test/test_pm_stop.cc	/^class TestPMStop : public ::testing::Test$/;"	c	namespace:dstream::test_pm_stop	file:
+TestPMSwitch	test/test_pm_switch.cc	/^class TestPMSwitch : public PMTestBase {$/;"	c	namespace:dstream::test_pm_switch	file:
+TestPNGroup	test/test_pn_group.cc	/^class TestPNGroup : public ::testing::Test {$/;"	c	namespace:dstream::test_pngroup	file:
+TestPNReport	test/test_handle_app.cc	/^void TestHandleApp::TestPNReport() {$/;"	f	class:dstream::test_handle_app::TestHandleApp
+TestPress	test/test_app_scheduler.cc	/^void TestAppScheduler::TestPress() {$/;"	f	class:dstream::test_app_scheduler::TestAppScheduler
+TestPress	test/test_app_scheduler.cc	/^void TestAppScheduler::TestPress(bool \/*b_mem_comp*\/) {$/;"	f	class:dstream::test_app_scheduler::TestAppScheduler
+TestRestart	test/test_handle_app.cc	/^void TestHandleApp::TestRestart() {$/;"	f	class:dstream::test_handle_app::TestHandleApp
+TestSchedulerWork	test/test_app_scheduler.cc	/^void TestAppScheduler::TestSchedulerWork() {$/;"	f	class:dstream::test_app_scheduler::TestAppScheduler
+TestSchedulerWork	test/test_app_scheduler.cc	/^void TestAppScheduler::TestSchedulerWork(bool \/*resource_scheduler*\/) {$/;"	f	class:dstream::test_app_scheduler::TestAppScheduler
+TestSubmitApp	test/test_client_op.cc	/^void TestClientOp::TestSubmitApp(int start_app_id)$/;"	f	class:dstream::test_client_op::TestClientOp
+TestUTCFPMRestart	test/test_client_op.cc	/^void TestClientOp::TestUTCFPMRestart(UpdateTopology_Operation operatrion,$/;"	f	class:dstream::test_client_op::TestClientOp
+TestUpdateApplication	test/test_app_status.cc	/^void TestAppStatus::TestUpdateApplication() {$/;"	f	class:dstream::test_app_status::TestAppStatus
+TestUpdatePara	test/test_client_op.cc	/^void TestClientOp::TestUpdatePara(ParaChange para, bool succ) {$/;"	f	class:dstream::test_client_op::TestClientOp
+TestUpdateProcessor	test/test_app_status.cc	/^void TestAppStatus::TestUpdateProcessor() {$/;"	f	class:dstream::test_app_status::TestAppStatus
+TestUpdateTopoClientFail	test/test_client_op.cc	/^void TestClientOp::TestUpdateTopoClientFail(UpdateTopology_Operation operatrion,$/;"	f	class:dstream::test_client_op::TestClientOp
+UPDATEPROCESSOR	pm_rpc_server.cc	/^std::string PMRPCServer::UPDATEPROCESSOR(const UpdateProRequest* request,$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+UPDATEPRODONE	pm_rpc_server.cc	/^std::string PMRPCServer::UPDATEPRODONE(const UpdateProDone* request,$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+UPDATETOPOLOGY	pm_rpc_server.cc	/^std::string PMRPCServer::UPDATETOPOLOGY(const UpdateTopology* update,$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+UPDATE_APP_STATUS	event.h	/^    UPDATE_APP_STATUS,$/;"	e	enum:dstream::event::EventType
+UPDATE_PARA	event.h	/^    UPDATE_PARA,$/;"	e	enum:dstream::event::EventType
+UPDATE_PRO	event.h	/^    UPDATE_PRO,$/;"	e	enum:dstream::event::EventType
+USEROP	pm_rpc_server.cc	/^std::string PMRPCServer::USEROP(const UserOperation* userop, UserOperationReply* response) {$/;"	f	class:dstream::pm_rpc_server::PMRPCServer
+UTO	test/client_op.h	/^typedef UpdateTopology_Operation UTO;$/;"	t	namespace:dstream::client_op
+UnWatch	zk_watcher.cc	/^int32_t DStreamWatcher::UnWatch(const std::string& path) {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+UnWatchAll	zk_watcher.cc	/^void DStreamWatcher::UnWatchAll() {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+UnWatchChildDelete	zk_watcher.cc	/^int32_t DStreamWatcher::UnWatchChildDelete(const std::string& path) {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+UnWatchPM	zk_watcher.cc	/^int32_t DStreamWatcher::UnWatchPM() {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+UnWatchPN	zk_watcher.cc	/^int32_t DStreamWatcher::UnWatchPN(const std::string& pn_name) {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+UnWatchPNGroup	zk_watcher.cc	/^int32_t DStreamWatcher::UnWatchPNGroup() {$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+UpdateAppStatus	pm_rpc_server.cc	/^static inline std::string UpdateAppStatus(Application* app,$/;"	f	namespace:dstream::pm_rpc_server
+UpdateAppStatusEvent	update_app_event.cc	/^UpdateAppStatusEvent::UpdateAppStatusEvent(const Application& app,$/;"	f	class:dstream::update_app_event::UpdateAppStatusEvent
+UpdateAppStatusEvent	update_app_event.h	/^class UpdateAppStatusEvent : public event::Event {$/;"	c	namespace:dstream::update_app_event
+UpdateApplication	app_status.cc	/^void AppStatus::UpdateApplication(const Application& app) {$/;"	f	class:dstream::app_status::AppStatus
+UpdateClient	pn_client_status.cc	/^int32_t PNClientStatus::UpdateClient(uint64_t session_id, const AppID& app_id) {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+UpdateMeta	dstream_event.cc	/^bool PEFailEvent::UpdateMeta() {$/;"	f	class:dstream::dstream_event::PEFailEvent
+UpdatePNStatus	pn_client_status.cc	/^int32_t PNClientStatus::UpdatePNStatus(const PNReport* report) {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+UpdatePara	pm_common.cc	/^int32_t UpdatePara(const Application& app, EventManager* event_manager,$/;"	f	namespace:dstream::pm_common
+UpdateParaEvent	update_app_event.cc	/^UpdateParaEvent::UpdateParaEvent(const Application& app,$/;"	f	class:dstream::update_app_event::UpdateParaEvent
+UpdateParaEvent	update_app_event.h	/^class UpdateParaEvent : public UpdateAppStatusEvent {$/;"	c	namespace:dstream::update_app_event
+UpdateParaRequestTest	test/client_op.cc	/^UpdateTopology UpdateParaRequestTest(const Application& update) {$/;"	f	namespace:dstream::client_op
+UpdateParaTest	test/client_op.cc	/^void UpdateParaTest(const Application& update) {$/;"	f	namespace:dstream::client_op
+UpdateProcessor	app_status.cc	/^int32_t AppStatus::UpdateProcessor(const uint64_t& pid, const unsigned int& revision) {$/;"	f	class:dstream::app_status::AppStatus
+UpdateProcessorEvent	dstream_event.cc	/^UpdateProcessorEvent::UpdateProcessorEvent(const AppID& app_id, const std::string processor_name,$/;"	f	class:dstream::dstream_event::UpdateProcessorEvent
+UpdateProcessorEvent	dstream_event.h	/^class UpdateProcessorEvent : public DStreamEvent {$/;"	c	namespace:dstream::dstream_event
+UpdateSubTree	test/test_client_op.cc	/^void TestClientOp::UpdateSubTree(UpdateTopology_Operation operation,$/;"	f	class:dstream::test_client_op::TestClientOp
+UpdateTopoOverTest	test/client_op.cc	/^void UpdateTopoOverTest(UpdateTopology& ut, UTO op)$/;"	f	namespace:dstream::client_op
+UpdateTopoRequest	test/test_client_op.cc	/^void TestClientOp::UpdateTopoRequest(UpdateTopology& ut_res, std::string& res,$/;"	f	class:dstream::test_client_op::TestClientOp
+UpdateTopoRequestTest	test/client_op.cc	/^UpdateTopology UpdateTopoRequestTest(const Application& app, UTO operation)$/;"	f	namespace:dstream::client_op
+UpdateTopologyResult	test/test_client_op.cc	/^void TestClientOp::UpdateTopologyResult(UpdateTopology& ut, std::string& res,$/;"	f	class:dstream::test_client_op::TestClientOp
+UserSetIter	pm_rpc_server.cc	/^typedef set<User, CompareUser>::iterator UserSetIter;$/;"	t	namespace:dstream::pm_rpc_server	file:
+WaitForEvents	event_manager.cc	/^void EventManager::WaitForEvents() {$/;"	f	class:dstream::event_manager::EventManager
+WaitForPMEventOver	test/client_op.cc	/^void WaitForPMEventOver(ProcessMaster& pm) {$/;"	f	namespace:dstream::client_op
+__DESTREAM_CC_PROCESSMASTER_PM_HTTPD_H__	pm_httpd.h	10;"	d
+__DSTREAM_CC_PROCESSMASTER_CHECK_APP_TASK_H__	check_app_task.h	14;"	d
+__DSTREAM_CC_PROCESSMASTER_DSTREAM_EVENT_H__	dstream_event.h	14;"	d
+__DSTREAM_CC_PROCESSMASTER_DSTREAM_EVENT_MANAGER_H__	dstream_event_manager.h	14;"	d
+__DSTREAM_CC_PROCESSMASTER_DSTREAM_TEST_TEST_CLIENT_OP_H_	test/client_op.h	7;"	d
+__DSTREAM_CC_PROCESSMASTER_DSTREAM_TEST_TEST_PM_TEST_COMMON_H__	test/pm_test_common.h	14;"	d
+__DSTREAM_CC_PROCESSMASTER_EVENT_H__	event.h	14;"	d
+__DSTREAM_CC_PROCESSMASTER_EVENT_MANAGER_H__	event_manager.h	14;"	d
+__DSTREAM_CC_PROCESSMASTER_KILL_APP_GC_TASK_H__	kill_app_gc_task.h	14;"	d
+__DSTREAM_CC_PROCESSMASTER_PM_APP_STATUS_H__	app_status.h	16;"	d
+__DSTREAM_CC_PROCESSMASTER_PM_RPC_SERVER_H__	pm_rpc_server.h	14;"	d
+__DSTREAM_CC_PROCESSMASTER_PN__CLIENTSTATUS_H__	pn_client_status.h	14;"	d
+__DSTREAM_CC_PROCESSMASTER_PROCESS_MASTER_H__	process_master.h	14;"	d
+__DSTREAM_CC_PROCESSMASTER_UPDATE_APP_EVENT_H__	update_app_event.h	14;"	d
+__DSTREAM_CC_PROCESSMASTER_ZK_WATCHER_H__	zk_watcher.h	14;"	d
+__DSTREAM_PROCESSMASTER_GC_H__	gc.h	13;"	d
+__DSTREAM_PROCESSMASTER_GC_TASK_H__	gc_task.h	14;"	d
+__DSTREAM_PROCESSMASTER_MOCK_PN_H__	mock_pn.h	13;"	d
+__DSTREAM_PROCESSMASTER_PM_COMMON_H__	pm_common.h	14;"	d
+__DSTREAM_PROCESSMASTER_PM_WATCHER_H__	pm_watcher.h	13;"	d
+__PM_START_CHECK_H__	pm_start_check.h	13;"	d
+add_event_	test/test_event_manager.cc	/^    bool add_event_;$/;"	m	class:dstream::test_event_manager::MockEventManager	file:
+app_id	dstream_event.h	/^    AppID app_id() {$/;"	f	class:dstream::dstream_event::CreatePEEvent
+app_id	pn_client_status.h	/^    AppID app_id;$/;"	m	struct:dstream::pn_client_status::client_info
+app_status	app_status.cc	/^namespace app_status {$/;"	n	namespace:dstream	file:
+app_status	app_status.h	/^namespace app_status {$/;"	n	namespace:dstream
+app_status_	test/test_app_status.cc	/^    app_status::AppStatus* app_status_;$/;"	m	class:dstream::test_app_status::TestAppStatus	file:
+check_app_task	check_app_task.cc	/^namespace check_app_task {$/;"	n	namespace:dstream	file:
+check_app_task	check_app_task.h	/^namespace check_app_task {$/;"	n	namespace:dstream
+client_info	pn_client_status.h	/^struct client_info {$/;"	s	namespace:dstream::pn_client_status
+client_op	test/client_op.cc	/^namespace client_op {$/;"	n	namespace:dstream	file:
+client_op	test/client_op.h	/^namespace client_op {$/;"	n	namespace:dstream
+comp_str	event.h	/^    std::string comp_str() const {$/;"	f	class:dstream::event::Event
+config	process_master.h	/^    config::Config* config() {$/;"	f	class:dstream::process_master::ProcessMaster
+config	test/test_dstream_event.cc	/^    config::Config config;$/;"	m	class:dstream::test_dstream_event::TestDStreamEvent	file:
+config_	test/test_app_scheduler.cc	/^    AutoPtr<Config> config_;$/;"	m	class:dstream::test_app_scheduler::TestAppScheduler	file:
+config_	test/test_blacklist.cc	/^    AutoPtr<Config> config_;$/;"	m	class:dstream::test_blacklist::TestBlackList	file:
+delay_exec_time	dstream_event.h	/^static const uint64_t delay_exec_time = 500;$/;"	m	namespace:dstream::dstream_event
+dstream	app_status.cc	/^namespace dstream {$/;"	n	file:
+dstream	app_status.h	/^namespace dstream {$/;"	n
+dstream	check_app_task.cc	/^namespace dstream {$/;"	n	file:
+dstream	check_app_task.h	/^namespace dstream {$/;"	n
+dstream	dstream_event.cc	/^namespace dstream {$/;"	n	file:
+dstream	dstream_event.h	/^namespace dstream {$/;"	n
+dstream	dstream_event_manager.cc	/^namespace dstream {$/;"	n	file:
+dstream	dstream_event_manager.h	/^namespace dstream {$/;"	n
+dstream	event.cc	/^namespace dstream {$/;"	n	file:
+dstream	event.h	/^namespace dstream {$/;"	n
+dstream	event_manager.cc	/^namespace dstream {$/;"	n	file:
+dstream	event_manager.h	/^namespace dstream {$/;"	n
+dstream	gc.cc	/^namespace dstream {$/;"	n	file:
+dstream	gc.h	/^namespace dstream {$/;"	n
+dstream	gc_task.cc	/^namespace dstream {$/;"	n	file:
+dstream	gc_task.h	/^namespace dstream {$/;"	n
+dstream	kill_app_gc_task.cc	/^namespace dstream {$/;"	n	file:
+dstream	kill_app_gc_task.h	/^namespace dstream {$/;"	n
+dstream	mock_pn.cc	/^namespace dstream {$/;"	n	file:
+dstream	mock_pn.h	/^namespace dstream {$/;"	n
+dstream	pm_common.cc	/^namespace dstream {$/;"	n	file:
+dstream	pm_common.h	/^namespace dstream {$/;"	n
+dstream	pm_httpd.cc	/^namespace dstream {$/;"	n	file:
+dstream	pm_httpd.h	/^namespace dstream {$/;"	n
+dstream	pm_rpc_server.cc	/^namespace dstream {$/;"	n	file:
+dstream	pm_rpc_server.h	/^namespace dstream {$/;"	n
+dstream	pm_start_check.h	/^namespace dstream {$/;"	n
+dstream	pm_watcher.cc	/^namespace dstream {$/;"	n	file:
+dstream	pm_watcher.h	/^namespace dstream {$/;"	n
+dstream	pn_client_status.cc	/^namespace dstream {$/;"	n	file:
+dstream	pn_client_status.h	/^namespace dstream {$/;"	n
+dstream	process_master.cc	/^namespace dstream {$/;"	n	file:
+dstream	process_master.h	/^namespace dstream {$/;"	n
+dstream	test/client_op.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/client_op.h	/^namespace dstream {$/;"	n
+dstream	test/pm_test_common.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/pm_test_common.h	/^namespace dstream {$/;"	n
+dstream	test/test_app_scheduler.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/test_app_status.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/test_blacklist.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/test_client_op.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/test_dstream_event.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/test_event_manager.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/test_handle_app.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/test_pm_httpd.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/test_pm_stop.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/test_pm_switch.cc	/^namespace dstream {$/;"	n	file:
+dstream	test/test_pn_group.cc	/^namespace dstream {$/;"	n	file:
+dstream	update_app_event.cc	/^namespace dstream {$/;"	n	file:
+dstream	update_app_event.h	/^namespace dstream {$/;"	n
+dstream	zk_watcher.cc	/^namespace dstream {$/;"	n	file:
+dstream	zk_watcher.h	/^namespace dstream {$/;"	n
+dstream_event	dstream_event.cc	/^namespace dstream_event {$/;"	n	namespace:dstream	file:
+dstream_event	dstream_event.h	/^namespace dstream_event {$/;"	n	namespace:dstream
+dstream_event_manager	dstream_event_manager.cc	/^namespace dstream_event_manager {$/;"	n	namespace:dstream	file:
+dstream_event_manager	dstream_event_manager.h	/^namespace dstream_event_manager {$/;"	n	namespace:dstream
+event	event.cc	/^namespace event {$/;"	n	namespace:dstream	file:
+event	event.h	/^namespace event {$/;"	n	namespace:dstream
+event_manager	event_manager.cc	/^namespace event_manager {$/;"	n	namespace:dstream	file:
+event_manager	event_manager.h	/^namespace event_manager {$/;"	n	namespace:dstream
+event_manager	process_master.h	/^    event_manager::EventManager* event_manager() {$/;"	f	class:dstream::process_master::ProcessMaster
+event_manager_	test/test_dstream_event.cc	/^    DEventMPtr event_manager_;$/;"	m	class:dstream::test_dstream_event::TestDStreamEvent	file:
+event_type	event.h	/^    EventType event_type() const {$/;"	f	class:dstream::event::Event
+gc	process_master.h	/^    pm_gc::GC* gc() {$/;"	f	class:dstream::process_master::ProcessMaster
+gc_task	gc_task.cc	/^namespace gc_task {$/;"	n	namespace:dstream	file:
+gc_task	gc_task.h	/^namespace gc_task {$/;"	n	namespace:dstream
+handle_event_size	test/test_event_manager.cc	/^    int handle_event_size() const {$/;"	f	class:dstream::test_event_manager::MockEventManager
+handle_event_size_	test/test_event_manager.cc	/^    int handle_event_size_;$/;"	m	class:dstream::test_event_manager::MockEventManager	file:
+host_name	test/test_pn_group.cc	/^    std::string host_name;$/;"	m	struct:dstream::test_pngroup::PN_INFO	file:
+httpd_thread	test/test_pm_httpd.cc	/^    static pthread_t httpd_thread;$/;"	m	class:dstream::test_pm_httpd::TestPMHttpd	file:
+httpd_thread	test/test_pm_httpd.cc	/^pthread_t TestPMHttpd::httpd_thread;$/;"	m	class:dstream::test_pm_httpd::TestPMHttpd	file:
+init_	test/test_dstream_event.cc	/^    bool init_;$/;"	m	class:dstream::test_dstream_event::TestDStreamEvent	file:
+ip	test/test_pn_group.cc	/^    std::string ip;$/;"	m	struct:dstream::test_pngroup::PN_INFO	file:
+kBigpipePath	test/client_op.cc	/^const char* kBigpipePath = "test-inf-dstream";$/;"	m	namespace:dstream::client_op	file:
+kGreatEqualVersion	test/client_op.cc	/^const char* kGreatEqualVersion = "1-8-0-0";$/;"	m	namespace:dstream::client_op	file:
+kHdfsPath	test/client_op.cc	/^const char* kHdfsPath    = "test-inf-dstream";$/;"	m	namespace:dstream::client_op	file:
+kLessEqualVersion	test/client_op.cc	/^const char* kLessEqualVersion = "1-5-1-0";$/;"	m	namespace:dstream::client_op	file:
+kMockPNNum	test/test_app_scheduler.cc	/^static const int kMockPNNum = 4;$/;"	v	file:
+kMockPNNum	test/test_handle_app.cc	/^static const int kMockPNNum = 4;$/;"	v	file:
+kNoVersion	test/client_op.cc	/^const char* kNoVersion   = "client.no.version";$/;"	m	namespace:dstream::client_op	file:
+kRightVersion	test/client_op.cc	/^const char* kRightVersion = VERSION;$/;"	m	namespace:dstream::client_op	file:
+kUser	test/client_op.cc	/^const char* kUser        = "test";$/;"	m	namespace:dstream::client_op	file:
+kill_app_gc_task	kill_app_gc_task.cc	/^namespace kill_app_gc_task {$/;"	n	namespace:dstream	file:
+kill_app_gc_task	kill_app_gc_task.h	/^namespace kill_app_gc_task {$/;"	n	namespace:dstream
+less	dstream_event.cc	/^bool PEFailEvent::less(const Event& other) {$/;"	f	class:dstream::dstream_event::PEFailEvent
+less	event.cc	/^bool Event::less(const Event& other) {$/;"	f	class:dstream::event::Event
+m_add_backup_pe_id	dstream_event.h	/^    BackupPEID m_add_backup_pe_id;$/;"	m	class:dstream::dstream_event::MigratePEEvent
+m_add_sub_tree	dstream_event.h	/^    bool m_add_sub_tree;$/;"	m	class:dstream::dstream_event::AddAppEvent
+m_all_event	event_manager.h	/^    EventMap m_all_event; $/;"	m	class:dstream::event_manager::EventManager
+m_app	update_app_event.h	/^    Application m_app;$/;"	m	class:dstream::update_app_event::UpdateAppStatusEvent
+m_app_id	dstream_event.h	/^    AppID m_app_id;$/;"	m	class:dstream::dstream_event::AddAppEvent
+m_app_id	dstream_event.h	/^    AppID m_app_id;$/;"	m	class:dstream::dstream_event::CreatePEEvent
+m_app_id	dstream_event.h	/^    AppID m_app_id;$/;"	m	class:dstream::dstream_event::KillPEEvent
+m_app_id	dstream_event.h	/^    AppID m_app_id;$/;"	m	class:dstream::dstream_event::MigratePEEvent
+m_app_id	dstream_event.h	/^    AppID m_app_id;$/;"	m	class:dstream::dstream_event::RestartPEEvent
+m_app_id	dstream_event.h	/^    AppID m_app_id;$/;"	m	class:dstream::dstream_event::UpdateProcessorEvent
+m_app_id	mock_pn.h	/^    AppID m_app_id;$/;"	m	struct:dstream::mock_pn::PNPEStatus
+m_app_status_instance	app_status.h	/^    static AppStatus* m_app_status_instance;$/;"	m	class:dstream::app_status::AppStatus
+m_asyc_rpc_client	dstream_event_manager.h	/^    rpc_client::AsyncRPCClient m_asyc_rpc_client;$/;"	m	class:dstream::dstream_event_manager::DStreamEventManager
+m_backup_pe_id	dstream_event.h	/^    BackupPEID m_backup_pe_id;$/;"	m	class:dstream::dstream_event::KillPEEvent
+m_backup_pe_id	dstream_event.h	/^    BackupPEID m_backup_pe_id;$/;"	m	class:dstream::dstream_event::MigratePEEvent
+m_backup_pe_id	dstream_event.h	/^    BackupPEID m_backup_pe_id;$/;"	m	class:dstream::dstream_event::PEFailEvent
+m_backup_pe_id	dstream_event.h	/^    BackupPEID m_backup_pe_id;$/;"	m	class:dstream::dstream_event::RestartPEEvent
+m_backup_pe_id	mock_pn.h	/^    BackupPEID m_backup_pe_id;$/;"	m	struct:dstream::mock_pn::PNPEStatus
+m_clients	pn_client_status.h	/^    ClientIdMap m_clients;$/;"	m	class:dstream::pn_client_status::PNClientStatus
+m_comp_str	event.h	/^    std::string m_comp_str;$/;"	m	class:dstream::event::Event
+m_condition	event_manager.h	/^    auto_ptr::AutoPtr<Condition> m_condition;$/;"	m	class:dstream::event_manager::EventManager
+m_condition	process_master.h	/^    auto_ptr::AutoPtr<Condition> m_condition;$/;"	m	class:dstream::process_master::ProcessMaster
+m_config	dstream_event_manager.h	/^    config::Config* m_config;$/;"	m	class:dstream::dstream_event_manager::DStreamEventManager
+m_config	gc.h	/^    config::Config* m_config;$/;"	m	class:dstream::pm_gc::GC
+m_config	process_master.h	/^    auto_ptr::AutoPtr<config::Config> m_config;$/;"	m	class:dstream::process_master::ProcessMaster
+m_config	zk_watcher.h	/^    config::Config* m_config;$/;"	m	class:dstream::zk_watcher::DStreamWatcher
+m_cpu_basic	mock_pn.h	/^    float m_cpu_basic;$/;"	m	class:dstream::mock_pn::MockPN
+m_delay_events	event_manager.h	/^    std::map<uint64_t, EventMap> m_delay_events; $/;"	m	class:dstream::event_manager::EventManager
+m_dest_pn	dstream_event.h	/^    PNID m_dest_pn;$/;"	m	class:dstream::dstream_event::MigratePEEvent
+m_event_manager	check_app_task.h	/^    event_manager::EventManager* m_event_manager;$/;"	m	class:dstream::check_app_task::AppCheckTask
+m_event_manager	dstream_event.cc	/^DStreamEventManager* DStreamEvent::m_event_manager = NULL;$/;"	m	class:dstream::dstream_event::DStreamEvent	file:
+m_event_manager	dstream_event.h	/^    static dstream_event_manager::DStreamEventManager* m_event_manager;$/;"	m	class:dstream::dstream_event::DStreamEvent
+m_event_manager	gc.h	/^    EventManagerAutoPtr m_event_manager;$/;"	m	class:dstream::pm_gc::GC
+m_event_manager	kill_app_gc_task.h	/^    event_manager::EventManager* m_event_manager;$/;"	m	class:dstream::kill_app_gc_task::KillAppGCTask
+m_event_manager	pm_rpc_server.h	/^    auto_ptr::AutoPtr<event_manager::EventManager> m_event_manager;$/;"	m	class:dstream::pm_rpc_server::PMRPCServer
+m_event_manager	pn_client_status.h	/^    event_manager::EventManager* m_event_manager;$/;"	m	class:dstream::pn_client_status::PNClientStatus
+m_event_manager	process_master.h	/^    auto_ptr::AutoPtr<event_manager::EventManager> m_event_manager;$/;"	m	class:dstream::process_master::ProcessMaster
+m_event_manager	update_app_event.h	/^    event_manager::EventManager* m_event_manager;$/;"	m	class:dstream::update_app_event::UpdateAppStatusEvent
+m_event_ptr	dstream_event.h	/^    event::Event* m_event_ptr;$/;"	m	class:dstream::dstream_event::DStreamEventResHandler
+m_event_type	event.h	/^    EventType m_event_type;$/;"	m	class:dstream::event::Event
+m_execu_map	event_manager.h	/^    EventMap m_execu_map; \/\/ TODO$/;"	m	class:dstream::event_manager::EventManager
+m_fail_app_id	mock_pn.h	/^    AppID m_fail_app_id;$/;"	m	class:dstream::mock_pn::MockPN
+m_fail_pes	mock_pn.h	/^    FailPeList m_fail_pes;$/;"	m	class:dstream::mock_pn::MockPN
+m_gc	check_app_task.h	/^    pm_gc::GC* m_gc;$/;"	m	class:dstream::check_app_task::AppCheckTask
+m_gc	pm_rpc_server.h	/^    auto_ptr::AutoPtr<pm_gc::GC> m_gc;$/;"	m	class:dstream::pm_rpc_server::PMRPCServer
+m_gc	pn_client_status.h	/^    pm_gc::GC* m_gc;$/;"	m	class:dstream::pn_client_status::PNClientStatus
+m_gc	process_master.h	/^    auto_ptr::AutoPtr<pm_gc::GC> m_gc;$/;"	m	class:dstream::process_master::ProcessMaster
+m_gc_interval	gc.h	/^    int m_gc_interval;$/;"	m	class:dstream::pm_gc::GC
+m_gc_task_list	gc.h	/^    GcTaskList m_gc_task_list;$/;"	m	class:dstream::pm_gc::GC
+m_httpd_port	process_master.h	/^    uint32_t m_httpd_port;$/;"	m	class:dstream::process_master::ProcessMaster
+m_init	zk_watcher.h	/^    bool m_init;$/;"	m	class:dstream::zk_watcher::DStreamWatcher
+m_kill_app	dstream_event.h	/^    bool m_kill_app;$/;"	m	class:dstream::dstream_event::KillPEEvent
+m_kill_app_id	kill_app_gc_task.h	/^    AppID m_kill_app_id;$/;"	m	class:dstream::kill_app_gc_task::KillAppGCTask
+m_local_host_ip	process_master.h	/^    std::string m_local_host_ip;$/;"	m	class:dstream::process_master::ProcessMaster
+m_lock	app_status.h	/^    MutexLock m_lock;$/;"	m	class:dstream::app_status::AppStatus
+m_lock	event_manager.h	/^    MutexLock m_lock;$/;"	m	class:dstream::event_manager::EventManager
+m_lock	pm_rpc_server.h	/^    MutexLock m_lock;$/;"	m	class:dstream::pm_rpc_server::PMRPCServer
+m_lock	pn_client_status.h	/^    MutexLock m_lock;$/;"	m	class:dstream::pn_client_status::PNClientStatus
+m_lock	process_master.h	/^    MutexLock m_lock;$/;"	m	class:dstream::process_master::ProcessMaster
+m_max_session_id	pm_rpc_server.h	/^    uint64_t m_max_session_id;$/;"	m	class:dstream::pm_rpc_server::PMRPCServer
+m_mem_basic	mock_pn.h	/^    uint64_t m_mem_basic;$/;"	m	class:dstream::mock_pn::MockPN
+m_name	pm_start_check.h	/^    std::string m_name;$/;"	m	class:dstream::pm_start_check::PMStartCheckTask
+m_next_handle_time	event_manager.h	/^    uint64_t m_next_handle_time;$/;"	m	class:dstream::event_manager::EventManager
+m_pe_id	dstream_event.h	/^    PEID m_pe_id;$/;"	m	class:dstream::dstream_event::CreatePEEvent
+m_pe_id	dstream_event.h	/^    PEID m_pe_id;$/;"	m	class:dstream::dstream_event::KillPEEvent
+m_pe_id	dstream_event.h	/^    PEID m_pe_id;$/;"	m	class:dstream::dstream_event::MigratePEEvent
+m_pe_id	dstream_event.h	/^    PEID m_pe_id;$/;"	m	class:dstream::dstream_event::RestartPEEvent
+m_pe_id	mock_pn.h	/^    PEID m_pe_id;$/;"	m	struct:dstream::mock_pn::PNPEStatus
+m_pid_rev_map	app_status.h	/^    PidRevMap m_pid_rev_map;$/;"	m	class:dstream::app_status::AppStatus
+m_pm	pm_watcher.h	/^    process_master::ProcessMaster* m_pm;$/;"	m	class:dstream::pm_watcher::PMWatcher
+m_pm	process_master.h	/^    PM m_pm;$/;"	m	class:dstream::process_master::ProcessMaster
+m_pm_watcher	process_master.h	/^    auto_ptr::AutoPtr<zk_watcher::DStreamWatcher> m_pm_watcher;$/;"	m	class:dstream::process_master::ProcessMaster
+m_pn	mock_pn.h	/^    PN m_pn;$/;"	m	class:dstream::mock_pn::MockPN
+m_pn_id	dstream_event.h	/^    PNID m_pn_id;$/;"	m	class:dstream::dstream_event::CreatePEEvent
+m_pn_id	dstream_event.h	/^    PNID m_pn_id;$/;"	m	class:dstream::dstream_event::KillPEEvent
+m_pn_id	dstream_event.h	/^    PNID m_pn_id;$/;"	m	class:dstream::dstream_event::PNDecommissionEvent
+m_pn_id	dstream_event.h	/^    PNID m_pn_id;$/;"	m	class:dstream::dstream_event::RestartPEEvent
+m_pn_pe_map	pn_client_status.h	/^    application_tools::PnidPeSetMap m_pn_pe_map;$/;"	m	class:dstream::pn_client_status::PNClientStatus
+m_pn_reports	pn_client_status.h	/^    PnidReportMap m_pn_reports; $/;"	m	class:dstream::pn_client_status::PNClientStatus
+m_processor_name	dstream_event.h	/^    std::string m_processor_name;$/;"	m	class:dstream::dstream_event::UpdateProcessorEvent
+m_resource	dstream_event.h	/^    Resource m_resource;$/;"	m	class:dstream::dstream_event::CreatePEEvent
+m_resource	dstream_event.h	/^    Resource m_resource;$/;"	m	class:dstream::dstream_event::KillPEEvent
+m_revision	dstream_event.h	/^    uint32_t m_revision;$/;"	m	class:dstream::dstream_event::RestartPEEvent
+m_revision	dstream_event.h	/^    uint32_t m_revision;$/;"	m	class:dstream::dstream_event::UpdateProcessorEvent
+m_rpc_call_number	dstream_event_manager.h	/^    int m_rpc_call_number;$/;"	m	class:dstream::dstream_event_manager::DStreamEventManager
+m_rpc_call_timeout	dstream_event_manager.h	/^    uint32_t m_rpc_call_timeout;$/;"	m	class:dstream::dstream_event_manager::DStreamEventManager
+m_rpc_server	process_master.h	/^    auto_ptr::AutoPtr<pm_rpc_server::PMRPCServer> m_rpc_server;$/;"	m	class:dstream::process_master::ProcessMaster
+m_rpc_success	mock_pn.h	/^    bool m_rpc_success;$/;"	m	class:dstream::mock_pn::MockPN
+m_scheduler	check_app_task.h	/^    scheduler::Scheduler* m_scheduler;$/;"	m	class:dstream::check_app_task::AppCheckTask
+m_scheduler	dstream_event.cc	/^Scheduler* DStreamEvent::m_scheduler = NULL;$/;"	m	class:dstream::dstream_event::DStreamEvent	file:
+m_scheduler	dstream_event.h	/^    static scheduler::Scheduler* m_scheduler;$/;"	m	class:dstream::dstream_event::DStreamEvent
+m_scheduler	dstream_event_manager.h	/^    auto_ptr::AutoPtr<scheduler::Scheduler> m_scheduler;$/;"	m	class:dstream::dstream_event_manager::DStreamEventManager
+m_scheduler	gc.h	/^    SchedulerAutoPtr m_scheduler;$/;"	m	class:dstream::pm_gc::GC
+m_scheduler	pm_rpc_server.h	/^    auto_ptr::AutoPtr<scheduler::Scheduler> m_scheduler;$/;"	m	class:dstream::pm_rpc_server::PMRPCServer
+m_scheduler	pn_client_status.h	/^    scheduler::Scheduler* m_scheduler;$/;"	m	class:dstream::pn_client_status::PNClientStatus
+m_scheduler	process_master.h	/^    auto_ptr::AutoPtr<scheduler::Scheduler> m_scheduler;$/;"	m	class:dstream::process_master::ProcessMaster
+m_scheduler	update_app_event.h	/^    scheduler::Scheduler* m_scheduler;$/;"	m	class:dstream::update_app_event::DelSubtreeEvent
+m_scheduler	update_app_event.h	/^    scheduler::Scheduler* m_scheduler;$/;"	m	class:dstream::update_app_event::UpdateParaEvent
+m_sleep_cond	event_manager.h	/^    CCond m_sleep_cond;$/;"	m	class:dstream::event_manager::EventManager
+m_src_pn	dstream_event.h	/^    PNID m_src_pn;$/;"	m	class:dstream::dstream_event::MigratePEEvent
+m_state	dstream_event.h	/^    MigrateState m_state;$/;"	m	class:dstream::dstream_event::MigratePEEvent
+m_state	dstream_event.h	/^    PEState m_state;$/;"	m	class:dstream::dstream_event::CreatePEEvent
+m_status	mock_pn.h	/^    StatusSet m_status;$/;"	m	class:dstream::mock_pn::MockPN
+m_stop	event_manager.h	/^    bool m_stop;$/;"	m	class:dstream::event_manager::EventManager
+m_suspend	event_manager.h	/^    bool m_suspend;$/;"	m	class:dstream::event_manager::EventManager
+m_wait_event	event_manager.h	/^    bool m_wait_event;$/;"	m	class:dstream::event_manager::EventManager
+m_wait_for_start	process_master.h	/^    bool m_wait_for_start;$/;"	m	class:dstream::process_master::ProcessMaster
+m_wait_resume	event_manager.h	/^    bool m_wait_resume;$/;"	m	class:dstream::event_manager::EventManager
+m_wait_time	event_manager.h	/^    int m_wait_time;$/;"	m	class:dstream::event_manager::EventManager
+m_watch_master_event	process_master.h	/^    bool m_watch_master_event;$/;"	m	class:dstream::process_master::ProcessMaster
+m_watcher	pm_rpc_server.h	/^    auto_ptr::AutoPtr<zk_watcher::DStreamWatcher> m_watcher;$/;"	m	class:dstream::pm_rpc_server::PMRPCServer
+m_working	event_manager.h	/^    bool m_working;$/;"	m	class:dstream::event_manager::EventManager
+m_working_master	process_master.h	/^    bool m_working_master;$/;"	m	class:dstream::process_master::ProcessMaster
+m_working_thread	event_manager.h	/^    pthread_t m_working_thread;$/;"	m	class:dstream::event_manager::EventManager
+m_zk_client	zk_watcher.h	/^    auto_ptr::AutoPtr<zk_client::ZkClient> m_zk_client;$/;"	m	class:dstream::zk_watcher::DStreamWatcher
+main	pm_main.cc	/^int main(int argc, char** argv) {$/;"	f
+main	test/test_dstream_event.cc	/^int main(int argc, char** argv)$/;"	f
+main	test/test_pm.cc	/^int main(int argc, char** argv)$/;"	f
+meta_	test/pm_test_common.h	/^    ZKMetaManager* meta_;$/;"	m	class:dstream::pm_test_common::PMTestBase
+meta_	test/test_client_op.cc	/^    ZKMetaManager* meta_;$/;"	m	class:dstream::test_client_op::TestClientOp	file:
+meta_	test/test_pn_group.cc	/^    ZKMetaManager* meta_;$/;"	m	class:dstream::test_pngroup::TestPNGroup	file:
+mock_pn	mock_pn.cc	/^namespace mock_pn {$/;"	n	namespace:dstream	file:
+mock_pn	mock_pn.h	/^namespace mock_pn {$/;"	n	namespace:dstream
+name	pm_start_check.h	/^    std::string name() {$/;"	f	class:dstream::pm_start_check::PMStartCheckTask
+old_cluster_config	test/test_client_op.cc	/^    ClusterConfig old_cluster_config;$/;"	m	class:dstream::test_client_op::TestClientOp	file:
+old_cluster_config	test/test_pn_group.cc	/^    ClusterConfig old_cluster_config;$/;"	m	class:dstream::test_pngroup::TestPNGroup	file:
+old_cluster_config_	test/pm_test_common.h	/^    ClusterConfig old_cluster_config_;$/;"	m	class:dstream::pm_test_common::PMTestBase
+operator ()	dstream_event_manager.cc	/^    bool operator()(const EventPtr& event1, const EventPtr& event2) {$/;"	f	class:dstream::dstream_event_manager::CompareFailPEEvent
+operator ()	event_manager.cc	/^bool CompareEventPtr::operator() (const EventPtr& event1_ptr,$/;"	f	class:dstream::event_manager::CompareEventPtr
+operator ()	mock_pn.h	/^    bool operator()(const PNPEStatus& status1, const PNPEStatus& status2) {$/;"	f	class:dstream::mock_pn::ComparePNPEStatus
+pe_id	dstream_event.h	/^    PEID pe_id() {$/;"	f	class:dstream::dstream_event::CreatePEEvent
+pm	test/test_pm_httpd.cc	/^    ::dstream::process_master::ProcessMaster pm;$/;"	m	class:dstream::test_pm_httpd::TestPMHttpd	file:
+pm_	test/test_client_op.cc	/^    ProcessMaster pm_;$/;"	m	class:dstream::test_client_op::TestClientOp	file:
+pm_	test/test_handle_app.cc	/^    ProcessMaster pm_;$/;"	m	class:dstream::test_handle_app::TestHandleApp	file:
+pm_common	pm_common.cc	/^namespace pm_common {$/;"	n	namespace:dstream	file:
+pm_common	pm_common.h	/^namespace pm_common {$/;"	n	namespace:dstream
+pm_gc	gc.cc	/^namespace pm_gc {$/;"	n	namespace:dstream	file:
+pm_gc	gc.h	/^namespace pm_gc {$/;"	n	namespace:dstream
+pm_httpd	pm_httpd.cc	/^namespace pm_httpd {$/;"	n	namespace:dstream	file:
+pm_httpd	pm_httpd.h	/^namespace pm_httpd {$/;"	n	namespace:dstream
+pm_httpd_port	test/test_pm_httpd.cc	/^    volatile static uint32_t pm_httpd_port;$/;"	m	class:dstream::test_pm_httpd::TestPMHttpd	file:
+pm_httpd_port	test/test_pm_httpd.cc	/^volatile uint32_t TestPMHttpd::pm_httpd_port = 0;$/;"	m	class:dstream::test_pm_httpd::TestPMHttpd	file:
+pm_rpc_server	pm_rpc_server.cc	/^namespace pm_rpc_server {$/;"	n	namespace:dstream	file:
+pm_rpc_server	pm_rpc_server.h	/^namespace pm_rpc_server {$/;"	n	namespace:dstream
+pm_server_	test/test_dstream_event.cc	/^    PMRPCServer pm_server_;$/;"	m	class:dstream::test_dstream_event::TestDStreamEvent	file:
+pm_start_check	pm_start_check.h	/^namespace pm_start_check {$/;"	n	namespace:dstream
+pm_test_common	test/pm_test_common.cc	/^namespace pm_test_common {$/;"	n	namespace:dstream	file:
+pm_test_common	test/pm_test_common.h	/^namespace pm_test_common {$/;"	n	namespace:dstream
+pm_watcher	pm_watcher.cc	/^namespace pm_watcher {$/;"	n	namespace:dstream	file:
+pm_watcher	pm_watcher.h	/^namespace pm_watcher {$/;"	n	namespace:dstream
+pn	mock_pn.h	/^    PN pn() {$/;"	f	class:dstream::mock_pn::MockPN
+pn_client_status	pn_client_status.cc	/^namespace pn_client_status {$/;"	n	namespace:dstream	file:
+pn_client_status	pn_client_status.h	/^namespace pn_client_status {$/;"	n	namespace:dstream
+pn_id	mock_pn.h	/^    PNID pn_id() {$/;"	f	class:dstream::mock_pn::MockPN
+pn_list_	test/test_client_op.cc	/^    list<MockPN> pn_list_;$/;"	m	class:dstream::test_client_op::TestClientOp	file:
+pn_list_	test/test_handle_app.cc	/^    MockPN pn_list_[kMockPNNum];$/;"	m	class:dstream::test_handle_app::TestHandleApp	file:
+pn_reports	pn_client_status.cc	/^PnidReportMap PNClientStatus::pn_reports() {$/;"	f	class:dstream::pn_client_status::PNClientStatus
+pn_status_instace	pn_client_status.h	/^    static PNClientStatus* pn_status_instace;$/;"	m	class:dstream::pn_client_status::PNClientStatus
+pns_	test/test_dstream_event.cc	/^    std::vector<MockPtr> pns_;$/;"	m	class:dstream::test_dstream_event::TestDStreamEvent	file:
+process_master	process_master.cc	/^namespace process_master {$/;"	n	namespace:dstream	file:
+process_master	process_master.h	/^namespace process_master {$/;"	n	namespace:dstream
+resource	dstream_event.h	/^    Resource resource() {$/;"	f	class:dstream::dstream_event::CreatePEEvent
+responder	test/test_pm_httpd.cc	/^    static dstream::pm_httpd::PmHttpdResponder responder;$/;"	m	class:dstream::test_pm_httpd::TestPMHttpd	file:
+responder	test/test_pm_httpd.cc	/^dstream::pm_httpd::PmHttpdResponder TestPMHttpd::responder;$/;"	m	class:dstream::test_pm_httpd::TestPMHttpd	file:
+scheduler	process_master.h	/^    scheduler::Scheduler* scheduler() {$/;"	f	class:dstream::process_master::ProcessMaster
+scheduler_	test/test_dstream_event.cc	/^    AutoPtr<PlainScheduler> scheduler_;$/;"	m	class:dstream::test_dstream_event::TestDStreamEvent	file:
+serial_num	mock_pn.cc	/^int MockPN::serial_num = 0;$/;"	m	class:dstream::mock_pn::MockPN	file:
+serial_num	mock_pn.h	/^    static int serial_num;$/;"	m	class:dstream::mock_pn::MockPN
+set_add_event	test/test_event_manager.cc	/^    void set_add_event(bool add_event) {$/;"	f	class:dstream::test_event_manager::MockEventManager
+set_cpu_basic	mock_pn.h	/^    void set_cpu_basic(float cpu_basic) {$/;"	f	class:dstream::mock_pn::MockPN
+set_gc_interval	gc.h	/^    void set_gc_interval(int gc_interval) {$/;"	f	class:dstream::pm_gc::GC
+set_handle_event_size	test/test_event_manager.cc	/^    void set_handle_event_size(int size) {$/;"	f	class:dstream::test_event_manager::MockEventManager
+set_mem_basic	mock_pn.h	/^    void set_mem_basic(uint64_t mem_basic) {$/;"	f	class:dstream::mock_pn::MockPN
+set_pm	pm_watcher.h	/^    void set_pm(process_master::ProcessMaster* pm) {$/;"	f	class:dstream::pm_watcher::PMWatcher
+set_resource	dstream_event.h	/^    void set_resource(const Resource& resource) {$/;"	f	class:dstream::dstream_event::KillPEEvent
+set_rpc_success	mock_pn.h	/^    void set_rpc_success(bool rpc_success) {$/;"	f	class:dstream::mock_pn::MockPN
+set_wait_time	event_manager.h	/^    void set_wait_time(int wait_time) {$/;"	f	class:dstream::event_manager::EventManager
+set_working	event_manager.cc	/^void EventManager::set_working(bool working) {$/;"	f	class:dstream::event_manager::EventManager
+sigterm_handler	pm_main.cc	/^void sigterm_handler(int signal) {$/;"	f
+sleep_event	test/test_dstream_event.cc	/^static void sleep_event(EventManager& event_manager)$/;"	f	namespace:dstream::test_dstream_event
+sleep_event	test/test_event_manager.cc	/^static void sleep_event(MockEventManager& mock_event_manager)$/;"	f	namespace:dstream::test_event_manager
+status	mock_pn.h	/^    const StatusSet& status() const {$/;"	f	class:dstream::mock_pn::MockPN
+stop	event_manager.h	/^    bool stop() const {$/;"	f	class:dstream::event_manager::EventManager
+stop	process_master.h	/^    bool stop() {$/;"	f	class:dstream::process_master::ProcessMaster
+suspend	event_manager.h	/^    bool suspend() const {$/;"	f	class:dstream::event_manager::EventManager
+test_app_scheduler	test/test_app_scheduler.cc	/^namespace test_app_scheduler {$/;"	n	namespace:dstream	file:
+test_app_status	test/test_app_status.cc	/^namespace test_app_status {$/;"	n	namespace:dstream	file:
+test_blacklist	test/test_blacklist.cc	/^namespace test_blacklist {$/;"	n	namespace:dstream	file:
+test_client_op	test/test_client_op.cc	/^namespace test_client_op {$/;"	n	namespace:dstream	file:
+test_dstream_event	test/test_dstream_event.cc	/^namespace test_dstream_event {$/;"	n	namespace:dstream	file:
+test_event_manager	test/test_event_manager.cc	/^namespace test_event_manager {$/;"	n	namespace:dstream	file:
+test_handle_app	test/test_handle_app.cc	/^namespace test_handle_app {$/;"	n	namespace:dstream	file:
+test_pm_httpd	test/test_pm_httpd.cc	/^namespace test_pm_httpd {$/;"	n	namespace:dstream	file:
+test_pm_stop	test/test_pm_stop.cc	/^namespace test_pm_stop {$/;"	n	namespace:dstream	file:
+test_pm_switch	test/test_pm_switch.cc	/^namespace test_pm_switch {$/;"	n	namespace:dstream	file:
+test_pngroup	test/test_pn_group.cc	/^namespace test_pngroup {$/;"	n	namespace:dstream	file:
+thread_signal	test/test_pm_httpd.cc	/^    volatile static int32_t thread_signal;$/;"	m	class:dstream::test_pm_httpd::TestPMHttpd	file:
+thread_signal	test/test_pm_httpd.cc	/^volatile int32_t TestPMHttpd::thread_signal = HTTPD_START;$/;"	m	class:dstream::test_pm_httpd::TestPMHttpd	file:
+update_app_event	update_app_event.cc	/^namespace update_app_event {$/;"	n	namespace:dstream	file:
+update_app_event	update_app_event.h	/^namespace update_app_event {$/;"	n	namespace:dstream
+user	pn_client_status.h	/^    User user;$/;"	m	struct:dstream::pn_client_status::client_info
+wait_event	event_manager.cc	/^bool EventManager::wait_event() {$/;"	f	class:dstream::event_manager::EventManager
+watcher_	test/test_dstream_event.cc	/^    AutoPtr<DStreamWatcher> watcher_;$/;"	m	class:dstream::test_dstream_event::TestDStreamEvent	file:
+working	process_master.h	/^    bool working() {$/;"	f	class:dstream::process_master::ProcessMaster
+working_master	process_master.h	/^    bool working_master() const {$/;"	f	class:dstream::process_master::ProcessMaster
+zk_watcher	zk_watcher.cc	/^namespace zk_watcher {$/;"	n	namespace:dstream	file:
+zk_watcher	zk_watcher.h	/^namespace zk_watcher {$/;"	n	namespace:dstream
+~DStreamWatcher	zk_watcher.h	/^    virtual ~DStreamWatcher() {}$/;"	f	class:dstream::zk_watcher::DStreamWatcher
+~Event	event.h	/^    virtual ~Event() {}$/;"	f	class:dstream::event::Event
+~EventManager	event_manager.cc	/^EventManager::~EventManager() {$/;"	f	class:dstream::event_manager::EventManager
+~GCTask	gc_task.h	/^    virtual ~GCTask() {}$/;"	f	class:dstream::gc_task::GCTask
+~MockPN	mock_pn.cc	/^MockPN::~MockPN() {$/;"	f	class:dstream::mock_pn::MockPN
+~PMStartCheckTask	pm_start_check.h	/^    virtual ~PMStartCheckTask() {}$/;"	f	class:dstream::pm_start_check::PMStartCheckTask
+~PmHttpdResponder	pm_httpd.h	/^    virtual ~PmHttpdResponder() {}$/;"	f	class:dstream::pm_httpd::PmHttpdResponder
+~ProcessMaster	process_master.cc	/^ProcessMaster::~ProcessMaster() {$/;"	f	class:dstream::process_master::ProcessMaster

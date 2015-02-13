@@ -1,0 +1,1009 @@
+2012-10-11 17:40:28,558:20690(0x2a95c83c20):ZOO_INFO@log_env@675: Client environment:zookeeper.version=zookeeper C client 3.3.3
+2012-10-11 17:40:28,558:20690(0x2a95c83c20):ZOO_INFO@log_env@679: Client environment:host.name=cq01-testing-dcqa-b3.cq01.baidu.com
+2012-10-11 17:40:28,558:20690(0x2a95c83c20):ZOO_INFO@log_env@686: Client environment:os.name=Linux
+2012-10-11 17:40:28,558:20690(0x2a95c83c20):ZOO_INFO@log_env@687: Client environment:os.arch=2.6.9_5-9-0-0
+2012-10-11 17:40:28,558:20690(0x2a95c83c20):ZOO_INFO@log_env@688: Client environment:os.version=#1 SMP Wed Jun 23 14:03:19 CST 2010
+2012-10-11 17:40:28,558:20690(0x2a95c83c20):ZOO_INFO@log_env@696: Client environment:user.name=(null)
+2012-10-11 17:40:28,558:20690(0x2a95c83c20):ZOO_INFO@log_env@704: Client environment:user.home=/home/hudson
+2012-10-11 17:40:28,558:20690(0x2a95c83c20):ZOO_INFO@log_env@716: Client environment:user.dir=/home/hudson/CI/hudson/jobs/DStream_1.3.1_quick/workspace/inf/computing/dstream/src/test/integrate_test/thresholdtest
+2012-10-11 17:40:28,558:20690(0x2a95c83c20):ZOO_INFO@zookeeper_init@744: Initiating client connection, host=10.237.2.202:2182 sessionTimeout=30000 watcher=0x4e74cc sessionId=0 sessionPasswd=<null> context=0x796900 flags=0
+2012-10-11 17:40:28,561:20690(0x41401960):ZOO_INFO@check_events@1708: initiated connection to server [10.237.2.202:2182]
+2012-10-11 17:40:28,566:20690(0x41401960):ZOO_INFO@check_events@1755: session establishment complete on server [10.237.2.202:2182], sessionId=0x1384bf3ddec07b0, negotiated timeout=30000
+2012-10-11 17:40:28,624:20690(0x42803960):ZOO_INFO@log_env@675: Client environment:zookeeper.version=zookeeper C client 3.3.3
+2012-10-11 17:40:28,624:20690(0x42803960):ZOO_INFO@log_env@679: Client environment:host.name=cq01-testing-dcqa-b3.cq01.baidu.com
+2012-10-11 17:40:28,624:20690(0x42803960):ZOO_INFO@log_env@686: Client environment:os.name=Linux
+2012-10-11 17:40:28,624:20690(0x42803960):ZOO_INFO@log_env@687: Client environment:os.arch=2.6.9_5-9-0-0
+2012-10-11 17:40:28,624:20690(0x42803960):ZOO_INFO@log_env@688: Client environment:os.version=#1 SMP Wed Jun 23 14:03:19 CST 2010
+2012-10-11 17:40:28,624:20690(0x42803960):ZOO_INFO@log_env@696: Client environment:user.name=(null)
+2012-10-11 17:40:28,624:20690(0x42803960):ZOO_INFO@log_env@704: Client environment:user.home=/home/hudson
+2012-10-11 17:40:28,624:20690(0x42803960):ZOO_INFO@log_env@716: Client environment:user.dir=/home/hudson/CI/hudson/jobs/DStream_1.3.1_quick/workspace/inf/computing/dstream/src/test/integrate_test/thresholdtest
+2012-10-11 17:40:28,624:20690(0x42803960):ZOO_INFO@zookeeper_init@744: Initiating client connection, host=10.237.2.202:2182 sessionTimeout=30000 watcher=0x4e74cc sessionId=0 sessionPasswd=<null> context=0x7a22f0 flags=0
+2012-10-11 17:40:28,627:20690(0x43204960):ZOO_INFO@check_events@1708: initiated connection to server [10.237.2.202:2182]
+2012-10-11 17:40:28,631:20690(0x43204960):ZOO_INFO@check_events@1755: session establishment complete on server [10.237.2.202:2182], sessionId=0x1384bf3ddec07b1, negotiated timeout=30000
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/zk_client.cc:96]:connect to zookeeper[10.237.2.202:2182] ...OK
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/DStream], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/DStream/BackupPM], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/dstream_hudson], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/dstream_hudson/App], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/dstream_hudson], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/dstream_hudson/Config], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/dstream_hudson], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/dstream_hudson/PN], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/dstream_hudson], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/dstream_hudson/Client], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/DStream], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[common/zk_client.cc:764]:fail to create node@[/DStream/machines], ErrCode:[-110] Err:[node exists]
+[2012-10-11 17:40:28][WARN][processmaster]:[metamanager/zk_meta_manager.cc:64]:zk client is connected
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/zk_client.cc:771]:create node@[/dstream_hudson/PM] ...OK
+[2012-10-11 17:40:28][INFO][processmaster]:[metamanager/zk_meta_manager.cc:491]:[AddZKNode] AddZKNode [/dstream_hudson/PM] success
+[2012-10-11 17:40:28][INFO][processmaster]:[processmaster/process_master.cc:324]:create pm success, so this is working master
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/zk_client.cc:96]:connect to zookeeper[10.237.2.202:2182] ...OK
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/zk_client.cc:490]:set watcher on node:[/dstream_hudson/PN] ...OK
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/zk_client.cc:843]:set CHILDREN watcher on node:[/dstream_hudson/PN] ...OK
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/zk_client.cc:509]:set CHILDREN_DELETE watcher on node:[/dstream_hudson/PN] ...OK
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/zk_client.cc:454]:set watch on node:[/dstream_hudson/Config] ...OK
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/zk_client.cc:454]:set watch on node:[/dstream_hudson/PM] ...OK
+[2012-10-11 17:40:28][INFO][processmaster]:[scheduler/scheduler.cc:22]:get resource scheduler
+[2012-10-11 17:40:28][INFO][processmaster]:[scheduler/resource_compare.cc:109]:[GetResourceCompareByName] resource compare is [PENumCompare]
+[2012-10-11 17:40:28][INFO][processmaster]:[scheduler/resource_scheduler.cc:48]:Init ResourceSchduer ok, compare is [PENumCompare] algorithm is [BFDAlgorithm]
+[2012-10-11 17:40:28][INFO][processmaster]:[processmaster/event_manager.cc:123]:[Start] event manager start
+[2012-10-11 17:40:28][INFO][processmaster]:[processmaster/event_manager.cc:22]:[EventManagerWorkThread] Event Manager working Thread start...
+[2012-10-11 17:40:28][INFO][processmaster]:[common/rpc.cc:508]:bind main socket to [tcp://10.48.46.42:5000] OK
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/rpc.cc:519]:bind back socket to 'inproc://conn#0' OK
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/rpc.cc:411]:rpc thread function connect to 'inproc://conn#0' OK
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/rpc.cc:411]:rpc thread function connect to 'inproc://connBullseyeCoverage 7.14.11 error 16: Cannot open /home/hudson/CI/hudson/jobs/DStream_1.3.1_quick/workspace/inf/computing/dstream/src/test/hudson_job/../../../../../../inf/computing/dstream/test.cov.  COVFILE is probably set to an incorrect path, errno=2
+#0' OK
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/rpc.cc:411]:rpc thread function connect to 'inproc://conn#0' OK
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/rpc.cc:411]:rpc thread function connect to 'inproc://conn#0' OK
+[2012-10-11 17:40:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:28][INFO][processmaster]:[processmaster/process_master.cc:52]:rpc server start success
+[2012-10-11 17:40:28][WARN][processmaster]:[metamanager/zk_meta_manager.cc:64]:zk client is connected
+[2012-10-11 17:40:28][INFO][processmaster]:[processmaster/process_master.cc:64]:[Init] add pm information success:  [10.48.46.42:5000]
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/zk_client.cc:698]:trigger watcher[0x7a17b0] on node:[/dstream_hudson/PM] ...
+[2012-10-11 17:40:28][DEBUG][processmaster]:[common/zk_client.h:66]:get event: type:[3], state:[3], path:[/dstream_hudson/PM]
+[2012-10-11 17:40:28][INFO][processmaster]:[processmaster/check_app_task.cc:33]:check app status, app number is : 0
+[2012-10-11 17:40:28][INFO][processmaster]:[processmaster/event_manager.cc:191]:resume event manager
+[2012-10-11 17:40:28][INFO][processmaster]:[processmaster/process_master.cc:110]:start pm working thread
+[2012-10-11 17:40:28][INFO][processmaster]:[processmaster/process_master.cc:121]:pm is working master
+[2012-10-11 17:40:28][INFO][processmaster]:[processmaster/process_master.cc:171]:[Start] start pm over...
+[2012-10-11 17:40:28][INFO][processmaster]:[processmaster/gc.cc:50]:[Run] gc is running
+[2012-10-11 17:40:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:31][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:31][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:31][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:31][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:31][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:31][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:31][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:31][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:31][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:32][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:32][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:32][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:32][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:32][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:32][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:32][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:32][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:32][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:33][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:33][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:33][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:33][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:33][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:33][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:33][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:33][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:33][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:34][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:34][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:34][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:34][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:34][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:34][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:34][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:34][DEBUG][processmaster]:[common/zk_client.cc:674]:get CHILD_EVENT on node:[/dstream_hudson/PN] ...
+[2012-10-11 17:40:34][DEBUG][processmaster]:[common/zk_client.cc:833]:set watch on node:[/dstream_hudson/PN/10.48.46.42_1349948433] ...OK
+[2012-10-11 17:40:34][DEBUG][processmaster]:[common/zk_client.cc:843]:set CHILDREN watcher on node:[/dstream_hudson/PN] ...OK
+[2012-10-11 17:40:34][DEBUG][processmaster]:[common/zk_client.cc:735]:handle children event ...OK
+[2012-10-11 17:40:34][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:34][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:35][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:35][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:35][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:35][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:35][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:35][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:35][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:35][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:35][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:36][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:36][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:36][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:36][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:36][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:36][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:36][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:36][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:36][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:37][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:37][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:37][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:37][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:37][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:37][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:37][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:37][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:37][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:38][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:38][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:38][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:38][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:38][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:38][DEBUG][processmaster]:[common/zk_client.cc:454]:set watch on node:[/dstream_hudson/Client/10.48.46.42-1349948438] ...OK
+[2012-10-11 17:40:38][DEBUG][processmaster]:[processmaster/pn_client_status.cc:213]:Add session [598524] success
+[2012-10-11 17:40:38][INFO][processmaster]:[processmaster/pm_rpc_server.cc:124]:ask for app id [1]
+[2012-10-11 17:40:38][DEBUG][processmaster]:[common/zk_client.cc:771]:create node@[/dstream_hudson/App/1] ...OK
+[2012-10-11 17:40:38][DEBUG][processmaster]:[metamanager/zk_meta_manager.cc:177]:App [1] pe size [3]
+[2012-10-11 17:40:38][DEBUG][processmaster]:[common/zk_client.cc:771]:create node@[/dstream_hudson/App/1/1099511627776] ...OK
+[2012-10-11 17:40:38][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:38][DEBUG][processmaster]:[common/zk_client.cc:771]:create node@[/dstream_hudson/App/1/1103806595072] ...OK
+[2012-10-11 17:40:38][DEBUG][processmaster]:[common/zk_client.cc:771]:create node@[/dstream_hudson/App/1/1108101562368] ...OK
+[2012-10-11 17:40:38][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:38][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:38][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:39][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:39][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:39][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:39][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:39][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:39][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:39][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:39][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:39][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:40][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:40][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:40][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:40][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:40][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:40][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:40][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:40][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:40][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:41][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:41][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:41][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:41][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:41][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:41][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:41][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:41][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:41][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:42][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:42][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:42][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:42][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:42][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:42][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:42][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:42][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:42][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:43][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:43][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:43][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:43][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:43][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:43][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:43][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:43][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:40:44][DEBUG][processmaster]:[common/zk_client.cc:528]:Unwatch node:[/dstream_hudson/Client/10.48.46.42-1349948438] ...OK
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[common/zk_client.cc:648]:get DELETE_EVENT on node:[/dstream_hudson/Client/10.48.46.42-1349948438] ...
+[2012-10-11 17:40:44][WARN][processmaster]:[common/zk_client.cc:793]:fail to set watch on node:[/dstream_hudson/Client/10.48.46.42-1349948438], ErrCode:[-101], Err:[no node]
+[2012-10-11 17:40:44][WARN][processmaster]:[common/zk_client.cc:668]:fail to rewath on node:[/dstream_hudson/Client/10.48.46.42-1349948438]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[common/zk_client.cc:706]:get ignored event:[2], state:[3] at path:[/dstream_hudson/Client/10.48.46.42-1349948438]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:98]:[AddResRequest] AddRequest size is [3]
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/resource_scheduler.cc:104]:[AddResRequest] AddRequest failed because Scheduler can not work
+[2012-10-11 17:40:44][DEBUG][processmaster]:[processmaster/dstream_event.cc:763]:[HandleEvent] Add app [1] create pe [1108101562368] 
+[2012-10-11 17:40:44][DEBUG][processmaster]:[processmaster/dstream_event.cc:763]:[HandleEvent] Add app [1] create pe [1099511627776] 
+[2012-10-11 17:40:44][DEBUG][processmaster]:[processmaster/dstream_event.cc:763]:[HandleEvent] Add app [1] create pe [1103806595072] 
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[processmaster/pm_rpc_server.cc:72]:pn [10.48.46.42_1349948433] report
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][WARN][processmaster]:[scheduler/scheduler.cc:32]:[CanScheduler] report number [0] less than 1
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:28]:[HandlePEEvent] Scheduler cannot work
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[processmaster/pn_client_status.cc:124]:pn [10.48.46.42_1349948433] report pe number [0]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[processmaster/pn_client_status.cc:62]:pn [10.48.46.42_1349948433] report no fail pe
+[2012-10-11 17:40:44][INFO][processmaster]:[scheduler/resource_scheduler.cc:255]:[AllocatePN] Allocated not reserved pn [10.48.46.42_1349948433] for processor [1099511627776] pe [1099511627776]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method CreatePE
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:112]:Call create pe [1099511627776] on pn [10.48.46.42_1349948433]
+[2012-10-11 17:40:44][INFO][processmaster]:[scheduler/resource_scheduler.cc:255]:[AllocatePN] Allocated not reserved pn [10.48.46.42_1349948433] for processor [1103806595072] pe [1103806595072]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method CreatePE
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:112]:Call create pe [1103806595072] on pn [10.48.46.42_1349948433]
+[2012-10-11 17:40:44][INFO][processmaster]:[scheduler/resource_scheduler.cc:255]:[AllocatePN] Allocated not reserved pn [10.48.46.42_1349948433] for processor [1108101562368] pe [1108101562368]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method CreatePE
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:112]:Call create pe [1108101562368] on pn [10.48.46.42_1349948433]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:507]:handle create pe [1099511627776] on pn [10.48.46.42_1349948433] event result [success]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[processmaster/dstream_event.cc:557]:[HandleEventResult] update pe [1099511627776] success
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:507]:handle create pe [1103806595072] on pn [10.48.46.42_1349948433] event result [success]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[processmaster/dstream_event.cc:557]:[HandleEventResult] update pe [1103806595072] success
+[2012-10-11 17:40:44][INFO][processmaster]:[processmaster/dstream_event.cc:507]:handle create pe [1108101562368] on pn [10.48.46.42_1349948433] event result [success]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:44][DEBUG][processmaster]:[processmaster/dstream_event.cc:557]:[HandleEventResult] update pe [1108101562368] success
+[2012-10-11 17:40:44][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:45][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:45][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:45][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:45][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:45][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:45][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:45][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:45][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:45][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:46][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:46][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:46][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:46][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:46][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:46][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:46][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:46][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:46][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:47][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:47][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:47][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:47][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:47][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:47][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:47][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:47][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:47][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:48][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:48][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:48][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:48][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:48][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:48][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:48][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:48][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:48][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:49][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:49][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:49][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:49][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:49][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:49][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:49][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:49][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:49][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:50][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:50][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:50][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:50][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:50][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:50][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:50][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:50][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:50][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:51][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:51][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:51][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:51][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:51][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:51][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:51][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:51][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:52][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:52][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:52][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:52][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:52][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:52][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:52][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:52][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:52][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:53][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:53][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:53][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:53][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:53][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:53][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:53][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:53][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:53][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:54][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:54][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:54][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:54][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:54][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:54][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:54][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:54][DEBUG][processmaster]:[processmaster/pm_rpc_server.cc:72]:pn [10.48.46.42_1349948433] report
+[2012-10-11 17:40:54][DEBUG][processmaster]:[processmaster/pn_client_status.cc:62]:pn [10.48.46.42_1349948433] report no fail pe
+[2012-10-11 17:40:54][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:54][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:55][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:55][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:55][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:55][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:55][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:55][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:55][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:55][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:55][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:56][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:56][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:56][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:56][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:56][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:56][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:56][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:56][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:56][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:57][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:57][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:57][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:57][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:57][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:57][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:57][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:57][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:57][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:58][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:58][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:58][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:58][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:58][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:58][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:58][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:58][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:58][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:59][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:59][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:59][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:59][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:59][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:59][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:59][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:59][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:40:59][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:00][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:00][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:00][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:00][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:00][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:00][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:00][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:00][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:00][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:01][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:01][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:01][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:01][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:01][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:01][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:01][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:01][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:01][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:02][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:02][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:02][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:02][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:02][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:02][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:02][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:02][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:03][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:03][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:03][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:03][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:03][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:03][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:03][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:03][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:03][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:04][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:04][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:04][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:04][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:04][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:04][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:04][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:04][DEBUG][processmaster]:[processmaster/pm_rpc_server.cc:72]:pn [10.48.46.42_1349948433] report
+[2012-10-11 17:41:04][DEBUG][processmaster]:[processmaster/pn_client_status.cc:62]:pn [10.48.46.42_1349948433] report no fail pe
+[2012-10-11 17:41:04][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:04][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:05][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:05][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:05][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:05][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:05][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:05][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:05][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:05][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:05][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:06][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:06][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:06][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:06][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:06][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:06][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:06][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:06][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:06][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:07][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:07][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:07][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:07][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:07][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:07][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:07][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:07][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:07][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:08][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:08][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:08][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:08][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:08][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:08][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:08][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:08][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:08][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:09][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:09][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:09][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:09][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:09][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:09][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:09][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:09][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:09][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:10][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:10][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:10][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:10][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:10][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:10][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:10][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:10][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:10][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:11][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:11][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:11][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:11][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:11][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:11][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:11][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:11][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[common/zk_client.cc:454]:set watch on node:[/dstream_hudson/Client/10.48.46.42-1349948472] ...OK
+[2012-10-11 17:41:12][DEBUG][processmaster]:[processmaster/pn_client_status.cc:213]:Add session [598525] success
+[2012-10-11 17:41:12][INFO][processmaster]:[scheduler/resource_scheduler.cc:144]:[RemoveResRequest] Remove Resource Request size [3]
+[2012-10-11 17:41:12][INFO][processmaster]:[processmaster/pm_rpc_server.cc:372]:Kill App [echo_test][1]
+[2012-10-11 17:41:12][INFO][processmaster]:[processmaster/kill_app_gc_task.cc:20]:Run KillAppGCTask [1] Task
+[2012-10-11 17:41:12][INFO][processmaster]:[scheduler/resource_scheduler.cc:144]:[RemoveResRequest] Remove Resource Request size [1]
+[2012-10-11 17:41:12][INFO][processmaster]:[scheduler/resource_scheduler.cc:144]:[RemoveResRequest] Remove Resource Request size [1]
+[2012-10-11 17:41:12][INFO][processmaster]:[scheduler/resource_scheduler.cc:144]:[RemoveResRequest] Remove Resource Request size [1]
+[2012-10-11 17:41:12][INFO][processmaster]:[processmaster/pm_common.cc:150]:kill app [1]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:12][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:12][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[common/hdfs_client.cc:228]:prepare to exec:[/home/hudson/dstream_hudson/hadoop-client/hadoop/bin/hadoop fs -test -e hdfs://cq01-testing-dcqa-b4.cq01:38002/dstream_hudson/hudson/1/;echo $?]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [838860800]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:12][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [838860800]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [838860800]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[common/hdfs_client.cc:235]:read [2] bytes from pipe
+[2012-10-11 17:41:12][DEBUG][processmaster]:[common/hdfs_client.cc:244]:result pipe read eof
+[2012-10-11 17:41:12][DEBUG][processmaster]:[common/hdfs_client.cc:228]:prepare to exec:[/home/hudson/dstream_hudson/hadoop-client/hadoop/bin/hadoop fs -rmr hdfs://cq01-testing-dcqa-b4.cq01:38002/dstream_hudson/hudson/1/]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:12][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/pm_common.cc:49]:Remove path [hdfs://cq01-testing-dcqa-b4.cq01:38002/dstream_hudson/hudson/1/] ok
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/pm_common.cc:187]:delete app [1]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/zk_client.cc:785]:delete node@[/dstream_hudson/App/1/1108101562368] ...OK
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/zk_client.cc:785]:delete node@[/dstream_hudson/App/1/1099511627776] ...OK
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/zk_client.cc:785]:delete node@[/dstream_hudson/App/1/1103806595072] ...OK
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/zk_client.cc:785]:delete node@[/dstream_hudson/App/1] ...OK
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/zk_client.cc:648]:get DELETE_EVENT on node:[/dstream_hudson/Client/10.48.46.42-1349948472] ...
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:793]:fail to set watch on node:[/dstream_hudson/Client/10.48.46.42-1349948472], ErrCode:[-101], Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:668]:fail to rewath on node:[/dstream_hudson/Client/10.48.46.42-1349948472]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/zk_client.cc:694]:delete watcher[0x7a17b0] on node:[/dstream_hudson/Client/10.48.46.42-1349948472] from due to node deleted
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/zk_client.cc:698]:trigger watcher[0x7a17b0] on node:[/dstream_hudson/Client/10.48.46.42-1349948472] ...
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/zk_client.h:66]:get event: type:[2], state:[3], path:[/dstream_hudson/Client/10.48.46.42-1349948472]
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/process_master.cc:220]:[NodeDelete] node /dstream_hudson/Client/10.48.46.42-1349948472 delete
+[2012-10-11 17:41:13][DEBUG][processmaster]:[processmaster/pn_client_status.cc:256]:remove client [/dstream_hudson/Client/10.48.46.42-1349948472]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[processmaster/pn_client_status.cc:264]:client app id [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[processmaster/pn_client_status.cc:269]:Remove Client session [598525]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/kill_app_gc_task.cc:20]:Run KillAppGCTask [1] Task
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1] fail
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:13][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:13][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:13][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:13][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:13][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/event_manager.cc:69]:notify event manager
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][INFO][processmaster]:[processmaster/dstream_event_manager.cc:42]:MAX RPC Number [100]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:83]:rpc call tcp://10.48.46.42:8888 method PEOperation
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/resource_scheduler.cc:329]:[ReleaseResource] pn [10.48.46.42_1349948433] return resource [0]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[common/rpc_client.cc:206]:receive reponse timeout is 50000
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[processmaster/pm_rpc_server.cc:72]:pn [10.48.46.42_1349948433] report
+[2012-10-11 17:41:14][WARN][processmaster]:[processmaster/pn_client_status.cc:67]:[UpdatePNStatus] pn [10.48.46.42_1349948433] report [3] fail pe
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1099511627776], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1099511627776
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1099511627776] fail
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1103806595072], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1103806595072
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1103806595072] fail
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:150]:fail to get node data@[/dstream_hudson/App/1/1108101562368], ErrCode:[-101] Err:[no node]
+[2012-10-11 17:41:14][WARN][processmaster]:[common/zk_client.cc:152]:zookeeper no node /dstream_hudson/App/1/1108101562368
+[2012-10-11 17:41:14][WARN][processmaster]:[metamanager/zk_meta_manager.h:61]:get node [/dstream_hudson/App/1/1108101562368] fail
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:14][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:15][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:15][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:15][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:15][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:15][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:15][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:15][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:15][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:15][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:16][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:16][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:16][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:16][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:16][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:16][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:16][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:16][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:16][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:17][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:17][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:17][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:17][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:17][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:17][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:17][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:17][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:17][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:18][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:18][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:18][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:18][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:18][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:18][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:18][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:18][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:18][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:19][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:19][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:19][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:19][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:19][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:19][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:19][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:19][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:19][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:20][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:20][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:20][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:20][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:20][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:20][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:20][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:20][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:20][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:21][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:21][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:21][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:21][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:21][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:21][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:21][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:21][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:22][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:22][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:22][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:22][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:22][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:22][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:22][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:22][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:22][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:23][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:23][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:23][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:23][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:23][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:23][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:23][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:23][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:23][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:24][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:24][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:24][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:24][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:24][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:24][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:24][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:24][DEBUG][processmaster]:[processmaster/pm_rpc_server.cc:72]:pn [10.48.46.42_1349948433] report
+[2012-10-11 17:41:24][DEBUG][processmaster]:[processmaster/pn_client_status.cc:62]:pn [10.48.46.42_1349948433] report no fail pe
+[2012-10-11 17:41:24][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:24][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:25][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:25][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:25][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:25][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:25][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:25][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:25][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:25][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:25][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:26][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:26][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:26][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:26][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:26][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:26][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:26][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:26][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:26][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:27][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:27][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:27][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:27][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:27][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:27][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:27][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:27][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:27][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:28][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:29][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:30][DEBUG][processmaster]:[scheduler/black_list.cc:153]:[UpdateBlackList] pe fail reserved time [600000]
+[2012-10-11 17:41:30][DEBUG][

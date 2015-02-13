@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test/install
+END
+clear.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/8175/trunk/dstream/src/test/integrate_test/install/clear.sh
+END
+install.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/11869/trunk/dstream/src/test/integrate_test/install/install.sh
+END
+local_clear.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/install/local_clear.sh
+END
+local_install.sh
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/11188/trunk/dstream/src/test/integrate_test/install/local_install.sh
+END
+update_cfg.sh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/16394/trunk/dstream/src/test/integrate_test/install/update_cfg.sh
+END

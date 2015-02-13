@@ -1,0 +1,52 @@
+# log4cplus
+
+### console log output ###
+log4cplus.rootLogger=INFO, rootAppender
+log4cplus.appender.rootAppender=log4cplus::ConsoleAppender
+log4cplus.appender.rootAppender.layout=log4cplus::PatternLayout
+log4cplus.appender.rootAppender.layout.ConversionPattern=[%D{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n
+
+### PM file log output ###
+#log4cplus.rootLogger=DEBUG, masterapp
+#log4cplus.appender.masterapp=log4cplus::RollingFileAppender
+#log4cplus.appender.masterapp.File=pm.log
+#log4cplus.appender.masterapp.MaxFileSize=500MB
+#log4cplus.appender.masterapp.MaxBackupIndex=50
+#log4cplus.appender.masterapp.layout=log4cplus::PatternLayout
+#log4cplus.appender.masterapp.layout.ConversionPattern=[%D{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n
+
+### PN file log output ###
+#log4cplus.rootLogger=DEBUG, nodeapp
+#log4cplus.appender.nodeapp=log4cplus::RollingFileAppender
+#log4cplus.appender.nodeapp.File=pm.log
+#log4cplus.appender.nodeapp.MaxFileSize=500MB
+#log4cplus.appender.nodeapp.MaxBackupIndex=50
+#log4cplus.appender.nodeapp.layout=log4cplus::PatternLayout
+#log4cplus.appender.nodeapp.layout.ConversionPattern=[%D{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n
+
+# log4cpp
+
+# define a default category
+#log4cpp.rootCategory=DEBUG,rootAppender
+#define a appender whose name is rootAppender
+#appender.rootAppender=log4cpp.ConsoleAppender
+#appender.rootAppender.layout=log4cpp.PatternLayout
+#appender.rootAppender.layout.ConversionPattern=[%d{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n 
+
+#category.process master=DEBUG,masterapp
+#appender.masterapp=log4cpp.RollingFileAppender
+#appender.masterapp.fileName=pm.log
+#appender.masterapp.maxBackupIndex=50
+#appender.masterapp.maxFileSize=1048576000
+#appender.masterapp.layout=log4cpp.PatternLayout
+#appender.masterapp.layout.ConversionPattern=[%d{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n 
+
+#category.PN=DEBUG,nodeapp
+#appender.nodeapp=log4cpp.RollingFileAppender
+#appender.nodeapp.fileName=pn.log
+#appender.nodeapp.maxBackupIndex=50
+#appender.nodeapp.maxFileSize=1048576000
+#appender.nodeapp.layout=log4cpp.PatternLayout
+#appender.nodeapp.layout.ConversionPattern=[%d{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n 
+
+

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test/echo_test/configs/echo_to_be_submit
+END
+application.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/inf/computing/!svn/ver/10983/trunk/dstream/src/test/integrate_test/echo_test/configs/echo_to_be_submit/application.cfg.xml
+END
+application.cfg.xml.error
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/inf/computing/!svn/ver/9749/trunk/dstream/src/test/integrate_test/echo_test/configs/echo_to_be_submit/application.cfg.xml.error
+END

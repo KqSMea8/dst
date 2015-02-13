@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+    <AppName>echo_test</AppName>
+    <Description>echo word</Description>
+    <Topology>
+        <ProcessorNum>1</ProcessorNum>
+        <Exporter>
+            <Exporter1>
+                <ProcessorName>echo_exporter_add</ProcessorName>
+                <Description></Description>
+                <RunCmd>./echo_exporter_add</RunCmd>
+                <Resource>
+                    <CPU>0.5</CPU>
+                    <Memory>160M</Memory>
+                </Resource>
+                <Parallelism>1</Parallelism>
+                <Subscribe>
+                    <source>
+                        <processor>echo_pe_task</processor>
+                        <tag>EchoTask</tag>
+                    </source>
+                </Subscribe>
+            </Exporter1>
+        </Exporter>
+    </Topology>
+</APP>

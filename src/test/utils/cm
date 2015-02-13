@@ -1,0 +1,61 @@
+#!/bin/sh
+
+if test `echo $0 | grep "^/"`; then
+	pwd_path=`dirname $0`
+        # cd `dirname $0`
+else
+	cpath=`pwd`
+	pwd_path=`dirname $cpath/$0`
+        # cd `dirname $pwd_path/$0`
+fi
+
+#param 1£ºxml file
+#param 2: xpath
+#param 3: Ö value
+update_xpath()
+{
+	#½øÈë½Å±¾ËùÔÚÄ¿Â¼
+	cd $pwd_path
+	# echo -e " ----\n"$pwd_path"\n ----"
+	echo " -- set $1:$2 = $3"
+	./xml ed -P -u "$2" -v "$3" $1 >tmp.xml
+	if [ $? = 0 ]; then
+		mv tmp.xml $1
+		echo " -- [OK]"
+	else
+		rm tmp.xml
+		echo " -- [FAIL] exit."
+		cd -
+		exit 
+	fi
+	cd -
+}
+
+usage()
+{
+	echo " -- error usage! --"
+	echo -e " -- correct usage: sh cm src_cfg.xml cfg_file\n\n"
+	echo -e " -- correct usage: sh cm src_cfg.xml xpath value\n\n"
+}
+
+if [ $# -gt 1 ]
+then
+	if [ $# -eq 2 ]; then 
+		lines=`more $2 | grep -v "#"`
+		count=($lines)
+
+		for line in ${count[@]};do
+			if [ $line"x" != "x" ];then 
+				xpath=`echo $line | awk -F "=" '{print $1}'`
+				value=`echo $line | awk -F "=" '{print $2}'`
+				update_xpath $1 $xpath $value 
+			fi
+		done;
+	elif [ $# -eq 3 ]; then
+		update_xpath $1 $2 $3
+	fi
+else
+	usage
+fi
+
+

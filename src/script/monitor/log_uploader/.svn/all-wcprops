@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/14986/trunk/dstream/src/script/monitor/log_uploader
+END
+uploader.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/14224/trunk/dstream/src/script/monitor/log_uploader/uploader.py
+END
+log_uploader.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/14748/trunk/dstream/src/script/monitor/log_uploader/log_uploader.py
+END
+del_crontab.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/13656/trunk/dstream/src/script/monitor/log_uploader/del_crontab.sh
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/14224/trunk/dstream/src/script/monitor/log_uploader/start.sh
+END
+add_crontab.sh
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/13656/trunk/dstream/src/script/monitor/log_uploader/add_crontab.sh
+END
+hdfs_client.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/14986/trunk/dstream/src/script/monitor/log_uploader/hdfs_client.py
+END
+stop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/13656/trunk/dstream/src/script/monitor/log_uploader/stop.sh
+END

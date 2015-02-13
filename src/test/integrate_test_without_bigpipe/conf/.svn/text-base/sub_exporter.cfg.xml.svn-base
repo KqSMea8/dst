@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>echo_task</AppName>
+	<Description>word count</Description>
+
+	<Topology>
+		<ProcessorNum>1</ProcessorNum>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>sub_exporter_add</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./sub_exporter_add</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>256M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+        		<StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<ForceForwardBatchsPeriodMillSeconds>1000</ForceForwardBatchsPeriodMillSeconds>
+				<Subscribe>
+					<source>
+						<processor>echo_exporter</processor>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+	</Topology>
+</APP>

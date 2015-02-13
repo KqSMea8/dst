@@ -1,0 +1,5 @@
+scripts:
+====================
+1. job_run.sh		# for general test, hudson_quick + hudson_slow
+2. job_run_press.sh	# for press test, hudson_press_start + hudson_press_stop
+

@@ -1,0 +1,12 @@
+package dstream;
+message WordCountRequest{
+ optional string word=1;
+ optional int32 counts=2;
+};
+
+message WordCountResponse{
+ optional string word=1;
+ optional int32 counts=2;
+};
+
+

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_new/tools/checkPX
+END
+countPE.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/11494/trunk/dstream/src/test/integrate_test_new/tools/checkPX/countPE.sh
+END
+clearAll.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/14312/trunk/dstream/src/test/integrate_test_new/tools/checkPX/clearAll.sh
+END
+killPE.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/11494/trunk/dstream/src/test/integrate_test_new/tools/checkPX/killPE.sh
+END
+randomKillPE.sh
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/14312/trunk/dstream/src/test/integrate_test_new/tools/checkPX/randomKillPE.sh
+END
+clearOld.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/14312/trunk/dstream/src/test/integrate_test_new/tools/checkPX/clearOld.sh
+END
+conf.sh
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_new/tools/checkPX/conf.sh
+END
+countPM.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/11494/trunk/dstream/src/test/integrate_test_new/tools/checkPX/countPM.sh
+END
+countPN.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/11494/trunk/dstream/src/test/integrate_test_new/tools/checkPX/countPN.sh
+END
+killPM.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/14312/trunk/dstream/src/test/integrate_test_new/tools/checkPX/killPM.sh
+END
+findCore.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/15219/trunk/dstream/src/test/integrate_test_new/tools/checkPX/findCore.sh
+END
+killPN.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/14312/trunk/dstream/src/test/integrate_test_new/tools/checkPX/killPN.sh
+END
+startPM.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/14620/trunk/dstream/src/test/integrate_test_new/tools/checkPX/startPM.sh
+END
+findError.sh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/computing/!svn/ver/11494/trunk/dstream/src/test/integrate_test_new/tools/checkPX/findError.sh
+END
+checkPN_alive.sh
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/inf/computing/!svn/ver/14312/trunk/dstream/src/test/integrate_test_new/tools/checkPX/checkPN_alive.sh
+END
+startPN.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/14620/trunk/dstream/src/test/integrate_test_new/tools/checkPX/startPN.sh
+END
+countTuplesSend.sh
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/inf/computing/!svn/ver/11494/trunk/dstream/src/test/integrate_test_new/tools/checkPX/countTuplesSend.sh
+END
+countPE_in.sh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/computing/!svn/ver/11494/trunk/dstream/src/test/integrate_test_new/tools/checkPX/countPE_in.sh
+END
+countTuplesRecv.sh
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/inf/computing/!svn/ver/11494/trunk/dstream/src/test/integrate_test_new/tools/checkPX/countTuplesRecv.sh
+END

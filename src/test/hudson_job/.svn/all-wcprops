@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/computing/!svn/ver/47940/trunk/dstream/src/test/hudson_job
+END
+common.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/10909/trunk/dstream/src/test/hudson_job/common.sh
+END
+data_push.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/16880/trunk/dstream/src/test/hudson_job/data_push.sh
+END
+load_test_local.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/15950/trunk/dstream/src/test/hudson_job/load_test_local.sh
+END
+job_run_press.sh
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/11265/trunk/dstream/src/test/hudson_job/job_run_press.sh
+END
+send_mail.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/47940/trunk/dstream/src/test/hudson_job/send_mail.sh
+END
+job_run.sh
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/47940/trunk/dstream/src/test/hudson_job/job_run.sh
+END
+load_test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/hudson_job/load_test.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/11266/trunk/dstream/src/test/hudson_job/README
+END
+dynamic_importer_test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/hudson_job/dynamic_importer_test.sh
+END
+conf.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/18790/trunk/dstream/src/test/hudson_job/conf.sh
+END

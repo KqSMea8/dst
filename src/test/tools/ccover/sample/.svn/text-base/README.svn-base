@@ -1,0 +1,12 @@
+View Sample Coverage
+--------------------
+CoverageBrowser test.cov &
+
+Build and Run Samples
+---------------------
+export PATH=/opt/BullseyeCoverage/bin:$PATH
+export COVFILE=$HOME/test.cov
+cov01 -1
+make clean run
+cov01 -0
+CoverageBrowser &

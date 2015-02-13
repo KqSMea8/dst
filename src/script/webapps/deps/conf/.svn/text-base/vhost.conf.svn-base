@@ -1,0 +1,37 @@
+server{
+    listen;
+    server_name;
+    index index.html index.htm index.php;
+    root;
+    charset utf-8;
+                             
+    location ~ .*\.(php|php5)?$
+    {      
+      if ( $fastcgi_script_name ~ \..*\/.*php ) {
+        return;
+        }
+
+      fastcgi_index index.php;
+      fastcgi_pass  unix:/tmp/php-fpm.sock;
+      fastcgi_connect_timeout 60;
+      fastcgi_send_timeout 180;
+      fastcgi_read_timeout 180;
+      fastcgi_buffer_size 128k;
+      fastcgi_buffers 4 256k;
+      fastcgi_busy_buffers_size 256k;
+      fastcgi_temp_file_write_size 256k;
+      fastcgi_intercept_errors on;
+      include fastcgi.conf;
+    }
+    
+    location ~ .*\.(gif|jpg|jpeg|png|bmp|swf|attach)$
+    {
+      expires      30d;
+    }
+
+    location ~ .*\.(js|css)?$
+    {
+      expires      1h;
+    } 
+}
+

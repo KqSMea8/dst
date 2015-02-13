@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/36778/trunk/dstream/src/script/webapps/deps
+END
+php-5.4.11.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/deps/php-5.4.11.tar.gz
+END
+pcre-7.7.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/deps/pcre-7.7.tar.gz
+END
+nginx-1.2.6.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/deps/nginx-1.2.6.tar.gz
+END
+mysql-5.1.30.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/deps/mysql-5.1.30.tar.gz
+END

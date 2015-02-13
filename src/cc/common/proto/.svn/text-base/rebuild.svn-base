@@ -1,0 +1,5 @@
+#!/bin/bash
+for x in *.proto
+do
+    ../../../../../../../third-64/protobuf/bin/protoc --cpp_out=. $x
+done

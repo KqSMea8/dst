@@ -1,0 +1,8 @@
+# log4cplus
+
+### console log output ###
+log4cplus.rootLogger=DEBUG, rootAppender
+log4cplus.logger.rootAppener=DEBUG,rootAppender
+log4cplus.appender.rootAppender=log4cplus::ConsoleAppender
+log4cplus.appender.rootAppender.layout=log4cplus::PatternLayout
+log4cplus.appender.rootAppender.layout.ConversionPattern=[%D{%Y-%m-%d %H:%M:%S}][%p][%c]%x:%m%n

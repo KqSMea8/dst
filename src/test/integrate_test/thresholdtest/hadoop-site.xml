@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<configuration>
+  <property>
+    <name>hadoop.tmp.dir</name>
+    <value>/home/work/mapred/hadoop-data</value>
+    <final>true</final>
+    <description>A base for other temporary directories. on servers, must be set final</description>
+  </property>
+  <property>
+    <name>fs.default.name</name>
+    <value>hdfs://cq01-testing-dcqa-b4.cq01:38002</value>
+    <final>true</final>
+    <description>The name of the default file system. A URI whose scheme and authority determine the FileSystem implementation. The uri's scheme determines the config property (fs.SCHEME.impl) naming the FileSystem implementation class. The uri's authority is used to determine the host, port, etc. for a filesystem.</description>
+  </property>
+  <property>
+    <name>mapred.job.tracker</name>
+    <value>cq01-testing-dcqa-b4.cq01:38004</value>
+    <final>true</final>
+    <description>The host and port that the MapReduce job tracker runs at. If "local", then jobs are run in-process as a single map and reduce task.</description>
+  </property>
+  <property>
+    <name>hadoop.job.ugi</name>
+    <value>root,root</value>
+    <description>username, password used by client</description>
+  </property>
+  <property>
+    <name>mapred.local.dir</name>
+    <value>/home/work/mapred/hadoop-data/mapred/local</value>
+    <final>true</final>
+    <description>The local directory where MapReduce stores intermediate data files. May be a comma-separated list of directories on different devices in order to spread disk i/o. Directories that do not exist are ignored.</description>
+  </property>
+  <property>
+    <name>ipc.server.read.threadpool.size</name>
+    <value>7</value>
+    <description>ipc listener thread num</description>
+  </property>
+  <property>
+    <name>mapred.job.tracker.handler.count</name>
+    <value>100</value>
+    <final>true</final>
+    <description>The number of server threads for the JobTracker. This should be roughly 4% of the number of tasktracker nodes.</description>
+  </property>
+  <property>
+    <name>mapred.temp.dir</name>
+    <value>/home/work/mapred/hadoop-data/mapred/temp</value>
+    <final>true</final>
+    <description>A shared directory for temporary files.</description>
+  </property>
+</configuration>
+

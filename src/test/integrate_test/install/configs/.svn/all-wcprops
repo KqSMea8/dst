@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/install/configs
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/11188/trunk/dstream/src/test/integrate_test/install/configs/log.conf
+END
+dstream.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/install/configs/dstream.cfg.xml
+END
+cluster.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/install/configs/cluster.cfg.xml
+END

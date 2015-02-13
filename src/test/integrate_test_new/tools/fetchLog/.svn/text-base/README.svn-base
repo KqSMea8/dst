@@ -1,0 +1,12 @@
+usage example:
+fetchLog.sh -p /DStream_zhouan -n echo_test
+
+FetchLog.conf example:
+zk=10.232.62.31:2181
+user=work (user on PN nodes)
+passwd=zhouan01 (passwd on PN nodes)
+workspace=/home/work/dstream/bin
+
+Result:
+fetch stdout, stderr, echo_result.txt from each PN, save them into a dir named your appName.
+

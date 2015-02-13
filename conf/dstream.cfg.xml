@@ -1,0 +1,63 @@
+<Cluster>
+  <PM>
+    <Scheduler>ResourceScheduler</Scheduler>
+    <ResourceCompare>MemoryCompare</ResourceCompare>
+    <MaxAsyncRPCNumber>100</MaxAsyncRPCNumber>
+    <PMHttpdPort>8296</PMHttpdPort>
+  </PM>
+  
+  <Client>
+    <User>
+	    <UserName>mock_press</UserName>
+	    <Password>mock_press</Password>
+    </User>
+    <PM>
+      <Retry>3</Retry>
+      <TimeoutMs>30000</TimeoutMs>
+    </PM>
+  </Client>
+  
+  <PN>	
+	<PMListenThreadNum>4</PMListenThreadNum>
+    <DebugListenPort>28291</DebugListenPort>
+	<DebugListenThreadNum>1</DebugListenThreadNum>
+	<PEListenThreadNum>8</PEListenThreadNum>
+    <WorkDir>.</WorkDir>
+    <PNHttpdPort>8296</PNHttpdPort>
+	
+    <PM>
+      <Retry>3</Retry>
+      <TimeoutMs>3000</TimeoutMs>
+    </PM>
+    <UseCglimit>true</UseCglimit>
+	<TotalMemory>100G</TotalMemory>
+	<TotalCPU>16</TotalCPU>
+  </PN>
+
+  <HDFS>
+      <HadoopClientDir>/home/work/hadoop-client/hadoop</HadoopClientDir>
+    <Retry>3</Retry>
+  </HDFS>
+  
+  <ZooKeeperPath>
+	<Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+    <Retry>3</Retry>
+	<TimeoutMs>30000</TimeoutMs>
+	<Root>/mock_press</Root>
+    <PM>
+        <Root>/mock_press/PM</Root>
+    </PM>
+    <Config>
+        <Root>/mock_press/Config</Root>
+    </Config>
+    <App>
+        <Root>/mock_press/App</Root>
+    </App>
+    <PN>
+        <Root>/mock_press/PN</Root>
+    </PN>
+	<Client>
+	    <Root>/mock_press/Client</Root>  
+	</Client>
+  </ZooKeeperPath>
+</Cluster>

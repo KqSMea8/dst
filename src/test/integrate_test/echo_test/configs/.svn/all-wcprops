@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/echo_test/configs
+END
+format.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/7753/trunk/dstream/src/test/integrate_test/echo_test/configs/format.sh
+END
+test.conf
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/echo_test/configs/test.conf
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/10416/trunk/dstream/src/test/integrate_test/echo_test/configs/log.conf
+END
+dstream.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/echo_test/configs/dstream.cfg.xml
+END

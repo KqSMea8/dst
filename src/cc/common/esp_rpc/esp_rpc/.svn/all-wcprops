@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/38921/trunk/dstream/src/cc/common/esp_rpc/esp_rpc
+END
+esp_rpc.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/esp_rpc/esp_rpc.pb.cc
+END
+esp_rpc_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/esp_rpc/esp_rpc_client.h
+END
+esp_rpc.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/esp_rpc/esp_rpc.pb.h
+END
+esp_rpc_server.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/38921/trunk/dstream/src/cc/common/esp_rpc/esp_rpc/esp_rpc_server.cc
+END
+esp_rpc_channel.cc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/esp_rpc/esp_rpc_channel.cc
+END
+esp_rpc_server.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/38921/trunk/dstream/src/cc/common/esp_rpc/esp_rpc/esp_rpc_server.h
+END
+esp_rpc_channel.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/esp_rpc/esp_rpc_channel.h
+END
+esp_rpc_common.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/esp_rpc/esp_rpc_common.h
+END
+esp_rpc.proto
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/esp_rpc/esp_rpc.proto
+END
+esp_rpc_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/38921/trunk/dstream/src/cc/common/esp_rpc/esp_rpc/esp_rpc_client.cc
+END

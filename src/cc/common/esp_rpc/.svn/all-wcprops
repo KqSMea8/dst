@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/computing/!svn/ver/49626/trunk/dstream/src/cc/common/esp_rpc
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/COMAKE
+END
+.comake2.warnings
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/.comake2.warnings
+END
+.common.esp_rpc.COMAKE.CONFIGS.SCM
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/.common.esp_rpc.COMAKE.CONFIGS.SCM
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/Makefile
+END
+.inf.computing.esp_rpc.COMAKE.CONFIGS.SCM
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/.inf.computing.esp_rpc.COMAKE.CONFIGS.SCM
+END

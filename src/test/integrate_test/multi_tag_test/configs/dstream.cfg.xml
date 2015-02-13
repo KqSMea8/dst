@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cluster>
+<Client>
+<User>
+	<UserName>lyj</UserName>:
+	<Password>lyj</Password>
+</User>
+</Client>
+
+<PN>
+	<ListenThreadNum>40</ListenThreadNum>
+	<ListenPort>7777</ListenPort>
+	<ImporterPort>19870</ImporterPort>
+	<ImporterType>fake</ImporterType>
+	<WorkDir>.</WorkDir>
+	<NewSubChkIntervalSec>10000</NewSubChkIntervalSec>
+	<MaxSubQueueSize>100000000</MaxSubQueueSize>
+	<MaxSendQueueSize>100000000</MaxSendQueueSize>
+	<MaxRecvQueueSize>100000000</MaxRecvQueueSize>
+	<TotalMemory>10GB</TotalMemory>
+
+	<PM>
+
+	<Retry>3</Retry>
+	<TimeoutMs>3000</TimeoutMs>
+	</PM>
+	<TuplesBatchCount>500</TuplesBatchCount>				
+</PN>
+
+<PM>
+     <Scheduler>ResourceScheduler</Scheduler>
+</PM>
+
+  <HDFS>
+    <HadoopClientDir>/home/liyuanjian/mapred/hadoop-client/hadoop/</HadoopClientDir>
+    <Retry>3</Retry>
+  </HDFS>
+
+    <ZooKeeperPath>
+        <PM><Root>/dstream_lyj/PM</Root></PM>
+        <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+        <Config><Root>/dstream_lyj/Config</Root></Config>
+        <App><Root>/dstream_lyj/App</Root></App>
+        <PN><Root>/dstream_lyj/PN</Root></PN>
+        <Client><Root>/dstream_lyj/Client</Root></Client>
+        <Recv>
+            <TimeoutMs>30000</TimeoutMs>
+        </Recv>
+    </ZooKeeperPath>
+<Log>
+    <PE>
+      <TimeFormat>%Y_%m_%d_%H</TimeFormat>
+      <!-- true or false expected  below-->
+      <LocalStore>true</LocalStore>
+      <HdfsStore>true</HdfsStore>
+      <ConsoleShow>true</ConsoleShow>
+    </PE>
+  </Log>
+
+
+	
+</Cluster>

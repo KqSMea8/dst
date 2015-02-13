@@ -1,0 +1,16 @@
+<ClusterConfig>
+  <ZooKeeperPath>
+    <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+    <Root>/mock_press</Root>
+  </ZooKeeperPath>
+  
+  <users>
+	  <username>mock_press</username>
+	  <password>mock_press</password>
+  </users>
+  <hdfs_path>hdfs://cq01-testing-dcqa-b4.cq01:38002/</hdfs_path>
+  <hdfs_pn_log_path>hdfs://cq01-testing-dcqa-b4.cq01:38002/PN</hdfs_pn_log_path>
+  <min_host_percentage>0.7</min_host_percentage>
+  <max_pe_num_per_pn>16</max_pe_num_per_pn>
+  <check_pn_size>1</check_pn_size>
+</ClusterConfig>

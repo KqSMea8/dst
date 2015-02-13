@@ -1,0 +1,8 @@
+2012-04-13 zhanggengxin <zhanggengxin@baidu.com>
+	Add common type define file of proto buffer types
+	dstream_proto_common.proto : define PNID/ProcessorID/Resource
+
+2012-05-11 zhanggengxin <zhanggengxin@baidu.com>
+	Add last_assignment_time for backup pe used for monitor pe and alarm
+	Add submit time for app
+

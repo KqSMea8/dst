@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_new/users/press
+END
+dstream.conf
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_new/users/press/dstream.conf
+END
+getlink.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/41984/trunk/dstream/src/test/integrate_test_new/users/press/getlink.py
+END
+pm_list
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/15131/trunk/dstream/src/test/integrate_test_new/users/press/pm_list
+END
+pn_list
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/20622/trunk/dstream/src/test/integrate_test_new/users/press/pn_list
+END
+conf.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_new/users/press/conf.sh
+END

@@ -1,0 +1,11 @@
+# build
+sh build.sh
+
+# init
+sh webctl.sh init
+
+# start
+sh webctl.sh start
+
+# stop
+sh webctl.sh stop

@@ -1,0 +1,6 @@
+message Joiner
+{
+    optional int64 jk = 1;
+    optional int64 timestamp = 2;
+    optional string info = 3;
+}

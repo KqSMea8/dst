@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/apps
+END
+sub_app.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/apps/sub_app.sh
+END
+del_app.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/17008/trunk/dstream/src/test/user_test_box/apps/del_app.sh
+END

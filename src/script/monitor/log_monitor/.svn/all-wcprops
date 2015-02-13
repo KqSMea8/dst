@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/15346/trunk/dstream/src/script/monitor/log_monitor
+END
+Mailer.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/15075/trunk/dstream/src/script/monitor/log_monitor/Mailer.py
+END
+MailboxClient.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/15346/trunk/dstream/src/script/monitor/log_monitor/MailboxClient.py
+END
+pm-tasks.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/15346/trunk/dstream/src/script/monitor/log_monitor/pm-tasks.py
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/15075/trunk/dstream/src/script/monitor/log_monitor/start.sh
+END
+pn-tasks.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/15346/trunk/dstream/src/script/monitor/log_monitor/pn-tasks.py
+END
+HttpMysql.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/15346/trunk/dstream/src/script/monitor/log_monitor/HttpMysql.py
+END
+log-monitor.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/15346/trunk/dstream/src/script/monitor/log_monitor/log-monitor.py
+END
+stop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/15075/trunk/dstream/src/script/monitor/log_monitor/stop.sh
+END

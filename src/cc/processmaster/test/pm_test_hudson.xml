@@ -1,0 +1,27 @@
+<Property>
+    <ZooKeeperPath>
+        <PM>
+            <Root>/DStream_pm_unit_test/PM</Root>
+        </PM>
+        <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+        <Config>
+            <Root>/DStream_pm_unit_test/Config</Root>
+        </Config>
+        <App>
+            <Root>/DStream_pm_unit_test/App</Root>
+        </App>
+        <PN>
+            <Root>/DStream_pm_unit_test/PN</Root>
+        </PN>
+        <Client>
+            <Root>/DStream_pm_unit_test/Client</Root>
+        </Client>
+        <Recv>
+            <Timeout>20</Timeout>
+        </Recv>
+    </ZooKeeperPath>
+    <PM>
+        <GCInterval>10000</GCInterval>
+        <Scheduler>ResourceScheduler</Scheduler>
+    </PM>
+</Property>

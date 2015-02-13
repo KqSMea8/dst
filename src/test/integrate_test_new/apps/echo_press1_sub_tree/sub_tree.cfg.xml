@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>echo_press1</AppName>
+	<Description>echo_press1</Description>
+
+	<Topology>
+		<ProcessorNum>1</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter2</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./echo_pe</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>100M</Memory>
+				</Resource>
+				<Parallelism>3</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                		<StatusMark>0</StatusMark>
+				<TuplesBatchCount>100</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>tag3</tag>
+                    			</source>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>tag4</tag>
+                    			</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+	</Topology>
+</APP>

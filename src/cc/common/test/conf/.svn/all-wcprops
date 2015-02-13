@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/common/test/conf
+END
+pub.conf
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/common/test/conf/pub.conf
+END
+sub.conf
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/common/test/conf/sub.conf
+END
+bigpipe_api2.conf
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/43985/trunk/dstream/src/cc/common/test/conf/bigpipe_api2.conf
+END

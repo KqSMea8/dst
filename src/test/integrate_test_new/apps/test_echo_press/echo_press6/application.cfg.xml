@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<APP>
+	<AppName>test_echo_press6</AppName>
+	<Description>echo_press6</Description>
+	<DataStrategy>HoldData</DataStrategy>
+	<Topology>
+		<ProcessorNum>2</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>echo_importer</ProcessorName>
+				<Description/>
+        			<RunCmd>./echo_pe -t 1</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>500MB</Memory>
+				</Resource>
+				<Parallelism>5</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                		<StatusMark>0</StatusMark>	
+                		<TuplesBatchCount>100</TuplesBatchCount>			
+			</Importer1>
+                </Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter</ProcessorName>
+				<Description/>
+        			<RunCmd>./echo_pe</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>500MB</Memory>
+				</Resource>
+				<Parallelism>5</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                		<StatusMark>0</StatusMark>
+				<TuplesBatchCount>100</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>tag1</tag>
+                    			</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+	</Topology>
+</APP>

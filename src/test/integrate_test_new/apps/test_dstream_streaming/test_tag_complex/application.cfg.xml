@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>streaming_test_tag_complex</AppName>
+	<Description>echo word</Description>
+
+	<Topology>
+		<ProcessorNum>6</ProcessorNum>
+		<UpStreamBigpipeNum>1</UpStreamBigpipeNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>echo_importer</ProcessorName>
+				<Description></Description>
+				<RunCmd>./streaming_logagent_importer -k "###" cat</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>10</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+                                <TuplesBatchCount>500</TuplesBatchCount>			
+			</Importer1>
+		</Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter_tg1</ProcessorName>
+				<Description></Description>
+					<RunCmd>./streaming -k "###" "cat > ./result.txt"</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task</processor>
+						<tag>Tag1</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+			<Exporter2>
+				<ProcessorName>echo_exporter_tg2</ProcessorName>
+				<Description></Description>
+					<RunCmd>./streaming -k "###" "cat > ./result.txt"</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task</processor>
+						<tag>Tag2</tag>
+					</source>
+				</Subscribe>
+			</Exporter2>
+			<Exporter3>
+				<ProcessorName>echo_exporter_tg3</ProcessorName>
+				<Description></Description>
+					<RunCmd>./streaming -k "###" "cat > ./result.txt"</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task</processor>
+						<tag>Tag4</tag>
+					</source>
+					<source>
+						<processor>cat_pe_task</processor>
+						<tag>StreamingKVType</tag>
+					</source>
+				</Subscribe>
+			</Exporter3>
+		</Exporter>
+		<Processor>
+			<Processor1>
+				<ProcessorName>echo_pe_task</ProcessorName>
+				<Description></Description>
+				<RunCmd>./streaming -T -t "%%%" ./tag.sh</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>3</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_importer</processor>
+						<tag>StreamingKVType</tag>
+					</source>
+				</Subscribe>
+			</Processor1>
+			<Processor2>
+				<ProcessorName>cat_pe_task</ProcessorName>
+				<Description></Description>
+				<RunCmd>./streaming -k "###" cat</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>160M</Memory>
+				</Resource>
+				<Parallelism>5</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task</processor>
+						<tag>Tag3</tag>
+					</source>
+				</Subscribe>
+			</Processor2>
+		</Processor>
+	</Topology>
+</APP>

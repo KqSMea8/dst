@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+    <AppName>echo_task</AppName>
+    <Description>echo word</Description>
+    <!-- DataStrategy -->
+    <!-- 1. DropAgelong -->
+    <!--      : drop agelong data when queue full -->
+    <!-- 2. HoldData -->
+    <!--      : hold data when queue full -->
+    <DataStrategy>DropAgelong</DataStrategy>
+    <Topology>
+        <ProcessorNum>3</ProcessorNum>
+        <Importer>
+            <Importer1>
+                <ProcessorName>echo_importer</ProcessorName>
+                <Description></Description>
+                <RunCmd>./echo_importer</RunCmd>
+                <Resource>
+                    <CPU>0.5</CPU>
+                    <Memory>256M</Memory>
+                </Resource>
+                <Parallelism>2</Parallelism>    
+                <Transporter>
+                    <TuplesBatchCount>10</TuplesBatchCount>
+                    <!-- default size 134217728Byte(128MB) -->
+                    <SendQSize>67108864</SendQSize>
+                    <SendQWaterMark>0.8</SendQWaterMark>
+                    <RecvQWaterMark>0.8</RecvQWaterMark>
+                </Transporter>
+                <DataSource>fake</DataSource>
+            </Importer1>
+        </Importer>
+        <Exporter>
+            <Exporter1>
+                <ProcessorName>echo_exporter</ProcessorName>
+                <Description></Description>
+                <RunCmd>./echo_exporter</RunCmd>
+                <Resource>
+                    <CPU>0.5</CPU>
+                    <Memory>256M</Memory>
+                </Resource>
+                <Parallelism>2</Parallelism>
+                <Subscribe>
+                    <source>
+                        <processor>echo_task</processor>
+                        <tag>EchoTask</tag>
+                    </source>
+                </Subscribe>
+                <Transporter>
+                    <!-- default size 134217728Byte(128MB) -->
+                    <RecvQSize>134217728</RecvQSize>
+                    <SendQWaterMark>0.8</SendQWaterMark>
+                    <RecvQWaterMark>0.8</RecvQWaterMark>
+                </Transporter>
+            </Exporter1>
+        </Exporter>
+        <Processor>
+            <Processor1>
+                <ProcessorName>echo_task</ProcessorName>
+                <Description></Description>
+                <RunCmd>./echo_task</RunCmd>
+                <Resource>
+                    <CPU>0.5</CPU>
+                    <Memory>256M</Memory>
+                </Resource>
+                <Parallelism>2</Parallelism>
+                <DynamicProtoDir>.</DynamicProtoDir>
+                <Subscribe>
+                    <source>
+                        <processor>echo_importer</processor>
+                        <tag>EchoImporter</tag>
+                    </source>
+                </Subscribe>
+                <Transporter>
+                    <!-- default size 134217728Byte(128MB) -->
+                    <SendQSize>20971520</SendQSize>
+                    <RecvQSize>134217728</RecvQSize>
+                    <SendQWaterMark>0.5</SendQWaterMark>
+                    <RecvQWaterMark>0.8</RecvQWaterMark>
+                </Transporter>
+            </Processor1>
+        </Processor>
+    </Topology>
+</APP>

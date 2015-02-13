@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/inf/computing/!svn/ver/47940/trunk/dstream/deploy
+END
+install.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/install.sh
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/start.sh
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/ChangeLog
+END
+clean.sh
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/clean.sh
+END
+update.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/update.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/README
+END
+stop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/inf/computing/!svn/ver/33337/trunk/dstream/deploy/stop.sh
+END

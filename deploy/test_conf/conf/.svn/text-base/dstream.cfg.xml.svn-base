@@ -1,0 +1,121 @@
+<Cluster>
+  
+  <PM>
+    
+    <Scheduler>ResourceScheduler</Scheduler>
+  </PM>
+  
+  <Client>
+	
+    <User>
+	    <UserName>mock_press</UserName>
+	    <Password>mock_press</Password>
+    </User>
+	
+    <PM>
+      
+      <Retry>3</Retry>
+      
+      <TimeoutMs>30000</TimeoutMs>
+    </PM>
+  </Client>
+
+  
+  <PN>	
+	
+    <ListenPort>28290</ListenPort>
+	
+	<PMListenThreadNum>4</PMListenThreadNum>
+	
+	
+    <DebugListenPort>28291</DebugListenPort>
+	
+	<DebugListenThreadNum>1</DebugListenThreadNum>
+	
+	
+    <PNListenPort>28293</PNListenPort>
+    
+    <PNListenThreadNum>8</PNListenThreadNum>
+	
+	
+    <PEListenPort>28294</PEListenPort>
+	
+	<PEListenThreadNum>8</PEListenThreadNum>
+    
+    
+    <ImporterPort>19870</ImporterPort>
+    
+    <WorkDir>.</WorkDir>
+	
+    <NewSubChkIntervalSec>10000</NewSubChkIntervalSec>
+	
+    <MaxSubQueueSize>100000000</MaxSubQueueSize>
+    
+    <MaxSendQueueSize>100000000</MaxSendQueueSize>
+    
+	<MaxRecvQueueSize>100000000</MaxRecvQueueSize>
+	
+	<TuplesBatchCount>500</TuplesBatchCount>
+	
+	<ForceForwardTuplesPeriodMillSeconds>100</ForceForwardTuplesPeriodMillSeconds>
+	
+    <PM>
+      
+      <Retry>3</Retry>
+      
+      <TimeoutMs>3000</TimeoutMs>
+    </PM>
+    
+    <UseCglimit>true</UseCglimit>
+	<TotalMemory>100G</TotalMemory>
+  </PN>
+
+  
+  <HDFS>
+    
+    <HadoopClientDir>/home/work/deploy/mock_press/deploy_dstream_1/utils/hadoop-client/hadoop/</HadoopClientDir>
+    
+    <Retry>3</Retry>
+  </HDFS>
+
+  
+  <ZooKeeperPath>
+	<Address>hy-mpi-a0214.hy01.baidu.com:2181,hy-mpi-a0215.hy01.baidu.com:2181,hy-mpi-a0216.hy01.baidu.com:2181,hy-mpi-a0217.hy01.baidu.com:2181</Address>
+    
+    <Retry>3</Retry>
+	
+	<TimeoutMs>30000</TimeoutMs>
+	
+	<Root>/mock_press</Root>
+    <PM>
+        <Root>/mock_press/PM</Root>
+    </PM>
+    <Config>
+        <Root>/mock_press/Config</Root>
+    </Config>
+    <App>
+        <Root>/mock_press/App</Root>
+    </App>
+    <PN>
+        <Root>/mock_press/PN</Root>
+    </PN>
+	<Client>
+	    <Root>/mock_press/Client</Root>  
+	</Client>
+	
+    <Recv>
+        <Timeout>20</Timeout>
+    </Recv>
+  </ZooKeeperPath>
+
+  <Log>
+    <PE>
+      <TimeFormat>%Y_%m_%d_%H</TimeFormat>
+      
+      <LocalStore>true</LocalStore>
+      <HdfsStore>true</HdfsStore>
+      <ConsoleShow>true</ConsoleShow>
+    </PE>
+  </Log>
+
+</Cluster>

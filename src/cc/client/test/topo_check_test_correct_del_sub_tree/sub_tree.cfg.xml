@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>word_count_test</AppName>
+	<Description>sub tree to be remove for experiment</Description>
+
+	<Topology>
+		<ProcessorNum>2</ProcessorNum>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter_added_sub_tree</ProcessorName>
+				<RunCmd>./bin/export</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+        <StatusMark>0</StatusMark>
+				<TuplesBatchCount>10</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task_level3_p1</processor>
+						<tag>in</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task_level3_p2</processor>
+						<tag>in</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task_level4</processor>
+						<tag>in</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+		<Processor>
+			<Processor9>
+				<ProcessorName>echo_pe_task_level4</ProcessorName>
+				<Description></Description>
+       	<RunCmd>./echo_pe_task_level4</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>3</Parallelism>
+				<BackupPENum>1</BackupPENum>
+        <StatusMark>0</StatusMark>
+				<TuplesBatchCount>10</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task_level3_p1</processor>
+						<tag>in</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task_level3_p2</processor>
+						<tag>in</tag>
+					</source>
+				</Subscribe>
+			</Processor9>
+		</Processor>
+	</Topology>
+</APP>

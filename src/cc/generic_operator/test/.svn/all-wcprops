@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/test
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/23739/trunk/dstream/src/cc/generic_operator/test/COMAKE
+END
+mock_timed_sliding_window.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/test/mock_timed_sliding_window.h
+END
+test_joiner.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/23739/trunk/dstream/src/cc/generic_operator/test/test_joiner.cfg.xml
+END
+test_single_key_joiner.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/test/test_single_key_joiner.cc
+END
+mock_storage.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/test/mock_storage.h
+END
+test_multi_join_table.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/test/test_multi_join_table.cc
+END
+mock_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/test/mock_config.h
+END
+mock_join_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/test/mock_join_table.h
+END
+test_timed_sliding_windows.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/test/test_timed_sliding_windows.cc
+END
+test_join_table.cc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/test/test_join_table.cc
+END
+test_multi_key_joiner.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/generic_operator/test/test_multi_key_joiner.cc
+END

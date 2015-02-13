@@ -1,0 +1,28 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+# for importer and exporter.
+SharedLibrary('src/cc/processelement/pe',
+              Sources('src/cc/processelement/task.cc',
+                      'src/cc/processelement/zk_client.cc',
+                      'src/cc/processelement/zk_client.cc',
+                      'src/cc/processelement/context.cc',   
+                      'src/cc/processelement/metric.cc',
+                      'src/cc/processelement/loopback.cc',
+                      'src/cc/processelement/pe_transporter.cc',
+                      'src/cc/processelement/bp_progress.cc',
+                      'src/cc/processelement/tuple.cc'),
+              OutputPath(''))
+
+StaticLibrary('src/cc/processelement/processelement',
+              Sources('src/cc/processelement/task.cc',
+                      'src/cc/processelement/zk_client.cc',
+                      'src/cc/processelement/zk_client.cc',
+                      'src/cc/processelement/context.cc',   
+                      'src/cc/processelement/metric.cc',
+                      'src/cc/processelement/loopback.cc',
+                      'src/cc/processelement/bp_progress.cc',
+                      'src/cc/processelement/pe_transporter.cc',
+                      'src/cc/processelement/tuple.cc',
+                      Libraries('src/cc/transporter/libtransporter.a')),
+              OutputPath(''))

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/proto_exception
+END
+test_primary_pm_exit.sh
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/proto_exception/test_primary_pm_exit.sh
+END
+test_restart_all_pn.sh
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/proto_exception/test_restart_all_pn.sh
+END
+test_multi_pn_killed.sh
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/proto_exception/test_multi_pn_killed.sh
+END
+check_data_change.sh
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/inf/computing/!svn/ver/16800/trunk/dstream/src/test/user_test_box/proto_exception/check_data_change.sh
+END
+test_pe_shift.sh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/proto_exception/test_pe_shift.sh
+END
+test_pn_killed.sh
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/proto_exception/test_pn_killed.sh
+END
+test_pe_alive.sh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/computing/!svn/ver/21582/trunk/dstream/src/test/user_test_box/proto_exception/test_pe_alive.sh
+END

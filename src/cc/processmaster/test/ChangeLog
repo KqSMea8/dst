@@ -1,0 +1,6 @@
+2012-04-27 zhanggengxin <zhanggengxin@baidu.com>
+	Remove TestEventManager Case for TestPM Contain these case
+	Modify TestPM for resource scheduler
+
+2012-06-04 zhanggengxin <zhanggengxin@baidu.com>
+	Modify TestClientOp unit test for test pn down when ADD/DEL subtree

@@ -1,0 +1,37 @@
+package dstream;
+import "application.proto";
+
+message ClusterConfig {
+  repeated User users = 1;
+  optional string hdfs_path = 2;
+  optional float min_host_percentage = 3;
+  optional string hdfs_pn_log_path = 4;
+  optional fixed32 wait_pn_time_sec = 5;
+  optional fixed32 pe_failpn_max_num = 6;
+  optional fixed32 pefail_reserve_time = 7;
+  optional fixed32 max_pe_num_per_pn = 8;
+  optional fixed32 check_pn_size = 9;
+}
+
+message PMMachines {
+  repeated string pm_list = 1;
+}
+
+message PNMachines {
+  repeated string pn_list = 1;
+}
+
+enum GroupType {
+  SHARE = 0;
+  MONOPOLY = 1;
+}
+
+message GroupInfo {
+  optional string group_name = 1;
+  repeated string pn_list    = 2;
+//  optional GroupType    type = 3;
+}
+
+message PNGroups {
+  repeated GroupInfo group_list = 1;  
+}

@@ -1,0 +1,15 @@
+wget baidu sos 1.10.2
+
+This wget will generate the .listing fila name as pid.listing
+
+You will see the pid.listing file name at the fist line of the verbose info.
+As default it will shows like this:
+    listing file is /tmp/22192.listing
+
+But you also can specified the -Z parameter, 
+then the /tmp/ will be replaced by your own dir, 
+the dir must can be read and wrote for yourself.
+
+example:
+   wget -r ftp://xxxx.com/htdocs/
+   wget -r ftp://xxxx.com/htdocs/ -Z ./tmp/

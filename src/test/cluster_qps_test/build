@@ -1,0 +1,22 @@
+#!/bin/bash
+# copy sdk to local
+cd ../../cc/processelement/
+./release_sdk || Error "release sdk failed"
+cp -r pesdk/ ../../test/cluster_qps_test/
+cd -
+
+# update dstream client
+cp ../../../output/bin/dclient .
+
+# generate proto buffer files form *.proto
+#../../../deps/bin/protoc --cpp_out=. echo.proto
+
+# comake & make, generate app
+comake2
+make
+
+# copy & update app
+cp ./importer ./to_be_submit/importer/
+cp ./task ./to_be_submit/task/
+cp ./exporter ./to_be_submit/exporter/
+

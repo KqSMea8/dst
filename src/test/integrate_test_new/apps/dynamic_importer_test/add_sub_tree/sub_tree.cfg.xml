@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>dynamic_echo_1_1_1</AppName>
+	<Description>dynamic test</Description>
+
+	<Topology>
+		<ProcessorNum>1</ProcessorNum>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter_add</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./echo_exporter</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>100M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                		<StatusMark>0</StatusMark>
+				<TuplesBatchCount>100</TuplesBatchCount>				
+				<DynamicProtoDir>.</DynamicProtoDir>
+				<ForceForwardBatchsPeriodMillSeconds>1000</ForceForwardBatchsPeriodMillSeconds>
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task</processor>
+						<tag>tag1</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task</processor>
+						<tag>tag2</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+	</Topology>
+</APP>

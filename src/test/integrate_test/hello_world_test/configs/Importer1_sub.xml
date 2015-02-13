@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Importer1>
+	<BigPipe>
+    		<Pipe1>
+		  <Authentication>test</Authentication>
+		  <PipeletNum>1</PipeletNum>
+    		</Pipe1>
+	</BigPipe>
+</Importer1>

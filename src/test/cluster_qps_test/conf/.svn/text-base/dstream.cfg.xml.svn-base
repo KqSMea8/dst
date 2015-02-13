@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<Cluster>
+  
+<!--
+  <PM>
+    
+    <Scheduler>ResourceScheduler</Scheduler>
+  </PM>
+  -->
+  
+  <Client>
+	
+    <User>
+	    <UserName>sandbox</UserName>
+	    <Password>sandbox</Password>
+    </User>
+	
+    <PM>
+      
+      <Retry>3</Retry>
+      
+      <TimeoutMs>30000</TimeoutMs>
+    </PM>
+  </Client>
+
+  
+  <PN>	
+	
+    <ListenPort>7777</ListenPort>
+	
+	<PMListenThreadNum>4</PMListenThreadNum>
+ 
+    <ImporterType>fake</ImporterType>
+	
+    <DebugListenPort>8873</DebugListenPort>
+	
+	<DebugListenThreadNum>1</DebugListenThreadNum>
+	
+	
+    <PNListenPort>8295</PNListenPort>
+    
+    <PNListenThreadNum>8</PNListenThreadNum>
+	
+	
+    <PEListenPort>8294</PEListenPort>
+	
+	<PEListenThreadNum>8</PEListenThreadNum>
+    
+    
+    <ImporterPort>19870</ImporterPort>
+    
+    <WorkDir>.</WorkDir>
+	
+    <NewSubChkIntervalSec>10000</NewSubChkIntervalSec>
+	
+    <MaxSubQueueSize>100000000</MaxSubQueueSize>
+    
+    <MaxSendQueueSize>100000000</MaxSendQueueSize>
+    
+	<MaxRecvQueueSize>100000000</MaxRecvQueueSize>
+	
+	<TuplesBatchCount>500</TuplesBatchCount>
+	
+	<ForceForwardTuplesPeriodMillSeconds>100</ForceForwardTuplesPeriodMillSeconds>
+	
+    <PM>
+      
+      <Retry>3</Retry>
+      
+      <TimeoutMs>3000</TimeoutMs>
+    </PM>
+    
+    <UseCglimit>false</UseCglimit>
+	<TotalMemory>10G</TotalMemory>
+  </PN>
+
+  
+  <HDFS>
+    
+    <HadoopClientDir>~/hadoop-client/hadoop/</HadoopClientDir>
+    
+    <Retry>3</Retry>
+  </HDFS>
+
+  
+  <ZooKeeperPath>
+	<Address> szwg-hadoop-t0020.szwg01:2182,szwg-hadoop-t0021.szwg01:2182,szwg-hadoop-t0022.szwg01:2182,szwg-hadoop-t0023.szwg01:2182,szwg-hadoop-t0024.szwg01:2182</Address>
+    
+    <Retry>3</Retry>
+	
+	<TimeoutMs>30000</TimeoutMs>
+	
+	<Root>/DStream2</Root>
+    <PM>
+        <Root>/DStream2/PM</Root>
+    </PM>
+    <Config>
+        <Root>/DStream2/Config</Root>
+    </Config>
+    <App>
+        <Root>/DStream2/App</Root>
+    </App>
+    <PN>
+        <Root>/DStream2/PN</Root>
+    </PN>
+	<Client>
+	    <Root>/DStream2/Client</Root>  
+	</Client>
+	
+    <Recv>
+        <Timeout>20</Timeout>
+    </Recv>
+  </ZooKeeperPath>
+
+  <Log>
+    <PE>
+      <TimeFormat>%Y_%m_%d_%H</TimeFormat>
+      
+      <LocalStore>true</LocalStore>
+      <HdfsStore>false</HdfsStore>
+      <ConsoleShow>false</ConsoleShow>
+    </PE>
+  </Log>
+
+</Cluster>

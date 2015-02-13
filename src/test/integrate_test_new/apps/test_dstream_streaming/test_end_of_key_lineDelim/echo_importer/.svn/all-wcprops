@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_end_of_key_lineDelim/echo_importer
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_end_of_key_lineDelim/echo_importer/log.conf
+END
+echo_importer_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_end_of_key_lineDelim/echo_importer/echo_importer_sub.xml
+END
+streaming
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_end_of_key_lineDelim/echo_importer/streaming
+END

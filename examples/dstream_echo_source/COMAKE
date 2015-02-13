@@ -1,0 +1,55 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+WORKROOT('../../../../../')
+CopyUsingHardLink(True)
+
+CPPFLAGS('-D_GNU_SOURCE -D__STDC_LIMIT_MACROS -DVERSION=\\\"1.5.5.0\\\"')
+CPPFLAGS('-D_FILE_OFFSET_BITS=64') # support large files.
+CFLAGS('-g -pipe -W -Wall -fPIC')
+CXXFLAGS('-g -pipe -W -Wall -fPIC')
+PROTOC(env.WorkRoot() + '/third-64/protobuf/bin/protoc')
+
+# -------------------- COMAKE for dstream begin -------------------- #
+# 0. dstream dependencies.
+# 使用发布的产品库地址替代此处
+CONFIGS('inf/computing/dstream@dstream_1-5-5-0_BRANCH@comake')            # !!! replace with published tag !!!!
+# 指向本地的DSTREAM目录
+ImportConfigsFrom('../../../../../inf/computing/dstream')
+# 1. dstream sdk root directory, usually no modification needed!
+dstream_sdk_root = env.WorkRoot() + '/inf/computing/dstream/output/pesdk/'
+# 2. dstream headfiles, no modification needed!
+INCPATHS('. '+
+         dstream_sdk_root + 'include/ ' +
+         dstream_sdk_root + 'include/log4cplus ' +
+         dstream_sdk_root + 'include/zeromq ')
+LDFLAGS('-L' + dstream_sdk_root + 'lib/ '
+        '-lzmq '+
+        '-ltinyxml '+
+        '-llog4cplus '+
+        '-lpthread -lcrypto -lcrypt -lrt -luuid ')
+# 3. dstream libs, no modification needed!
+LIBS(dstream_sdk_root + 'lib/libcommon.a')
+LIBS(dstream_sdk_root + 'lib/libproto.a')
+LIBS(dstream_sdk_root + 'lib/libpe.a')
+LIBS(dstream_sdk_root + 'lib/libtransporter.a')
+LIBS(dstream_sdk_root + 'lib/libmetamanager.a')
+# -------------------- COMAKE for dstream end -------------------- #
+
+# word_cnt PEs
+# 1. impoter
+Application('echo_importer',
+            Sources('echo_pe_importer.cc',
+                    'echo.proto'))
+# 2. count pe
+Application('echo_pe_task',
+            Sources('echo_pe_task.cc',
+                    'echo.proto'))
+# 3. exporter
+Application('echo_exporter',
+            Sources('echo_pe_exporter.cc',
+                    'echo.proto'))
+
+# 4. add impoter with dynamic tag
+Application('tag_importer_add',
+            Sources('echo_tag_importer_add.cc',
+                    'dynamic.proto'))

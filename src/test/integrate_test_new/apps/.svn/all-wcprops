@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/50115/trunk/dstream/src/test/integrate_test_new/apps
+END
+roll_back_processor.sh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test_new/apps/roll_back_processor.sh
+END
+sub_app.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/apps/sub_app.sh
+END
+del_imp.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/14850/trunk/dstream/src/test/integrate_test_new/apps/del_imp.sh
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/log.conf
+END
+add_imp.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/add_imp.sh
+END
+del_subtree.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/14850/trunk/dstream/src/test/integrate_test_new/apps/del_subtree.sh
+END
+trace_app.sh
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/apps/trace_app.sh
+END
+update_echo_app.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/update_echo_app.sh
+END
+add_subtree.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/14850/trunk/dstream/src/test/integrate_test_new/apps/add_subtree.sh
+END
+update_processor.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test_new/apps/update_processor.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/11596/trunk/dstream/src/test/integrate_test_new/apps/README
+END
+update_dclient.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/14334/trunk/dstream/src/test/integrate_test_new/apps/update_dclient.sh
+END
+clear_echo_app.sh
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/11235/trunk/dstream/src/test/integrate_test_new/apps/clear_echo_app.sh
+END
+del_app.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/14850/trunk/dstream/src/test/integrate_test_new/apps/del_app.sh
+END

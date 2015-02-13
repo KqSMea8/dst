@@ -1,0 +1,92 @@
+#!/bin/bash
+# copy sdk to local
+EchoLine(){
+	echo ">>>>>>>>>>>>>>"
+}
+
+Error(){
+echo -e "\033[0;31;1m" Error : $1 "\033[0;31;0m"
+exit -1 
+}
+
+Info(){
+echo -e "\033[0;32;1m" $1 "\033[0;31;0m"
+EchoLine
+}
+
+Info "Build Start"
+
+app_dir=echo_task
+#complex_app_dir=complex_echo_task
+add_exporter_dir=add_exporter
+del_exporter_dir=del_exporter
+add_importer_dir=add_importer
+del_importer_dir=del_importer
+sub_exporter_dir=sub_exporter
+rm -rf output
+mkdir -p output/${app_dir}
+#mkdir -p output/${complex_app_dir}
+mkdir -p output/${add_importer_dir}
+mkdir -p output/${del_importer_dir}
+mkdir -p output/${add_exporter_dir}
+mkdir -p output/${del_exporter_dir}
+mkdir -p output/${sub_exporter_dir}
+
+# comake & make, generate app
+#comake2
+make || Error "make integrate test failed"
+
+cp ./latency_distribution.py    output/
+
+# copy & update app
+mkdir output/${app_dir}/echo_importer
+mkdir output/${app_dir}/echo_task
+mkdir output/${app_dir}/echo_exporter
+mkdir output/${add_importer_dir}/echo_importer_add
+mkdir output/${add_exporter_dir}/echo_exporter_add
+mkdir output/${sub_exporter_dir}/sub_exporter_add
+
+#simple topo
+cp ./conf/application.cfg.xml   output/${app_dir}
+cp ./conf/echo_importer_sub.xml output/${app_dir}/echo_importer
+cp ./echo_importer ./conf/log.conf output/${app_dir}/echo_importer
+cp ./echo_task     ./conf/log.conf output/${app_dir}/echo_task
+cp ./echo_exporter ./conf/log.conf output/${app_dir}/echo_exporter
+
+##complex topo
+#cp ./conf/application_complex.cfg.xml   output/${complex_app_dir}/application.cfg.xml
+#mkdir output/${complex_app_dir}/echo_importer_0
+#mkdir output/${complex_app_dir}/echo_importer_1
+#mkdir output/${complex_app_dir}/echo_task_0
+#mkdir output/${complex_app_dir}/echo_task_1
+#mkdir output/${complex_app_dir}/echo_exporter
+#cp ./conf/echo_importer_sub.xml output/${complex_app_dir}/echo_importer_0/echo_importer_0_sub.xml
+#cp ./conf/echo_importer_sub.xml output/${complex_app_dir}/echo_importer_1/echo_importer_1_sub.xml
+#cp ./conf/log.conf output/${complex_app_dir}/echo_importer_0/
+#cp ./echo_importer output/${complex_app_dir}/echo_importer_0/echo_importer_0
+#cp ./conf/log.conf output/${complex_app_dir}/echo_importer_1/
+#cp ./echo_importer output/${complex_app_dir}/echo_importer_1/echo_importer_1
+#cp ./conf/log.conf output/${complex_app_dir}/echo_task_0/
+#cp ./echo_task     output/${complex_app_dir}/echo_task_0/echo_task_0
+#cp ./conf/log.conf output/${complex_app_dir}/echo_task_1/
+#cp ./echo_task     output/${complex_app_dir}/echo_task_1/echo_task_1
+#cp ./conf/log.conf output/${complex_app_dir}/echo_exporter/
+#cp ./echo_exporter output/${complex_app_dir}/echo_exporter/echo_exporter
+
+#add importer
+cp ./echo_importer output/${add_importer_dir}/echo_importer_add/echo_importer_add
+cp ./conf/echo_importer_sub.xml output/${add_importer_dir}/echo_importer_add/echo_importer_add_sub.xml
+cp ./conf/log.conf output/${add_importer_dir}/echo_importer_add/
+cp ./conf/dynamic_importer.cfg.xml output/${add_importer_dir}
+cp ./conf/dynamic_importer.cfg.xml output/${del_importer_dir}
+
+#add exporter
+cp ./echo_exporter output/${add_exporter_dir}/echo_exporter_add/echo_exporter_add
+cp ./conf/log.conf output/${add_exporter_dir}/echo_exporter_add
+cp ./conf/sub_tree.cfg.xml output/${add_exporter_dir}
+cp ./conf/sub_tree.cfg.xml output/${del_exporter_dir}
+
+#sub exporter
+cp ./echo_exporter output/${sub_exporter_dir}/sub_exporter_add/sub_exporter_add
+cp ./conf/log.conf output/${sub_exporter_dir}/sub_exporter_add
+cp ./conf/sub_exporter.cfg.xml output/${sub_exporter_dir}/sub_tree.cfg.xml

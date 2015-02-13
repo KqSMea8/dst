@@ -1,0 +1,248 @@
+10
+
+dir
+58417
+https://svn.baidu.com/inf/computing/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming
+https://svn.baidu.com/inf/computing
+
+
+
+2014-07-14T11:00:25.505121Z
+50115
+huzongxing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5ee14639-69ca-404e-8003-0feac8d9a543
+
+env_prepare.sh
+file
+
+
+
+
+2014-01-09T11:07:25.000000Z
+88567fc656c5f7ba0369fd03741be645
+2012-10-23T08:28:25.800265Z
+16438
+liuyinglian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1095
+
+test_tag_function_with_tT
+dir
+
+test_hash
+dir
+
+test_language
+dir
+
+test_end_of_key_diff
+dir
+
+test_noInput
+dir
+
+test_speed_limit_10
+dir
+
+test_end_of_key_tabBlank
+dir
+
+test_end_of_key
+dir
+
+test_end_of_key_cmdoutput
+dir
+
+test_bigpipe_exporter
+dir
+
+test_speed_limit.sh
+file
+
+
+
+
+2014-01-09T11:07:25.000000Z
+2661897f459a8111fbce1ca44720c5bb
+2013-06-06T09:42:55.093437Z
+33337
+fangjun02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2370
+
+test_errCmd
+dir
+
+test_endOfTag_allchar
+dir
+
+test_emptyInput
+dir
+
+test_speed_limit_1
+dir
+
+test_endOfTag_diff
+dir
+
+test_bigpipe
+dir
+
+test_cmd_noOutput
+dir
+
+test_end_of_key_lineDelim
+dir
+
+test_end_of_key_allchar
+dir
+
+test_endOfTag_cmdOutput
+dir
+
+streaming-regression-testing.sh
+file
+
+
+
+
+2014-01-09T11:07:25.000000Z
+6e498a3b2d364ac2ed08a9d62b0684ea
+2013-06-06T09:42:55.093437Z
+33337
+fangjun02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2118
+
+updateStreaming
+dir
+
+createData
+dir
+
+test_tag_complex
+dir
+
+test_stderr
+dir
+
+test_end_of_key_default
+dir
+
+check_tuples
+dir
+
+test_endOfTag_samewith_endOfKey
+dir
+
+test_multi_pipelet
+dir
+
+app_cont.sh
+file
+
+
+
+
+2014-01-09T11:07:25.000000Z
+b67671a1276db54d0ea29ecfaff341f0
+2012-09-24T06:35:38.510472Z
+15506
+liuyinglian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+319
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/11165/trunk/dstream/src/test/integrate_test_new/install/lib
+END
+expect.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/inf/computing/!svn/ver/11165/trunk/dstream/src/test/integrate_test_new/install/lib/expect.py
+END
+pexpect.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/11165/trunk/dstream/src/test/integrate_test_new/install/lib/pexpect.py
+END
+cfgmod.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/inf/computing/!svn/ver/11165/trunk/dstream/src/test/integrate_test_new/install/lib/cfgmod.py
+END
+cfmod
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/11165/trunk/dstream/src/test/integrate_test_new/install/lib/cfmod
+END
+deploy_modules.py
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/11165/trunk/dstream/src/test/integrate_test_new/install/lib/deploy_modules.py
+END
+termcolor.py
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/11165/trunk/dstream/src/test/integrate_test_new/install/lib/termcolor.py
+END

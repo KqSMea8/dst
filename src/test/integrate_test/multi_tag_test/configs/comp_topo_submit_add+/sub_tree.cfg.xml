@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>comp_topo_test</AppName>
+	<Description>new added sub tree for experiment</Description>
+
+	<Topology>
+		<ProcessorNum>1</ProcessorNum>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter_add</ProcessorName>
+				<RunCmd>./echo_exporter</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>300M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>10</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task3</processor>
+						<tag>tag1</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task3</processor>
+						<tag>tag2</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task4</processor>
+						<tag>tag1</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task4</processor>
+						<tag>tag2</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+	</Topology>
+</APP>

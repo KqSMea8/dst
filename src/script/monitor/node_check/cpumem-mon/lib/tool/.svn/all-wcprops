@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool
+END
+dimmpresent
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool/dimmpresent
+END
+readtemperature
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool/readtemperature
+END
+dmidecode
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool/dmidecode
+END

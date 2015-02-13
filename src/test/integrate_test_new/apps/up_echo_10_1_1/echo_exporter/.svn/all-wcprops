@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/up_echo_10_1_1/echo_exporter
+END
+echo_pe
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test_new/apps/up_echo_10_1_1/echo_exporter/echo_pe
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/up_echo_10_1_1/echo_exporter/log.conf
+END

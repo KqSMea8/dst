@@ -1,0 +1,12 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+#Application('scheduler/test/test_scheduler',
+#            Sources('scheduler/test/test_bfd_scheduler_algorithm.cc',
+#                    'scheduler/test/test_resource_compare.cc',
+#                    'scheduler/test/test_resource_manager.cc',
+#                    'scheduler/test/test_resource_scheduler.cc',
+#                    'scheduler/test/test_scheduler.cc),
+#            Libraries('metamanager/libmetamanager.a',
+#                      'scheduler/libscheduler.a',
+#                      'processmaster/test/libtest_common.a') + ENV.Libraries())

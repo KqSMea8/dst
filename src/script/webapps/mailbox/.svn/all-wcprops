@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/mailbox
+END
+MailboxClient.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/mailbox/MailboxClient.py
+END
+start.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/mailbox/start.sh
+END
+MailboxChecker.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/mailbox/MailboxChecker.py
+END
+RULE
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/mailbox/RULE
+END
+CacheMailPoster.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/mailbox/CacheMailPoster.py
+END
+HttpMysql.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/mailbox/HttpMysql.py
+END
+stop.sh
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/mailbox/stop.sh
+END

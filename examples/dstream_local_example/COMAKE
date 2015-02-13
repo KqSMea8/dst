@@ -1,0 +1,48 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+WORKROOT('../../../../../')
+CopyUsingHardLink(True)
+
+CPPFLAGS('-D_GNU_SOURCE -D__STDC_LIMIT_MACROS -DVERSION=\\\"1.0.1.0\\\"')
+CPPFLAGS('-D_FILE_OFFSET_BITS=64') # support large files.
+CFLAGS('-g -pipe -W -Wall -fPIC')
+CXXFLAGS('-g -pipe -W -Wall -fPIC')
+PROTOC(ENV.WorkRoot() + '/third-64/protobuf/bin/protoc')
+
+# ------- COMAKE for dstream begin ------- #
+# dstream sdk root directory
+dstream_sdk_root = './pesdk/'
+# 1. dstream headfiles.
+INCPATHS('. '+
+         dstream_sdk_root + 'include/ ' +
+         dstream_sdk_root + 'include/log4cplus ' +
+         dstream_sdk_root + 'include/zeromq '
+        )
+LDFLAGS('-L' + dstream_sdk_root + 'lib/ '
+        '-lzmq '+
+        '-ltinyxml '+
+        '-llog4cplus '+
+        '-lpthread -lcrypto -lcrypt -lrt -luuid '
+       )
+# 2. dstream libs
+LIBS(dstream_sdk_root + 'lib/libcommon.a')
+LIBS(dstream_sdk_root + 'lib/libproto.a')
+LIBS(dstream_sdk_root + 'lib/libpe.a')
+LIBS(dstream_sdk_root + 'lib/libtransporter.a')
+LIBS(dstream_sdk_root + 'lib/libmetamanager.a')
+# 3. dstream dependencies.
+CONFIGS('inf/bigpipe/api/c-api@2.0.8.2')
+CONFIGS('inf/common/esp@1.0.10.0')
+CONFIGS('inf/common/kylin@1.0.8.0')
+CONFIGS('inf/common/share@1.0.8.0')
+CONFIGS('inf/computing/zookeeper@zookeeper_1-0-10-27586_PD_BL')
+CONFIGS('thirdsrc/tcmalloc@1.7.0.200')
+CONFIGS('third-64/boost@boost_1-46-1-101_PD_BL')
+CONFIGS('third-64/protobuf@2.4.1.300')
+CONFIGS('com/btest/gtest@1.1.2.0')
+CONFIGS('quality/autotest/bmock@1.1.4.0')
+# ------- COMAKE for dstream end ------- #
+
+Application('worker',
+            Sources('worker.cc',
+                    'echo.proto'))

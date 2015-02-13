@@ -1,0 +1,3 @@
+use sh build to build
+excute ./echo_pe -h and see the help
+

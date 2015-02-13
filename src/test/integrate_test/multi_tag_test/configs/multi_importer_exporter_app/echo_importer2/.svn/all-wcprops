@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test/multi_tag_test/configs/multi_importer_exporter_app/echo_importer2
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/inf/computing/!svn/ver/8656/trunk/dstream/src/test/integrate_test/multi_tag_test/configs/multi_importer_exporter_app/echo_importer2/log.conf
+END
+echo_importer2_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test/multi_tag_test/configs/multi_importer_exporter_app/echo_importer2/echo_importer2_sub.xml
+END

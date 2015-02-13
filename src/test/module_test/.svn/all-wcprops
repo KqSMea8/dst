@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/module_test
+END
+test_rpc_client_fern.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/test_rpc_client_fern.cc
+END
+test_blocking_queue.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/test_blocking_queue.cc
+END
+test_linklist_queue.cc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/test_linklist_queue.cc
+END
+bounded_blocking_queue.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/bounded_blocking_queue.cc
+END
+rpc_benchmark.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/rpc_benchmark.cc
+END
+test_rpc_mul.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/test_rpc_mul.cc
+END
+test_status_table_fern.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/test_status_table_fern.cc
+END
+linked_list_queue.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/linked_list_queue.cc
+END
+pn_rpc_server.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/pn_rpc_server.cc
+END
+rpc_hello.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/6061/trunk/dstream/src/test/module_test/rpc_hello.pb.cc
+END
+rpc_hello.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/6061/trunk/dstream/src/test/module_test/rpc_hello.pb.h
+END
+rpc_server.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/rpc_server.cc
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/module_test/COMAKE
+END
+pn_rpc_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/pn_rpc_client.cc
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/6266/trunk/dstream/src/test/module_test/log.conf
+END
+rpc_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/rpc_client.cc
+END
+zk_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/zk_client.cc
+END
+rpc_hello.proto
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/6061/trunk/dstream/src/test/module_test/rpc_hello.proto
+END
+qa_test.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/module_test/qa_test.sh
+END
+test_pe_task.cc
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/test_pe_task.cc
+END
+meta.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/meta.cc
+END
+test_rpc_gtest.cc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/test_rpc_gtest.cc
+END
+test_status_table.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/module_test/test_status_table.cc
+END

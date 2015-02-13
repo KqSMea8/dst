@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>word_count_test</AppName>
+	<Description>echo</Description>
+
+	<Topology>
+		<ProcessorNum>1</ProcessorNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>echo_importer1</ProcessorName>
+				<Description></Description>
+        <RunCmd>./echo_importer</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>2</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+        <StatusMark>0</StatusMark>	
+        <TuplesBatchCount>10</TuplesBatchCount>			
+				<Subscribe>./echo_importer1.conf.xml</Subscribe>
+			</Importer1>
+		</Importer>
+	</Topology>
+</APP>

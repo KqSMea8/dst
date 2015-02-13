@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/word_cnt_test
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/16380/trunk/dstream/src/test/integrate_test/word_cnt_test/COMAKE
+END
+wc_exporter_spawn.py
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/7287/trunk/dstream/src/test/integrate_test/word_cnt_test/wc_exporter_spawn.py
+END
+wordcount_pe_exporter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test/word_cnt_test/wordcount_pe_exporter.cc
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/6835/trunk/dstream/src/test/integrate_test/word_cnt_test/log.conf
+END
+wordcount.proto
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/6616/trunk/dstream/src/test/integrate_test/word_cnt_test/wordcount.proto
+END
+test_word_cnt.sh
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/7580/trunk/dstream/src/test/integrate_test/word_cnt_test/test_word_cnt.sh
+END
+wc_spawn.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/7287/trunk/dstream/src/test/integrate_test/word_cnt_test/wc_spawn.py
+END
+wordcount.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test/word_cnt_test/wordcount.pb.cc
+END
+wc_importer_spawn.py
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/7287/trunk/dstream/src/test/integrate_test/word_cnt_test/wc_importer_spawn.py
+END
+wordcount.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test/word_cnt_test/wordcount.pb.h
+END
+wordcount_pe_importer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test/word_cnt_test/wordcount_pe_importer.cc
+END
+wordcount_pe_task.cc
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test/word_cnt_test/wordcount_pe_task.cc
+END

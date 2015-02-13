@@ -1,0 +1,59 @@
+package dstream;
+import "dstream_proto_common.proto";
+import "pm_pn_rpc.proto";
+message PM {
+  optional string host = 1;
+  optional fixed32 submit_port = 2;
+  optional fixed32 report_port = 3;
+  optional string id = 4;
+  optional string bk_host = 5;
+  optional string version = 6;
+  optional fixed32 httpd_port = 7;
+} 
+
+// for event manager http dumper
+message EventSetValue {
+   repeated string event_description   = 1;
+}
+
+message EventKV {
+    optional string event_type         = 1;
+    optional EventSetValue event_set   = 2;
+}
+
+message EventMapPB {
+    repeated EventKV event_kv         = 1;
+}
+
+message DelayEventKV {
+    optional fixed64 timestamp         = 1;
+    optional EventMapPB event_map      = 2;
+}
+
+message DelayEventPB {
+    repeated DelayEventKV delay_event_kv = 1;
+}
+
+// for scheduler http dumper
+message PNResStaticsPB {
+    optional Resource total     = 1;
+    optional Resource used      = 2;
+    optional Resource reserved  = 3;
+    optional fixed32  pe_num    = 4;
+}
+message PnidStaticsKV {
+    optional PNID pn_id                      = 1;
+    optional PNResStaticsPB pn_res_statics   = 2;
+}
+message PnidStaticsPB {
+    repeated PnidStaticsKV pn_statics_kv    = 1;
+}
+
+// for pn client status http dumper
+message PnidReportKV {
+    optional PNID     pn_id     = 1;
+    optional PNReport pn_report = 2;
+}
+message PnidReportMapPB {
+    repeated PnidReportKV pnid_report_kv = 1;
+}

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/9488/trunk/dstream/src/test/utils/rm_zk/src
+END
+.debug.py.swo
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/7245/trunk/dstream/src/test/utils/rm_zk/src/.debug.py.swo
+END
+zookeeper.so
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/9488/trunk/dstream/src/test/utils/rm_zk/src/zookeeper.so
+END
+zkclient.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/7245/trunk/dstream/src/test/utils/rm_zk/src/zkclient.py
+END
+rm_rf.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/7245/trunk/dstream/src/test/utils/rm_zk/src/rm_rf.py
+END

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<word_cnt_importer>
+	<BigPipe>
+    <p100w>
+		  <Authentication>test</Authentication>
+		  <PipeletNum>1</PipeletNum>
+    </p100w>
+	</BigPipe>
+</word_cnt_importer>

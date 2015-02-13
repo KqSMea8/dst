@@ -1,0 +1,23 @@
+<Property>
+    <ZooKeeperPath>
+        <PM>
+            <Root>/dstream_test/PM</Root>
+        </PM>
+        <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+        <Config>
+            <Root>/dsream_test/Config</Root>
+        </Config>
+        <App>
+            <Root>/dstream_test/App</Root>
+        </App>
+        <PN>
+            <Root>/dstream_test/PN</Root>
+        </PN>
+		    <Client>
+		        <Root>/dstream_test/Client</Root>  
+		    </Client>
+		    <Recv>
+                <Timeout>20</Timeout>
+        </Recv>
+    </ZooKeeperPath>
+</Property>

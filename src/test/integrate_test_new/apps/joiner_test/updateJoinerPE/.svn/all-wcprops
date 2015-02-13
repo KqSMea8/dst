@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/joiner_test/updateJoinerPE
+END
+replace.sh
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/joiner_test/updateJoinerPE/replace.sh
+END
+clear_joiner_pe.sh
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/joiner_test/updateJoinerPE/clear_joiner_pe.sh
+END

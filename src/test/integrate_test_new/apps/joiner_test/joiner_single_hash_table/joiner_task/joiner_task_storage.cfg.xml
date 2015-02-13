@@ -1,0 +1,19 @@
+<StorageConfig>
+  <Storage>
+    <imp0_joiner>
+      <ServiceLocList>10.48.46.62:26379,10.48.44.23:26379,10.48.44.43:26379</ServiceLocList>
+      <ServiceName>instance001</ServiceName>
+      <ServiceToken></ServiceToken>
+      <Retry>2</Retry>
+      <Timeout>1000</Timeout>
+    </imp0_joiner>
+    <imp1_joiner>
+      <ServiceLocList>10.48.46.62:26379,10.48.44.23:26379,10.48.44.43:26379</ServiceLocList>
+      <ServiceName>instance001</ServiceName>
+      <ServiceToken></ServiceToken>
+      <Retry>2</Retry>
+      <Timeout>1000</Timeout>
+    </imp1_joiner>
+  </Storage>
+</StorageConfig>
+

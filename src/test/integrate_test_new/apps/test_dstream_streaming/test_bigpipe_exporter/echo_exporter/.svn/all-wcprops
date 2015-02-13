@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_bigpipe_exporter/echo_exporter
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_bigpipe_exporter/echo_exporter/log.conf
+END
+bigpipe_exporter
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/inf/computing/!svn/ver/15145/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_bigpipe_exporter/echo_exporter/bigpipe_exporter
+END

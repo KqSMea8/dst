@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Property>
+    <ZooKeeperPath>
+        <Address>127.0.0.1:2781</Address>
+        <Root>/DStream_processmaster_unit_test</Root>
+        <Recv>
+            <Timeout>200</Timeout>
+        </Recv>
+    </ZooKeeperPath>
+    <PM>
+        <GCInterval>1000</GCInterval>
+        <Scheduler>ResourceScheduler</Scheduler>
+        <PMHttpdPort>8018</PMHttpdPort>
+    </PM>
+</Property>

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/inf/computing/!svn/ver/14597/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/updateDynamicPE
+END
+replace.sh
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/inf/computing/!svn/ver/14597/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/updateDynamicPE/replace.sh
+END
+clear_dynamic_pe.sh
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/inf/computing/!svn/ver/14301/trunk/dstream/src/test/integrate_test_new/apps/dynamic_importer_test/updateDynamicPE/clear_dynamic_pe.sh
+END

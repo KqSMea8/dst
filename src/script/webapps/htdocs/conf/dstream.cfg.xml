@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Cluster>
+  <Client>
+	  <!-- User配置信息 -->
+    <User>
+	    <UserName>test</UserName>:
+	    <Password>test</Password>
+    </User>
+	  <!-- PM配置信息 -->
+    <PM>
+      <!-- 连接PM重试次数，0代表无限次重试 -->
+      <Retry>3</Retry>
+      <!-- 连接PM RPC超时时间，-1代表无限时间 -->
+      <TimeoutMs>-1</TimeoutMs>
+    </PM>
+  </Client>
+
+	<!-- PN配置信息 -->
+  <PN>
+    <!-- PN监听RPC的线程数 -->
+    <ListenThreadNum>18</ListenThreadNum>
+    <!-- PN监听RPC的端口 -->
+    <ListenPort>6000</ListenPort>
+	  <!-- Importer监听RPC端口 -->
+    <ImporterPort>19870</ImporterPort>
+    <!-- PN工作目录 -->
+    <WorkDir>.</WorkDir>
+    <!-- PN检查有新的PE发来订阅消息的时间间隔 -->
+    <NewSubChkIntervalSec>10000</NewSubChkIntervalSec>
+    <!-- PN接收PE发来的订阅准备就绪消息的队列长度 -->
+    <MaxSubQueueSize>10000</MaxSubQueueSize>
+    <!-- PN接收Tuple消息的队列长度 -->
+    <MaxSendQueueSize>10000</MaxSendQueueSize>
+    <!-- PN发送Tuple消息的队列长度 -->
+		<MaxRecvQueueSize>10000</MaxRecvQueueSize>
+		<!-- PN打包数目 -->
+		<TuplesBatchCount>100</TuplesBatchCount>
+		<!-- PN打包超时 -->
+		<ForceForwardTuplesPeriodMillSeconds>1000</ForceForwardTuplesPeriodMillSeconds>
+		<!-- PN打包数目 -->
+		<TuplesBatchCount>100</TuplesBatchCount>
+		<!-- PN打包超时 -->
+		<ForceForwardTuplesPeriodMillSeconds>1000</ForceForwardTuplesPeriodMillSeconds>
+	  <!-- PN连接PM配置信息 -->
+    <PM>
+      <!-- 连接PM重试次数，0代表无限次重试 -->
+      <Retry>3</Retry>
+      <!-- 连接PM RPC超时时间，-1代表无限时间 -->
+      <TimeoutMs>-1</TimeoutMs>
+    </PM>
+  </PN>
+
+  <!-- hdfs客户端配置项 -->
+  <HDFS>
+    <!-- hdfs客户端目录，其下面至少包括：./bin/hadoop ./conf/ -->
+    <HadoopClientDir>~/hadoop-client/hadoop/</HadoopClientDir>
+    <!-- 0代表无限次重试 -->
+    <Retry>3</Retry>
+  </HDFS>
+
+	<!-- ZooKeeper配置信息 -->
+  <ZooKeeperPath>
+	  <Address>bj-dstream-zk.dmop.baidu.com:2182</Address>
+    <!-- 连接ZooKeeper重试次数，0代表无限次重试 -->
+    <Retry>3</Retry>
+    <TimeoutMs>30000</TimeoutMs>
+    <PM>
+        <Root>/dstream_online_1_4_1/PM</Root>
+    </PM>
+    <Config>
+        <Root>/dstream_online_1_4_1/Config</Root>
+    </Config>
+    <App>
+        <Root>/dstream_online_1_4_1/App</Root>
+    </App>
+    <PN>
+        <Root>/dstream_online_1_4_1/PN</Root>
+    </PN>
+	  <Client>
+	      <Root>/dstream_online_1_4_1/Client</Root>  
+	  </Client>
+  </ZooKeeperPath>
+
+  <Log>
+    <PE>
+      <TimeFormat>%Y_%m_%d_%H_%M</TimeFormat>
+      <!-- true or false expected  below-->
+      <LocalStore>true</LocalStore>
+      <HdfsStore>true</HdfsStore>
+      <ConsoleShow>true</ConsoleShow>
+    </PE>
+  </Log>
+
+</Cluster>

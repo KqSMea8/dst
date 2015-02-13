@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/install/lyj
+END
+test.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/install/lyj/test.conf
+END
+slaves
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/7861/trunk/dstream/src/test/integrate_test/install/lyj/slaves
+END
+conf.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/9490/trunk/dstream/src/test/integrate_test/install/lyj/conf.sh
+END

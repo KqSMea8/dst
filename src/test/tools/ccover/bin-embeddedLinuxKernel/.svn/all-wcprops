@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/bin-embeddedLinuxKernel
+END
+covgetkernel-arm-be-oabi
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/bin-embeddedLinuxKernel/covgetkernel-arm-be-oabi
+END
+covgetkernel-arm-le-eabi
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/bin-embeddedLinuxKernel/covgetkernel-arm-le-eabi
+END
+covgetkernel-mips-be-32
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/bin-embeddedLinuxKernel/covgetkernel-mips-be-32
+END
+covgetkernel-sh4
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/bin-embeddedLinuxKernel/covgetkernel-sh4
+END
+covgetkernel-arm-be-eabi
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/bin-embeddedLinuxKernel/covgetkernel-arm-be-eabi
+END
+covgetkernel-ppc
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/bin-embeddedLinuxKernel/covgetkernel-ppc
+END
+covgetkernel-arm-le-oabi
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/bin-embeddedLinuxKernel/covgetkernel-arm-le-oabi
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/bin-embeddedLinuxKernel/README
+END
+covgetkernel-mips-le-32
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/bin-embeddedLinuxKernel/covgetkernel-mips-le-32
+END

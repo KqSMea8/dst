@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/computing/!svn/ver/50115/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming
+END
+env_prepare.sh
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/inf/computing/!svn/ver/16438/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/env_prepare.sh
+END
+test_speed_limit.sh
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_speed_limit.sh
+END
+streaming-regression-testing.sh
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/streaming-regression-testing.sh
+END
+app_cont.sh
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/inf/computing/!svn/ver/15506/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/app_cont.sh
+END

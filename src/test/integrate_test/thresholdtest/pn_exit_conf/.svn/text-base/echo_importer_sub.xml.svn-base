@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word_cnt_importer>
+	<BigPipe>
+    <pnotexist>
+		  <Authentication>test</Authentication>
+		  <PipeletNum>1</PipeletNum>
+    </pnotexist>
+	</BigPipe>
+</word_cnt_importer>

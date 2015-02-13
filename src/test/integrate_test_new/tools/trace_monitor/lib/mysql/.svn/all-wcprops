@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql
+END
+libmysqlclient.so.15
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libmysqlclient.so.15
+END
+libheap.a
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libheap.a
+END
+libvio.a
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libvio.a
+END
+libmyisam.a
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libmyisam.a
+END
+libmystrings.a
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libmystrings.a
+END
+libmysqlclient.la
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libmysqlclient.la
+END
+libdbug.a
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libdbug.a
+END
+libmysqlclient.a
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libmysqlclient.a
+END
+libmysys.a
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libmysys.a
+END
+libmyisammrg.a
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libmyisammrg.a
+END
+libmysqlclient.so
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libmysqlclient.so
+END
+libmysqlclient.so.15.0.0
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/inf/computing/!svn/ver/38892/trunk/dstream/src/test/integrate_test_new/tools/trace_monitor/lib/mysql/libmysqlclient.so.15.0.0
+END

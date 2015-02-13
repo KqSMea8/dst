@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool/mcelog
+END
+mcelog
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool/mcelog/mcelog
+END
+mcelog.conf
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/inf/computing/!svn/ver/23366/trunk/dstream/src/script/monitor/node_check/cpumem-mon/lib/tool/mcelog/mcelog.conf
+END

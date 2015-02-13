@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/dynamic_echo_test
+END
+echo_pe_importer_add.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/echo_pe_importer_add.cc
+END
+echo.proto
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/14290/trunk/dstream/src/test/dynamic_echo_test/echo.proto
+END
+dynamic_tag.proto
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/20815/trunk/dstream/src/test/dynamic_echo_test/dynamic_tag.proto
+END
+echo_tag_importer_add.cc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/echo_tag_importer_add.cc
+END
+dynamic.proto
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/14290/trunk/dstream/src/test/dynamic_echo_test/dynamic.proto
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/dynamic_echo_test/COMAKE
+END
+build
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/14290/trunk/dstream/src/test/dynamic_echo_test/build
+END
+echo.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/echo.pb.cc
+END
+updatePEs.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/14290/trunk/dstream/src/test/dynamic_echo_test/updatePEs.sh
+END
+dynamic_tag.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/dynamic_tag.pb.cc
+END
+echo.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/echo.pb.h
+END
+dynamic_tag.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/dynamic_tag.pb.h
+END
+dynamic.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/dynamic.pb.cc
+END
+echo_pe_task.cc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/echo_pe_task.cc
+END
+dynamic.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/dynamic.pb.h
+END
+echo_bp_importer_add.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/echo_bp_importer_add.cc
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/Makefile
+END
+echo_pe_exporter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/dynamic_echo_test/echo_pe_exporter.cc
+END

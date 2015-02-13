@@ -1,0 +1,45 @@
+#!/bin/bash
+rm -rf pesdk
+mkdir -p pesdk/
+
+# copy processelement header files.
+mkdir -p pesdk/include/processelement
+cp *.h pesdk/include/processelement
+
+# copy common header files.
+mkdir -p pesdk/include/common
+cp -r ../common/*.h pesdk/include/common
+mkdir -p pesdk/include/common/proto
+cp -r ../common/proto/*.h pesdk/include/common/proto
+cp -r ../common/proto/gen-cpp pesdk/include/common/proto/gen-cpp
+
+# copy transporter header files.
+mkdir -p pesdk/include/transporter
+cp -r ../transporter/*.h pesdk/include/transporter
+
+# copy storage and generic_operator header files.
+mkdir -p pesdk/include/storage
+cp -r ../storage/*.h pesdk/include/storage
+mkdir -p pesdk/include/generic_operator
+cp -r ../generic_operator/*.h pesdk/include/generic_operator
+
+# copy processelement lib.
+mkdir -p pesdk/lib
+cp libpe.so pesdk/lib/libpe.so
+cp libprocesselement.a pesdk/lib/libpe.a
+cp ../common/libcommon.a pesdk/lib/libcommon.a
+cp ../common/proto/libproto.a pesdk/lib/libproto.a
+cp ../transporter/libtransporter.a pesdk/lib/libtransporter.a
+cp ../storage/libstorage.a pesdk/lib/libstorage.a
+cp ../generic_operator/libgeneric_operator.a pesdk/lib/libgeneric_operator.a
+cp ../metamanager/libmetamanager.a pesdk/lib/libmetamanager.a
+
+# dependencies.
+cp -r ../../../deps/include/zeromq pesdk/include/
+cp -r ../../../deps/include/tinyxml pesdk/include/
+cp -r ../../../deps/include/log4cplus pesdk/include/
+#cp -rd ../../../deps/lib pesdk/
+cp -r ../../../deps/lib pesdk/
+
+#tar czvf pesdk.tar.gz pesdk
+

@@ -1,0 +1,6 @@
+/Property/ZooKeeperPath/Address=nj01-inf-offline151.nj01.baidu.com:2182
+/Property/ZooKeeperPath/Config/Root=/dstream_hudson/Config
+/Property/ZooKeeperPath/PM/Root=/dstream_hudson/PM
+/Property/ZooKeeperPath/App/Root=/dstream_hudson/App
+/Property/ZooKeeperPath/PN/Root=/dstream_hudson/PN
+/Property/ZooKeeperPath/Client/Root=/dstream_hudson/Client

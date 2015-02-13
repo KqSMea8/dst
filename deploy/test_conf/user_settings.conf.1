@@ -1,0 +1,82 @@
+#dstream and hadoop version config
+#dsteam_tag : op: set dstream_tag="dstream_1-0-*-*_PD_BL" if the dstream not download
+#             op: set dstream_tag="../../"
+dstream_tag="../../"
+hadoop_tag="hadoop-client.tgz"
+hadoop_client_dir="../../../"
+#deploy dir on dest machine
+dest_dir="/home/work/deploy/mock_press/deploy_dstream_2"
+
+#machine settings
+#pm/pn list file
+pm_list_file="/home/zhanggengxin/working/inf/computing/deploy_press/new_deploy/machines/test_machines/pm_list"
+pn_list_file="/home/zhanggengxin/working/inf/computing/deploy_press/new_deploy/machines/test_machines/pn_list"
+
+#zk machine
+zk_machine="hy-mpi-a0214.hy01.baidu.com:2181,hy-mpi-a0215.hy01.baidu.com:2181"
+#webapps machine and port
+webapps_machine="hy-mpi-a0208.hy01.baidu.com"
+webapps_port=8123
+#if webapps has installed : webapps will not install and updated
+install_webapps=0
+
+#machine user settings
+user_name="work"
+user_passwd="123456yk18f"
+root_passwd="hpcinit"
+
+#roshan address
+roshan_url="http://hy-mpi-a0214.hy01.baidu.com:8008/roshan/static/index.html"
+
+#zk root config
+dstream_zk_root="/mock_press"
+
+#dstream user/password config
+dstream_user="mock_press"
+dstream_passwd="mock_press"
+
+#hdfs config
+hdfs_path="hdfs://cq01-testing-dcqa-b4.cq01:38002/"
+hdfs_user="root"
+hdfs_passwd="root"
+hdfs_web_url="http://cq01-testing-dcqa-b7.cq01.baidu.com:8408/browseDirectory.jsp?ugi=3F91D4465C56066ED107EB0B775FB028&dir=/"
+
+#pn config
+pn_pm_rpc_port=48290
+pn_debug_port=48291
+pn_pn_rpc_port=48293
+pn_pe_rpc_port=48294
+pn_config_memory="10G"
+
+#file server config
+file_server_port=8379
+
+#pn/pm start memory limit
+pm_memory_limit="2G"
+pn_memory_limit="1512M"
+
+#alarm setting
+emails="zhanggengxin@baidu.com"
+mobiles="130000"
+gsm_server="tc-sys-monitor00.tc:15001"
+
+#log setting
+log_level="INFO"
+
+#zk install settings
+zk_tag="zookeeper_1-0-2-0_PD_BL"
+zk_dir="/home/work/deploy"
+zk_internal_port1=2888
+zk_internal_port2=3888
+
+#rd used do not modifyed
+#hadoop_client_path=""
+dstream_zk_pm_root="$dstream_zk_root/PM"
+dstream_zk_pn_root="$dstream_zk_root/PN"
+dstream_zk_client_root="$dstream_zk_root/Client"
+dstream_zk_config_root="$dstream_zk_root/Config"
+dstream_zk_app_root="$dstream_zk_root/App"
+hdfs_pn_log_path="$hdfs_path/PN"
+hadoop_client_path="$dest_dir/utils/hadoop-client/hadoop/"
+#used for qa testing
+dstream_base="getprod@product.scm.baidu.com:/data/prod-64/inf/computing/dstream/"

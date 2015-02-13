@@ -1,0 +1,88 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+WORKROOT('../../../../../../')
+CopyUsingHardLink(True)
+
+CPPFLAGS('-D_GNU_SOURCE -D__STDC_LIMIT_MACROS -DVERSION=\\\"1.0.1.0\\\"')
+CPPFLAGS('-D_FILE_OFFSET_BITS=64') # support large files.
+CFLAGS('-g -pipe -W -Wall -fPIC')
+CXXFLAGS('-g -pipe -W -Wall -fPIC')
+dstream_sdk_root = './pesdk/'
+
+# dependencies.
+INCPATHS('. '+
+         dstream_sdk_root + 'include/ ' +
+         dstream_sdk_root + 'include/log4cplus ' +
+         dstream_sdk_root + 'include/zeromq ') 
+
+LDFLAGS('-L' + dstream_sdk_root + 'lib/ '
+        '-lzmq '+
+        '-ltinyxml '+
+        '-llog4cplus '+
+        '-lpthread -lcrypto -lrt -luuid -lcrypt ')
+
+#CONFIGS('public/idlcompiler@base')
+CONFIGS('public/idlcompiler')
+CONFIGS('third-64/protobuf@2.4.1.300')
+CONFIGS('inf/bigpipe/api/c-api@2.0.6.3')
+CONFIGS('inf/bigpipe/common@1.0.17.2', IncludePaths('./include ./include/protocol'))
+CONFIGS('inf/computing/dredis@dredis_1-0-3-30624_PD_BL')
+CONFIGS('third-64/boost@boost_1-46-1-101_PD_BL')
+# tcmalloc.
+CONFIGS('third-64/tcmalloc@1.7.0.200')
+#Kylin/ESP/Share
+CONFIGS('inf/common/kylin@1.0.8.0')
+CONFIGS('inf/common/esp@1.0.10.0')
+CONFIGS('inf/common/share@1.0.8.0')
+
+LIBS('./pesdk/lib/libcommon.a')
+LIBS('./pesdk/lib/libproto.a')
+LIBS('./pesdk/lib/libpe.a')
+LIBS('./pesdk/lib/libtransporter.a')
+LIBS('./pesdk/lib/libmetamanager.a')
+
+
+#joiner PEs
+#1.joiner task
+StaticLibrary('joiner_task',
+    Sources('joiner_task.cc',
+    'storage_config.cc',
+    'common_utils.cc'))
+Application('joiner_task',
+    Sources('joiner_task_main.cc',
+    'joiner.pb.cc'),
+    ENV.IncludePaths(),
+    Libraries('pesdk/lib/libgeneric_operator.a',
+              'pesdk/lib/libstorage.a',
+              'libjoiner_task.a')
+    + ENV.Libraries())
+#2.joiner importer
+Application('joiner_importer',
+    Sources('joiner_importer.cc',
+    'joiner.pb.cc'))
+#3.joiner task with two single table
+StaticLibrary('joiner_task_single',
+    Sources('joiner_task_single.cc',
+    'storage_config.cc',
+    'common_utils.cc'))
+Application('joiner_task_single',
+    Sources('joiner_task_single_main.cc',
+    'joiner.pb.cc'),
+    ENV.IncludePaths(),
+    Libraries('pesdk/lib/libgeneric_operator.a',
+              'pesdk/lib/libstorage.a',
+              'libjoiner_task_single.a')
+    + ENV.Libraries())
+#4.joiner task with two multi table
+StaticLibrary('joiner_task_multi',
+    Sources('joiner_task_multi.cc',
+    'storage_config.cc',
+    'common_utils.cc'))
+Application('joiner_task_multi',
+    Sources('joiner_task_multi_main.cc',
+    'joiner.pb.cc'),
+    ENV.IncludePaths(),
+    Libraries('pesdk/lib/libgeneric_operator.a',
+              'pesdk/lib/libstorage.a',
+              'libjoiner_task_multi.a')
+    + ENV.Libraries())

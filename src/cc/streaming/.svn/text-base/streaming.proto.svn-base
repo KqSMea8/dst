@@ -1,0 +1,7 @@
+package dstream;
+message StreamingKVType{
+  optional bytes key=1;
+  optional bytes value=2;
+};
+  
+

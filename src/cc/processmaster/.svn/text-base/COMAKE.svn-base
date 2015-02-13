@@ -1,0 +1,30 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+StaticLibrary('src/cc/processmaster/processmaster',
+              Sources('src/cc/processmaster/check_app_task.cc',
+                      'src/cc/processmaster/dstream_event.cc',
+                      'src/cc/processmaster/dstream_event_manager.cc',
+                      'src/cc/processmaster/event.cc',
+                      'src/cc/processmaster/event_manager.cc',
+                      'src/cc/processmaster/gc.cc',
+                      'src/cc/processmaster/gc_task.cc',
+                      'src/cc/processmaster/kill_app_gc_task.cc',
+                      'src/cc/processmaster/mock_pn.cc',
+                      'src/cc/processmaster/pm_common.cc',
+                      'src/cc/processmaster/pm_rpc_server.cc',
+                      'src/cc/processmaster/pm_watcher.cc',
+                      'src/cc/processmaster/pn_client_status.cc',
+                      'src/cc/processmaster/app_status.cc',
+                      'src/cc/processmaster/process_master.cc',
+                      'src/cc/processmaster/update_app_event.cc',
+                      'src/cc/processmaster/zk_watcher.cc',
+                      'src/cc/processmaster/pm_httpd.cc'),
+              OutputPath(''))
+
+Application('src/cc/pm',
+            Sources('src/cc/processmaster/pm_main.cc'),
+            Libraries('src/cc/metamanager/libmetamanager.a',
+                      'src/cc/processmaster/libprocessmaster.a',
+                      'src/cc/scheduler/libscheduler.a') + ENV.Libraries(),
+            OutputPath('src/cc/'))

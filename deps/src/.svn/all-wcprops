@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/inf/computing/!svn/ver/40109/trunk/dstream/deps/src
+END
+getBigPipe
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/computing/!svn/ver/15666/trunk/dstream/deps/src/getBigPipe
+END
+build_gcc_version
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/13306/trunk/dstream/deps/src/build_gcc_version
+END
+mongoose-3.8.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/40109/trunk/dstream/deps/src/mongoose-3.8.tar.gz
+END
+log4cplus-1.1.0-rc4.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/inf/computing/!svn/ver/10486/trunk/dstream/deps/src/log4cplus-1.1.0-rc4.tar.gz
+END
+libev-4.11.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/13686/trunk/dstream/deps/src/libev-4.11.tar.gz
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/inf/computing/!svn/ver/40109/trunk/dstream/deps/src/build.sh
+END
+log4cpp-1.0.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/5781/trunk/dstream/deps/src/log4cpp-1.0.tar.gz
+END
+zeromq-2.2.0-dstream001-change_max_sockets.patch
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/19848/trunk/dstream/deps/src/zeromq-2.2.0-dstream001-change_max_sockets.patch
+END
+third_lib_md5sum
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/40109/trunk/dstream/deps/src/third_lib_md5sum
+END
+python2.6.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/10851/trunk/dstream/deps/src/python2.6.tar.gz
+END
+deps.tgz
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/inf/computing/!svn/ver/40109/trunk/dstream/deps/src/deps.tgz
+END
+tinyxml_2_6_1.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/6227/trunk/dstream/deps/src/tinyxml_2_6_1.tar.gz
+END
+zeromq-2.2.0.tar.gz
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/17986/trunk/dstream/deps/src/zeromq-2.2.0.tar.gz
+END

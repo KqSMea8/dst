@@ -1,0 +1,19 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+StaticLibrary('src/cc/transporter/transporter',
+              Sources('src/cc/transporter/transporter.cc' ,
+                      'src/cc/transporter/transporter_inflow.cc' , 
+                      'src/cc/transporter/transporter_outflow.cc',
+                      'src/cc/transporter/transporter_stubmgr.cc',
+                      'src/cc/transporter/transporter_cli.cc',
+                      'src/cc/transporter/transporter_tag.cc',
+                      'src/cc/transporter/transporter_queue.cc',
+                      'src/cc/transporter/transporter_common.cc',
+                      'src/cc/transporter/transporter_counters.cc',
+                      'src/cc/transporter/ring_buffer.cc',
+                      'src/cc/transporter/queue_buffer.cc',
+                      CppFlags("-DMOCKVIRTUAL=")),
+              ENV.IncludePaths(),
+              ENV.Libraries(),
+              OutputPath(''))

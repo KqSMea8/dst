@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cluster>
+  <Client>
+    <User>
+	    <UserName>fern</UserName>:
+	    <Password>fern</Password>
+    </User>
+    <PM>
+      <Retry>3</Retry>
+      <TimeoutMs>-1</TimeoutMs>
+    </PM>
+  </Client>
+
+  <HDFS>
+    <HadoopClientDir>/home/work/mapred/hadoop-client/hadoop/</HadoopClientDir>
+    <Retry>3</Retry>
+  </HDFS>
+
+
+    <ZooKeeperPath>
+        <PM><Root>/dstream_hudson/PM</Root></PM>
+        <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+        <Config><Root>/dstream_hudson/Config</Root></Config>
+        <App><Root>/dstream_hudson/App</Root></App>
+        <PN><Root>/dstream_hudson/PN</Root></PN>
+        <Client><Root>/dstream_hudson/Client</Root></Client>
+        <Recv>
+            <TimeoutMs>30000</TimeoutMs>
+        </Recv>
+    </ZooKeeperPath>
+
+</Cluster>

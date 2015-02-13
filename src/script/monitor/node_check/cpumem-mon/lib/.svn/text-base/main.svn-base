@@ -1,0 +1,12 @@
+#!/usr/bin/python
+import resource
+import os
+from getmachineinfo import getmachinfo
+
+if __name__ == '__main__':	
+	rlimit = resource.getrlimit(resource.RLIMIT_CORE)
+	resource.setrlimit(resource.RLIMIT_CORE,(0,rlimit[1]))
+
+	getmachinfo()
+	#os.system("python getmachineinfo.py")
+	print "BDEOF"

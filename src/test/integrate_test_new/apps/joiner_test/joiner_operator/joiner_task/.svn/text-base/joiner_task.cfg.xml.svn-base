@@ -1,0 +1,29 @@
+<JoinConfig>
+  <JoinTags>
+    <imp0_joiner>
+      <WindowSize>20</WindowSize>
+      <WindowStep>5</WindowStep>
+      <JoinWithStore>true</JoinWithStore>
+      <Storage>
+        <RestoreFromStore>true</RestoreFromStore>
+        <IgnoreStoreError>true</IgnoreStoreError>
+        <BatchInsert>true</BatchInsert>
+        <BatchCount>1</BatchCount>
+        <BatchIntervalMs>100</BatchIntervalMs>
+      </Storage>
+    </imp0_joiner>
+    <imp1_joiner>
+      <WindowSize>20</WindowSize>
+      <WindowStep>5</WindowStep>
+      <JoinWithStore>true</JoinWithStore>
+      <Storage>
+        <RestoreFromStore>true</RestoreFromStore>
+        <IgnoreStoreError>true</IgnoreStoreError>
+        <BatchInsert>true</BatchInsert>
+        <BatchCount>1</BatchCount>
+        <BatchIntervalMs>100</BatchIntervalMs>
+      </Storage>
+    </imp1_joiner>
+  </JoinTags>
+</JoinConfig>
+

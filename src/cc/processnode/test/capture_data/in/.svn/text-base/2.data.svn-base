@@ -1,0 +1,4 @@
+[2012-07-10 13:18:24][WARN][test_out_capture]:[processnode/out_capture.cc:65]:open file [./capture_data/out//1.data] failed,so not add this watcher
+[2012-07-10 13:18:24][WARN][test_out_capture]:[processnode/out_capture.cc:65]:open file [./capture_data/out//2.data] failed,so not add this watcher
+[2012-07-10 13:18:24][INFO][test_out_capture]:[common/thread.cc:15]:working thread start working...
+[2012-07-10 13:25:49][WARN][test_out_capture]:[processnode/out_capture.cc:67]:open file [./capture_data/out//1.data] failed,so not add this watcher

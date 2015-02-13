@@ -1,0 +1,174 @@
+#############################################
+# comlog配置
+
+# 进程名
+# [默认配置(字符串),  COMLOG_PROCNAME : test]
+COMLOG_PROCNAME : bigpipe_apitest
+# 设备数目
+# [默认配置(uint),  COMLOG_DEVICE_NUM : 2]
+COMLOG_DEVICE_NUM : 1 
+# 设备0 名
+# [默认配置(字符串),  COMLOG_DEVICE0 : FILE]
+COMLOG_DEVICE0 : FILE
+# 日志等级
+# [默认配置(uint),  COMLOG_LEVEL : 16]
+COMLOG_LEVEL : 4
+# 设备类型, ULLOG
+# [默认配置(字符串),  FILE_TYPE : ULLOG]
+FILE_TYPE : ULLOG
+# 日志名
+# [默认配置(字符串),  FILE_NAME : test.log]
+FILE_NAME : bigpipe_apitest.log
+# 日志路径
+# [默认配置(字符串),  FILE_PATH : ./log]
+FILE_PATH : ./log
+# 是否打开这个设备
+# [默认配置(uint),  FILE_OPEN : 1]
+FILE_OPEN : 1
+
+#############################################
+# bigpipe配置 发布订阅共用
+
+# 连接超时时间(单位us)
+bigpipe_conn_timeo: 5000000
+
+# failover次数, 负数为无穷次
+bigpipe_failover_cnt: 20
+
+# 允许发送/校验checksum
+# 0： 不校验
+# 1： 只校验消息本身checksum
+# 2： 除校验本身checksum外，还检查消息的last_checksum是否等于上一条消息的checksum (已废弃，不建议使用)
+# 3:  校验消息本身以及整条命令 (该值在功能还没在线上开启)
+bigpipe_checksum_level: 1 
+
+# 数据持久化路径，.tpmeta、.subinfo、.progress文件将保存在这里
+bigpipe_persist_path: ./persist_path
+
+#############################################
+# bigpipe配置 订阅专用
+
+#接收数据超时时间(单位us) 用户可根据上游数据流量进行适当调整，对于实时订阅，建议该值大于前端发布两个包(打包后)的发送间隔
+bigpipe_recv_timeo: 5000000
+
+# 订阅限速，单位：字节/秒，负数、零、0x7FFFFFFFFFFFFFFF都表示不限速
+bigpipe_subscriber_speed_threshold: 0 
+
+# 仅针对订阅者：连接倾向
+#   1 = 仅连接到primary，适用于对实时性高的需求
+#   2 = 仅从secondary中任选，适用于大吞吐的需求 对于订阅者，当指定这个范围后会优先从secondary broker中订阅
+#   4 = 仅从common中任选，适用于大吞吐的需求
+#   以上三种数值可以叠加，如从primary和common里选择 该值为 1 + 4 = 5
+bigpipe_connection_preference: 3
+
+#############################################
+# bigpipe配置 发布专用
+
+# 发送数据超时时间(单位us)  用户可根据设计目标进行适当调整
+bigpipe_send_timeo: 5000000
+
+# 打包条数，每发布指定数量的日志时，打包进行时间的网络发送，推荐单条消息短但QPS高的用户将该值调大，推荐打包后大小在百K量级。对于时效性高的应用，适当调小该值
+bigpipe_batch_counter: 50
+
+# 定时发送缓存中的数据，当时间间隔到达时，无论缓存在的包是否到达打包个数，强制发送缓存中的数据。注意，开启该项可能会导致bigpipe的不重不漏机制失败。(单位 us， 大于0开启)
+bigpipe_flush_interval: 0 
+
+# 发布进度模式，0为无进度模式，1为有进度模式。
+bigpipe_need_progress: 0
+
+# 当处于有进度模式，内部将开启定时存储进度线程，该值指示存进度间隔(单位us)
+bigpipe_progress_save_interval: 1000000
+
+# pipe级别发布限速，单位：字节/秒，零表示不限速 同步不可用
+bigpipe_publisher_speed_threshold: 0 
+
+# pipelet级别发布限速，单位：字节/秒，零表示不限速
+bigpipe_publisher_pipelet_speed_threshold: 0
+
+#############################################
+# bigpipe内部配置，不建议用户修改
+
+# 内部使用linux epoll超时时间(us) 不建议修改
+bigpipe_epoll_timeo: 5000
+# 内部使用定时检查错误时间间隔(us) 不建议修改
+bigpipe_check_timeo: 10000
+# 内部使用定时处理数据超时时间(us) 不建议修改
+bigpipe_deal_timeo: 500
+# 内部使用时间片大小(us) 不建议修改
+bigpipe_cut_timeo: 100
+# 两次failover之间间隔时间(us) 不建议修改
+bigpipe_failover_timeo: 100000
+# 发送流量控制精度(us) 不建议修改
+bigpipe_flow_timeo: 300000
+
+# failover处理数据超时时间
+bigpipe_failover_deal_timeo: 10000
+
+# 针对每一个pipelet的发送接收以及存储数据窗口大小, 该值越大可能占用内存越大，量级为该值乘以2.2M
+bigpipe_window_size: 100
+
+# 主broker连接次数
+bigpipe_primary_broker_conn_count: 1
+# 从broker连接次数
+bigpipe_secondary_broker_conn_count: 3
+# common broker连接次数
+bigpipe_common_broker_conn_count: 0
+
+#主broker最长保持时间，后主动failover
+bigpipe_primary_broker_keep_time: 5400000000
+
+#bigpipe内部通讯协议版本
+bigpipe_api_protocol_version: 1
+
+#该值为0
+bigpipe_recv_overtime_count: 0
+#############################################
+# bigpipe meta配置
+
+# 是否使用zkc
+bigpipe_api_need_zkc: 1
+
+# meta cache大小
+max_cache_count: 100000
+
+# zookeeper value的最大长度
+max_value_size: 10240000
+
+# zookeeper日志文件
+zk_log_file: ./zookeeper.log
+
+# zookeeper日志级别
+zk_log_level: 3
+
+# meta服务器的位置
+meta_host: hy-mpi-a0214.hy01:2181,hy-mpi-a0215.hy01:2181,hy-mpi-a0216.hy01:2181,hy-mpi-a0217.hy01:2181
+root_path: /bigpipe_lyj
+
+
+# 不使用zkc，专用配置
+# zk超时时间。单位：us
+bigpipe_zk_session_timeo: 30000000
+
+# zk处理时间片大小。单位：us
+bigpipe_zk_wait_timeo: 3000
+
+# zk处理失败时间片大小。单位：us
+bigpipe_zk_fail_timeo: 10000
+
+# zk获取超时时间1.单位：us
+bigpipe_zk_get_stimeo: 50000
+
+# zk获取超时间2.单位：us
+bigpipe_zk_get_ltimeo: 5000000
+
+# zk空节点闲置时间.单位：us
+bigpipe_zk_none_timeo: 10000000
+
+# 使用zkc，专用配置
+# zkc的watcher的超时时间，需大于zk配置的session timeout。单位：毫秒
+watcher_timeout: 10000
+
+# 读者观察到数据开始修改后，超过这个时间可以cache，最好大于watcher_timeout。单位：毫秒
+setting_timeout: 15000
+
+

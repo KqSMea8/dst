@@ -1,0 +1,79 @@
+   文档介绍了部署程序的使用、维护、设计及实现，对于部署而言，只需要看第一部分即可，对于dstream的rd则需要了解第二部分，
+对于开发、维护部署程序的rd，需要了解这个文档，同时负责维护文档。
+1. 部署使用
+  1.1 环境要求
+          部署程序要求python的版本为2.6/2.7，对于3.0及以上的没有测试过。如果是从产品库获取dstream或在dstream的代码目录中使用，
+      部署会自动获取python运行环境。如果是在其它目录中独立运行部署脚本，则需要具有python运行环境。如果环境不正确，脚本运行失败。
+  1.2 获取及使用部署程序
+    从svn或产品库获取部署程序，进入deploy/new_deploy目录，部署程序分为install.sh、update.sh、start.sh、stop.sh及clean.sh
+    五个程序。功能及使用方法如下(配置文件及其修改下面会有介绍)：
+    1) install.sh：使用方式sh install.sh -f config_file -m install_modules
+                   -f : 用于指定用户的配置文件，默认使用conf/dstream.conf文件，
+                   -m : 用于指定安装的模块，可选的模块有dstream、zk两个模块，如果已经安装了zk则不需要安装，如果不指定模块则只安装dstream
+                          在安装zk时需要配置zk_dir，并且只能配置为绝对路径。
+    2) update.sh : 更新模块。使用方式 sh update.sh -f config_file -m update_modules -o no_run。
+                   -f : 参数指定配置文件，可选，默认为conf/dstream.conf文件。
+                   -m : 指定更新的模块，可以更新的模块有pm、pn、bin、lib64、monitor和file_server等，更新的时候
+                        可以指定更新多个模块，-m后面配置多个模块就可以，如-m pm pn。
+                        也可以指定文件或相对于output路径的文件路径，如只更新libpe，可以指定lib64/libpe.so
+                   -o ：用于指明只更新模块，不运行。对于pm、pn、monitor及file_server等可运行的模块，
+                        在更新模块前会停止模块的运行。更新完成后会运行该模块，如果配置了-o no_run则只停止、更新模块，不再运行模块。
+    3) start.sh/stop.sh/clean.sh : 启动、停止及清理模块。运行方式sh start.sh/stop.sh/clean.sh -f config_file -m modules，
+                                   参数含义见上面。或以指定多个模块，如-m pm pn等。
+    如果之前已经部署过dstream，再次install的时候会先清空之前的目录。
+  1.2 修改配置文件
+    默认的配置为conf/dstream.conf文件，用户可以用-f 指定用户的配置文件，配置的变量含义可以通过名字得到，需要注意的几个变量有：
+    1）dstream_tag : 指定安装的dstream tag，如果安装时需要从产品库下载，tag是发布的tag，形式如dstream_1-0-*-*_PD_BL，
+                     如果是rd从编译的产品中部署，那么就指定为dstream的路径，如dstream_tag="../../"等。
+    2) hadoop_tag ： hadoop的tag，默认hadoop-client下载在到当前目录下，如果当前目录下已经有对于的hadoop_tag文件，那么就不会再下载。
+    3) zk_tag、zk_dir、zk_internal_port* ： 只在需要安装zk时有用，注意如果安装zk，那么zk_dir必须使用绝对路径，否则zk启动会失败。zk安装不会安装roshan。
+    4) dstream_base ：产品库地址，对于qa而言需要修改这个值，op部署的时候不需要修改。
+    5) rd used ：从rd used到文件结尾的配置是部署文件用的，不能修改，如果修改也需要了解部署模块后再修改。
+    在修改配置文件时，需要注意变量的值需要符合shell脚本的值的规范，即值为非数字的需要通过""保护。
+2. 部署程序维护规范
+  为了部署程序的可扩展性，在dstream开发新的模块的过程中需要保证部署程序的可用性，部署程序通过几个默认规则维护模块：
+  1) 配置文件 ：配置文件为conf/dstream.conf，这个配置与dstream/conf配置文件项相同，在增加新的配置项时，只需要修改dstream/conf
+                下的文件即可，部署程序会对比两个配置文件，如果配置项不同会有提示。
+  2) xml配置文 ：dstream在运行过程中也用到了xml样的配置文件，目前部署程序维护了dstream.cfg.xml、cluster_config.xml
+                 两个配置文件，配置项在conf/settings.conf中通过对应关系处理，在xml conf配置区域中，对应关系通过dstream.conf
+                 中的变量名与xml的xpath实现对应，如果在dstream.cfg.xml或 cluster.cfg.xml中增加了需要必须配置的配置项，
+                 需要修改dstream.conf及conf/settings.conf中的对应。
+  3) 配置文件的分发：在部署完成后,用户的配置文件会分发到安装目录的conf目录下。
+  4) build.sh：模块在安装的时候如果需要配置，那么这个模块目录下应该有一个build.sh文件，部署、更新完成后会自动运行build.sh。
+               如果新增加的模块需要在安装的时候配置，或现有的模块，那么应该通过读取、加载conf/dstream.conf文件来读取。build.sh
+               build.sh可以通过source命令加载。
+  5) start.sh/stop.sh：如果一个模块可以运行，如monitor等，则在模块下需要有start.sh、stop.sh文件，用于启动、停止模块。同样
+                       启动、停止的参数也需要放在conf/dstream.conf文件中，通过加载配置文件获取所需参数。目前pm、pn的启动方式
+                       是在启动脚本中通过其它方式启动的，并未提供start/stop脚本。
+  6) build.sh/start.sh/stop.sh 在运行时会有一个dstream_root环境变量，这个环境变量的值为部署的dstream的路径。
+  7) 加载配置文件的方式：shell脚本通过source命令加载配置文件，如果python程序可以通过execfile(config_file)加载配置文件，但是需要
+                         在main函数中使用，否则名字空间不正确，无法获取变量的值。
+3. 部署设计及实现
+  3.1 设计
+          部署在设计时以可扩展性为主要目标，可扩展性是指当增加、修改模块或配置文件时不需要修改部署程序或只修改部署程序的配置文件
+      就可以，尽量减少部署程序的修改，通过几个规范实现
+          1) 通过模块的build.sh/stop.sh/start.sh实现模块自身的部署、启动及停止。
+          2) 集中所有的配置文件，启动、启动及停止的参数通过配置文件形式提供，这样每个模块的部署、启动及停止方式相同。
+          3) 模块列表：模块列表并不是通过配置的，而是通过动态遍历部署目录下的目录动态得到部署、运行的模块。
+  3.2 实现
+      3.2.1 目录结构
+            new_deploy : install.sh start.sh stop.sh
+                 --lib ：部署的实现及其它一些辅助脚本，部署的主要实现都在lib/fun.sh中。
+                 --bin : 第三方程序，主要实现了expect功能，由python的expect及无需要密码的my_ssh、my_scp程序，由于之前
+                         qa测试过中my_ssh、my_scp出过问题，部署脚本中使用pexpect，只在一些辅助脚本中使用了my_ssh/my_scp，
+                         部署功能不受影响。
+                 --conf : 配置文件，包含了部署时使用的配置文件及部署脚本本身的一些配置。conf/dstream.conf是用户使用修改的
+                         配置，conf/settings.sh是部署模块的配置文件。
+       3.2.2 部署执行流程
+            部署、启动及停止流程相似，主要由以下几个函数实现：
+            1) parse_arguments ： 解析参数，得到配置文件、模块及操作命令。如果用户指定了配置文件，会加载新的配置文件，
+                                  在重新加的过程中需要为某些变量重新赋值，通过conf/settings.sh里的reconfig_settings实现。
+            2) 检查模块的合法性
+            3) 执行相应的操作：
+                   (1) install主要由lib/fun.sh里的install_dstream、install_zk两个函数实现。install_dstream是关键，在install_dstream
+                       dstream之前调用modify_config_file修改配置文件，然后打包dstream发送到部署机器上。然后部署hadoop-client，在部署完成后
+                       在部署机器上运行build脚本，build各个模块。
+                   (2) update主要由lib/fun.sh里的update_module函数实现。这个函数分析模块是否需要停止，如果需要先停止部署的模块，然后更
+                       新模块，最后再启动模块。在更新前也会先修改配置文件。更新完成会也会调用模块的build脚本(如果模块没有则不执行)。
+                   (3) start/stop主要由lib/fun.sh里的module_operation函数实现，由于monitor/node_check需要使用root用户启动，因此start/stop
+                       对node_check做了特殊处理。其它模块的启动都是通过模块目录下的start.sh/stop.sh实现的。 

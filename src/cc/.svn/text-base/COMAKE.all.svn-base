@@ -1,0 +1,36 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+execfile('src/cc/common/proto/COMAKE')
+execfile('src/cc/common/COMAKE')
+execfile('src/cc/metamanager/COMAKE')
+execfile('src/cc/processelement/COMAKE')
+execfile('src/cc/processmaster/COMAKE')
+execfile('src/cc/processnode/COMAKE')
+execfile('src/cc/transporter/COMAKE')
+execfile('src/cc/scheduler/COMAKE')
+execfile('src/cc/client/COMAKE')
+execfile('src/cc/utils/COMAKE')
+execfile('src/cc/storage/COMAKE')
+execfile('src/cc/generic_operator/COMAKE')
+execfile('src/cc/streaming/COMAKE')
+   
+# for ut and qa test
+execfile('src/cc/common/test/COMAKE')
+execfile('src/cc/metamanager/test/COMAKE')
+execfile('src/cc/processelement/test/COMAKE')
+execfile('src/cc/processmaster/test/COMAKE')
+execfile('src/cc/processnode/test/COMAKE')
+execfile('src/cc/transporter/test/COMAKE')
+execfile('src/cc/scheduler/test/COMAKE')
+execfile('src/cc/client/test/COMAKE')
+execfile('src/cc/storage/test/COMAKE')
+execfile('src/cc/generic_operator/test/COMAKE')
+execfile('src/cc/streaming/test/COMAKE')
+
+execfile('src/test/module_test/COMAKE')
+execfile('src/test/integrate_test/word_cnt_test/COMAKE')
+execfile('src/test/integrate_test/echo_test/COMAKE')
+execfile('src/test/integrate_test/multi_tag_test/COMAKE')
+execfile('src/test/integrate_test/cycle_test/COMAKE')
+execfile('src/test/utils/COMAKE')

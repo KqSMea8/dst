@@ -1,0 +1,139 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+WORKROOT('../../../')
+CopyUsingHardLink(True)
+
+### GET BUILD VERSION
+import os, time
+BUILD_TIME = time.strftime("%Y%m%d-%H:%M:%S").strip()
+stream = os.popen("svn info | grep URL | awk -F '_' '{print $2}'")
+BUILD_VERSION = stream.read().strip()
+retcode = stream.close()
+if retcode:
+    BUILD_VERSION = "UNKNOWN VERSION"
+###
+
+CC('g++')
+CPPFLAGS('-D_GNU_SOURCE -D__STDC_LIMIT_MACROS -DHAVE_NETINET_IN_H -DVERSION=\\\"' + BUILD_VERSION + '\\\" -DBUILD_TIME=\\\"' + BUILD_TIME + '\\\"')
+CPPFLAGS('-D_FILE_OFFSET_BITS=64')      # support large files.
+CPPFLAGS('-DGTEST_DONT_DEFINE_FAIL=1')  # disable gtest FAIL 
+CFLAGS('-g -pipe -W -Wall -Werror -Wno-unused-parameter -Wno-invalid-offsetof -Wreturn-type -Wtrigraphs -Wformat -Wparentheses -Wpointer-arith -Winline -Wwrite-strings -Wconversion -rdynamic -fPIC')
+CXXFLAGS('-g -pipe -W -Wall -Werror -Wno-unused-parameter -Wno-invalid-offsetof -Wreturn-type -Wtrigraphs -Wformat -Wparentheses -Wpointer-arith -Winline -Wwrite-strings -Wconversion -rdynamic -fPIC')
+PROTOC('../../../third-64/protobuf//bin/protoc')
+
+# dependencies.
+INCPATHS('. '+
+#         '../../../third-64/boost/include/boost/tr1 ' +
+         './src/cc '+
+         './src/cc/common/proto '+
+         './src/cc/common/proto/gen-cpp '+
+         './deps/include/zeromq '+
+         './deps/include/tinyxml ' +
+         './deps/include/libev '+
+         './deps/include/mongoose '+
+         './deps/include/ ')
+
+LDFLAGS('-L./deps/lib '+
+        '-L./src/cc '+
+        '-lzmq '+
+        '-ltinyxml '+
+        '-llog4cplus '+
+        '-lmongoose '+
+        '-lev '+
+        '-lpthread -lcrypto -lcrypt -lrt -luuid')
+
+CONFIGS('inf/bigpipe/api/c-api@2.0.14.0')
+CONFIGS('inf/common/esp@1.0.10.0')
+CONFIGS('inf/common/kylin@1.0.8.0')
+CONFIGS('inf/common/share@1.0.8.0')
+CONFIGS('inf/computing/dredis@dredis_1-0-3-30624_PD_BL')
+CONFIGS('third-64/boost@boost_1-46-1-101_PD_BL', IncludePaths('./include ./include/boost ./include/boost/tr1'))
+CONFIGS('public/protobuf-json@protobuf-json_1-0-0-0_PD_BL')
+CONFIGS('third-64/protobuf@2.4.1.500')
+CONFIGS('third-64/thrift@0.9.1.100')
+CONFIGS('third-64/libevent@2.0.12.100')
+CONFIGS('thirdsrc/tcmalloc@1.7.0.200') 
+CONFIGS('inf/computing/zookeeper@zookeeper_1-0-10-27586_PD_BL')
+CONFIGS('com/btest/gtest@1.1.2.0')
+CONFIGS('quality/autotest/bmock@1.1.4.0')
+
+LIBS('src/cc/common/libcommon.a')
+LIBS('src/cc/common/proto/libproto.a')
+LIBS('src/cc/metamanager/libmetamanager.a')
+LIBS('src/cc/processelement/libprocesselement.a')
+LIBS('src/cc/processmaster/libprocessmaster.a')
+LIBS('src/cc/transporter/libtransporter.a')
+
+execfile('src/cc/COMAKE')
+
+TARGET('.copy-conf', 
+          ShellCommands('touch .copy-conf','mkdir -p ./output/conf',
+                        'cp ./conf/*  ./output/conf/',
+                        'cp ./src/script/conf/*.sh ./output/conf'), 
+          CleanCommands('rm -rf ./output/conf/'))
+
+TARGET('.copy-deploy', 
+          ShellCommands('touch .copy-deploy', 'mkdir -p ./output',
+                        'cp -rf ./deploy/  ./output/'), 
+          CleanCommands('rm -rf ./output/deploy/'))
+
+TARGET('.copy-monitor', 
+          ShellCommands('touch .copy-monitor', 
+                        'cp -Rf ./src/script/monitor/  ./output/',
+                        'cp -Rf ./src/script/webapps ./output/'),
+          CleanCommands('rm -rf ./output/monitor/',
+                        'rm -rf ./output/webapps/'))
+
+TARGET('.copy-file-server', 
+          ShellCommands('touch .copy-file-server', 'cp -Rf ./src/script/file_server  ./output/'),
+          CleanCommands('rm -rf ./output/file_server/'))
+
+TARGET('.copy-utils', 
+          ShellCommands('touch .copy-utils','mkdir -p ./output/utils/',
+                        'cp src/cc/utils/*.sh ./output/utils',
+                        'cp -rf ./deps/src/python2.6.tar.gz ./output/utils/'), 
+          CleanCommands('rm -rf ./output/utils/'))
+
+TARGET('.copy-pn',
+          ShellCommands('touch .copy-pn', 'mkdir -p ./output/bin',
+                        'cp src/cc/pn ./output/bin'),
+          Prefixes('src/cc/pn'),
+          CleanCommands('rm -rf ./output/bin/'))
+
+TARGET('.copy-pm',
+          ShellCommands('touch .copy-pm', 'mkdir -p ./output/bin',
+                        'cp src/cc/pm ./output/bin'),
+          Prefixes('src/cc/pm'),
+          CleanCommands('rm -rf ./output/bin/'))
+
+TARGET('.copy-client',
+          ShellCommands('touch .copy-client', 'mkdir -p ./output/bin',
+                        'cp src/cc/client/dstream_client ./output/bin/dclient'),
+          Prefixes('src/cc/client/dstream_client'),
+          CleanCommands('rm -rf ./output/bin'))
+
+TARGET('.copy-pesdk',
+          ShellCommands('touch .copy-pesdk', 'mkdir -p ./output/pesdk',
+                        'cd src/cc/processelement && sh release_sdk && cp -Rf pesdk ../../../output/ && cd -'),
+          Prefixes('src/cc/processelement/libprocesselement.a'),
+          CleanCommands('rm -rf ./output/pesdk'))
+
+TARGET('.copy-script-bin',
+          ShellCommands('touch .copy-script-bin', 'mkdir -p ./output/bin',
+                        'cp ./src/script/bin/* ./output/bin/', 'chmod +x ./output/bin/*'),
+          CleanCommands('rm -rf ./output/bin/'))
+
+TARGET('.copy-lib64',
+          ShellCommands('touch .copy-lib64', 'mkdir -p ./output/lib64',
+                        'cp ./deps/lib/* ./output/lib64'),
+          CleanCommands('rm -rf ./output/lib64/',
+                        'rm -rf ./output/lib/'))
+
+TARGET('.copy-streaming',
+          ShellCommands('touch .copy-streaming', 'mkdir -p ./output/bin',
+                        'cp src/cc/streaming/streaming ./output/bin',
+                        'cp src/cc/streaming/streaming_logagent_importer ./output/bin'),
+        Prefixes('src/cc/streaming/streaming',
+                 'src/cc/streaming/streaming_logagent_importer'),
+          CleanCommands('rm -rf ./output/bin'))

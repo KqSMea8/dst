@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/49626/trunk/dstream/examples/dstream_echo_source/configs
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/10638/trunk/dstream/examples/dstream_echo_source/configs/log.conf
+END
+dstream.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/45709/trunk/dstream/examples/dstream_echo_source/configs/dstream.cfg.xml
+END

@@ -1,0 +1,27 @@
+### Warnings auto-collected by comake2 tool ###
+
+
+
+WarningType-1: 主模块在依赖打平过程中选择了次新版本
+
+
+
+WarningType-2: 其他模块在依赖打平过程中选择了次新版本
+
+
+
+WarningType-3: 主模块或其他模块在依赖打平过程中选择了最新版本，不过存在其他版本
+======================
+=== common/esp_rpc ===
+======================
+[v]inf/common/share@share_1-0-7-1_PD_BL, releasing
+    [o]inf/common/share@share_1-0-4-4_PD_BL, releasing
+        inf/common/esp@esp_1-0-5-4_PD_BL
+    [o]inf/common/share@share_1-0-2-3_PD_BL, releasing
+        inf/common/kylin@kylin_1-0-5-0_PD_BL
+[v]com/btest/gtest@gtest_1-1-2-0_PD_BL, buildreleased
+    [o]com/btest/gtest@gtest_1-1-0-0_PD_BL, released
+        quality/autotest/bmock@bmock_1-1-4-0_PD_BL
+[v]inf/common/kylin@kylin_1-0-5-0_PD_BL, releasing
+    [o]inf/common/kylin@kylin_1-0-2-0_PD_BL, released
+        inf/common/esp@esp_1-0-5-4_PD_BL

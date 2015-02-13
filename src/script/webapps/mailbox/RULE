@@ -1,0 +1,10 @@
+#==============================================
+# Format: 
+# Interval Check Minute :  condition : msg
+# It will clear the warns after every Check
+#==============================================
+1 : FAIL_TO_RECV_DATA > 5 : link http://tc-hpc-dev.tc.baidu.com/log_metrics.php
+5 : PEStart >= 1 : link http://tc-hpc-dev.tc.baidu.com/log_metrics.php
+5 : PM_ERROR >= 1 : link http://tc-hpc-dev.tc.baidu.com/log_metrics.php   
+5 : PN_ERROR >= 1 : link http://tc-hpc-dev.tc.baidu.com/log_metrics.php
+3 : DropTupleNum >= 100 : Drop Too Many Tuples in last 3 minutes.see details: http://tc-hpc-dev.tc.baidu.com/log_metrics.php

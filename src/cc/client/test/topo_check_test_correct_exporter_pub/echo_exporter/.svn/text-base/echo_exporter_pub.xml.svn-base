@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<word_cnt_importer>
+  <BigPipe>
+    <PipeName>bpexp</PipeName>
+    <PubToken>token</PubToken>
+    <PipeletNum>3</PipeletNum>
+    <PubAuthentication>test</PubAuthentication>
+    <Failover>
+      <RetryTime>3</RetryTime> 
+      <RetryInverval>50</RetryInverval>
+    </Failover>
+  </BigPipe>
+</word_cnt_importer>

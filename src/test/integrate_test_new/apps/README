@@ -1,0 +1,30 @@
+scripts
+====================
+update_echo_app.sh	# update newest pe from dstream/output folder for all apps based on echo_pe
+clear_echo_app.sh	# clear echo_pe and make a 0 bytes fake file to avoid svn ci echo_pe into server 
+update_dclient.sh	# cp new dclient to this folder and modify the configure file
+sub_app.sh	# sub one app
+del_app.sh	# del one app
+add_subtree.sh	# add sub tree
+del_subtree.sh	# del sub tree
+update_dclient.sh	# update dclient from install/deploy/ouput/bin and prepare config file
+
+
+apps
+=====================
+1. echo_1_1 # 1 importer + 1 exporter, 1 pipelet from pipe p1pipelet
+2. echo_10_10 # 10 importer + 10 exporter, 10 pipelet with 2 tag out form pipe p10pipelet
+3. echo_press1 # 3 importer + 3 exporter, use local file with 4 tag out 
+4. echo_press2 # 3 importer + 3 exporter, use local file with 4 tag out 
+5. echo_press3 # 3 importer + 3 exporter, use local file with 4 tag out 
+6. echo_press4 # 3 importer + 3 exporter, use local file with 4 tag out 
+7. echo_10_10_10 # 10 importer + 10 exporter + 10 work pe with 4 tag out
+
+
+cautions !!!!!!!
+=====================
+1. all app_name in application.xml must be the same as the app folder name
+2. before svn ci, pls excuete clear_echo_app.sh
+
+
+

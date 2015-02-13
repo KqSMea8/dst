@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_without_bigpipe/conf
+END
+application.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/inf/computing/!svn/ver/40109/trunk/dstream/src/test/integrate_test_without_bigpipe/conf/application.cfg.xml
+END
+dynamic_importer.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_without_bigpipe/conf/dynamic_importer.cfg.xml
+END
+dstream.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_without_bigpipe/conf/dstream.conf
+END
+cluster_config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_without_bigpipe/conf/cluster_config.xml
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_without_bigpipe/conf/log.conf
+END
+sub_tree.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_without_bigpipe/conf/sub_tree.cfg.xml
+END
+echo_importer_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/inf/computing/!svn/ver/36778/trunk/dstream/src/test/integrate_test_without_bigpipe/conf/echo_importer_sub.xml
+END
+monitor.conf
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_without_bigpipe/conf/monitor.conf
+END
+dstream.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_without_bigpipe/conf/dstream.cfg.xml
+END
+sub_exporter.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_without_bigpipe/conf/sub_exporter.cfg.xml
+END

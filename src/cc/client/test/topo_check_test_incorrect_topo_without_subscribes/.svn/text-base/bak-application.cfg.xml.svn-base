@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<!-- APP全局配置信息 -->
+	<AppName>word_count_test</AppName>
+	<Description>示例echo程序</Description>
+
+	<!-- 程序拓扑结构 -->
+	<Topology>
+		<!-- Processor的个数,包括Importer、Exporter、Work Processor -->
+		<ProcessorNum>8</ProcessorNum>
+		<!-- 起始Processor：Importer -->
+		<Importer>
+			<!-- 一个完整的Importer -->
+			<Importer1>
+				<ProcessorName>echo_importer1</ProcessorName>
+				<Description></Description>
+				<!-- Processor的执行参数,相对路径为Processor的目录 -->
+        <RunCmd>"./echo_importer log 1"</RunCmd>
+				<!-- 资源配置 -->
+				<Resource>
+					<!-- CPU\Memory是必填选项 -->
+					<CPU>0.5</CPU>
+					<!-- 单位：MB -->
+					<Memory>16000</Memory>
+				</Resource>
+				<!-- 并发数 -->
+				<Parallelism>1</Parallelism>	
+				<!-- 副本数 -->
+				<BackupPENum>1</BackupPENum>
+				<!-- Processer是否需要记录状态，默认为0：pe不记录状态，不做checkpoint -->
+        <StatusMark>0</StatusMark>	
+        <!-- 打包参数，指定多少哥Tuple打成一个数据包传送，-->
+        <!-- 可以提高程序吞吐，可能增加部分时延 -->
+        <TuplesBatchCount>10</TuplesBatchCount>			
+        <!-- 指定importer的订阅配置文件的位置，默认为importer的目录下的 -->
+        <!-- {importer_name_sub}.xml -->
+				<Subscribe>./echo_importer1.conf.xml</Subscribe>
+			</Importer1>
+			<Importer2>
+				<ProcessorName>echo_importer2</ProcessorName>
+				<Description></Description>
+        <RunCmd>./echo_importer</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+        <StatusMark>0</StatusMark>	
+        <TuplesBatchCount>10</TuplesBatchCount>			
+			</Importer2>
+		</Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>echo_exporter</ProcessorName>
+				<Description>输出到本地文本文件</Description>
+				<RunCmd>"./bin/export -file result.txt"</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+        <StatusMark>0</StatusMark>
+				<TuplesBatchCount>10</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task_level3_p1</processor>
+						<tag>in</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task_level3_p2</processor>
+						<tag>in</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+		<Processor>
+			<Processor1>
+				<ProcessorName>echo_pe_task_level1_p1</ProcessorName>
+				<Description></Description>
+       	<RunCmd>./echo_pe_task_level1</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>3</Parallelism>
+				<BackupPENum>1</BackupPENum>
+        <StatusMark>0</StatusMark>
+				<TuplesBatchCount>10</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_importer1</processor>
+						<tag>in</tag>
+					</source>
+				</Subscribe>
+			</Processor1>
+			<Processor2>
+				<ProcessorName>echo_pe_task_level1_p2</ProcessorName>
+				<Description></Description>
+       	<RunCmd>./echo_pe_task_level1</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>2</Parallelism>
+				<BackupPENum>1</BackupPENum>
+        <StatusMark>0</StatusMark>
+				<TuplesBatchCount>10</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_importer2</processor>
+						<tag>in</tag>
+					</source>
+				</Subscribe>
+			</Processor2>
+			<Processor3>
+				<ProcessorName>echo_pe_task_level2</ProcessorName>
+				<Description></Description>
+				<Description></Description>
+       	<RunCmd>./echo_pe_task_level2</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>4</Parallelism>
+				<BackupPENum>1</BackupPENum>
+        <StatusMark>0</StatusMark>
+				<TuplesBatchCount>10</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task_level1_p1</processor>
+						<tag>in</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task_level1_p2</processor>
+						<tag>in</tag>
+					</source>
+				</Subscribe>
+			</Processor3>
+			<Processor4>
+				<ProcessorName>echo_pe_task_level3_p1</ProcessorName>
+				<Description></Description>
+				<Description></Description>
+       	<RunCmd>./echo_pe_task_level3</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>2</Parallelism>
+				<BackupPENum>1</BackupPENum>
+        <StatusMark>0</StatusMark>
+				<TuplesBatchCount>10</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task_level2</processor>
+						<!--tag字段为空代表订阅上游所有tag -->
+						<tag>in</tag>
+					</source>
+					<source>
+						<processor>echo_pe_task_level1_p1</processor>
+						<tag>in</tag>
+					</source>
+				</Subscribe>
+			</Processor4>
+			<Processor5>
+				<ProcessorName>echo_pe_task_level3_p2</ProcessorName>
+				<Description></Description>
+				<Description></Description>
+       	<RunCmd>./echo_pe_task_level3</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>16000</Memory>
+				</Resource>
+				<Parallelism>2</Parallelism>
+				<BackupPENum>1</BackupPENum>
+        <StatusMark>0</StatusMark>
+				<TuplesBatchCount>10</TuplesBatchCount>				
+				<Subscribe>
+					<source>
+						<processor>echo_pe_task_level2</processor>
+						<tag>in</tag>
+					</source>
+				</Subscribe>
+			</Processor5>
+		</Processor>
+	</Topology>
+</APP>

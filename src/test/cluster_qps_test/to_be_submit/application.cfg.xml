@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>echo_test_3</AppName>
+	<Description>echo word</Description>
+
+	<Topology>
+		<ProcessorNum>3</ProcessorNum>
+		<UpStreamBigpipeNum>3</UpStreamBigpipeNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>importer</ProcessorName>
+				<Description></Description>
+                <RunCmd>./importer</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>2G</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+                <TuplesBatchCount>500</TuplesBatchCount>			
+                <ForceForwardTuplesPeriodMillSeconds>100</ForceForwardTuplesPeriodMillSeconds>
+			</Importer1>
+		</Importer>
+		<Processor>
+			<Processor1>
+				<ProcessorName>task</ProcessorName>
+				<Description></Description>
+                <RunCmd>./task</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>2G</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+                <ForceForwardTuplesPeriodMillSeconds>100</ForceForwardTuplesPeriodMillSeconds>
+				<Subscribe>
+					<source>
+						<processor>importer</processor>
+						<tag>EchoImporter</tag>
+					</source>
+				</Subscribe>
+			</Processor1>
+		</Processor>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>exporter</ProcessorName>
+				<Description></Description>
+                <RunCmd>./exporter</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>2G</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>500</TuplesBatchCount>				
+                <ForceForwardTuplesPeriodMillSeconds>100</ForceForwardTuplesPeriodMillSeconds>
+				<Subscribe>
+					<source>
+						<processor>task</processor>
+						<tag>EchoTask</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+	</Topology>
+</APP>

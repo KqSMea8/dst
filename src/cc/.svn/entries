@@ -1,0 +1,132 @@
+10
+
+dir
+58417
+https://svn.baidu.com/inf/computing/trunk/dstream/src/cc
+https://svn.baidu.com/inf/computing
+
+
+
+2014-07-14T11:00:25.505121Z
+50115
+huzongxing
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+5ee14639-69ca-404e-8003-0feac8d9a543
+
+COMAKE
+file
+
+
+
+
+2015-02-13T05:38:31.000000Z
+d457512686d484cc9d451f08fde44672
+2014-07-14T11:00:25.505121Z
+50115
+huzongxing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+342
+
+utils
+dir
+
+metamanager
+dir
+
+transporter
+dir
+
+processnode
+dir
+
+storage
+dir
+
+COMAKE.all
+file
+
+
+
+
+2015-02-13T05:38:31.000000Z
+0582a3145d531f6b61b89ddd7d0ad8c3
+2014-06-26T07:44:53.009897Z
+49626
+huzongxing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1308
+
+generic_operator
+dir
+
+common
+dir
+
+processelement
+dir
+
+streaming
+dir
+
+processmaster
+dir
+
+client
+dir
+
+scheduler
+dir
+

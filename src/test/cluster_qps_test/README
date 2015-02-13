@@ -1,0 +1,22 @@
+Automation test for cluster QPS and Latency
+
+Submit Job:
+1. modifiy test cases config file in conf/test_cases
+2. add test cases in TEST_CASES variable(in run_test.py) list
+3. modify time intervals(SUBMIT_INTERVAL variable) between each submit
+4. run: 'python run_test.py submit'
+
+Get QPS/Latency statistics
+1. modify HTTP_INTERFACE variable to your WEBAPP's url
+2. run: 'python run_test.py analyze appid1 appid2 ...'
+3. all results will be saved in ./data/ folder as csv format
+
+Kill Job:
+1. run: 'python run_test.py kill appid1 appid2 ...'
+
+Note:
+1. run_test.py uses conf/dstream.cfg.xml to determine which cluster to submit, modify conf/dstream.cfg.xml before use it.
+
+2. importer runs in fake mode as default
+
+3. run_test.py uses data from webapp's mysql database, so make sure you have started 'counter monitor' before run test cases.

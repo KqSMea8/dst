@@ -1,0 +1,7 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+StaticLibrary('src/cc/generic_operator/generic_operator',
+              Sources('src/cc/generic_operator/joiner_context.cc',
+                      'src/cc/generic_operator/single_key_joiner.cc', 
+                      'src/cc/generic_operator/multi_key_joiner.cc'))

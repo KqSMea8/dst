@@ -1,0 +1,6 @@
+[ALARM]
+WEB_MONITOR="http://tc-hpc-dev.tc"
+GSM_SERVER="tc-sys-monitor00.tc:15001"
+MESSAGE_LIST="15911186897"
+MAIL_LIST="example@baidu.com"
+MIN_REDUP_TIME=300

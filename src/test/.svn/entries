@@ -1,0 +1,104 @@
+10
+
+dir
+58417
+https://svn.baidu.com/inf/computing/trunk/dstream/src/test
+https://svn.baidu.com/inf/computing
+
+
+
+2014-07-14T11:00:25.505121Z
+50115
+huzongxing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5ee14639-69ca-404e-8003-0feac8d9a543
+
+integrate_test
+dir
+
+dynamic_echo_test
+dir
+
+module_test
+dir
+
+user_test_box
+dir
+
+conf
+dir
+
+integrate_test_new
+dir
+
+hudson_job
+dir
+
+tools
+dir
+
+utils
+dir
+
+echo_pe
+dir
+
+integrate_test_without_bigpipe
+dir
+
+cluster_qps_test
+dir
+
+pressure_test
+dir
+
+QA test folder README.docx
+file
+
+
+
+
+2014-01-09T11:07:30.000000Z
+51511bcbd6a26f8b276a55c09ae0c85c
+2012-04-06T02:13:59.793482Z
+9705
+liufeng07
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15623
+
+joiner_pe
+dir
+

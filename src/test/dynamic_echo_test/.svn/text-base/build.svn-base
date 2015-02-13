@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "UPDATE pesdk first"
+comake2 -UB
+comake2
+make

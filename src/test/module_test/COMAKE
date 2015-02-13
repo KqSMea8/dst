@@ -1,0 +1,99 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+
+INCPATHS('src/test/module_test')
+
+#rpc
+Application('src/test/module_test/rpc_client',
+            Sources('src/test/module_test/rpc_client.cc',
+                    'src/test/module_test/rpc_hello.proto'), OutputPath(''))
+Application('src/test/module_test/test_rpc_client_fern',
+            Sources('src/test/module_test/test_rpc_client_fern.cc',
+                    'src/test/module_test/rpc_hello.proto'), OutputPath(''))
+Application('src/test/module_test/test_rpc_gtest',
+            Sources('src/test/module_test/test_rpc_gtest.cc',
+                    'src/test/module_test/rpc_hello.proto'), OutputPath(''))
+Application('src/test/module_test/rpc_benchmark',
+            Sources('src/test/module_test/rpc_benchmark.cc',
+                    'src/test/module_test/rpc_hello.proto'), OutputPath(''))
+Application('src/test/module_test/rpc_server',
+            Sources('src/test/module_test/rpc_server.cc',
+                    'src/test/module_test/rpc_hello.proto'), OutputPath(''))
+
+
+#blocking queue
+Application('src/test/module_test/test_blocking_queue',
+            Sources('src/test/module_test/test_blocking_queue.cc'), OutputPath(''))
+
+#bounded blocking queue
+Application('src/test/module_test/bounded_blocking_queue',
+            Sources('src/test/module_test/bounded_blocking_queue.cc'), OutputPath(''))
+
+#linked list queue
+Application('src/test/module_test/linked_list_queue',
+            Sources('src/test/module_test/linked_list_queue.cc'), OutputPath(''))
+
+
+#pe task
+#Application('src/test/module_test/pe_task',
+#            Sources('src/test/module_test/pe_task.cc',
+#                    'src/test/module_test/rpc_hello.proto'), OutputPath(''))
+
+Application('src/test/module_test/test_pe_task',
+            Sources('src/test/module_test/test_pe_task.cc',
+                    'src/test/module_test/rpc_hello.proto'), OutputPath(''))
+
+
+#zookeeper client
+Application('src/test/module_test/zk_client',
+            Sources('src/test/module_test/zk_client.cc'), OutputPath(''))
+
+#pm/pn rpc server/client
+#Application('src/test/module_test/pm_rpc_server',
+#            Sources('src/test/module_test/pm_rpc_server.cc',
+#                    IncludePaths('src/test/module_test',
+#                                 './common',
+#                                 './common/proto') + ENV.IncludePaths()),
+#            Libraries('common/libcommon.a',
+#                      'common/proto/libproto.a') + ENV.Libraries(), OutputPath(''))
+
+#Application('src/test/module_test/pn_rpc_server',
+#            Sources('src/test/module_test/pn_rpc_server.cc',
+#                    IncludePaths('src/test/module_test',
+#                                 './common',
+#                                 './common/proto') + ENV.IncludePaths()),
+#            Libraries('common/libcommon.a',
+#                      'common/proto/libproto.a') + ENV.Libraries(), OutputPath(''))
+
+#Application('src/test/module_test/pm_rpc_client',
+#            Sources('src/test/module_test/pm_rpc_client.cc',
+#                    IncludePaths('src/test/module_test',
+#                                 './common',
+#                                 './common/proto') + ENV.IncludePaths()),
+#            Libraries('common/libcommon.a',
+#                      'common/proto/libproto.a') + ENV.Libraries(), OutputPath(''))
+
+#Application('src/test/module_test/pn_rpc_client',
+#            Sources('src/test/module_test/pn_rpc_client.cc',
+#                    IncludePaths('src/test/module_test',
+#                                 './common',
+#                                 './common/proto') + ENV.IncludePaths()),
+#            Libraries('common/libcommon.a',
+#                      'common/proto/libproto.a') + ENV.Libraries(), OutputPath(''))
+
+#TARGET('rpc_test',
+#       Depends('src/test/module_test/pm_rpc_client',
+#               'src/test/module_test/pm_rpc_server',
+#               'src/test/module_test/pn_rpc_client',
+#               'src/test/module_test/pn_rpc_server'))
+
+#meta
+#Application('src/test/module_test/meta',
+#            Sources('src/test/module_test/meta.cc',
+#                    IncludePaths('./common',
+#                                 './common/proto',
+#                                 './metamanager') + ENV.IncludePaths()),
+#            Libraries('common/libcommon.a',
+#                      'common/proto/libproto.a',
+#                      'metamanager/libmetamanager.a') + ENV.Libraries(), OutputPath(''))

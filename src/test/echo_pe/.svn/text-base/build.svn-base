@@ -1,0 +1,12 @@
+#!/bin/bash
+# copy sdk to local
+cd ../../cc/processelement/
+./release_sdk || Error "release sdk failed"
+cp -r pesdk/ ../../test/echo_pe/
+cd -
+
+# comake & make, generate app
+comake2 -UB
+comake2
+make
+

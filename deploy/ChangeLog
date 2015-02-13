@@ -1,0 +1,15 @@
+2012-07-16 zhanggengxin <zhanggengxin@baidu.com>
+	Fix Bug : check config item before install/update/start/stop
+	Fix Bug : Set ssh timeout to 60s for large cluster
+
+2012-07-18 zhanggengxin <zhanggengxin@baidu.com>
+	Add check user_config file
+	Fix Bug : fix bug when install zk
+
+2012-07-24 zhanggengxin <zhanggengxin@baidu.com>
+	Fix Bug : fix bug for install hadoop-client
+	Remove Webapps : remove install webapps for install webapps not success always
+
+2012-09-12 zhanggengxin <zhanggengxin@baidu.com>
+	Add update jdk to 1.6.0_32
+	

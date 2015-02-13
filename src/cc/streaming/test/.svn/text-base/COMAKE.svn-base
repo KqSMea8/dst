@@ -1,0 +1,9 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+Application('src/cc/streaming/test/test_streaming_logagent_importer',
+            Sources('src/cc/streaming/streaming_logagent_importer.cc',
+                    'src/cc/streaming/streaming.cc',
+                    'src/cc/streaming/test/test_streaming_logagent_importer.cc',
+                    'src/cc/streaming/test/person.proto'),
+            OutputPath(''))

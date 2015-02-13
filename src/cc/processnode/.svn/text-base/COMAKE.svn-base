@@ -1,0 +1,36 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+StaticLibrary('src/cc/processnode/processnode',
+            Sources('src/cc/processnode/pe_wrapper.cc', 
+                    'src/cc/processnode/zk_wrapper.cc', 
+                    'src/cc/processnode/config_map.cc',  
+                    'src/cc/processnode/process.cc', 
+                    'src/cc/processnode/process_builder.cc', 
+                    'src/cc/processnode/process_node.cc', 
+                    'src/cc/processnode/process_manager.cc',
+                    'src/cc/processnode/on_pe_callback.cc',
+                    'src/cc/processnode/pn_rpc_server.cc',
+                    'src/cc/processnode/prolog.cc',
+                    'src/cc/processnode/pn_reporter.cc',
+                    'src/cc/processnode/pe_wrapper_manager.cc',
+                    'src/cc/processnode/fd_capture.cc',
+                    'src/cc/processnode/zk_operator.cc',
+                    'src/cc/processnode/router_mgr.cc',
+                    'src/cc/processnode/app_router.cc',
+                    'src/cc/processnode/pn_httpd.cc'),
+             OutputPath(''))
+
+Application('src/cc/pn',
+            Sources('src/cc/processnode/main.cc',
+            ),
+            IncludePaths('processnode',
+                         'common',
+                         'common/proto') + ENV.IncludePaths(),
+            Libraries('src/cc/metamanager/libmetamanager.a',
+                      'src/cc/transporter/libtransporter.a',
+                      'src/cc/processelement/libprocesselement.a',
+                      'src/cc/processmaster/libprocessmaster.a',
+                      'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath('src/cc'))
+

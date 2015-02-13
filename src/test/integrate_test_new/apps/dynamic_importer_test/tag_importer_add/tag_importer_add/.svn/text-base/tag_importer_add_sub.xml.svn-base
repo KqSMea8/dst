@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<word_cnt_importer>
+<!--
+    <BigPipe>
+          <p10>
+                <Authentication>test</Authentication>
+                <Token>token</Token>
+                <Pipelet>0</Pipelet>
+                <PipeletNum>1</PipeletNum>
+                <SubPoint>-1</SubPoint>
+          </p10>
+    </BigPipe>
+-->
+    <LocalFile>
+      <FileName>./data/local_file</FileName>
+      <SubPoint>0</SubPoint>
+    </LocalFile>
+</word_cnt_importer>

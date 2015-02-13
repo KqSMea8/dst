@@ -1,0 +1,419 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/inf/computing/!svn/ver/49626/trunk/dstream/src/cc/common
+END
+rpc_const.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/rpc_const.h
+END
+blocking_queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/blocking_queue.h
+END
+id.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/id.h
+END
+auto_ptr.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/computing/!svn/ver/37497/trunk/dstream/src/cc/common/auto_ptr.h
+END
+dstream_type.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/dstream_type.cc
+END
+byte_array.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/byte_array.cc
+END
+rwlock.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/rwlock.cc
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/utils.h
+END
+counters.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/counters.h
+END
+blocking_set.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/blocking_set.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/config.h
+END
+rpc_server.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/rpc_server.cc
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/computing/!svn/ver/42211/trunk/dstream/src/cc/common/COMAKE
+END
+serializer.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/serializer.h
+END
+hdfs_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/43985/trunk/dstream/src/cc/common/hdfs_client.cc
+END
+rpc_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/rpc_client.h
+END
+dynamic_type.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/dynamic_type.h
+END
+file_meta.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/file_meta.h
+END
+condition.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/condition.h
+END
+ringbuffer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/ringbuffer.cc
+END
+commit_log.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/47940/trunk/dstream/src/cc/common/commit_log.h
+END
+error.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/error.h
+END
+bounded_blocking_queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/bounded_blocking_queue.h
+END
+proto_serializer.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/proto_serializer.h
+END
+utils.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/42211/trunk/dstream/src/cc/common/utils.cc
+END
+mutex.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/mutex.cc
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/10811/trunk/dstream/src/cc/common/ChangeLog
+END
+dstream_optional.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/dstream_optional.h
+END
+linked_list_queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/linked_list_queue.h
+END
+rpc_server.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/rpc_server.h
+END
+application_tools.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/42211/trunk/dstream/src/cc/common/application_tools.cc
+END
+hdfs_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/hdfs_client.h
+END
+application_tools.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/application_tools.h
+END
+dstream.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/dstream.cc
+END
+dstream.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/dstream.h
+END
+dstream_httpd.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/43985/trunk/dstream/src/cc/common/dstream_httpd.cc
+END
+rwlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/rwlock.h
+END
+byte_array.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/byte_array.h
+END
+dstream_optional.cc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/dstream_optional.cc
+END
+mutex.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/mutex.h
+END
+config.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/config.cc
+END
+proto_dynamic.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/proto_dynamic.h
+END
+proto_rpc.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/proto_rpc.h
+END
+serializer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/serializer.cc
+END
+cglimit_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/42211/trunk/dstream/src/cc/common/cglimit_utils.h
+END
+logger.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/logger.cc
+END
+time_cache_map.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/time_cache_map.h
+END
+logger.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/logger.h
+END
+zk_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/zk_client.cc
+END
+mem_mgr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/mem_mgr.cc
+END
+dynamic_type.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/dynamic_type.cc
+END
+mem_mgr.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/common/mem_mgr.h
+END
+rpc.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/rpc.h
+END
+error.cc
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/error.cc
+END
+commit_log.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/47940/trunk/dstream/src/cc/common/commit_log.cc
+END
+rpc_const.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/rpc_const.cc
+END
+ringbuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/ringbuffer.h
+END
+counters.cc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/counters.cc
+END
+dstream_type.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/37497/trunk/dstream/src/cc/common/dstream_type.h
+END
+dstream_httpd.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/dstream_httpd.h
+END
+thread.cc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/thread.cc
+END
+cglimit_utils.cc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/43985/trunk/dstream/src/cc/common/cglimit_utils.cc
+END
+thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/thread.h
+END
+config_const.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/common/config_const.cc
+END
+config_const.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/common/config_const.h
+END
+rpc_client.cc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/rpc_client.cc
+END
+rpc.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/rpc.cc
+END
+zk_client.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/common/zk_client.h
+END
+condition.cc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/inf/computing/!svn/ver/37558/trunk/dstream/src/cc/common/condition.cc
+END

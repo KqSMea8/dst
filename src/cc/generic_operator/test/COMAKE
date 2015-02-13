@@ -1,0 +1,38 @@
+
+CXXFLAGS_TEST = '-DUNIT_TEST -Dprivate=public -Dprotected=public -DMOCKVIRTUAL=virtual'
+
+Application('src/cc/generic_operator/test/test_timed_sliding_windows',
+            Sources('src/cc/generic_operator/test/test_timed_sliding_windows.cc'),
+            ENV.IncludePaths(),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/generic_operator/libgeneric_operator.a')
+            + ENV.Libraries(), OutputPath(''))
+
+Application('src/cc/generic_operator/test/test_multi_join_table',
+            Sources('src/cc/generic_operator/test/test_multi_join_table.cc'),
+            ENV.IncludePaths(),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/generic_operator/libgeneric_operator.a')
+            + ENV.Libraries(), OutputPath(''))
+
+Application('src/cc/generic_operator/test/test_join_table',
+            Sources('src/cc/generic_operator/test/test_join_table.cc'),
+            ENV.IncludePaths(),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/generic_operator/libgeneric_operator.a')
+            + ENV.Libraries(), OutputPath(''))
+
+Application('src/cc/generic_operator/test/test_multi_key_joiner',
+            Sources('src/cc/generic_operator/test/test_multi_key_joiner.cc', CppFlags(CXXFLAGS_TEST)),
+            ENV.IncludePaths(),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/generic_operator/libgeneric_operator.a')
+            + ENV.Libraries(), OutputPath(''))
+
+Application('src/cc/generic_operator/test/test_single_key_joiner',
+            Sources('src/cc/generic_operator/test/test_single_key_joiner.cc', CppFlags(CXXFLAGS_TEST)),
+            ENV.IncludePaths(),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/generic_operator/libgeneric_operator.a')
+            + ENV.Libraries(), OutputPath(''))
+

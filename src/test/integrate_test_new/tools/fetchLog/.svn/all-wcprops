@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_new/tools/fetchLog
+END
+fetchLog.conf
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test_new/tools/fetchLog/fetchLog.conf
+END
+fetchLog.sh
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/computing/!svn/ver/11406/trunk/dstream/src/test/integrate_test_new/tools/fetchLog/fetchLog.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/inf/computing/!svn/ver/11407/trunk/dstream/src/test/integrate_test_new/tools/fetchLog/README
+END

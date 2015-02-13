@@ -1,0 +1,11 @@
+
+Application('src/cc/metamanager/test/test_metamanager',
+            Sources('src/cc/metamanager/test/test_zk_meta_manager.cc'),
+			      Libraries('src/cc/metamanager/libmetamanager.a') + ENV.Libraries(),
+            OutputPath(''))
+
+Application('src/cc/metamanager/test/test_zk_config',
+            Sources('src/cc/metamanager/test/test_zk_config.cc'),
+			      Libraries('src/cc/metamanager/libmetamanager.a') + ENV.Libraries(),
+            OutputPath(''))
+

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/integrate_test/cycle_test
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/16380/trunk/dstream/src/test/integrate_test/cycle_test/COMAKE
+END
+clear.sh
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/8944/trunk/dstream/src/test/integrate_test/cycle_test/clear.sh
+END
+install.sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/8944/trunk/dstream/src/test/integrate_test/cycle_test/install.sh
+END
+echo.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test/cycle_test/echo.pb.cc
+END
+echo.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test/cycle_test/echo.pb.h
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/inf/computing/!svn/ver/8944/trunk/dstream/src/test/integrate_test/cycle_test/log.conf
+END
+wordcount.proto
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/inf/computing/!svn/ver/8944/trunk/dstream/src/test/integrate_test/cycle_test/wordcount.proto
+END
+echo_pe_importer.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test/cycle_test/echo_pe_importer.cc
+END
+echo_pe_task.cc
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test/cycle_test/echo_pe_task.cc
+END
+test_cycle_topo.sh
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/inf/computing/!svn/ver/8951/trunk/dstream/src/test/integrate_test/cycle_test/test_cycle_topo.sh
+END
+update.sh
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/inf/computing/!svn/ver/8944/trunk/dstream/src/test/integrate_test/cycle_test/update.sh
+END
+echo_pe_exporter.cc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/computing/!svn/ver/37492/trunk/dstream/src/test/integrate_test/cycle_test/echo_pe_exporter.cc
+END

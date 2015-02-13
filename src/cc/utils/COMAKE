@@ -1,0 +1,82 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+Application('src/cc/utils/pn_debugger',
+            Sources('src/cc/utils/pn_debugger.cc',
+                    IncludePaths('./processnode',
+                                 './common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/common/libcommon.a',
+                      'src/cc/common/proto/libproto.a',
+                      'src/cc/processnode/libprocessnode.a') + ENV.Libraries(),
+            OutputPath('output/utils'))
+
+Application('src/cc/utils/zk_meta_dumper',
+            Sources('src/cc/utils/zk_meta_dumper.cc'),
+            Libraries('src/cc/metamanager/libmetamanager.a') + ENV.Libraries(),
+            OutputPath('output/utils'))
+
+Application('src/cc/utils/data_dumper',
+            Sources('src/cc/utils/data_dumper.cc',
+                    IncludePaths('./common',
+                                 './common/proto') + ENV.IncludePaths()),
+            Libraries('src/cc/metamanager/libmetamanager.a') + ENV.Libraries(),
+            OutputPath('output/utils'))
+
+Application('src/cc/utils/update_cluster',
+             Sources('src/cc/utils/update_cluster.cc',
+                      IncludePaths('./common') + ENV.IncludePaths()),
+             Libraries('src/cc/metamanager/libmetamanager.a') + ENV.Libraries(),
+            OutputPath('output/utils'))
+
+Application('src/cc/utils/cluster_info',
+             Sources('src/cc/utils/cluster_info.cc',
+                     IncludePaths('./common') + ENV.IncludePaths()),
+             Libraries('src/cc/metamanager/libmetamanager.a') + ENV.Libraries(),
+            OutputPath('output/utils'))
+
+Application('src/cc/utils/get_cluster_config',
+             Sources('src/cc/utils/get_cluster_config.cc',
+                     IncludePaths('./common') + ENV.IncludePaths()),
+             Libraries('src/cc/metamanager/libmetamanager.a') + ENV.Libraries(),
+            OutputPath('output/utils'))
+
+Application('src/cc/utils/get_zk_info',
+             Sources('src/cc/utils/get_zk_info.cc',
+                     IncludePaths('./common') + ENV.IncludePaths()),
+             Libraries('src/cc/metamanager/libmetamanager.a') + ENV.Libraries(),
+            OutputPath('output/utils'))
+
+Application('src/cc/utils/dump_counters',
+            Sources('src/cc/utils/dump_counters.cc',
+                    IncludePaths('./common') + ENV.IncludePaths()),
+            Libraries('src/cc/common/libcommon.a') + ENV.Libraries(),
+            OutputPath('output/utils'))
+
+Application('src/cc/utils/gen_local_commit_log',
+             Sources('src/cc/utils/gen_local_commit_log.cc',
+                     IncludePaths('./common') + ENV.IncludePaths()),
+             Libraries('src/cc/common/libcommon.a') + ENV.Libraries(),
+             OutputPath('output/utils'))
+
+Application('src/cc/utils/pn_group_dumper',
+            Sources('src/cc/utils/pn_group_dumper.cc',
+                    IncludePaths('./common') + ENV.IncludePaths()),
+            Libraries('src/cc/common/libcommon.a') + ENV.Libraries(),
+            OutputPath('output/utils'))
+
+Application('src/cc/utils/progress_dumper',
+            Sources('src/cc/utils/progress_dumper.cc'),
+            OutputPath('output/utils'))
+Application('src/cc/utils/blacklist_utils',
+            Sources('src/cc/utils/blacklist_utils.cc'),
+            Libraries('src/cc/metamanager/libmetamanager.a') + ENV.Libraries(),
+            OutputPath('output/utils'))
+Application('src/cc/utils/zk_proto_dumper',
+            Sources('src/cc/utils/zk_proto_dumper.cc'),
+            Libraries('src/cc/metamanager/libmetamanager.a') + ENV.Libraries(),
+            OutputPath('output/utils'))
+
+Application('src/cc/utils/lfconverter',
+            Sources('src/cc/utils/lfconverter.cc'),
+            OutputPath('output/utils'))

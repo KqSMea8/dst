@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cluster>
+    <ZooKeeperPath>
+        <PM><Root>/dstream_lyj/PM</Root></PM>
+        <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+        <Config><Root>/dstream_lyj/Config</Root></Config>
+        <App><Root>/dstream_lyj/App</Root></App>
+        <PN><Root>/dstream_lyj/PN</Root></PN>
+        <Client><Root>/dstream_lyj/Client</Root></Client>
+        <Recv>
+            <TimeoutMs>30000</TimeoutMs>
+        </Recv>
+    </ZooKeeperPath>
+
+    <HDFS>
+      <HadoopClientDir>/home/liyuanjian/mapred/hadoop-client/hadoop/</HadoopClientDir>
+      <Retry>3</Retry>
+    </HDFS>
+</Cluster>

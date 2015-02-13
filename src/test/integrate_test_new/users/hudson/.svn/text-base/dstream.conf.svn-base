@@ -1,0 +1,96 @@
+#dstream and hadoop version config
+#dsteam_tag : set dstream_tag="dstream_1-0-*-*_PD_BL"
+#             set dstream_tag="../" if rd used in [dstream/deploy] dir
+dstream_tag="../"
+hadoop_tag="hadoop-client-v2-u13-b4.tar.gz"
+
+#deploy dir on dest machine
+dest_dir="/home/liyuanjian/dstream_hudson"
+
+#machine settings
+#pm/pn list file
+pm_list_file="./machines/test_machines/pm_list"
+pn_list_file="./machines/test_machines/pn_list"
+
+#zk machine
+zk_machine="nj01-inf-offline151.nj01.baidu.com:2182"
+#webapps machine and port
+webapps_machine="cq01-testing-platqa2166.vm.baidu.com"
+webapps_port=80
+# database_name for log-monitor & some monitors.
+# Leave it as default if you don't know what it is.
+database_name="dstream"
+#if webapps has installed : webapps will not install and updated
+install_webapps=0
+
+#machine user settings
+user_name="liyuanjian"
+user_passwd="liyuanjian1990728"
+root_passwd=""
+
+#roshan address
+roshan_url=""
+
+#zk root config
+dstream_zk_root="/dstream_lyj"
+
+#dstream user/password config
+dstream_user="lyj"
+dstream_passwd="lyj"
+
+#hdfs config
+hdfs_path="hdfs://cq01-testing-dcqa-b4.cq01:38002"
+hdfs_user="root"
+hdfs_passwd="root"
+hdfs_web_url=""
+
+#pn config
+pn_debug_port=8301
+pm_httpd_port=8295
+pn_httpd_port=8296
+pn_config_cpu="16"
+pn_config_memory="10G"
+
+#file server config
+file_server_port=8309
+
+#pn/pm start memory limit
+pm_memory_limit="2G"
+pn_memory_limit="20G"
+
+#alarm setting
+emails="liyuanjian@baidu.com"
+mobiles="130000"
+gsm_server="tc-sys-monitor00.tc:15001"
+
+#log setting
+log_level="INFO"
+
+#zk install settings
+zk_tag="zookeeper_1-0-2-0_PD_BL"
+zk_dir=""
+zk_internal_port1=2888
+zk_internal_port2=3888
+
+
+# counter monitor config
+# counter name to monitor,sepreate by ','
+monitor_items="test.num1,test.rate1"
+# counter dump interval(seconds)
+report_interval="10"
+# if use relative path, the relative root is dstream deploy root
+counter_dir="counter"
+# cluster name for later use
+cluster_name="test"
+
+#rd used do not modifyed
+#hadoop_client_path=""
+dstream_zk_pm_root="$dstream_zk_root/PM"
+dstream_zk_pn_root="$dstream_zk_root/PN"
+dstream_zk_client_root="$dstream_zk_root/Client"
+dstream_zk_config_root="$dstream_zk_root/Config"
+dstream_zk_app_root="$dstream_zk_root/App"
+hdfs_pn_log_path="$hdfs_path/PN"
+hadoop_client_path="$dest_dir/utils/hadoop-client/hadoop/"
+#used for qa testing
+dstream_base="getprod@buildprod.scm.baidu.com:/temp/data/prod-64/inf/computing/dstream/Dstream_1.3.0_build_release/"

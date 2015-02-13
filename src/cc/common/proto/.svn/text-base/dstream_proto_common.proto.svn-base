@@ -1,0 +1,39 @@
+package dstream;
+
+//processor id definition
+message ProcessorID {
+  optional fixed64  id = 1;
+}
+
+//pn id definition
+message PNID {
+  optional string id = 1;
+}
+//pe id definition
+message PEID {
+  optional fixed64 id = 1;
+}
+
+//resource definition
+message Resource {
+  optional float    cpu = 1;
+  optional fixed64  memory = 2;
+  optional fixed64  network = 3;
+  optional fixed64  disk = 4;
+}
+
+//PN send current status to PM
+message PNResourceStatus {
+  optional Resource total_resource = 1;
+  //pn resource utilize definition
+  optional float cpu_utilize = 2;
+  optional float memory_utilize = 4;
+  optional float network_utilize = 6;
+  optional float disk_utilize = 8;
+}
+
+//Black List Map 
+message PEPNBlackList {
+  optional PEID pe_id = 1;
+  repeated PNID pn_id = 2;  
+}

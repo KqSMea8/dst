@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/49626/trunk/dstream/src/test/integrate_test_new/apps/test_echo_press
+END
+env_prepare.sh
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/test_echo_press/env_prepare.sh
+END
+sub.sh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/computing/!svn/ver/15031/trunk/dstream/src/test/integrate_test_new/apps/test_echo_press/sub.sh
+END
+regression-testing.sh
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/inf/computing/!svn/ver/33337/trunk/dstream/src/test/integrate_test_new/apps/test_echo_press/regression-testing.sh
+END
+del.sh
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/inf/computing/!svn/ver/15032/trunk/dstream/src/test/integrate_test_new/apps/test_echo_press/del.sh
+END

@@ -1,0 +1,9 @@
+
+pipe.sh # 使用这个脚本创建删除pipe，直接执行会打印使用方法
+word_cnt_pub # 使用这个工具往某个pipe灌消息，直接执行会打印使用方法
+word_cnt_sub # 使用这个工具查看某个pipe已经存放的消息，直接执行会打印使用方法
+cm # 这是个shell工具(包装xml)，可以按xpath修改某个xml的value，直接执行会打印使用方法
+bigpipe_util # bigpipe组提供的操作bigpipe集群的util工具
+rm_zk/rm_rf.sh # 该工具可以删除指定zk node
+
+

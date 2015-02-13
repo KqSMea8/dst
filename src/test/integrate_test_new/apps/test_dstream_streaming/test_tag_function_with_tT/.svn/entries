@@ -1,0 +1,80 @@
+10
+
+dir
+58417
+https://svn.baidu.com/inf/computing/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/test_tag_function_with_tT
+https://svn.baidu.com/inf/computing
+
+
+
+2014-06-26T07:44:53.009897Z
+49626
+huzongxing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5ee14639-69ca-404e-8003-0feac8d9a543
+
+echo_importer
+dir
+
+application.cfg.xml
+file
+
+
+
+
+2014-01-09T11:07:19.000000Z
+7241699c5be5d495aeb4d51a8303ce7e
+2012-06-13T07:50:25.410966Z
+11749
+liyuanjian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2984
+
+echo_exporter_tg1
+dir
+
+echo_exporter_tg2
+dir
+
+echo_pe_task
+dir
+
+echo_exporter_tgdefault
+dir
+
+echo_exporter
+dir
+

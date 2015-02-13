@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/computing/!svn/ver/47940/trunk/dstream/src/script/webapps
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/inf/computing/!svn/ver/36778/trunk/dstream/src/script/webapps/build.sh
+END
+webctl.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/webctl.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/33337/trunk/dstream/src/script/webapps/README
+END

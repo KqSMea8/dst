@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/test_tag_complex_sub_tree/echo_exporter_add
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/inf/computing/!svn/ver/38225/trunk/dstream/src/test/integrate_test_new/apps/test_tag_complex_sub_tree/echo_exporter_add/log.conf
+END
+streaming
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/inf/computing/!svn/ver/13058/trunk/dstream/src/test/integrate_test_new/apps/test_tag_complex_sub_tree/echo_exporter_add/streaming
+END

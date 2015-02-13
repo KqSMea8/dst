@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/inf/computing/!svn/ver/47940/trunk/dstream/src/cc/metamanager
+END
+COMAKE
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/inf/computing/!svn/ver/18077/trunk/dstream/src/cc/metamanager/COMAKE
+END
+zk_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/metamanager/zk_config.h
+END
+meta_manager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/metamanager/meta_manager.cc
+END
+meta_manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/inf/computing/!svn/ver/47940/trunk/dstream/src/cc/metamanager/meta_manager.h
+END
+zk_meta_manager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/inf/computing/!svn/ver/47940/trunk/dstream/src/cc/metamanager/zk_meta_manager.cc
+END
+zk_meta_manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/47940/trunk/dstream/src/cc/metamanager/zk_meta_manager.h
+END
+memory_meta_manager.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/metamanager/memory_meta_manager.cc
+END
+zk_config.cc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/metamanager/zk_config.cc
+END
+memory_meta_manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/40109/trunk/dstream/src/cc/metamanager/memory_meta_manager.h
+END

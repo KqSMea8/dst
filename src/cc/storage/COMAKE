@@ -1,0 +1,11 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+StaticLibrary('src/cc/storage/storage',
+              Sources('src/cc/storage/dredis.cc',
+                      'src/cc/storage/dredis_sa.cc',
+                      'src/cc/storage/dredis_list.cc',
+                      'src/cc/storage/dredis_hash.cc',
+                      'src/cc/storage/error.cc'))
+
+#execfile('./test/COMAKE')

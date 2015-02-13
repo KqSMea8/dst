@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+    <AppName>echo_test</AppName>
+    <Description>echo word</Description>
+    <Topology>
+        <ProcessorNum>2</ProcessorNum>
+        <Importer>
+            <Importer1>
+                <ProcessorName>tag_importer_add</ProcessorName>
+                <Description></Description>
+                <RunCmd>./tag_importer_add</RunCmd>
+                <Resource>
+                    <CPU>0.5</CPU>
+                    <Memory>160M</Memory>
+                </Resource>
+                <Parallelism>1</Parallelism>    
+            </Importer1>
+        </Importer>
+        <Processor>
+            <Processor1>
+                <ProcessorName>echo_pe_task</ProcessorName>
+                <Description></Description>
+                <RunCmd>./echo_pe_task</RunCmd>
+                <Resource>
+                    <CPU>0.5</CPU>
+                    <Memory>160M</Memory>
+                </Resource>
+                <Parallelism>1</Parallelism>
+                <Subscribe>
+                    <source>
+                        <processor>tag_importer_add</processor>
+                        <tag>dynamic.TestDynamicTest</tag>
+                    </source>
+                </Subscribe>
+            </Processor1>
+        </Processor>
+    </Topology>
+</APP>

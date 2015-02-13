@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<APP>
+	<AppName>joiner_operator</AppName>
+	<Description>test joiner</Description>
+
+	<Topology>
+		<ProcessorNum>3</ProcessorNum>
+		<Importer>
+			<Importer1>
+				<ProcessorName>joiner_importer</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./joiner_importer -o importer0 -s 100 -r 20 -j 9</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>100M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>	
+                <TuplesBatchCount>500</TuplesBatchCount>			
+				<ForceForwardBatchsPeriodMillSeconds>1000</ForceForwardBatchsPeriodMillSeconds>
+			</Importer1>
+			<Importer2>
+				<ProcessorName>joiner_importer1</ProcessorName>
+				<Description></Description>
+        			<RunCmd>./joiner_importer -o importer1 -s 100 -r 100</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>100M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>	
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>	
+                <TuplesBatchCount>500</TuplesBatchCount>			
+				<ForceForwardBatchsPeriodMillSeconds>1000</ForceForwardBatchsPeriodMillSeconds>
+			</Importer2>
+		</Importer>
+		<Exporter>
+			<Exporter1>
+				<ProcessorName>joiner_task</ProcessorName>
+				<Description/>
+        			<RunCmd>./joiner_task_single</RunCmd>
+				<Resource>
+					<CPU>0.5</CPU>
+					<Memory>100M</Memory>
+				</Resource>
+				<Parallelism>1</Parallelism>
+				<BackupPENum>1</BackupPENum>
+                <StatusMark>0</StatusMark>
+				<TuplesBatchCount>1000</TuplesBatchCount>				
+				<ForceForwardBatchsPeriodMillSeconds>1000</ForceForwardBatchsPeriodMillSeconds>
+				<Subscribe>
+					<source>
+						<processor>joiner_importer</processor>
+						<tag>importer0</tag>
+					</source>
+					<source>
+						<processor>joiner_importer1</processor>
+						<tag>importer1</tag>
+					</source>
+				</Subscribe>
+			</Exporter1>
+		</Exporter>
+	</Topology>
+</APP>

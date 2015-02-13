@@ -1,0 +1,4 @@
+32c32
+<         max_sockets = 512,
+---
+>         max_sockets = 8192,

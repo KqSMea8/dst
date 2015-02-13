@@ -1,0 +1,206 @@
+package dstream;
+import "dstream_proto_common.proto";
+import "pn.proto" ;
+
+message User {
+  optional fixed64  session_id = 1;
+  optional string   username = 2;
+  optional string   password = 3;
+  optional string   hostname = 4;
+  optional string   hostip   = 5;
+  optional string   version  = 6;
+}
+
+message AppID {
+  optional fixed64  session_id = 1;
+  optional fixed64  id = 2;
+}
+
+message FileConfig {
+  optional string path = 1;
+  optional string username = 2;
+  optional string password = 3;
+}
+
+enum ProcessorRole {
+    IMPORTER        = 0;
+    EXPORTER        = 1;
+    WORK_PROCESSOR  = 2;
+}
+
+message Processor {
+  optional string           name = 1;
+  optional string           descr = 2;
+  optional ProcessorID      id = 3;
+  optional ProcessorRole    role = 4; 
+  optional string           exec_cmd = 5;
+  optional Resource         resource_require = 7;
+  optional fixed32          parallism = 8;
+  optional fixed32          backup_num = 9;
+  optional Publish          publish = 10;
+  optional Subscribe        subscribe = 11;
+  optional string           status_mark = 12;
+  optional fixed64          tuple_batch_count = 13;
+  optional fixed64          force_forward_tuples_period_ms = 14;
+  optional string           dynamic_proto_dir = 15;
+  optional fixed64          send_queue_size = 16;
+  optional fixed64          recv_queue_size = 17;
+  optional float            send_watermark = 18;
+  optional float            recv_watermark = 19;
+  optional fixed64          fetch_timeout_ms = 20;
+  optional fixed64          send_timeout_ms = 21;
+  optional fixed32          exec_workers = 22;
+  optional fixed32          net_workers = 23;
+  optional fixed32          disk_workers = 24;
+  optional fixed64          small_tran_buf_num = 25;
+  optional fixed64          small_tran_buf_size = 26;
+  optional fixed64          big_tran_buf_num = 27;
+  optional float            buf_low_mark = 28;
+  optional fixed64          tuple_batch_size = 29;
+  optional string           pn_group = 30;
+  optional string           persist_progress = 31;
+  optional uint32           cur_revision = 32;
+  optional uint32           max_revision = 33;
+  optional FlowControl      flow_control = 34;
+}
+
+message Publish {
+  repeated string tags = 1;
+  optional string type = 2;
+  optional BigpipePub bigpipe = 3;
+}
+
+message BigpipePub {
+  optional string   pipe_name = 1;
+  optional string   pub_token  = 2;
+  optional fixed32  pipelet_num = 3;
+  optional fixed32  retry_time = 4;
+  optional fixed32  retry_interval = 5;
+  optional string   pub_user = 6;
+}
+
+message Subscribe {
+  repeated BigpipeSub   bigpipe   = 1;
+  repeated HdfsSub      hdfs      = 2;
+  repeated ProcessorSub processor = 3;
+  repeated LocalSub     localfile = 4;
+  repeated ScribeSub    scribe    = 5;
+  repeated FakeSub      fake      = 6;
+}
+
+message LocalSub {
+  optional string   path = 1;
+  optional fixed64  sub_point = 2;
+}
+
+message ScribeSub {
+  optional fixed32 buffersize = 1;
+}
+
+message BigpipeSub {
+  optional string   name = 1;
+  optional string   username = 2;
+  optional string   password  = 3;
+  optional string   pipelet  = 4;
+  optional fixed32  pipelet_num = 5;
+  repeated fixed32  pipelet_id = 6;
+  optional fixed64  sub_point = 7;
+}
+
+message HdfsSub {
+  optional string   path = 1;
+  optional string   username = 2;
+  optional string   password  = 3;
+}
+
+message ProcessorSub {
+  optional string   name = 1;
+  optional string   tags = 2;
+  optional string   username = 3;
+  optional string   password  = 4;
+}
+
+message FakeSub {
+}
+
+message Topology {
+  optional fixed32      processor_num = 1;
+  repeated Processor    processors = 2;
+  repeated ProcessorID  importer_id = 3;
+  repeated ProcessorID  exporter_id = 4;
+  optional fixed32      upstream_bigpipe_num =5;
+}
+
+enum AppStatus {
+  SUBMIT     = 0;
+  RUN        = 1;
+  KILL       = 2;
+  ADDTOPO    = 3;
+  DELTOPO    = 4;
+  UPPARA     = 5;
+}
+
+message FlowControl {
+  optional int32 qps_limit = 1 [default = -1];
+}
+
+message Application {    
+  optional fixed64        session_id = 1;
+  optional AppID          id = 2;
+  optional string         name = 3;
+  optional string         descr = 4;
+  optional User           user = 5;
+  optional FileConfig     app_path = 6;
+  optional FileConfig     checkpoint_path = 7;
+  optional BigpipeSub     bigpipe = 8;
+  optional Topology       topology = 9;
+  optional AppStatus      status = 10;
+  optional FileConfig     log_path = 11;
+  optional fixed64        submit_time = 12;
+  optional fixed32        data_strategy = 14;
+}
+
+message BackupPEID {
+  optional fixed64 id = 1;
+}
+
+enum PEStatus {
+  CREATE   = 0;
+  SCHEDULE = 1;
+  RUNNING  = 2;
+  DEL      = 3;
+}
+
+message BackupPE {
+  optional BackupPEID backup_pe_id = 1;
+  optional PNID pn_id = 2;
+  optional fixed64 last_assignment_time = 3;
+  optional PEStatus pe_status = 4;
+  optional string last_fail_pn = 5;
+  optional fixed32 fail_number = 6;
+}
+
+message logConfig {
+  optional BigpipeSub bigpipe = 1;
+  optional string pipe_name = 2;
+  optional fixed32 pipelet = 3;
+}
+
+message ProcessorElement {
+  optional AppID        app = 1;
+  optional ProcessorID  processor = 2;
+  optional PEID         pe_id = 3;
+  optional fixed64      serial = 4;
+  optional logConfig    log = 5;
+  repeated BackupPE     backups = 6;
+  repeated BackupPEID   primary = 7;
+  optional string       processor_name = 8;
+  optional Resource     resource = 9;
+}
+
+message SubPoint {
+  optional PEID id = 1;
+  optional int64 msg_id = 2;
+  optional fixed64 seq_id = 3;
+  optional fixed32 pipelet = 4;
+}

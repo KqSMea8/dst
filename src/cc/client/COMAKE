@@ -1,0 +1,16 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+StaticLibrary('src/cc/client/dstream_client',
+               Sources('src/cc/client/action.cc',
+                       'src/cc/client/client_config.cc',
+                       'src/cc/client/zk.cc',
+                       'src/cc/client/pm_client.cc',
+                       'src/cc/client/application.cc'),
+               OutputPath('')) 
+
+Application('src/cc/client/dstream_client',
+             Sources('src/cc/client/dstream_client.cc'),
+             Libraries('src/cc/client/libdstream_client.a',
+                       'src/cc/transporter/libtransporter.a') + ENV.Libraries(),
+             OutputPath(''))

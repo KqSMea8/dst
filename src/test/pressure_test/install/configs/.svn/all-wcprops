@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/pressure_test/install/configs
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/inf/computing/!svn/ver/9173/trunk/dstream/src/test/pressure_test/install/configs/log.conf
+END
+warn.log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/inf/computing/!svn/ver/8756/trunk/dstream/src/test/pressure_test/install/configs/warn.log.conf
+END
+dstream.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/inf/computing/!svn/ver/45709/trunk/dstream/src/test/pressure_test/install/configs/dstream.cfg.xml
+END

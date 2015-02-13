@@ -1,0 +1,41 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+WORKROOT('../../')
+CopyUsingHardLink(True)
+
+CPPFLAGS('-D_GNU_SOURCE -D__STDC_LIMIT_MACROS -DVERSION=\\\"1.5.0.0\\\"')
+CPPFLAGS('-D_FILE_OFFSET_BITS=64') # support large files.
+CFLAGS('-g -pipe -W -Wall -fPIC')
+CXXFLAGS('-g -pipe -W -Wall -fPIC')
+PROTOC('./protoc')
+#
+# dependencies.
+INCPATHS('. ')
+
+LDFLAGS('-lpthread ')
+
+# protobuf
+CONFIGS('third-64/protobuf@2.4.1.300')
+# Kylin/ESP/Share
+CONFIGS('inf/common/kylin@1.0.5.0')
+CONFIGS('inf/common/esp@1.0.5.4')
+CONFIGS('inf/common/share@1.0.7.1')
+# boost
+CONFIGS('third-64/boost@boost_1-46-1-101_PD_BL')
+# test
+CONFIGS('com/btest/gtest@1.1.2.0')
+CONFIGS('quality/autotest/bmock@1.1.4.0')
+
+#1. esp_server
+Application('server',
+            Sources('example/my_esp_server.cpp',
+                    'esp_rpc/esp_rpc_server.cc',
+                    'esp_rpc/esp_rpc.proto',
+                    'example/echo.proto'))
+##2. esp_client
+Application('client',
+            Sources('example/my_esp_client.cpp',
+                    'esp_rpc/esp_rpc_client.cc',
+                    'esp_rpc/esp_rpc_channel.cc',
+                    'esp_rpc/esp_rpc.proto',
+                    'example/echo.proto'))

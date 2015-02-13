@@ -1,0 +1,9 @@
+##Unreleased (version 1.3.0.0)
+
+ * New Feature : Add new deploy, support install/update/start/stop dstream
+ * New Feature : Add dynamic add importer PE from client
+ * Improvement : Process Node module reconstruct, add unit test
+ * Improvement : Change PE log capture mechanism
+ * Improvement : Web pages updates
+ * Bug Fix     : Fix bug of scheduler
+ 

@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html lang=en><head><title>
+BullseyeCoverage Help
+</title>
+<meta http-equiv=Content-Type content="text/html;charset=utf-8">
+<link href=style.css rel=stylesheet type="text/css">
+</head><body>
+<div style="
+	background-image: url(banner.jpg);
+	background-repeat: repeat-x;
+	">
+	<img alt=BullseyeCoverage src="banner-title.jpg">
+	<span class=reverse style="
+		vertical-align: 30%;
+		">
+		<a style="padding-left:20pt" href=index_platform.html><img alt="" src=up.png>Up</a>
+		<a style="padding-left:20pt" href=index.html><img alt="" src=book0.png>Contents</a>
+		<a style="padding-left:20pt" href=index_index.html><img alt="" src=index.png>Index</a>
+		<a style="padding-left:20pt" href="http://www.bullseye.com/cgi-bin/searchHelp"><img alt="" src=search.png>Search</a>
+	</span>
+</div>
+
+<h1>Mentor Graphics Nucleus OS</h1>
+<p>
+This information applies to Nucleus OS 2.2 and EDGE 2.1.0.
+
+<h2>Build Run-Time Library</h2>
+<p>
+Invoke a command shell with the environment variables set properly to invoke the compiler for your project.
+Use the commands below to build the BullseyeCoverage run-time library.
+Modify the compile command to use the same compile options as your project.
+<pre>
+cd %ProgramFiles%\BullseyeCoverage\run
+gcc -c -g -mno-cygwin -gstabs -DNU_SIMULATION -DWIN32 -D_DEBUG -DNU_DEBUG libcov-mentor.c
+ar -cr ../lib/libcov-mentor.a libcov-mentor.o
+</pre>
+
+<h2>Convert EDGE Project to Batch Script</h2>
+<p>
+The Mentor Graphics EDGE development environment cannot be configured to build using BullseyeCoverage.
+You can build with BullseyeCoverage from a command prompt.
+<ol>
+<li>In EDGE, rebuild your project with the command <code>Project Clean</code>.
+<li>Open a Windows command prompt and move to your project directory.
+<li>Rename the file <code>build.log</code> to <code>build.bat</code>.
+<pre>
+ren build.log build.bat
+</pre>
+<li>
+Modify <code>build.bat</code> to add the <code><i>BullseyeCoverage</i>/bin</code>
+directory to the front of the <code>PATH</code> environment variable setting.
+Make this change to all <code>PATH</code> assignments.
+Set the <code>TOOLS_PATH</code> environment variable at the top of the script.
+For example, insert the underlined text as shown below.
+<pre>
+<span style="text-decoration:underline">set TOOLS_HOME=c:\mgc\embedded\tools\mingw_5.1.3</span>
+set PATH=<span style="text-decoration:underline">%ProgramFiles%\BullseyeCoverage\bin;</span>%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+"mingw32-gcc.exe" <i>...</i>
+set PATH=<span style="text-decoration:underline">%ProgramFiles%\BullseyeCoverage\bin;</span>%TOOLS_HOME%\bin;%TOOLS_HOME%\mingw32\bin;%TOOLS_HOME%\lib\gcc-lib\mingw32\5.1.3
+"mingw32-gcc.exe" <i>...</i>
+</pre>
+<li>Enable coverage build and rebuild the project:
+<pre>
+cov01 -1
+build
+</pre>
+</ol>
+
+<p style="font-size:xx-small">
+Last reviewed: 20 May 2010
+
+<!-- Footer -->
+<p style="
+	float: right;
+	font-size: xx-small;
+	">
+Copyright &copy; Bullseye Testing Technology. All Rights Reserved.
+<p style="
+	border-top: 1px solid silver;
+	padding-top: 2pt;
+	">
+<a href="http://www.bullseye.com"><img alt=www.bullseye.com src=earth.png>www.bullseye.com</a>
+</body></html>

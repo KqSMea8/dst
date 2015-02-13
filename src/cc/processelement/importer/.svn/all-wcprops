@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/processelement/importer
+END
+echo.proto
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/9447/trunk/dstream/src/cc/processelement/importer/echo.proto
+END
+worker.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/9447/trunk/dstream/src/cc/processelement/importer/worker.py
+END
+echo.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/processelement/importer/echo.pb.cc
+END
+echo.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/processelement/importer/echo.pb.h
+END
+log.conf
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/9447/trunk/dstream/src/cc/processelement/importer/log.conf
+END
+ldpath
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/inf/computing/!svn/ver/9447/trunk/dstream/src/cc/processelement/importer/ldpath
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/inf/computing/!svn/ver/9447/trunk/dstream/src/cc/processelement/importer/Makefile
+END
+worker.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/37492/trunk/dstream/src/cc/processelement/importer/worker.cc
+END

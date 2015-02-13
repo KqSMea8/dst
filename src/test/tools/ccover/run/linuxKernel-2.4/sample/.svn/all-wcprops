@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/run/linuxKernel-2.4/sample
+END
+hello.c
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/run/linuxKernel-2.4/sample/hello.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/10913/trunk/dstream/src/test/tools/ccover/run/linuxKernel-2.4/sample/Makefile
+END

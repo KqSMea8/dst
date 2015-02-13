@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/inf/computing/!svn/ver/41987/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/check_tuples
+END
+auto_speed_limit.sh
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/inf/computing/!svn/ver/16165/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/check_tuples/auto_speed_limit.sh
+END
+getlink.py
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/inf/computing/!svn/ver/41987/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/check_tuples/getlink.py
+END
+streaming_test_bigpipe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/inf/computing/!svn/ver/15427/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/check_tuples/streaming_test_bigpipe.txt
+END
+streaming_test_tag_complex.txt
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/inf/computing/!svn/ver/15427/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/check_tuples/streaming_test_tag_complex.txt
+END
+streaming_test_hash.txt
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/inf/computing/!svn/ver/15427/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/check_tuples/streaming_test_hash.txt
+END
+streaming_test_language.txt
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/inf/computing/!svn/ver/23744/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/check_tuples/streaming_test_language.txt
+END
+result.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/inf/computing/!svn/ver/15427/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/check_tuples/result.txt
+END
+auto_check.sh
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/inf/computing/!svn/ver/15427/trunk/dstream/src/test/integrate_test_new/apps/test_dstream_streaming/check_tuples/auto_check.sh
+END

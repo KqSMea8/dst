@@ -1,0 +1,186 @@
+package dstream;
+import "dstream_proto_common.proto";
+import "application.proto";
+
+
+// ------------------------------------------------------------
+// tuple customed for importer.
+message ImporterTuple {
+  optional bytes raw=1;
+}
+
+// ------------------------------------------------------------
+message PipeID { 
+  optional fixed64 id = 1;
+}
+
+message DebugPNRequest {
+  optional string cmd = 1;
+  optional string args = 2;
+};
+message DebugPNACK {
+  optional string debug_info = 1;
+};
+
+// ------------------------------------------------------------
+// the following protobuf object are the communication object between pe and pn.
+// as the rule, the rpc method shuld be 'pub_sub.'+class Name(not with Request)
+// for example if we check whether process node is ready, we call with method.
+// 'pub_sub.Ready'.
+
+// ----------------------------------------
+// check whether process node already start
+// use them when in loopback mode.
+message ReadyRequest {
+  optional PEID peid = 1;
+};
+message ReadyACK {
+  optional int32 status = 1;
+};
+
+
+// ----------------------------------------
+// checkpoint related stuff.
+
+// request for doing checkpoint.
+message DoCheckpointRequest {
+  optional PEID peid = 1;
+};
+
+// return value == "OK" then can do checkpoint
+// otherwise sleep for a while.
+message DoCheckpointACK {
+};
+
+// request to upload checkpoint.
+message UploadCheckpointRequest {
+  optional PEID peid = 1;
+  optional string chkpdir = 2; // checkpoint directory.
+};
+
+// return when over. process node may do the actual upload lately
+// but when process node reply, process element can continue working.:).
+// return value always "OK"
+message UploadCheckpointACK {
+};
+
+// ----------------------------------------
+message ReplayRequest {
+  optional PEID peid = 1;
+  optional PipeID pipeid = 2;
+};
+message ReplayACK {
+};
+
+// ----------------------------------------
+// subscribe protocol
+message SubscribeRequest {
+  optional PEID peid        = 1;
+  repeated PEID peids       = 2;
+  repeated PipeID pipeids   = 3;
+  optional string peid_time = 4;
+  optional string debug_info = 5;
+};
+message SubscribeACK {  
+  repeated PEID     peid      = 1;
+  repeated fixed32  res       = 2;
+  optional string   peid_time = 3;
+  optional string debug_info  = 4;
+};
+
+message SubscribeImporterRequest {
+  repeated string names = 1;
+  repeated PipeID pipeids = 2;
+  optional string debug_info = 3;
+};
+message SubscribeImporterACK {
+  optional string debug_info = 1;
+};
+
+// ------------------------------------------------------------
+// heartbeat protocol
+message HeartbeatRequest {
+  optional PEID peid = 1;
+  repeated string metric_name = 2;
+  repeated string metric_value = 3;
+  optional string debug_info = 4;
+};
+
+message HeartbeatACK {
+  optional string debug_info = 1;
+  optional FlowControl flow_control = 2;
+};
+
+// ----------------------------------------
+// data flow protocol
+message TupleMeta {
+  optional fixed64 hash_code = 1; // router
+  optional string tags = 2; // pub-sub
+}
+
+// // CAUTIOUS!!! be sure to write fixed64.
+// // better to make fixed64 right here.
+// // because we have to serialize log and patch at first then we 
+// // can get the offset and length. 
+// // but since fixed64 always takes space of sizeof(fixed64)
+// // so at first we can put a fake number and allocate enough space.
+// // and then after serialize log and patch, rewrite it later.
+// message DataLocation {
+//   optional fixed64 offset = 1;
+//   optional fixed64 length = 2;
+// }
+
+// pe -> pn -> pn -> pe
+// merge it into a union message.:).    
+// it's much simpler.
+message Log { 
+  // upstream info. [1,10]
+  optional PEID upstream_peid = 1;
+  optional PipeID upstream_pipeid = 2;
+
+  // progress info. [11,20]
+  optional PipeID pipeid = 11;
+
+  // router info.[21,30]
+  optional PEID src_peid = 21;
+  optional PEID dst_peid = 22;
+
+  // tuples and patch info.[31,40]
+  repeated TupleMeta tuples_meta = 31;
+  // put tuples and patch directly to protobuf object.  
+  // this makes code much easier.
+  repeated bytes tuples = 32;
+  optional bytes patch = 33;
+  // repeated DataLocation tuples_dataloc = 32;
+  // optional DataLocation patch_dataloc = 33;
+  required string debug_info = 34;  
+};
+
+message FetchLogRequest {
+  optional PEID peid = 1;
+  // whether we are on the replay mode.
+  optional bool replay_mode = 2;
+  optional string debug_info = 3;
+};
+
+message FetchLogACK {
+  // check delay_ms first.
+  // if !has_delay_ms, the check log
+  optional uint64 delay_ms = 1; 
+  optional Log log         = 2;
+  optional bool end_replay = 3;
+  optional fixed32 res     = 4;
+  optional string debug_info = 5;
+};
+
+message ForwardLogRequest {
+  optional PEID peid = 1;
+  optional Log log = 2;
+  optional string debug_info = 3;
+};
+
+message ForwardLogACK {
+  optional string debug_info = 1;
+  optional int32 status = 2;
+};
+

@@ -1,0 +1,122 @@
+#dstream and hadoop version config
+#dsteam_tag : set dstream_tag="dstream_1-0-*-*_PD_BL" 
+#             set dstream_tag="r****" for hudson
+#             set dstream_tag="../../" if rd used in [dstream/deploy/new_deploy] dir
+dstream_tag="../"
+#hadoop-client tag : set hadoop_tag="hadoop-client-v*-u*-b*.tar.gz" for op deploy
+#                    set hadoop_tag="{hadoop-client-name}.tgz" if user already have hadoop-client, the file is in current dir
+hadoop_tag="hadoop-client.tgz"
+
+#deploy dir on dest machine
+#deploy dstream in ${dest_dir} : 
+#for example : dest_dir="~/dstream"
+dest_dir=""
+
+#machine settings
+#pm/pn list file : each machine per line
+#the file contain pm/pn machines
+#for example : pm_list_file="machine/pm.list" pn_list_file="machine/pn.list"
+pm_list_file=""
+pn_list_file=""
+#for pn pm http server
+#for example pn_httpd_port="8297" pm_httpd_port="8335"
+pn_httpd_port=""
+pm_httpd_port=""
+
+#zk machine : zk_list
+#for example : zk_machine="nj01-inf-offline151.nj01.baidu.com:2182,nj01-inf-offline151.nj01.baidu.com:2182"
+zk_machine=""
+#webapps machine and port
+#for example : webapps_machine="tc-hpc-dev.tc.baidu.com"
+webapps_machine=""
+webapps_port=80
+
+# database_name for log-monitor & some monitors.
+# Leave it as default if you don't know what it is.
+database_name="dstream"
+
+#machine user settings
+#pm/pn machines username/password
+#for example : user_name="work" user_passwd="passwd"
+user_name=""
+user_passwd=""
+#machine's root password for start node_check
+#if root_passwd="", node_check will not start
+root_passwd=""
+
+#roshan address used for webapps
+#if not install webapps, set roshan_url=""
+#else for example : roshan_url="http://yx-testing-platqa1009.yx01.baidu.com:8081/roshan/static/index.html"
+roshan_url=""
+
+#zk root config : dstream root in zookeeper
+#for example : dstream_zk_root="/test"
+dstream_zk_root=""
+
+#dstream user/password config
+#for example : dstream_user="test"
+dstream_user=""
+#for example : dstream_passwd="test"
+dstream_passwd=""
+
+#hdfs config
+#for example : hdfs_path="hdfs://cq01-testing-dcqa-b4.cq01:38002"
+hdfs_path=""
+hdfs_user="root"
+hdfs_passwd="root"
+#hdfs_web_url used for webapps, if not install webapps, do not modify
+#for example : hdfs_web_url="http://cq01-testing-dcqa-b7.cq01.baidu.com:8408/browseDirectory.jsp?ugi=3F91D4465C56066ED107EB0B775FB028&dir=/"
+hdfs_web_url=""
+
+#pn config
+pn_debug_port=8291
+#pn config memory used for allocated pe
+pn_config_memory="20G"
+pn_config_cpu="16"
+
+#file server config
+file_server_port=8309
+
+#pn/pm start memory limit
+pm_memory_limit="2G"
+pn_memory_limit="10G"
+
+#alarm setting : the emails must not empty
+emails="example@baidu.com"
+mobiles="130000"
+gsm_server="tc-sys-monitor00.tc:15001"
+
+#log setting
+log_level="INFO"
+
+#used for qa testing or rd system testing
+#set dstream_base="getprod@buildprod.scm.baidu.com:/temp/data/prod-64/inf/computing/dstream/DStream_NewDeployBR_Release" for hundson
+dstream_base="getprod@product.scm.baidu.com:/data/prod-64/inf/computing/dstream/"
+
+#zk install settings
+zk_tag="zookeeper_1-0-2-0_PD_BL"
+#zk_dir is used for install zk, if zk has already installed , do not modify zk_dir
+#if install zk set zk_dir, for example zk_dir="/home/work/zookeeper"
+zk_dir=""
+zk_internal_port1=2888
+zk_internal_port2=3888
+
+# counter monitor config
+# counter name to monitor,sepreate by ','
+monitor_items="pe.RecvTuples,pe.RecvBytes,pe.SendTuples,pe.SendBytes,EchoPe.ProcessorLatency,PnSendQueue.TupleNum,PnSendQueue.MemNum,PnSendQueue.LostTuplesRate,PnRecvQueue.TupleNum,PnRecvQueue.MemNum,PnRecvQueue.LostTuplesRate"
+# counter dump interval(seconds)
+report_interval="60"
+# if use relative path, the relative root is dstream deploy root 
+counter_dir="counter"
+# cluster name for later use
+cluster_name="test"
+
+#the following is used for rd, do not modifyed when deploy
+#hadoop_client_path=""
+dstream_zk_pm_root="$dstream_zk_root/PM"
+dstream_zk_pn_root="$dstream_zk_root/PN"
+dstream_zk_client_root="$dstream_zk_root/Client"
+dstream_zk_config_root="$dstream_zk_root/Config"
+dstream_zk_app_root="$dstream_zk_root/App"
+hdfs_pn_log_path="$hdfs_path/PN"
+hadoop_client_path="$dest_dir/utils/hadoop-client/hadoop/"

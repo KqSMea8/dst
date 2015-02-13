@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/processelement/test/conf
+END
+test_importer_with_progress_bigpipe.conf
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/inf/computing/!svn/ver/27417/trunk/dstream/src/cc/processelement/test/conf/test_importer_with_progress_bigpipe.conf
+END
+test_pe_progress_bad_zk.conf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/processelement/test/conf/test_pe_progress_bad_zk.conf.xml
+END
+test_pe_progress.conf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/processelement/test/conf/test_pe_progress.conf.xml
+END
+test_pe_progress_no_interval.conf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/inf/computing/!svn/ver/45709/trunk/dstream/src/cc/processelement/test/conf/test_pe_progress_no_interval.conf.xml
+END

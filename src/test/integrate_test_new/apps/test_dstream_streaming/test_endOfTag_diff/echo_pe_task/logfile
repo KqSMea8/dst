@@ -1,0 +1,44 @@
+[2012-06-11 16:51:28][INFO][demo.pe]:[processelement/task.cc:944]:readEnvironment...
+[2012-06-11 16:51:28][INFO][demo.pe]:[processelement/context.cc:154]:dstream.pe.type = PE_TYPE_STREAMING
+[2012-06-11 16:51:28][WARN][demo.pe]:[processelement/context.cc:166]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-06-11 16:51:28][WARN][demo.pe]:[processelement/task.cc:946]:readEnvironment failed
+[2012-06-11 16:51:48][INFO][demo.pe]:[processelement/task.cc:944]:readEnvironment...
+[2012-06-11 16:51:48][INFO][demo.pe]:[processelement/context.cc:154]:dstream.pe.type = PE_TYPE_STREAMING
+[2012-06-11 16:51:48][WARN][demo.pe]:[processelement/context.cc:166]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-06-11 16:51:48][WARN][demo.pe]:[processelement/task.cc:946]:readEnvironment failed
+[2012-06-11 16:51:58][INFO][demo.pe]:[processelement/task.cc:944]:readEnvironment...
+[2012-06-11 16:51:58][INFO][demo.pe]:[processelement/context.cc:154]:dstream.pe.type = PE_TYPE_STREAMING
+[2012-06-11 16:51:58][WARN][demo.pe]:[processelement/context.cc:166]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-06-11 16:51:58][WARN][demo.pe]:[processelement/task.cc:946]:readEnvironment failed
+[2012-06-11 16:52:02][INFO][demo.pe]:[processelement/task.cc:944]:readEnvironment...
+[2012-06-11 16:52:02][INFO][demo.pe]:[processelement/context.cc:154]:dstream.pe.type = PE_TYPE_STREAMING
+[2012-06-11 16:52:02][WARN][demo.pe]:[processelement/context.cc:166]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-06-11 16:52:02][WARN][demo.pe]:[processelement/task.cc:946]:readEnvironment failed
+[2012-06-11 16:52:10][INFO][demo.pe]:[processelement/task.cc:944]:readEnvironment...
+[2012-06-11 16:52:10][INFO][demo.pe]:[processelement/context.cc:154]:dstream.pe.type = PE_TYPE_STREAMING
+[2012-06-11 16:52:10][WARN][demo.pe]:[processelement/context.cc:166]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-06-11 16:52:10][WARN][demo.pe]:[processelement/task.cc:946]:readEnvironment failed
+[2012-06-11 16:52:13][INFO][demo.pe]:[processelement/task.cc:944]:readEnvironment...
+[2012-06-11 16:52:13][INFO][demo.pe]:[processelement/context.cc:154]:dstream.pe.type = PE_TYPE_STREAMING
+[2012-06-11 16:52:13][WARN][demo.pe]:[processelement/context.cc:166]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-06-11 16:52:13][WARN][demo.pe]:[processelement/task.cc:946]:readEnvironment failed
+[2012-06-11 16:52:46][INFO][demo.pe]:[processelement/task.cc:944]:readEnvironment...
+[2012-06-11 16:52:46][INFO][demo.pe]:[processelement/context.cc:154]:dstream.pe.type = PE_TYPE_STREAMING
+[2012-06-11 16:52:46][WARN][demo.pe]:[processelement/context.cc:166]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-06-11 16:52:46][WARN][demo.pe]:[processelement/task.cc:946]:readEnvironment failed
+[2012-06-11 16:52:55][INFO][demo.pe]:[processelement/task.cc:944]:readEnvironment...
+[2012-06-11 16:52:55][INFO][demo.pe]:[processelement/context.cc:154]:dstream.pe.type = PE_TYPE_STREAMING
+[2012-06-11 16:52:55][WARN][demo.pe]:[processelement/context.cc:166]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-06-11 16:52:55][WARN][demo.pe]:[processelement/task.cc:946]:readEnvironment failed
+[2012-06-11 16:54:04][INFO][demo.pe]:[processelement/task.cc:944]:readEnvironment...
+[2012-06-11 16:54:04][INFO][demo.pe]:[processelement/context.cc:154]:dstream.pe.type = PE_TYPE_STREAMING
+[2012-06-11 16:54:04][WARN][demo.pe]:[processelement/context.cc:166]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-06-11 16:54:04][WARN][demo.pe]:[processelement/task.cc:946]:readEnvironment failed
+[2012-06-11 16:54:13][INFO][demo.pe]:[processelement/task.cc:944]:readEnvironment...
+[2012-06-11 16:54:13][INFO][demo.pe]:[processelement/context.cc:154]:dstream.pe.type = PE_TYPE_STREAMING
+[2012-06-11 16:54:13][WARN][demo.pe]:[processelement/context.cc:166]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-06-11 16:54:13][WARN][demo.pe]:[processelement/task.cc:946]:readEnvironment failed
+[2012-06-11 16:55:33][INFO][demo.pe]:[processelement/task.cc:944]:readEnvironment...
+[2012-06-11 16:55:33][INFO][demo.pe]:[processelement/context.cc:154]:dstream.pe.type = PE_TYPE_STREAMING
+[2012-06-11 16:55:33][WARN][demo.pe]:[processelement/context.cc:166]:have you forgot to set 'dstream.pe.workDirectory'?
+[2012-06-11 16:55:33][WARN][demo.pe]:[processelement/task.cc:946]:readEnvironment failed

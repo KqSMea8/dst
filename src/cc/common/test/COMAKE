@@ -1,0 +1,96 @@
+#edit-mode: -*- python -*-
+#coding:gbk
+
+CXXFLAGS_TEST = '-DUNIT_TEST -Dprivate=public -Dprotected=public -DMOCKVIRTUAL=virtual'
+
+Application('src/cc/common/test/test_rpc_server',
+            Sources('src/cc/common/test/test_rpc_server.cc'),
+            OutputPath(''))
+			
+Application('src/cc/common/test/test_application_tools',
+            Sources('src/cc/common/test/test_application_tools.cc'),
+            OutputPath(''))
+
+Application('src/cc/common/test/test_config',
+            Sources('src/cc/common/test/test_config.cc'),
+            OutputPath(''))
+
+Application('src/cc/common/test/test_file_meta',
+            Sources('src/cc/common/test/test_file_meta.cc'),
+            OutputPath(''))
+
+Application('src/cc/common/test/test_util',
+            Sources('src/cc/common/test/test_util.cc'),
+            OutputPath(''))
+
+Application('src/cc/common/test/test_counters',
+            Sources('src/cc/common/test/test_counters.cc'),
+            OutputPath(''))
+
+Application('src/cc/common/test/test_dynamic_type',
+            Sources('src/cc/common/test/test_dynamic_type.cc',
+                    'src/cc/common/test/test_dynamic.pb.cc'),
+            OutputPath(''),
+      ShellCommands('cp src/cc/common/test/*.proto output/bin/'),
+      CleanCommands('rm output/bin/*.proto'))
+
+Application('src/cc/common/test/test_log',
+            Sources('src/cc/common/test/test_log.cc'), OutputPath(''))
+
+# test rpc 
+Application('src/cc/common/test/rpc_client',
+            Sources('src/cc/common/test/rpc_client.cc',
+                    'src/cc/common/test/rpc_hello.proto'), OutputPath(''))
+
+Application('src/cc/common/test/rpc_benchmark',
+           Sources('src/cc/common/test/rpc_benchmark.cc',
+                   'src/cc/common/test/rpc_hello.pb.cc'), OutputPath(''))
+
+Application('src/cc/common/test/rpc_server',
+           Sources('src/cc/common/test/rpc_server.cc',
+                   'src/cc/common/test/rpc_hello.pb.cc'), OutputPath(''))
+
+Application('src/cc/common/test/test_app_id',
+           Sources('src/cc/common/test/test_app_id.cc'), 
+           OutputPath(''))
+
+Application('src/cc/common/test/test_blocking_queue',
+            Sources('src/cc/common/test/test_blocking_queue.cc'), 
+            OutputPath(''))
+
+Application('src/cc/common/test/test_blocking_queue',
+            Sources('src/cc/common/test/test_blocking_queue.cc'), 
+            OutputPath(''))
+
+Application('src/cc/common/test/test_bounded_blocking_queue',
+          Sources('src/cc/common/test/test_bounded_blocking_queue.cc'), OutputPath(''))
+
+Application('src/cc/common/test/test_linked_list_queue',
+           Sources('src/cc/common/test/test_linked_list_queue.cc'), OutputPath(''))
+
+# Application('src/cc/common/test/test_zk_client',
+#            Sources('src/cc/common/test/test_zk_client.cc'), OutputPath(''))
+
+Application('src/cc/common/test/test_hpc_cmd',
+            Sources('src/cc/common/test/test_hpc_cmd.cc'), OutputPath(''))
+
+Application('src/cc/common/test/test_cglimit_utils',
+            Sources('src/cc/common/test/test_cglimit_utils.cc'),
+            OutputPath(''))
+
+Application('src/cc/common/test/test_commit_log',
+            Sources('src/cc/common/test/test_commit_log.cc', 
+                CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()),
+            OutputPath(''))
+
+Application('src/cc/common/test/test_mem_mgr',
+            Sources('src/cc/common/test/test_mem_mgr.cc', 
+                CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()),
+            OutputPath(''))
+
+Application('src/cc/common/test/test_ringbuffer',
+            Sources('src/cc/common/test/test_ringbuffer.cc', 
+                    'src/cc/common/ringbuffer.cc',
+                CppFlags(CXXFLAGS_TEST) + ENV.CppFlags()),
+            OutputPath(''))
+

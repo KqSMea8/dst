@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Cluster>
+    <ZooKeeperPath>
+        <Address>nj01-inf-offline151.nj01.baidu.com:2182</Address>
+        <Config>
+            <Root>/dstream_press/Config</Root>
+        </Config>
+    </ZooKeeperPath>
+</Cluster>

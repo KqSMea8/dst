@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/inf/computing/!svn/ver/49626/trunk/dstream/src/cc/common/esp_rpc/example
+END
+echo.proto
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/example/echo.proto
+END
+echo.pb.cc
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/example/echo.pb.cc
+END
+my_esp_server.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/38921/trunk/dstream/src/cc/common/esp_rpc/example/my_esp_server.cpp
+END
+echo.pb.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/inf/computing/!svn/ver/38897/trunk/dstream/src/cc/common/esp_rpc/example/echo.pb.h
+END
+my_esp_client.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/inf/computing/!svn/ver/38921/trunk/dstream/src/cc/common/esp_rpc/example/my_esp_client.cpp
+END
